@@ -1,0 +1,642 @@
+fileFormatVersion: 2
+guid: 88c70cac4c851a5418d3da97a1d25fd7
+timeCreated: 1491758559
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: 532
+    100002: 533
+    100004: 535
+    100006: 536
+    100008: 537
+    100010: 538
+    100012: Bone_Breast_L_1
+    100014: Bone_Breast_L_2
+    100016: Bone_Breast_R_1
+    100018: Bone_Breast_R_2
+    100020: Bone_Head
+    100022: Bone_Neck
+    100024: bone_spell1
+    100026: bone_spell2
+    100028: bone_spell3
+    100030: bone_spell4
+    100032: bone_spell5
+    100034: bone_spell6
+    100036: bone_weapon
+    100038: BoneArmForearmL
+    100040: BoneArmForearmR
+    100042: BoneArmHandL
+    100044: BoneArmHandR
+    100046: BoneArmLFng1_01
+    100048: BoneArmLFng1_02
+    100050: BoneArmLFng1_03
+    100052: BoneArmLFng2_01
+    100054: BoneArmLFng2_02
+    100056: BoneArmLFng2_03
+    100058: BoneArmLFng3_01
+    100060: BoneArmLFng3_02
+    100062: BoneArmLFng3_03
+    100064: BoneArmLFng4_01
+    100066: BoneArmLFng4_02
+    100068: BoneArmLFng4_03
+    100070: BoneArmLFng5_01
+    100072: BoneArmLFng5_02
+    100074: BoneArmLFng5_03
+    100076: BoneArmRFng1_01
+    100078: BoneArmRFng1_02
+    100080: BoneArmRFng1_03
+    100082: BoneArmRFng2_01
+    100084: BoneArmRFng2_02
+    100086: BoneArmRFng2_03
+    100088: BoneArmRFng3_01
+    100090: BoneArmRFng3_02
+    100092: BoneArmRFng3_03
+    100094: BoneArmRFng4_01
+    100096: BoneArmRFng4_02
+    100098: BoneArmRFng4_03
+    100100: BoneArmRFng5_01
+    100102: BoneArmRFng5_02
+    100104: BoneArmRFng5_03
+    100106: BoneArmUpperL
+    100108: BoneArmUpperR
+    100110: BoneLegCalfL
+    100112: BoneLegCalfR
+    100114: BoneLegFoot1L
+    100116: BoneLegFoot1R
+    100118: BoneLegFoot2L
+    100120: BoneLegFoot2R
+    100122: BoneLegFoot3L
+    100124: BoneLegFoot3R
+    100126: BoneLegThighL
+    100128: BoneLegThighR
+    100130: BoneRoot
+    100132: BoneSpine1
+    100134: BoneSpine2
+    100136: BoneSpine3
+    100138: m3bone_root
+    100140: mesh_spell1
+    100142: mesh_spell2
+    100144: mesh_spell3
+    100146: mesh_spell4
+    100148: mesh_spell5
+    100150: mesh_spell6
+    100152: //RootNode
+    100154: mesh_bodyTop
+    100156: mesh_Face
+    100158: mesh_Head
+    100160: mesh_Legs
+    100162: mesh_Legs2
+    100164: mesh_Weapon
+    400000: 532
+    400002: 533
+    400004: 535
+    400006: 536
+    400008: 537
+    400010: 538
+    400012: Bone_Breast_L_1
+    400014: Bone_Breast_L_2
+    400016: Bone_Breast_R_1
+    400018: Bone_Breast_R_2
+    400020: Bone_Head
+    400022: Bone_Neck
+    400024: bone_spell1
+    400026: bone_spell2
+    400028: bone_spell3
+    400030: bone_spell4
+    400032: bone_spell5
+    400034: bone_spell6
+    400036: bone_weapon
+    400038: BoneArmForearmL
+    400040: BoneArmForearmR
+    400042: BoneArmHandL
+    400044: BoneArmHandR
+    400046: BoneArmLFng1_01
+    400048: BoneArmLFng1_02
+    400050: BoneArmLFng1_03
+    400052: BoneArmLFng2_01
+    400054: BoneArmLFng2_02
+    400056: BoneArmLFng2_03
+    400058: BoneArmLFng3_01
+    400060: BoneArmLFng3_02
+    400062: BoneArmLFng3_03
+    400064: BoneArmLFng4_01
+    400066: BoneArmLFng4_02
+    400068: BoneArmLFng4_03
+    400070: BoneArmLFng5_01
+    400072: BoneArmLFng5_02
+    400074: BoneArmLFng5_03
+    400076: BoneArmRFng1_01
+    400078: BoneArmRFng1_02
+    400080: BoneArmRFng1_03
+    400082: BoneArmRFng2_01
+    400084: BoneArmRFng2_02
+    400086: BoneArmRFng2_03
+    400088: BoneArmRFng3_01
+    400090: BoneArmRFng3_02
+    400092: BoneArmRFng3_03
+    400094: BoneArmRFng4_01
+    400096: BoneArmRFng4_02
+    400098: BoneArmRFng4_03
+    400100: BoneArmRFng5_01
+    400102: BoneArmRFng5_02
+    400104: BoneArmRFng5_03
+    400106: BoneArmUpperL
+    400108: BoneArmUpperR
+    400110: BoneLegCalfL
+    400112: BoneLegCalfR
+    400114: BoneLegFoot1L
+    400116: BoneLegFoot1R
+    400118: BoneLegFoot2L
+    400120: BoneLegFoot2R
+    400122: BoneLegFoot3L
+    400124: BoneLegFoot3R
+    400126: BoneLegThighL
+    400128: BoneLegThighR
+    400130: BoneRoot
+    400132: BoneSpine1
+    400134: BoneSpine2
+    400136: BoneSpine3
+    400138: m3bone_root
+    400140: mesh_spell1
+    400142: mesh_spell2
+    400144: mesh_spell3
+    400146: mesh_spell4
+    400148: mesh_spell5
+    400150: mesh_spell6
+    400152: //RootNode
+    400154: mesh_bodyTop
+    400156: mesh_Face
+    400158: mesh_Head
+    400160: mesh_Legs
+    400162: mesh_Legs2
+    400164: mesh_Weapon
+    2300000: 536
+    2300002: mesh_Head
+    3300000: 536
+    3300002: mesh_Head
+    4300000: 532
+    4300002: 533
+    4300004: 537
+    4300006: 538
+    4300008: 536
+    4300010: mesh_spell1
+    4300012: 535
+    4300014: mesh_spell6
+    4300016: mesh_spell3
+    4300018: mesh_spell5
+    4300020: mesh_spell4
+    4300022: mesh_spell2
+    4300024: mesh_bodyTop
+    4300026: mesh_Face
+    4300028: mesh_Legs
+    4300030: mesh_Legs2
+    4300032: mesh_Head
+    4300034: mesh_Weapon
+    7400000: Idle
+    7400002: Take 0010
+    9500000: //RootNode
+    13700000: 532
+    13700002: 533
+    13700004: 535
+    13700006: 537
+    13700008: 538
+    13700010: mesh_spell1
+    13700012: mesh_spell2
+    13700014: mesh_spell3
+    13700016: mesh_spell4
+    13700018: mesh_spell5
+    13700020: mesh_spell6
+    13700022: mesh_bodyTop
+    13700024: mesh_Face
+    13700026: mesh_Legs
+    13700028: mesh_Legs2
+    13700030: mesh_Weapon
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Idle
+      takeName: Take 001
+      firstFrame: 12
+      lastFrame: 88
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: m3bone_root
+        weight: 1
+      - path: m3bone_root/bone_spell1
+        weight: 1
+      - path: m3bone_root/bone_spell1/mesh_spell1
+        weight: 1
+      - path: m3bone_root/bone_spell2
+        weight: 1
+      - path: m3bone_root/bone_spell3
+        weight: 1
+      - path: m3bone_root/bone_spell4
+        weight: 1
+      - path: m3bone_root/bone_spell5
+        weight: 1
+      - path: m3bone_root/bone_spell6
+        weight: 1
+      - path: m3bone_root/BoneRoot
+        weight: 1
+      - path: m3bone_root/BoneRoot/BoneLegThighL
+        weight: 1
+      - path: m3bone_root/BoneRoot/BoneLegThighL/BoneLegCalfL
+        weight: 1
+      - path: m3bone_root/BoneRoot/BoneLegThighL/BoneLegCalfL/BoneLegFoot1L
+        weight: 1
+      - path: m3bone_root/BoneRoot/BoneLegThighL/BoneLegCalfL/BoneLegFoot1L/BoneLegFoot2L
+        weight: 1
+      - path: m3bone_root/BoneRoot/BoneLegThighL/BoneLegCalfL/BoneLegFoot1L/BoneLegFoot3L
+        weight: 1
+      - path: m3bone_root/BoneRoot/BoneLegThighR
+        weight: 1
+      - path: m3bone_root/BoneRoot/BoneLegThighR/BoneLegCalfR
+        weight: 1
+      - path: m3bone_root/BoneRoot/BoneLegThighR/BoneLegCalfR/BoneLegFoot1R
+        weight: 1
+      - path: m3bone_root/BoneRoot/BoneLegThighR/BoneLegCalfR/BoneLegFoot1R/BoneLegFoot2R
+        weight: 1
+      - path: m3bone_root/BoneRoot/BoneLegThighR/BoneLegCalfR/BoneLegFoot1R/BoneLegFoot3R
+        weight: 1
+      - path: m3bone_root/BoneRoot/BoneSpine1
+        weight: 1
+      - path: m3bone_root/BoneRoot/BoneSpine1/BoneSpine2
+        weight: 1
+      - path: m3bone_root/BoneRoot/BoneSpine1/BoneSpine2/BoneSpine3
+        weight: 1
+      - path: m3bone_root/BoneRoot/BoneSpine1/BoneSpine2/BoneSpine3/Bone_Breast_L_1
+        weight: 1
+      - path: m3bone_root/BoneRoot/BoneSpine1/BoneSpine2/BoneSpine3/Bone_Breast_L_1/Bone_Breast_L_2
+        weight: 1
+      - path: m3bone_root/BoneRoot/BoneSpine1/BoneSpine2/BoneSpine3/Bone_Breast_R_1
+        weight: 1
+      - path: m3bone_root/BoneRoot/BoneSpine1/BoneSpine2/BoneSpine3/Bone_Breast_R_1/Bone_Breast_R_2
+        weight: 1
+      - path: m3bone_root/BoneRoot/BoneSpine1/BoneSpine2/BoneSpine3/Bone_Neck
+        weight: 1
+      - path: m3bone_root/BoneRoot/BoneSpine1/BoneSpine2/BoneSpine3/Bone_Neck/Bone_Head
+        weight: 1
+      - path: m3bone_root/BoneRoot/BoneSpine1/BoneSpine2/BoneSpine3/Bone_Neck/Bone_Head/mesh_Head
+        weight: 1
+      - path: m3bone_root/BoneRoot/BoneSpine1/BoneSpine2/BoneSpine3/BoneArmUpperL
+        weight: 1
+      - path: m3bone_root/BoneRoot/BoneSpine1/BoneSpine2/BoneSpine3/BoneArmUpperL/BoneArmForearmL
+        weight: 1
+      - path: m3bone_root/BoneRoot/BoneSpine1/BoneSpine2/BoneSpine3/BoneArmUpperL/BoneArmForearmL/BoneArmHandL
+        weight: 1
+      - path: m3bone_root/BoneRoot/BoneSpine1/BoneSpine2/BoneSpine3/BoneArmUpperL/BoneArmForearmL/BoneArmHandL/BoneArmLFng1_01
+        weight: 1
+      - path: m3bone_root/BoneRoot/BoneSpine1/BoneSpine2/BoneSpine3/BoneArmUpperL/BoneArmForearmL/BoneArmHandL/BoneArmLFng1_01/BoneArmLFng1_02
+        weight: 1
+      - path: m3bone_root/BoneRoot/BoneSpine1/BoneSpine2/BoneSpine3/BoneArmUpperL/BoneArmForearmL/BoneArmHandL/BoneArmLFng1_01/BoneArmLFng1_02/BoneArmLFng1_03
+        weight: 1
+      - path: m3bone_root/BoneRoot/BoneSpine1/BoneSpine2/BoneSpine3/BoneArmUpperL/BoneArmForearmL/BoneArmHandL/BoneArmLFng2_01
+        weight: 1
+      - path: m3bone_root/BoneRoot/BoneSpine1/BoneSpine2/BoneSpine3/BoneArmUpperL/BoneArmForearmL/BoneArmHandL/BoneArmLFng2_01/BoneArmLFng2_02
+        weight: 1
+      - path: m3bone_root/BoneRoot/BoneSpine1/BoneSpine2/BoneSpine3/BoneArmUpperL/BoneArmForearmL/BoneArmHandL/BoneArmLFng2_01/BoneArmLFng2_02/BoneArmLFng2_03
+        weight: 1
+      - path: m3bone_root/BoneRoot/BoneSpine1/BoneSpine2/BoneSpine3/BoneArmUpperL/BoneArmForearmL/BoneArmHandL/BoneArmLFng3_01
+        weight: 1
+      - path: m3bone_root/BoneRoot/BoneSpine1/BoneSpine2/BoneSpine3/BoneArmUpperL/BoneArmForearmL/BoneArmHandL/BoneArmLFng3_01/BoneArmLFng3_02
+        weight: 1
+      - path: m3bone_root/BoneRoot/BoneSpine1/BoneSpine2/BoneSpine3/BoneArmUpperL/BoneArmForearmL/BoneArmHandL/BoneArmLFng3_01/BoneArmLFng3_02/BoneArmLFng3_03
+        weight: 1
+      - path: m3bone_root/BoneRoot/BoneSpine1/BoneSpine2/BoneSpine3/BoneArmUpperL/BoneArmForearmL/BoneArmHandL/BoneArmLFng4_01
+        weight: 1
+      - path: m3bone_root/BoneRoot/BoneSpine1/BoneSpine2/BoneSpine3/BoneArmUpperL/BoneArmForearmL/BoneArmHandL/BoneArmLFng4_01/BoneArmLFng4_02
+        weight: 1
+      - path: m3bone_root/BoneRoot/BoneSpine1/BoneSpine2/BoneSpine3/BoneArmUpperL/BoneArmForearmL/BoneArmHandL/BoneArmLFng4_01/BoneArmLFng4_02/BoneArmLFng4_03
+        weight: 1
+      - path: m3bone_root/BoneRoot/BoneSpine1/BoneSpine2/BoneSpine3/BoneArmUpperL/BoneArmForearmL/BoneArmHandL/BoneArmLFng5_01
+        weight: 1
+      - path: m3bone_root/BoneRoot/BoneSpine1/BoneSpine2/BoneSpine3/BoneArmUpperL/BoneArmForearmL/BoneArmHandL/BoneArmLFng5_01/BoneArmLFng5_02
+        weight: 1
+      - path: m3bone_root/BoneRoot/BoneSpine1/BoneSpine2/BoneSpine3/BoneArmUpperL/BoneArmForearmL/BoneArmHandL/BoneArmLFng5_01/BoneArmLFng5_02/BoneArmLFng5_03
+        weight: 1
+      - path: m3bone_root/BoneRoot/BoneSpine1/BoneSpine2/BoneSpine3/BoneArmUpperR
+        weight: 1
+      - path: m3bone_root/BoneRoot/BoneSpine1/BoneSpine2/BoneSpine3/BoneArmUpperR/BoneArmForearmR
+        weight: 1
+      - path: m3bone_root/BoneRoot/BoneSpine1/BoneSpine2/BoneSpine3/BoneArmUpperR/BoneArmForearmR/BoneArmHandR
+        weight: 1
+      - path: m3bone_root/BoneRoot/BoneSpine1/BoneSpine2/BoneSpine3/BoneArmUpperR/BoneArmForearmR/BoneArmHandR/bone_weapon
+        weight: 1
+      - path: m3bone_root/BoneRoot/BoneSpine1/BoneSpine2/BoneSpine3/BoneArmUpperR/BoneArmForearmR/BoneArmHandR/BoneArmRFng1_01
+        weight: 1
+      - path: m3bone_root/BoneRoot/BoneSpine1/BoneSpine2/BoneSpine3/BoneArmUpperR/BoneArmForearmR/BoneArmHandR/BoneArmRFng1_01/BoneArmRFng1_02
+        weight: 1
+      - path: m3bone_root/BoneRoot/BoneSpine1/BoneSpine2/BoneSpine3/BoneArmUpperR/BoneArmForearmR/BoneArmHandR/BoneArmRFng1_01/BoneArmRFng1_02/BoneArmRFng1_03
+        weight: 1
+      - path: m3bone_root/BoneRoot/BoneSpine1/BoneSpine2/BoneSpine3/BoneArmUpperR/BoneArmForearmR/BoneArmHandR/BoneArmRFng2_01
+        weight: 1
+      - path: m3bone_root/BoneRoot/BoneSpine1/BoneSpine2/BoneSpine3/BoneArmUpperR/BoneArmForearmR/BoneArmHandR/BoneArmRFng2_01/BoneArmRFng2_02
+        weight: 1
+      - path: m3bone_root/BoneRoot/BoneSpine1/BoneSpine2/BoneSpine3/BoneArmUpperR/BoneArmForearmR/BoneArmHandR/BoneArmRFng2_01/BoneArmRFng2_02/BoneArmRFng2_03
+        weight: 1
+      - path: m3bone_root/BoneRoot/BoneSpine1/BoneSpine2/BoneSpine3/BoneArmUpperR/BoneArmForearmR/BoneArmHandR/BoneArmRFng3_01
+        weight: 1
+      - path: m3bone_root/BoneRoot/BoneSpine1/BoneSpine2/BoneSpine3/BoneArmUpperR/BoneArmForearmR/BoneArmHandR/BoneArmRFng3_01/BoneArmRFng3_02
+        weight: 1
+      - path: m3bone_root/BoneRoot/BoneSpine1/BoneSpine2/BoneSpine3/BoneArmUpperR/BoneArmForearmR/BoneArmHandR/BoneArmRFng3_01/BoneArmRFng3_02/BoneArmRFng3_03
+        weight: 1
+      - path: m3bone_root/BoneRoot/BoneSpine1/BoneSpine2/BoneSpine3/BoneArmUpperR/BoneArmForearmR/BoneArmHandR/BoneArmRFng4_01
+        weight: 1
+      - path: m3bone_root/BoneRoot/BoneSpine1/BoneSpine2/BoneSpine3/BoneArmUpperR/BoneArmForearmR/BoneArmHandR/BoneArmRFng4_01/BoneArmRFng4_02
+        weight: 1
+      - path: m3bone_root/BoneRoot/BoneSpine1/BoneSpine2/BoneSpine3/BoneArmUpperR/BoneArmForearmR/BoneArmHandR/BoneArmRFng4_01/BoneArmRFng4_02/BoneArmRFng4_03
+        weight: 1
+      - path: m3bone_root/BoneRoot/BoneSpine1/BoneSpine2/BoneSpine3/BoneArmUpperR/BoneArmForearmR/BoneArmHandR/BoneArmRFng5_01
+        weight: 1
+      - path: m3bone_root/BoneRoot/BoneSpine1/BoneSpine2/BoneSpine3/BoneArmUpperR/BoneArmForearmR/BoneArmHandR/BoneArmRFng5_01/BoneArmRFng5_02
+        weight: 1
+      - path: m3bone_root/BoneRoot/BoneSpine1/BoneSpine2/BoneSpine3/BoneArmUpperR/BoneArmForearmR/BoneArmHandR/BoneArmRFng5_01/BoneArmRFng5_02/BoneArmRFng5_03
+        weight: 1
+      - path: mesh_bodyTop
+        weight: 1
+      - path: mesh_Face
+        weight: 1
+      - path: mesh_Legs
+        weight: 1
+      - path: mesh_Legs2
+        weight: 1
+      - path: mesh_spell2
+        weight: 1
+      - path: mesh_spell3
+        weight: 1
+      - path: mesh_spell4
+        weight: 1
+      - path: mesh_spell5
+        weight: 1
+      - path: mesh_spell6
+        weight: 1
+      - path: mesh_Weapon
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Take 0010
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 750
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: m3bone_root
+        weight: 1
+      - path: m3bone_root/bone_spell1
+        weight: 1
+      - path: m3bone_root/bone_spell1/mesh_spell1
+        weight: 1
+      - path: m3bone_root/bone_spell2
+        weight: 1
+      - path: m3bone_root/bone_spell3
+        weight: 1
+      - path: m3bone_root/bone_spell4
+        weight: 1
+      - path: m3bone_root/bone_spell5
+        weight: 1
+      - path: m3bone_root/bone_spell6
+        weight: 1
+      - path: m3bone_root/BoneRoot
+        weight: 1
+      - path: m3bone_root/BoneRoot/BoneLegThighL
+        weight: 1
+      - path: m3bone_root/BoneRoot/BoneLegThighL/BoneLegCalfL
+        weight: 1
+      - path: m3bone_root/BoneRoot/BoneLegThighL/BoneLegCalfL/BoneLegFoot1L
+        weight: 1
+      - path: m3bone_root/BoneRoot/BoneLegThighL/BoneLegCalfL/BoneLegFoot1L/BoneLegFoot2L
+        weight: 1
+      - path: m3bone_root/BoneRoot/BoneLegThighL/BoneLegCalfL/BoneLegFoot1L/BoneLegFoot3L
+        weight: 1
+      - path: m3bone_root/BoneRoot/BoneLegThighR
+        weight: 1
+      - path: m3bone_root/BoneRoot/BoneLegThighR/BoneLegCalfR
+        weight: 1
+      - path: m3bone_root/BoneRoot/BoneLegThighR/BoneLegCalfR/BoneLegFoot1R
+        weight: 1
+      - path: m3bone_root/BoneRoot/BoneLegThighR/BoneLegCalfR/BoneLegFoot1R/BoneLegFoot2R
+        weight: 1
+      - path: m3bone_root/BoneRoot/BoneLegThighR/BoneLegCalfR/BoneLegFoot1R/BoneLegFoot3R
+        weight: 1
+      - path: m3bone_root/BoneRoot/BoneSpine1
+        weight: 1
+      - path: m3bone_root/BoneRoot/BoneSpine1/BoneSpine2
+        weight: 1
+      - path: m3bone_root/BoneRoot/BoneSpine1/BoneSpine2/BoneSpine3
+        weight: 1
+      - path: m3bone_root/BoneRoot/BoneSpine1/BoneSpine2/BoneSpine3/Bone_Breast_L_1
+        weight: 1
+      - path: m3bone_root/BoneRoot/BoneSpine1/BoneSpine2/BoneSpine3/Bone_Breast_L_1/Bone_Breast_L_2
+        weight: 1
+      - path: m3bone_root/BoneRoot/BoneSpine1/BoneSpine2/BoneSpine3/Bone_Breast_R_1
+        weight: 1
+      - path: m3bone_root/BoneRoot/BoneSpine1/BoneSpine2/BoneSpine3/Bone_Breast_R_1/Bone_Breast_R_2
+        weight: 1
+      - path: m3bone_root/BoneRoot/BoneSpine1/BoneSpine2/BoneSpine3/Bone_Neck
+        weight: 1
+      - path: m3bone_root/BoneRoot/BoneSpine1/BoneSpine2/BoneSpine3/Bone_Neck/Bone_Head
+        weight: 1
+      - path: m3bone_root/BoneRoot/BoneSpine1/BoneSpine2/BoneSpine3/Bone_Neck/Bone_Head/mesh_Head
+        weight: 1
+      - path: m3bone_root/BoneRoot/BoneSpine1/BoneSpine2/BoneSpine3/BoneArmUpperL
+        weight: 1
+      - path: m3bone_root/BoneRoot/BoneSpine1/BoneSpine2/BoneSpine3/BoneArmUpperL/BoneArmForearmL
+        weight: 1
+      - path: m3bone_root/BoneRoot/BoneSpine1/BoneSpine2/BoneSpine3/BoneArmUpperL/BoneArmForearmL/BoneArmHandL
+        weight: 1
+      - path: m3bone_root/BoneRoot/BoneSpine1/BoneSpine2/BoneSpine3/BoneArmUpperL/BoneArmForearmL/BoneArmHandL/BoneArmLFng1_01
+        weight: 1
+      - path: m3bone_root/BoneRoot/BoneSpine1/BoneSpine2/BoneSpine3/BoneArmUpperL/BoneArmForearmL/BoneArmHandL/BoneArmLFng1_01/BoneArmLFng1_02
+        weight: 1
+      - path: m3bone_root/BoneRoot/BoneSpine1/BoneSpine2/BoneSpine3/BoneArmUpperL/BoneArmForearmL/BoneArmHandL/BoneArmLFng1_01/BoneArmLFng1_02/BoneArmLFng1_03
+        weight: 1
+      - path: m3bone_root/BoneRoot/BoneSpine1/BoneSpine2/BoneSpine3/BoneArmUpperL/BoneArmForearmL/BoneArmHandL/BoneArmLFng2_01
+        weight: 1
+      - path: m3bone_root/BoneRoot/BoneSpine1/BoneSpine2/BoneSpine3/BoneArmUpperL/BoneArmForearmL/BoneArmHandL/BoneArmLFng2_01/BoneArmLFng2_02
+        weight: 1
+      - path: m3bone_root/BoneRoot/BoneSpine1/BoneSpine2/BoneSpine3/BoneArmUpperL/BoneArmForearmL/BoneArmHandL/BoneArmLFng2_01/BoneArmLFng2_02/BoneArmLFng2_03
+        weight: 1
+      - path: m3bone_root/BoneRoot/BoneSpine1/BoneSpine2/BoneSpine3/BoneArmUpperL/BoneArmForearmL/BoneArmHandL/BoneArmLFng3_01
+        weight: 1
+      - path: m3bone_root/BoneRoot/BoneSpine1/BoneSpine2/BoneSpine3/BoneArmUpperL/BoneArmForearmL/BoneArmHandL/BoneArmLFng3_01/BoneArmLFng3_02
+        weight: 1
+      - path: m3bone_root/BoneRoot/BoneSpine1/BoneSpine2/BoneSpine3/BoneArmUpperL/BoneArmForearmL/BoneArmHandL/BoneArmLFng3_01/BoneArmLFng3_02/BoneArmLFng3_03
+        weight: 1
+      - path: m3bone_root/BoneRoot/BoneSpine1/BoneSpine2/BoneSpine3/BoneArmUpperL/BoneArmForearmL/BoneArmHandL/BoneArmLFng4_01
+        weight: 1
+      - path: m3bone_root/BoneRoot/BoneSpine1/BoneSpine2/BoneSpine3/BoneArmUpperL/BoneArmForearmL/BoneArmHandL/BoneArmLFng4_01/BoneArmLFng4_02
+        weight: 1
+      - path: m3bone_root/BoneRoot/BoneSpine1/BoneSpine2/BoneSpine3/BoneArmUpperL/BoneArmForearmL/BoneArmHandL/BoneArmLFng4_01/BoneArmLFng4_02/BoneArmLFng4_03
+        weight: 1
+      - path: m3bone_root/BoneRoot/BoneSpine1/BoneSpine2/BoneSpine3/BoneArmUpperL/BoneArmForearmL/BoneArmHandL/BoneArmLFng5_01
+        weight: 1
+      - path: m3bone_root/BoneRoot/BoneSpine1/BoneSpine2/BoneSpine3/BoneArmUpperL/BoneArmForearmL/BoneArmHandL/BoneArmLFng5_01/BoneArmLFng5_02
+        weight: 1
+      - path: m3bone_root/BoneRoot/BoneSpine1/BoneSpine2/BoneSpine3/BoneArmUpperL/BoneArmForearmL/BoneArmHandL/BoneArmLFng5_01/BoneArmLFng5_02/BoneArmLFng5_03
+        weight: 1
+      - path: m3bone_root/BoneRoot/BoneSpine1/BoneSpine2/BoneSpine3/BoneArmUpperR
+        weight: 1
+      - path: m3bone_root/BoneRoot/BoneSpine1/BoneSpine2/BoneSpine3/BoneArmUpperR/BoneArmForearmR
+        weight: 1
+      - path: m3bone_root/BoneRoot/BoneSpine1/BoneSpine2/BoneSpine3/BoneArmUpperR/BoneArmForearmR/BoneArmHandR
+        weight: 1
+      - path: m3bone_root/BoneRoot/BoneSpine1/BoneSpine2/BoneSpine3/BoneArmUpperR/BoneArmForearmR/BoneArmHandR/bone_weapon
+        weight: 1
+      - path: m3bone_root/BoneRoot/BoneSpine1/BoneSpine2/BoneSpine3/BoneArmUpperR/BoneArmForearmR/BoneArmHandR/BoneArmRFng1_01
+        weight: 1
+      - path: m3bone_root/BoneRoot/BoneSpine1/BoneSpine2/BoneSpine3/BoneArmUpperR/BoneArmForearmR/BoneArmHandR/BoneArmRFng1_01/BoneArmRFng1_02
+        weight: 1
+      - path: m3bone_root/BoneRoot/BoneSpine1/BoneSpine2/BoneSpine3/BoneArmUpperR/BoneArmForearmR/BoneArmHandR/BoneArmRFng1_01/BoneArmRFng1_02/BoneArmRFng1_03
+        weight: 1
+      - path: m3bone_root/BoneRoot/BoneSpine1/BoneSpine2/BoneSpine3/BoneArmUpperR/BoneArmForearmR/BoneArmHandR/BoneArmRFng2_01
+        weight: 1
+      - path: m3bone_root/BoneRoot/BoneSpine1/BoneSpine2/BoneSpine3/BoneArmUpperR/BoneArmForearmR/BoneArmHandR/BoneArmRFng2_01/BoneArmRFng2_02
+        weight: 1
+      - path: m3bone_root/BoneRoot/BoneSpine1/BoneSpine2/BoneSpine3/BoneArmUpperR/BoneArmForearmR/BoneArmHandR/BoneArmRFng2_01/BoneArmRFng2_02/BoneArmRFng2_03
+        weight: 1
+      - path: m3bone_root/BoneRoot/BoneSpine1/BoneSpine2/BoneSpine3/BoneArmUpperR/BoneArmForearmR/BoneArmHandR/BoneArmRFng3_01
+        weight: 1
+      - path: m3bone_root/BoneRoot/BoneSpine1/BoneSpine2/BoneSpine3/BoneArmUpperR/BoneArmForearmR/BoneArmHandR/BoneArmRFng3_01/BoneArmRFng3_02
+        weight: 1
+      - path: m3bone_root/BoneRoot/BoneSpine1/BoneSpine2/BoneSpine3/BoneArmUpperR/BoneArmForearmR/BoneArmHandR/BoneArmRFng3_01/BoneArmRFng3_02/BoneArmRFng3_03
+        weight: 1
+      - path: m3bone_root/BoneRoot/BoneSpine1/BoneSpine2/BoneSpine3/BoneArmUpperR/BoneArmForearmR/BoneArmHandR/BoneArmRFng4_01
+        weight: 1
+      - path: m3bone_root/BoneRoot/BoneSpine1/BoneSpine2/BoneSpine3/BoneArmUpperR/BoneArmForearmR/BoneArmHandR/BoneArmRFng4_01/BoneArmRFng4_02
+        weight: 1
+      - path: m3bone_root/BoneRoot/BoneSpine1/BoneSpine2/BoneSpine3/BoneArmUpperR/BoneArmForearmR/BoneArmHandR/BoneArmRFng4_01/BoneArmRFng4_02/BoneArmRFng4_03
+        weight: 1
+      - path: m3bone_root/BoneRoot/BoneSpine1/BoneSpine2/BoneSpine3/BoneArmUpperR/BoneArmForearmR/BoneArmHandR/BoneArmRFng5_01
+        weight: 1
+      - path: m3bone_root/BoneRoot/BoneSpine1/BoneSpine2/BoneSpine3/BoneArmUpperR/BoneArmForearmR/BoneArmHandR/BoneArmRFng5_01/BoneArmRFng5_02
+        weight: 1
+      - path: m3bone_root/BoneRoot/BoneSpine1/BoneSpine2/BoneSpine3/BoneArmUpperR/BoneArmForearmR/BoneArmHandR/BoneArmRFng5_01/BoneArmRFng5_02/BoneArmRFng5_03
+        weight: 1
+      - path: mesh_bodyTop
+        weight: 1
+      - path: mesh_Face
+        weight: 1
+      - path: mesh_Legs
+        weight: 1
+      - path: mesh_Legs2
+        weight: 1
+      - path: mesh_spell2
+        weight: 1
+      - path: mesh_spell3
+        weight: 1
+      - path: mesh_spell4
+        weight: 1
+      - path: mesh_spell5
+        weight: 1
+      - path: mesh_spell6
+        weight: 1
+      - path: mesh_Weapon
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

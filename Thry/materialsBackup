@@ -1,0 +1,563 @@
+418db81db003a91458ab04f45f9ff1d5:=Universal Render Pipeline/Lit
+fc2256050890341418bb9bcfd4ed9c70:=Standard
+e3f840c2c132401469e19c6c4fc74027:=Standard
+273e4c50b4171f344afe53dff52d5c7b:=Standard
+b3fa4b3439cf4914d948b453d734700a:=Standard
+aa65eafaceec4634c908f62c0db6233c:=Standard
+a3bceab548a592b4b84902059b995b18:=Standard
+7a4f7ec9015538a4289d5ab397535df4:=Standard
+ad0ac61bb18cd5c42989236be031a35f:=.poiyomi/Toon/Advanced/Cutout
+6fdac7510f286a743a8c5024aec53739:=.poiyomi/Toon/Advanced/Cutout
+7bc28c845e1843f48b61654f6b1a7e3d:=Universal Render Pipeline/Lit
+c3ffb3150b80d584ebb25a4af239cb71:=Universal Render Pipeline/Lit
+5795cb28b27d19340aca11aef7d62b45:=Universal Render Pipeline/Lit
+aa8a270285d5b5f42892f3f49c7367d3:=.poiyomi/Toon/Advanced/Cutout
+39c52a676a8c9044ea7fe725439742c8:=.poiyomi/Toon/Advanced/Cutout
+d46a5bf485d77bb45824857af08eea9f:=.poiyomi/Toon/Advanced/Cutout
+5f55c800ab433da44a07e9555d6c2a9f:=.poiyomi/Toon/Advanced/Cutout
+7b36166896d67ae49a395ec4bf8f9f90:=.poiyomi/Toon/Advanced/Cutout
+0000000000000000f000000000000000:=Skybox/Procedural
+a3a796d35c2ca314aa605b6bf1599352:=SimpleURPToonLitExample(With Outline)
+c22777d6e868e4f2fb421913386b154e:=ProBuilder/Standard Vertex Color
+a35e7ce34dadaed41bad96d0e76b9ed0:=Universal Render Pipeline/Lit
+72898017cfb4eb64fa3f0390f023b75a:=Standard
+2f7f14c475ffb3243a9bb0b7a3a254d4:=Universal Render Pipeline/Lit
+ce1814c8f1b942646a31d409e94ba137:=SimpleURPToonLitExample(With Outline)
+f6980b4718243744fa32f9c57e8c6eab:=SimpleURPToonLitExample(With Outline)
+00baa2103ba195848952853450cc12c7:=SimpleURPToonLitExample(With Outline)
+79933b4b6fccd16479a489ca34296658:=SimpleURPToonLitExample(With Outline)
+c36d8b4df1eca8749824f2fe2c6a5331:=SimpleURPToonLitExample(With Outline)
+32536ded97665c1458271b0e9791a615:=SimpleURPToonLitExample(With Outline)
+e314ca41742fd54408cdb9633e50ac73:=SimpleURPToonLitExample(With Outline)
+b83eafb421fa595429e591dea3670ab0:=SimpleURPToonLitExample(With Outline)
+31321ba15b8f8eb4c954353edc038b1d:=Universal Render Pipeline/Lit
+752aa7ab9fe4f8d4c989dfa09f0cb21b:=Standard
+a34f77ecf15dad94f9f08a0aa01e77c1:=Universal Render Pipeline/Lit
+2be3db3244243e04ca6dac545f69d1ab:=Universal Render Pipeline/Lit
+bada8ba87129e164eb0684e040bbdcdd:=Universal Render Pipeline/Lit
+396ee6f21d1074f41ac034a2326b6cc3:=Universal Render Pipeline/Lit
+2d085601e620ff7458a691a92e3c42f7:=Universal Render Pipeline/Lit
+bf538bdc9032dbd4bba5147bade6dbfd:=Universal Render Pipeline/Lit
+9066288271cb55a42afb49e1ed1f6954:=Universal Render Pipeline/Lit
+b8c1d5357ad7ef342b31791efb20c532:=Universal Render Pipeline/Lit
+b5940886fe32bb040bdfedef3a0ddb38:=Universal Render Pipeline/Lit
+c60c304efab0c064d9829be70e82ca96:=SimpleURPToonLitExample(With Outline)
+2f526e61bbcd7284faf590dc4738ebe1:=SimpleURPToonLitExample(With Outline)
+098ff1b8cdc583e48957bfd3afe5ea4a:=SimpleURPToonLitExample(With Outline)
+d7a5373ec12e5384e8f680b8f316b97f:=SimpleURPToonLitExample(With Outline)
+169c8297068617a48950198cef28fa06:=SimpleURPToonLitExample(With Outline)
+bbc1f4b607607614c8c5baef2ebeec51:=SimpleURPToonLitExample(With Outline)
+84295e71cc547b34ab80c2c2e1f8e9db:=SimpleURPToonLitExample(With Outline)
+2942046d5c6ca5d47a701eb5cd830dd4:=SimpleURPToonLitExample(With Outline)
+acf9700854d92044c880e46445469d43:=SimpleURPToonLitExample(With Outline)
+5f772086952922741a4ca7594559e022:=Universal Render Pipeline/Lit
+1efa0b8d144720543ae2007abbf9411a:=Universal Render Pipeline/Lit
+c874b7dc824e4ba4082c332bd7b0a6cf:=Universal Render Pipeline/Lit
+edc417290c677d143a555dae29548bd9:=Universal Render Pipeline/Lit
+a188d399a269f0247a5d07f0233c6194:=Universal Render Pipeline/Lit
+8bb1883be99586041aad198d9a1ad8f9:=Universal Render Pipeline/Lit
+ba70484441ff37f45b10798f6b8bc0fb:=Universal Render Pipeline/Lit
+41b2734c4c825fd4084d45e866771380:=Universal Render Pipeline/Lit
+978bbcf5050244f1b95128c04103f628:=Hidden/ProBuilder/HideVertices
+8cb4d6fee77fd4ee6895f08b240d625f:=Unlit/Texture
+9ff51215c9dd2364d9fb0646998346ad:=Universal Render Pipeline/Lit
+1ac7d556d230c914ca0a5790b4f2f074:=Universal Render Pipeline/Lit
+9a81e87803a666c45b8e99f96f3c0cb7:=Universal Render Pipeline/Lit
+77dd5c134347c244693946f41f9b16df:=Universal Render Pipeline/Lit
+fdd8702dfd5d5974f9ade955a64aff88:=Universal Render Pipeline/Lit
+c0aadd9b28fc17148b92ab2afa0d86ca:=Universal Render Pipeline/Lit
+c8c80c5b03f5c7e40b07eb2170e667e5:=Projector/Light
+e30ff3588e719f34bbf0c66f22d97487:=Projector/Multiply
+c7d1a73cf0f423947bae4e238665d9c5:=Projector/Light
+ebd8fc37c97d68f4b9bf5173aa8130a1:=Particles/Alpha Blended Foreground
+d92e4f09af210a140b4660715a0c55c4:=Universal Render Pipeline/Particles/Unlit
+44e8976434002d74393f1b647395e56b:=Universal Render Pipeline/Lit
+827ea173115e64645b6a34cd08cb5c54:=Universal Render Pipeline/NiloCat Extension/Screen Space Decal/Unlit
+ab39b321beacb91479b513c177a1d0fa:=Universal Render Pipeline/NiloCat Extension/Screen Space Decal/Unlit
+09ac83f6a121e0a4caf6e1507a0c7d53:=Universal Render Pipeline/Lit
+2a7675f40548edc4aa5b9d63643c9cf8:=Universal Render Pipeline/Lit
+e5a28d210e96ec84c9dbb724e94e6314:=Universal Render Pipeline/Lit
+3baed8a345b0a7f4c90690b086727b41:=.poiyomi/Toon/Advanced/Cutout
+b8161519475095144ba49a352dcd2872:=Universal Render Pipeline/NiloCat Extension/Screen Space Decal/Unlit
+d8a16a8698073a446a7117820e3aa887:=Universal Render Pipeline/NiloCat Extension/Screen Space Decal/Unlit
+2e5abcfdc3114124f8ef77d1be363b50:=Legacy Shaders/Particles/Additive
+64f16d981fdd3df4496a4cad839b6954:=Universal Render Pipeline/Lit
+84641ca98650d9b4b8b93648fae627e1:=Universal Render Pipeline/Lit
+:=Universal Render Pipeline/Lit
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+:=Custom/Outline Fill
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+:=Custom/Outline Fill
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+:=Custom/Outline Fill
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+:=Custom/Outline Fill
+e823cd5b5d27c0f4b8256e7c12ee3e6d:=Universal Render Pipeline/Particles/Unlit
+801c1ebf8005c64438883cc051ba020e:=Legacy Shaders/Particles/Additive
+52342f76bec67c647b89b60dfe7eef19:=Legacy Shaders/Particles/Additive
+b8cd0461be2166642a168cbf71ba1c59:=Legacy Shaders/Particles/Alpha Blended
+38108ab48c9ac2342aa4bcee6d8ac151:=Universal Render Pipeline/Particles/Lit
+e607f9cf9f61d3148a90eb03021238ec:=Universal Render Pipeline/Lit
+e39019ea49b322f48814d1e970dc73a0:=SimpleURPToonLitExample(With Outline)
+0723b978469986544bc3c4c1cef89f7f:=SimpleURPToonLitExample(With Outline)
+7fcf6bffa29b0a4428c776860330c173:=SimpleURPToonLitExample(With Outline)
+8a9ae67c58085c2478c9e1fbf0ee2e76:=SimpleURPToonLitExample(With Outline)
+4fa218358ae1cb0448f70020788eb15b:=SimpleURPToonLitExample(With Outline)
+e93b1b592fb56c7448ca54d6303a9b8e:=SimpleURPToonLitExample(With Outline)
+97fae57af53c9d74db518fdee2d20109:=SimpleURPToonLitExample(With Outline)
+4ebebb64d740a514daa243f719340a0d:=SimpleURPToonLitExample(With Outline)
+da7e585e1d7a9424eb2b4a812c439092:=Universal Render Pipeline/Lit
+c57efb9b56aa4aa41bc458f0c0dd902f:=Universal Render Pipeline/Lit
+8fecbf0b72361e443893403fcd0ccac6:=Universal Render Pipeline/Lit
+2b4b1c8d2862ad44fb9678c63aa8e8d6:=Universal Render Pipeline/Lit
+82dabe47f293d454ea33629027585ee2:=Universal Render Pipeline/Lit
+b14a3bc44fcbc9542babe0e82091aba2:=Universal Render Pipeline/Lit
+5bde09580093a014fb8b781b245383c5:=Universal Render Pipeline/Lit
+f8ad984516cd73741a4008600aab9c7e:=Universal Render Pipeline/Lit
+22359a8c13b22d74f881d7045e88a321:=Universal Render Pipeline/Lit
+d2774489a2c7f6f4dad4f27b75298163:=Universal Render Pipeline/Lit
+ce92b31a4e520c14aac6d2c6c083a496:=Universal Render Pipeline/Lit
+d93e93373bbc67c4fb63e2b2e2bd9f5f:=Universal Render Pipeline/Lit
+8a78b911ef5cb1b42a32ae859a37e84c:=Universal Render Pipeline/Lit
+2cd3b90949115864f82147c8e4a24732:=Universal Render Pipeline/Lit
+fa089d723ae3bfd4ebe2fd1ad464c46b:=Universal Render Pipeline/Lit
+10f383111c5bb2a46b4aceab5800d1f0:=Universal Render Pipeline/Lit
+81734118706fc4c4fb88546d09bfd6c8:=Universal Render Pipeline/Simple Lit
+6a463b095118a7a40813f5932f2b8db7:=Universal Render Pipeline/Lit
+4aad2f7fec309774d90f175cb3b50edc:=Universal Render Pipeline/Lit
+19be5c5e39308124ba7b0048156386f5:=Universal Render Pipeline/Lit
+8d849545d5c01674eb7bd4f0a9045f15:=Universal Render Pipeline/Lit
+dee35466190a8384a9b2a060e7bc2af3:=Universal Render Pipeline/Lit
+fccdcddefeaa36d4f92373c8cc743dcc:=Universal Render Pipeline/Lit
+256df5291c325f448bb94c8f5f982431:=Universal Render Pipeline/Simple Lit
+89943ef26d540804fbb1388e58964b46:=Universal Render Pipeline/Lit
+5c73734a38a526a41914d5f39d1f98a8:=Universal Render Pipeline/Lit
+6ab4e3996cdf47649b2e9c76fea93d9d:=Universal Render Pipeline/Lit
+537c2b8a29fbff947aaf21ed45702e81:=Universal Render Pipeline/Lit
+da8b2196386781e4aa5c14f88f565537:=Universal Render Pipeline/Lit
+cf56fe0a8d0459c47886a7c37ae054d7:=Universal Render Pipeline/Lit
+b182debf4fab5a44cb4ac6806c6da6ab:=Universal Render Pipeline/Lit
+:=Custom/Outline Fill
+091d124cd6d0a9049b232f7e69244fd8:=Universal Render Pipeline/Lit
+483cf9713b828764fbdbb7d36e5638ca:=Universal Render Pipeline/Particles/Unlit
+:=Custom/Outline Fill
+0000000000000000e000000000000000:=GUI/Text Shader
+4b54aa91605d54649b5ffe70fb1fb171:=GUI/Text Shader
+bc28db22991ead048a61c46b6d7d7bc5:=Universal Render Pipeline/Lit
+:=Custom/Outline Fill
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+:=Custom/Outline Fill
+480881a49e636504da3a9077df711767:=Universal Render Pipeline/Lit
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+:=Custom/Outline Fill
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+:=Custom/Outline Fill
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+:=Custom/Outline Fill
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+:=Custom/Outline Fill
+2b622ce05bf5014499d47e58093d711d:=Universal Render Pipeline/Unlit
+805fcd3a77104694cbb17767c2fdd61c:=Universal Render Pipeline/Unlit
+dabf797a97f698148bba9c351f599c2d:=Universal Render Pipeline/Unlit
+7528407e38f1fe84d916b01bf8120430:=Universal Render Pipeline/Lit
+a7776dc143d431f4dae9b34adabeaabf:=Universal Render Pipeline/Lit
+526532016f2db2e4da9ad1c66eb7f35c:=Universal Render Pipeline/Lit
+60e7be763ce4a67498446d74d83735b2:=Universal Render Pipeline/Simple Lit
+6ca1ad79f8715ea449e44fa02f68757d:=Universal Render Pipeline/Lit
+ee38668656fcf8c4b8fa6b0c5c062458:=Universal Render Pipeline/Lit
+b56e194a4d5ae5b4f9cb6e4c71a1154b:=Universal Render Pipeline/Lit
+5fd02a11de3919a45bf46ed975d7375a:=Universal Render Pipeline/Lit
+:=Custom/Outline Fill
+08116bde91cb17a48b71d9252681ed7d:=Universal Render Pipeline/Lit
+acb931ea8643f8c4eb97a322a9ea18d8:=Universal Render Pipeline/Lit
+3219de2d574674beb889c87b844502b5:=Universal Render Pipeline/Simple Lit
+b71b71b0a1f9a48768a27ca6eefcfbdf:=Universal Render Pipeline/Simple Lit
+9393d4a165042934f85dc37036754f2a:=Universal Render Pipeline/Lit
+46a731608d1ffc84cba1526a9883d074:=Universal Render Pipeline/Lit
+3a36f7627fd2056438179ded63a0ecd0:=Universal Render Pipeline/Lit

@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f66ce2208790ba342b44c68e9054e9fd, type: 3}
+  m_Name: Provoke
+  m_EditorClassIdentifier: 
+  Id: TankJob_Provoke
+  Name: Provoke
+  Icon: {fileID: -7058381370366184134, guid: a3f85d47d4783164c9a2b1ea2217d51a, type: 3}
+  InitialManaCost: 0
+  InitialCastTime: 0
+  DelayAfterFinishCast: 0.5
+  AbilityAnimationRuleSO: {fileID: 11400000, guid: ad00bf7337f07d04ab6cebb3c9fa3742,
+    type: 2}
+  CooldownSO: {fileID: 11400000, guid: 4f285d12b479ad945955a9f8685ad21c, type: 2}
+  Order: 1
+  BreaksOthersComboChain: 1
+  CanDisplayErrorMessages: 1
+  ComboContinuerAbilitySO: {fileID: 0}
+  AbilityBehavioursBeforeDelaySO: []
+  AbilityBehavioursSO:
+  - {fileID: 11400000, guid: 8d70c9eaa18745841869c9f7c41fdf8b, type: 2}
+  - {fileID: 11400000, guid: 14728f172cdb88a44ad387d1dcc9419b, type: 2}
+  CustomAvailabilitiesSO: []
+  IsLookOnTarget: 1
+  Distance: 15
+  TargetIsAlwaysSelf: 0
+  CanCastOn: 4
+  CollisionParticlePrefabs: []

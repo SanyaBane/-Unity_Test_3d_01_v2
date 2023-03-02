@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f66ce2208790ba342b44c68e9054e9fd, type: 3}
+  m_Name: Clemency
+  m_EditorClassIdentifier: 
+  Id: PAL_Clemency
+  Name: Clemency
+  Icon: {fileID: -7171500518388079621, guid: 10f40dcee268f114d977d6eeec87347d, type: 3}
+  InitialManaCost: 2000
+  InitialCooldown: 0
+  AffectsGlobalCooldown: 1
+  InitialCastTime: 1.5
+  DelayAfterFinishCast: 0.5
+  AbilityAnimationRuleSO: {fileID: 11400000, guid: a4616fb53225f1c4ead2d1714239863b,
+    type: 2}
+  CooldownSO: {fileID: 11400000, guid: 9b3ffba72e5169041ab0e5b8d3f01794, type: 2}
+  Order: 1
+  BreaksOthersComboChain: 1
+  CanDisplayErrorMessages: 1
+  ComboContinuerAbilitySO: {fileID: 0}
+  AbilityBehavioursBeforeDelaySO: []
+  AbilityBehavioursSO:
+  - {fileID: 11400000, guid: ab1f42f75f11ab14ba528ea5bc7f4ee6, type: 2}
+  CustomAvailabilitiesSO: []
+  IsLookOnTarget: 1
+  Distance: 30
+  TargetIsAlwaysSelf: 0
+  CanCastOn: 3
+  CollisionParticlePrefabs: []

@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f66ce2208790ba342b44c68e9054e9fd, type: 3}
+  m_Name: Blizzard3
+  m_EditorClassIdentifier: 
+  Id: BLM_Blizzard3
+  Name: Blizzard III
+  Icon: {fileID: 886207168930030389, guid: c31cf925c52c6604c803dc8a2b970e2c, type: 3}
+  InitialManaCost: 800
+  InitialCastTime: 3.5
+  DelayAfterFinishCast: 0.5
+  AbilityAnimationRuleSO: {fileID: 11400000, guid: 583cf306d910736499b22f04f22cf5e1,
+    type: 2}
+  CooldownSO: {fileID: 11400000, guid: fd5322d1349816f4d96a3ed3aa57640f, type: 2}
+  Order: 1
+  ResetAutoAttackTimerAfterCastFinish: 1
+  BreaksOthersComboChain: 1
+  CanDisplayErrorMessages: 1
+  ComboContinuerAbilitySO: {fileID: 0}
+  AbilityBehavioursBeforeDelaySO:
+  - {fileID: 11400000, guid: 8ba1682e36a95cd41807580109731498, type: 2}
+  AbilityBehavioursSO:
+  - {fileID: 11400000, guid: be6f09cdd89c0d043b6a8c594526de33, type: 2}
+  CustomAvailabilitiesSO: []
+  ListOnCreateCustomLogicSO:
+  - {fileID: 11400000, guid: b8655758727c8f2408181ac32ed6644a, type: 2}
+  - {fileID: 11400000, guid: 6658d7164d6b79d42a7dedce524c5d07, type: 2}
+  - {fileID: 11400000, guid: cd39938e46ca4ed42bdc2ce2d5fe4d07, type: 2}
+  IsLookOnTarget: 1
+  Distance: 25
+  TargetIsAlwaysSelf: 0
+  CanCastOn: 4
+  CollisionParticlePrefabs: []

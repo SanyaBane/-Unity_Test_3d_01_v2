@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f66ce2208790ba342b44c68e9054e9fd, type: 3}
+  m_Name: Fire3
+  m_EditorClassIdentifier: 
+  Id: BLM_Fire3
+  Name: Fire III
+  Icon: {fileID: 142104911638952505, guid: d1b38753ce7c3b24195d0ec973633ca4, type: 3}
+  InitialManaCost: 2000
+  InitialCastTime: 3.5
+  DelayAfterFinishCast: 0.5
+  AbilityAnimationRuleSO: {fileID: 11400000, guid: a1c91543f19d0704aa1b7b337f5727f2,
+    type: 2}
+  CooldownSO: {fileID: 11400000, guid: 91e5aa3cc47b2d3478ac6ad345fc94d6, type: 2}
+  Order: 1
+  ResetAutoAttackTimerAfterCastFinish: 1
+  BreaksOthersComboChain: 1
+  CanDisplayErrorMessages: 1
+  ComboContinuerAbilitySO: {fileID: 0}
+  AbilityBehavioursBeforeDelaySO:
+  - {fileID: 11400000, guid: f5f899ee3911463428fe82f7be53373a, type: 2}
+  AbilityBehavioursSO:
+  - {fileID: 11400000, guid: 3c84656d0d141314e889929b5867cd19, type: 2}
+  CustomAvailabilitiesSO: []
+  ListOnCreateCustomLogicSO:
+  - {fileID: 11400000, guid: daa51c9341482094fb87c467351d6580, type: 2}
+  - {fileID: 11400000, guid: 20068d5425e502246988bc3e4d8e08f9, type: 2}
+  - {fileID: 11400000, guid: 44a2a034f92a65746acdce3b020b7b62, type: 2}
+  IsLookOnTarget: 1
+  Distance: 25
+  TargetIsAlwaysSelf: 0
+  CanCastOn: 4
+  CollisionParticlePrefabs: []

@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f66ce2208790ba342b44c68e9054e9fd, type: 3}
+  m_Name: RoyalAuthority
+  m_EditorClassIdentifier: 
+  Id: PAL_RoyalAuthority
+  Name: Royal Authority
+  Icon: {fileID: 2668064736948749392, guid: f99652a9db3ac56458203c80e8fa1bdc, type: 3}
+  InitialManaCost: 0
+  InitialCooldown: 1
+  AffectsGlobalCooldown: 1
+  InitialCastTime: 0
+  DelayAfterFinishCast: 1
+  AbilityAnimationRuleSO: {fileID: 11400000, guid: 44b3ee8ded357c946ab82f6322159260,
+    type: 2}
+  CooldownSO: {fileID: 11400000, guid: 286e8bdf1ec0576429898a9e9cd87e69, type: 2}
+  Order: 4
+  BreaksOthersComboChain: 1
+  CanDisplayErrorMessages: 1
+  ComboContinuerAbilitySO: {fileID: 11400000, guid: 3dfc648f7c855e7438dfc4439898cf02,
+    type: 2}
+  AbilityBehavioursBeforeDelaySO: []
+  AbilityBehavioursSO:
+  - {fileID: 11400000, guid: 0b0178b4e16ab1346bc9bdd3614a411e, type: 2}
+  - {fileID: 11400000, guid: de8d12df358a06d48aabadb68a533d34, type: 2}
+  CustomAvailabilitiesSO: []
+  IsLookOnTarget: 1
+  Distance: 1
+  TargetIsAlwaysSelf: 0
+  CanCastOn: 4
+  CollisionParticlePrefabs: []

@@ -1,0 +1,2513 @@
+fileFormatVersion: 2
+guid: 8c6817eba00b3c443b819488edff17d5
+timeCreated: 1517490784
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: '!joint_LeftThumb0M'
+    100002: '!joint_RightThumb0M'
+    100004: "!joint_\u30B0\u30EB\u30FC\u30D6"
+    100006: "!joint_\u30B0\u30EB\u30FC\u30D6\u5148"
+    100008: "!joint_\u30B9\u30AB\u30FC\u30C82_7_1"
+    100010: "!joint_\u30B9\u30AB\u30FC\u30C82_7_2"
+    100012: "!joint_\u30B9\u30AB\u30FC\u30C8_3_0"
+    100014: "!joint_\u30B9\u30AB\u30FC\u30C8_3_1"
+    100016: "!joint_\u30B9\u30AB\u30FC\u30C8_3_10"
+    100018: "!joint_\u30B9\u30AB\u30FC\u30C8_3_2"
+    100020: "!joint_\u30B9\u30AB\u30FC\u30C8_3_9"
+    100022: "!joint_\u30B9\u30AB\u30FC\u30C8_5_0"
+    100024: "!joint_\u30B9\u30AB\u30FC\u30C8_5_1"
+    100026: "!joint_\u30B9\u30AB\u30FC\u30C8_5_10"
+    100028: "!joint_\u30B9\u30AB\u30FC\u30C8_5_2"
+    100030: "!joint_\u30B9\u30AB\u30FC\u30C8_5_3"
+    100032: "!joint_\u30B9\u30AB\u30FC\u30C8_5_4"
+    100034: "!joint_\u30B9\u30AB\u30FC\u30C8_5_5"
+    100036: "!joint_\u30B9\u30AB\u30FC\u30C8_5_6"
+    100038: "!joint_\u30B9\u30AB\u30FC\u30C8_5_7"
+    100040: "!joint_\u30B9\u30AB\u30FC\u30C8_5_8"
+    100042: "!joint_\u30B9\u30AB\u30FC\u30C8_5_9"
+    100044: "!joint_\u30BB\u30F3\u30BF\u30FC"
+    100046: "!joint_\u30BB\u30F3\u30BF\u30FC\u5148"
+    100048: "!joint_\u4E0A\u534A\u8EAB2\u5148"
+    100050: "!joint_\u4E0B\u534A\u8EAB\u5148"
+    100052: "!joint_\u4E21\u76EE"
+    100054: "!joint_\u4E21\u76EE\u5148"
+    100056: "!joint_\u5168\u3066\u306E\u89AA"
+    100058: "!joint_\u53F3\u3064\u307E\u5148"
+    100060: "!joint_\u53F3\u3072\u3056D"
+    100062: "!joint_\u53F3\u30B9\u30AB\u30FC\u30C83_0_2"
+    100064: "!joint_\u53F3\u30B9\u30AB\u30FC\u30C83_7_0"
+    100066: "!joint_\u53F3\u30B9\u30AB\u30FC\u30C83_7_1"
+    100068: "!joint_\u53F3\u30B9\u30AB\u30FC\u30C83_7_2"
+    100070: "!joint_\u53F3\u30C0\u30DF\u30FC"
+    100072: "!joint_\u53F3\u4E0A\u534A\u8EAB2_2_1"
+    100074: "!joint_\u53F3\u4E2D\u6307\u5148"
+    100076: "!joint_\u53F3\u4EBA\u6307\u5148"
+    100078: "!joint_\u53F3\u5C0F\u6307\u5148"
+    100080: "!joint_\u53F3\u624B\u5148"
+    100082: "!joint_\u53F3\u624B\u6369"
+    100084: "!joint_\u53F3\u624B\u6369\u8EF8"
+    100086: "!joint_\u53F3\u76EE\u5148"
+    100088: "!joint_\u53F3\u80A9C"
+    100090: "!joint_\u53F3\u80A9P"
+    100092: "!joint_\u53F3\u80A9\u8896\u5148"
+    100094: "!joint_\u53F3\u8155\u6369"
+    100096: "!joint_\u53F3\u8155\u6369\u8EF8"
+    100098: "!joint_\u53F3\u8155\u8896"
+    100100: "!joint_\u53F3\u85AC\u6307\u5148"
+    100102: "!joint_\u53F3\u89AA\u6307\u5148"
+    100104: "!joint_\u53F3\u8DB3D"
+    100106: "!joint_\u53F3\u8DB3\u5148EX"
+    100108: "!joint_\u53F3\u8DB3\u9996D"
+    100110: "!joint_\u53F3\u9AEA2_3_1"
+    100112: "!joint_\u53F3\u9AEA3_5_1"
+    100114: "!joint_\u53F3\u9AEA_3_1"
+    100116: "!joint_\u5DE6\u3064\u307E\u5148"
+    100118: "!joint_\u5DE6\u3072\u3056D"
+    100120: "!joint_\u5DE6\u30B9\u30AB\u30FC\u30C83_0_2"
+    100122: "!joint_\u5DE6\u30B9\u30AB\u30FC\u30C83_7_0"
+    100124: "!joint_\u5DE6\u30B9\u30AB\u30FC\u30C83_7_1"
+    100126: "!joint_\u5DE6\u30B9\u30AB\u30FC\u30C83_7_2"
+    100128: "!joint_\u5DE6\u30C0\u30DF\u30FC"
+    100130: "!joint_\u5DE6\u4E0A\u534A\u8EAB2_2_1"
+    100132: "!joint_\u5DE6\u4E2D\u6307\u5148"
+    100134: "!joint_\u5DE6\u4EBA\u6307\u5148"
+    100136: "!joint_\u5DE6\u5C0F\u6307\u5148"
+    100138: "!joint_\u5DE6\u624B\u5148"
+    100140: "!joint_\u5DE6\u624B\u6369"
+    100142: "!joint_\u5DE6\u624B\u6369\u8EF8"
+    100144: "!joint_\u5DE6\u76EE\u5148"
+    100146: "!joint_\u5DE6\u80A9C"
+    100148: "!joint_\u5DE6\u80A9P"
+    100150: "!joint_\u5DE6\u80A9\u8896\u5148"
+    100152: "!joint_\u5DE6\u8155\u6369"
+    100154: "!joint_\u5DE6\u8155\u6369\u8EF8"
+    100156: "!joint_\u5DE6\u8155\u8896"
+    100158: "!joint_\u5DE6\u85AC\u6307\u5148"
+    100160: "!joint_\u5DE6\u89AA\u6307\u5148"
+    100162: "!joint_\u5DE6\u8DB3D"
+    100164: "!joint_\u5DE6\u8DB3\u5148EX"
+    100166: "!joint_\u5DE6\u8DB3\u9996D"
+    100168: "!joint_\u5DE6\u9AEA2_3_1"
+    100170: "!joint_\u5DE6\u9AEA3_5_1"
+    100172: "!joint_\u5DE6\u9AEA_3_1"
+    100174: "!joint_\u64CD\u4F5C\u4E2D\u5FC3"
+    100176: "!joint_\u8170"
+    100178: "!joint_\u8170\u30AD\u30E3\u30F3\u30BB\u30EB\u53F3"
+    100180: "!joint_\u8170\u30AD\u30E3\u30F3\u30BB\u30EB\u5DE6"
+    100182: "!joint_\u982D\u5148"
+    100184: "!joint_\u9AEA_5_1"
+    100186: '!Root'
+    100188: ".joint_\u30BB\u30F3\u30BF\u30FC"
+    100190: Arm_L_Clavicle_FK_ctrl
+    100192: Arm_L_Clavicle_FK_hlp
+    100194: Arm_L_Forearm_FK_ctrl
+    100196: Arm_L_Forearm_FK_hlp
+    100198: Arm_L_IK_ctrl
+    100200: Arm_L_IKGoal
+    100202: Arm_L_UpperArm_FK_ctrl
+    100204: Arm_L_UpperArm_FK_hlp
+    100206: Arm_L_Wrist_FK_ctrl
+    100208: Arm_L_Wrist_FK_hlp
+    100210: Arm_L_Wrist_IK_hlp
+    100212: Arm_R_Clavicle_FK_ctrl
+    100214: Arm_R_Clavicle_FK_hlp
+    100216: Arm_R_Forearm_FK_ctrl
+    100218: Arm_R_Forearm_FK_hlp
+    100220: Arm_R_IK_ctrl
+    100222: Arm_R_IKGoal
+    100224: Arm_R_UpperArm_FK_ctrl
+    100226: Arm_R_UpperArm_FK_hlp
+    100228: Arm_R_Wrist_FK_ctrl
+    100230: Arm_R_Wrist_FK_hlp
+    100232: Arm_R_Wrist_IK_hlp
+    100234: COM_ctrl
+    100236: Hand_L_Index_ctrl
+    100238: Hand_L_Index_hlp
+    100240: Hand_L_Middle_ctrl
+    100242: Hand_L_Middle_hlp
+    100244: Hand_L_Pinky_ctrl
+    100246: Hand_L_Pinky_hlp
+    100248: Hand_L_Ring_ctrl
+    100250: Hand_L_Ring_hlp
+    100252: Hand_L_Thumb_ctrl
+    100254: Hand_L_Thumb_hlp
+    100256: Hand_R_Index_ctrl
+    100258: Hand_R_Index_hlp
+    100260: Hand_R_Middle_ctrl
+    100262: Hand_R_Middle_hlp
+    100264: Hand_R_Pinky_ctrl
+    100266: Hand_R_Pinky_hlp
+    100268: Hand_R_Ring_ctrl
+    100270: Hand_R_Ring_hlp
+    100272: Hand_R_Thumb_ctrl
+    100274: Hand_R_Thumb_hlp
+    100276: Head_ctrl
+    100278: Hip_ctrl
+    100280: "joint_\u30B9\u30AB\u30FC\u30C82_0_1"
+    100282: "joint_\u30B9\u30AB\u30FC\u30C82_0_2"
+    100284: "joint_\u30B9\u30AB\u30FC\u30C82_1_1"
+    100286: "joint_\u30B9\u30AB\u30FC\u30C82_1_2"
+    100288: "joint_\u30B9\u30AB\u30FC\u30C82_2_1"
+    100290: "joint_\u30B9\u30AB\u30FC\u30C82_2_2"
+    100292: "joint_\u30B9\u30AB\u30FC\u30C82_3_1"
+    100294: "joint_\u30B9\u30AB\u30FC\u30C82_3_2"
+    100296: "joint_\u30B9\u30AB\u30FC\u30C82_4_1"
+    100298: "joint_\u30B9\u30AB\u30FC\u30C82_4_2"
+    100300: "joint_\u30B9\u30AB\u30FC\u30C82_5_1"
+    100302: "joint_\u30B9\u30AB\u30FC\u30C82_5_2"
+    100304: "joint_\u30B9\u30AB\u30FC\u30C82_6_1"
+    100306: "joint_\u30B9\u30AB\u30FC\u30C82_6_2"
+    100308: "joint_\u30B9\u30AB\u30FC\u30C8_0_0"
+    100310: "joint_\u30B9\u30AB\u30FC\u30C8_0_1"
+    100312: "joint_\u30B9\u30AB\u30FC\u30C8_0_10"
+    100314: "joint_\u30B9\u30AB\u30FC\u30C8_0_2"
+    100316: "joint_\u30B9\u30AB\u30FC\u30C8_0_3"
+    100318: "joint_\u30B9\u30AB\u30FC\u30C8_0_4"
+    100320: "joint_\u30B9\u30AB\u30FC\u30C8_0_5"
+    100322: "joint_\u30B9\u30AB\u30FC\u30C8_0_6"
+    100324: "joint_\u30B9\u30AB\u30FC\u30C8_0_7"
+    100326: "joint_\u30B9\u30AB\u30FC\u30C8_0_8"
+    100328: "joint_\u30B9\u30AB\u30FC\u30C8_0_9"
+    100330: "joint_\u30B9\u30AB\u30FC\u30C8_1_0"
+    100332: "joint_\u30B9\u30AB\u30FC\u30C8_1_1"
+    100334: "joint_\u30B9\u30AB\u30FC\u30C8_1_10"
+    100336: "joint_\u30B9\u30AB\u30FC\u30C8_1_2"
+    100338: "joint_\u30B9\u30AB\u30FC\u30C8_1_3"
+    100340: "joint_\u30B9\u30AB\u30FC\u30C8_1_4"
+    100342: "joint_\u30B9\u30AB\u30FC\u30C8_1_5"
+    100344: "joint_\u30B9\u30AB\u30FC\u30C8_1_6"
+    100346: "joint_\u30B9\u30AB\u30FC\u30C8_1_7"
+    100348: "joint_\u30B9\u30AB\u30FC\u30C8_1_8"
+    100350: "joint_\u30B9\u30AB\u30FC\u30C8_1_9"
+    100352: "joint_\u30B9\u30AB\u30FC\u30C8_2_0"
+    100354: "joint_\u30B9\u30AB\u30FC\u30C8_2_1"
+    100356: "joint_\u30B9\u30AB\u30FC\u30C8_2_10"
+    100358: "joint_\u30B9\u30AB\u30FC\u30C8_2_2"
+    100360: "joint_\u30B9\u30AB\u30FC\u30C8_2_3"
+    100362: "joint_\u30B9\u30AB\u30FC\u30C8_2_4"
+    100364: "joint_\u30B9\u30AB\u30FC\u30C8_2_5"
+    100366: "joint_\u30B9\u30AB\u30FC\u30C8_2_6"
+    100368: "joint_\u30B9\u30AB\u30FC\u30C8_2_7"
+    100370: "joint_\u30B9\u30AB\u30FC\u30C8_2_8"
+    100372: "joint_\u30B9\u30AB\u30FC\u30C8_2_9"
+    100374: "joint_\u30B9\u30AB\u30FC\u30C8_3_3"
+    100376: "joint_\u30B9\u30AB\u30FC\u30C8_3_4"
+    100378: "joint_\u30B9\u30AB\u30FC\u30C8_3_5"
+    100380: "joint_\u30B9\u30AB\u30FC\u30C8_3_6"
+    100382: "joint_\u30B9\u30AB\u30FC\u30C8_3_7"
+    100384: "joint_\u30B9\u30AB\u30FC\u30C8_3_8"
+    100386: "joint_\u30B9\u30AB\u30FC\u30C8_4_0"
+    100388: "joint_\u30B9\u30AB\u30FC\u30C8_4_1"
+    100390: "joint_\u30B9\u30AB\u30FC\u30C8_4_10"
+    100392: "joint_\u30B9\u30AB\u30FC\u30C8_4_2"
+    100394: "joint_\u30B9\u30AB\u30FC\u30C8_4_3"
+    100396: "joint_\u30B9\u30AB\u30FC\u30C8_4_4"
+    100398: "joint_\u30B9\u30AB\u30FC\u30C8_4_5"
+    100400: "joint_\u30B9\u30AB\u30FC\u30C8_4_6"
+    100402: "joint_\u30B9\u30AB\u30FC\u30C8_4_7"
+    100404: "joint_\u30B9\u30AB\u30FC\u30C8_4_8"
+    100406: "joint_\u30B9\u30AB\u30FC\u30C8_4_9"
+    100408: "joint_\u4E0A\u534A\u8EAB"
+    100410: "joint_\u4E0A\u534A\u8EAB2"
+    100412: "joint_\u4E0B\u534A\u8EAB"
+    100414: "joint_\u53F3\u3072\u3056"
+    100416: "joint_\u53F3\u3072\u3056__IK_bone"
+    100418: "joint_\u53F3\u3072\u3058"
+    100420: "joint_\u53F3\u3072\u3058_FK"
+    100422: "joint_\u53F3\u3072\u3058_IK"
+    100424: "joint_\u53F3\u30B9\u30AB\u30FC\u30C83_0_0"
+    100426: "joint_\u53F3\u30B9\u30AB\u30FC\u30C83_0_1"
+    100428: "joint_\u53F3\u30B9\u30AB\u30FC\u30C83_1_0"
+    100430: "joint_\u53F3\u30B9\u30AB\u30FC\u30C83_1_1"
+    100432: "joint_\u53F3\u30B9\u30AB\u30FC\u30C83_1_2"
+    100434: "joint_\u53F3\u30B9\u30AB\u30FC\u30C83_2_0"
+    100436: "joint_\u53F3\u30B9\u30AB\u30FC\u30C83_2_1"
+    100438: "joint_\u53F3\u30B9\u30AB\u30FC\u30C83_2_2"
+    100440: "joint_\u53F3\u30B9\u30AB\u30FC\u30C83_3_0"
+    100442: "joint_\u53F3\u30B9\u30AB\u30FC\u30C83_3_1"
+    100444: "joint_\u53F3\u30B9\u30AB\u30FC\u30C83_3_2"
+    100446: "joint_\u53F3\u30B9\u30AB\u30FC\u30C83_4_0"
+    100448: "joint_\u53F3\u30B9\u30AB\u30FC\u30C83_4_1"
+    100450: "joint_\u53F3\u30B9\u30AB\u30FC\u30C83_4_2"
+    100452: "joint_\u53F3\u30B9\u30AB\u30FC\u30C83_5_0"
+    100454: "joint_\u53F3\u30B9\u30AB\u30FC\u30C83_5_1"
+    100456: "joint_\u53F3\u30B9\u30AB\u30FC\u30C83_5_2"
+    100458: "joint_\u53F3\u30B9\u30AB\u30FC\u30C83_6_0"
+    100460: "joint_\u53F3\u30B9\u30AB\u30FC\u30C83_6_1"
+    100462: "joint_\u53F3\u30B9\u30AB\u30FC\u30C83_6_2"
+    100464: "joint_\u53F3\u4E0A\u534A\u8EAB2_0_1"
+    100466: "joint_\u53F3\u4E0A\u534A\u8EAB2_1_1"
+    100468: "joint_\u53F3\u4E2D\u6307\uFF11"
+    100470: "joint_\u53F3\u4E2D\u6307\uFF12"
+    100472: "joint_\u53F3\u4E2D\u6307\uFF13"
+    100474: "joint_\u53F3\u4EBA\u6307\uFF11"
+    100476: "joint_\u53F3\u4EBA\u6307\uFF12"
+    100478: "joint_\u53F3\u4EBA\u6307\uFF13"
+    100480: "joint_\u53F3\u5C0F\u6307\uFF11"
+    100482: "joint_\u53F3\u5C0F\u6307\uFF12"
+    100484: "joint_\u53F3\u5C0F\u6307\uFF13"
+    100486: "joint_\u53F3\u624B\u63691"
+    100488: "joint_\u53F3\u624B\u63692"
+    100490: "joint_\u53F3\u624B\u63693"
+    100492: "joint_\u53F3\u624B\u9996"
+    100494: "joint_\u53F3\u624B\u9996_FK"
+    100496: "joint_\u53F3\u624B\u9996_IK"
+    100498: "joint_\u53F3\u76EE"
+    100500: "joint_\u53F3\u80A9"
+    100502: "joint_\u53F3\u8155"
+    100504: "joint_\u53F3\u8155_FK"
+    100506: "joint_\u53F3\u8155_IK"
+    100508: "joint_\u53F3\u8155\u63691"
+    100510: "joint_\u53F3\u8155\u63692"
+    100512: "joint_\u53F3\u8155\u63693"
+    100514: "joint_\u53F3\u85AC\u6307\uFF11"
+    100516: "joint_\u53F3\u85AC\u6307\uFF12"
+    100518: "joint_\u53F3\u85AC\u6307\uFF13"
+    100520: "joint_\u53F3\u89AA\u6307\uFF10"
+    100522: "joint_\u53F3\u89AA\u6307\uFF11"
+    100524: "joint_\u53F3\u89AA\u6307\uFF12"
+    100526: "joint_\u53F3\u8DB3"
+    100528: "joint_\u53F3\u8DB3__IK_bone"
+    100530: "joint_\u53F3\u8DB3\u9996"
+    100532: "joint_\u53F3\u8DB3\u9996__IK_bone"
+    100534: "joint_\u53F3\u9AEA2_0_1"
+    100536: "joint_\u53F3\u9AEA2_1_1"
+    100538: "joint_\u53F3\u9AEA2_2_1"
+    100540: "joint_\u53F3\u9AEA3_0_1"
+    100542: "joint_\u53F3\u9AEA3_1_1"
+    100544: "joint_\u53F3\u9AEA3_2_1"
+    100546: "joint_\u53F3\u9AEA3_3_1"
+    100548: "joint_\u53F3\u9AEA3_4_1"
+    100550: "joint_\u53F3\u9AEA_0_1"
+    100552: "joint_\u53F3\u9AEA_1_1"
+    100554: "joint_\u53F3\u9AEA_2_1"
+    100556: "joint_\u5DE6\u3072\u3056"
+    100558: "joint_\u5DE6\u3072\u3056__IK_bone"
+    100560: "joint_\u5DE6\u3072\u3058"
+    100562: "joint_\u5DE6\u3072\u3058_FK"
+    100564: "joint_\u5DE6\u3072\u3058_IK"
+    100566: "joint_\u5DE6\u30B9\u30AB\u30FC\u30C83_0_0"
+    100568: "joint_\u5DE6\u30B9\u30AB\u30FC\u30C83_0_1"
+    100570: "joint_\u5DE6\u30B9\u30AB\u30FC\u30C83_1_0"
+    100572: "joint_\u5DE6\u30B9\u30AB\u30FC\u30C83_1_1"
+    100574: "joint_\u5DE6\u30B9\u30AB\u30FC\u30C83_1_2"
+    100576: "joint_\u5DE6\u30B9\u30AB\u30FC\u30C83_2_0"
+    100578: "joint_\u5DE6\u30B9\u30AB\u30FC\u30C83_2_1"
+    100580: "joint_\u5DE6\u30B9\u30AB\u30FC\u30C83_2_2"
+    100582: "joint_\u5DE6\u30B9\u30AB\u30FC\u30C83_3_0"
+    100584: "joint_\u5DE6\u30B9\u30AB\u30FC\u30C83_3_1"
+    100586: "joint_\u5DE6\u30B9\u30AB\u30FC\u30C83_3_2"
+    100588: "joint_\u5DE6\u30B9\u30AB\u30FC\u30C83_4_0"
+    100590: "joint_\u5DE6\u30B9\u30AB\u30FC\u30C83_4_1"
+    100592: "joint_\u5DE6\u30B9\u30AB\u30FC\u30C83_4_2"
+    100594: "joint_\u5DE6\u30B9\u30AB\u30FC\u30C83_5_0"
+    100596: "joint_\u5DE6\u30B9\u30AB\u30FC\u30C83_5_1"
+    100598: "joint_\u5DE6\u30B9\u30AB\u30FC\u30C83_5_2"
+    100600: "joint_\u5DE6\u30B9\u30AB\u30FC\u30C83_6_0"
+    100602: "joint_\u5DE6\u30B9\u30AB\u30FC\u30C83_6_1"
+    100604: "joint_\u5DE6\u30B9\u30AB\u30FC\u30C83_6_2"
+    100606: "joint_\u5DE6\u4E0A\u534A\u8EAB2_0_1"
+    100608: "joint_\u5DE6\u4E0A\u534A\u8EAB2_1_1"
+    100610: "joint_\u5DE6\u4E2D\u6307\uFF11"
+    100612: "joint_\u5DE6\u4E2D\u6307\uFF12"
+    100614: "joint_\u5DE6\u4E2D\u6307\uFF13"
+    100616: "joint_\u5DE6\u4EBA\u6307\uFF11"
+    100618: "joint_\u5DE6\u4EBA\u6307\uFF12"
+    100620: "joint_\u5DE6\u4EBA\u6307\uFF13"
+    100622: "joint_\u5DE6\u5C0F\u6307\uFF11"
+    100624: "joint_\u5DE6\u5C0F\u6307\uFF12"
+    100626: "joint_\u5DE6\u5C0F\u6307\uFF13"
+    100628: "joint_\u5DE6\u624B\u63691"
+    100630: "joint_\u5DE6\u624B\u63692"
+    100632: "joint_\u5DE6\u624B\u63693"
+    100634: "joint_\u5DE6\u624B\u9996"
+    100636: "joint_\u5DE6\u624B\u9996_FK"
+    100638: "joint_\u5DE6\u624B\u9996_IK"
+    100640: "joint_\u5DE6\u76EE"
+    100642: "joint_\u5DE6\u80A9"
+    100644: "joint_\u5DE6\u8155"
+    100646: "joint_\u5DE6\u8155_FK"
+    100648: "joint_\u5DE6\u8155_IK"
+    100650: "joint_\u5DE6\u8155\u63691"
+    100652: "joint_\u5DE6\u8155\u63692"
+    100654: "joint_\u5DE6\u8155\u63693"
+    100656: "joint_\u5DE6\u85AC\u6307\uFF11"
+    100658: "joint_\u5DE6\u85AC\u6307\uFF12"
+    100660: "joint_\u5DE6\u85AC\u6307\uFF13"
+    100662: "joint_\u5DE6\u89AA\u6307\uFF10"
+    100664: "joint_\u5DE6\u89AA\u6307\uFF11"
+    100666: "joint_\u5DE6\u89AA\u6307\uFF12"
+    100668: "joint_\u5DE6\u8DB3"
+    100670: "joint_\u5DE6\u8DB3__IK_bone"
+    100672: "joint_\u5DE6\u8DB3\u9996"
+    100674: "joint_\u5DE6\u8DB3\u9996__IK_bone"
+    100676: "joint_\u5DE6\u9AEA2_0_1"
+    100678: "joint_\u5DE6\u9AEA2_1_1"
+    100680: "joint_\u5DE6\u9AEA2_2_1"
+    100682: "joint_\u5DE6\u9AEA3_0_1"
+    100684: "joint_\u5DE6\u9AEA3_1_1"
+    100686: "joint_\u5DE6\u9AEA3_2_1"
+    100688: "joint_\u5DE6\u9AEA3_3_1"
+    100690: "joint_\u5DE6\u9AEA3_4_1"
+    100692: "joint_\u5DE6\u9AEA_0_1"
+    100694: "joint_\u5DE6\u9AEA_1_1"
+    100696: "joint_\u5DE6\u9AEA_2_1"
+    100698: "joint_\u982D"
+    100700: "joint_\u9996"
+    100702: "joint_\u9AEA_0_1"
+    100704: "joint_\u9AEA_1_1"
+    100706: "joint_\u9AEA_2_1"
+    100708: "joint_\u9AEA_3_1"
+    100710: "joint_\u9AEA_4_1"
+    100712: Leg_L_Heel_hlp
+    100714: Leg_L_Toe_hlp
+    100716: Leg_L_ToeLift_hlp
+    100718: Leg_R_Heel_hlp
+    100720: Leg_R_Toe_hlp
+    100722: Leg_R_ToeLift_hlp
+    100724: m_Armor_Head
+    100726: m_Armor_Head 1
+    100728: m_Armor_MainBody01
+    100730: m_Armor_Skirt1
+    100732: m_Sword1
+    100734: m_Sword2
+    100736: Main_ctrl
+    100738: mord_Leg_L_Foot_IKGoal
+    100740: mord_Leg_L_IK_ctrl
+    100742: mord_Leg_L_Toe_IKGoal
+    100744: mord_Leg_R_Foot_IKGoal
+    100746: mord_Leg_R_IK_ctrl
+    100748: mord_Leg_R_Toe_IKGoal
+    100750: //RootNode
+    100752: Neck_ctrl
+    100754: Point001
+    100756: Point002
+    100758: rec_ik l hand bindpose
+    100760: rec_ik l hand idle
+    100762: rec_weapon bindpose
+    100764: rec_weapon idlepos
+    100766: Spine_ctrl
+    400000: '!joint_LeftThumb0M'
+    400002: '!joint_RightThumb0M'
+    400004: "!joint_\u30B0\u30EB\u30FC\u30D6"
+    400006: "!joint_\u30B0\u30EB\u30FC\u30D6\u5148"
+    400008: "!joint_\u30B9\u30AB\u30FC\u30C82_7_1"
+    400010: "!joint_\u30B9\u30AB\u30FC\u30C82_7_2"
+    400012: "!joint_\u30B9\u30AB\u30FC\u30C8_3_0"
+    400014: "!joint_\u30B9\u30AB\u30FC\u30C8_3_1"
+    400016: "!joint_\u30B9\u30AB\u30FC\u30C8_3_10"
+    400018: "!joint_\u30B9\u30AB\u30FC\u30C8_3_2"
+    400020: "!joint_\u30B9\u30AB\u30FC\u30C8_3_9"
+    400022: "!joint_\u30B9\u30AB\u30FC\u30C8_5_0"
+    400024: "!joint_\u30B9\u30AB\u30FC\u30C8_5_1"
+    400026: "!joint_\u30B9\u30AB\u30FC\u30C8_5_10"
+    400028: "!joint_\u30B9\u30AB\u30FC\u30C8_5_2"
+    400030: "!joint_\u30B9\u30AB\u30FC\u30C8_5_3"
+    400032: "!joint_\u30B9\u30AB\u30FC\u30C8_5_4"
+    400034: "!joint_\u30B9\u30AB\u30FC\u30C8_5_5"
+    400036: "!joint_\u30B9\u30AB\u30FC\u30C8_5_6"
+    400038: "!joint_\u30B9\u30AB\u30FC\u30C8_5_7"
+    400040: "!joint_\u30B9\u30AB\u30FC\u30C8_5_8"
+    400042: "!joint_\u30B9\u30AB\u30FC\u30C8_5_9"
+    400044: "!joint_\u30BB\u30F3\u30BF\u30FC"
+    400046: "!joint_\u30BB\u30F3\u30BF\u30FC\u5148"
+    400048: "!joint_\u4E0A\u534A\u8EAB2\u5148"
+    400050: "!joint_\u4E0B\u534A\u8EAB\u5148"
+    400052: "!joint_\u4E21\u76EE"
+    400054: "!joint_\u4E21\u76EE\u5148"
+    400056: "!joint_\u5168\u3066\u306E\u89AA"
+    400058: "!joint_\u53F3\u3064\u307E\u5148"
+    400060: "!joint_\u53F3\u3072\u3056D"
+    400062: "!joint_\u53F3\u30B9\u30AB\u30FC\u30C83_0_2"
+    400064: "!joint_\u53F3\u30B9\u30AB\u30FC\u30C83_7_0"
+    400066: "!joint_\u53F3\u30B9\u30AB\u30FC\u30C83_7_1"
+    400068: "!joint_\u53F3\u30B9\u30AB\u30FC\u30C83_7_2"
+    400070: "!joint_\u53F3\u30C0\u30DF\u30FC"
+    400072: "!joint_\u53F3\u4E0A\u534A\u8EAB2_2_1"
+    400074: "!joint_\u53F3\u4E2D\u6307\u5148"
+    400076: "!joint_\u53F3\u4EBA\u6307\u5148"
+    400078: "!joint_\u53F3\u5C0F\u6307\u5148"
+    400080: "!joint_\u53F3\u624B\u5148"
+    400082: "!joint_\u53F3\u624B\u6369"
+    400084: "!joint_\u53F3\u624B\u6369\u8EF8"
+    400086: "!joint_\u53F3\u76EE\u5148"
+    400088: "!joint_\u53F3\u80A9C"
+    400090: "!joint_\u53F3\u80A9P"
+    400092: "!joint_\u53F3\u80A9\u8896\u5148"
+    400094: "!joint_\u53F3\u8155\u6369"
+    400096: "!joint_\u53F3\u8155\u6369\u8EF8"
+    400098: "!joint_\u53F3\u8155\u8896"
+    400100: "!joint_\u53F3\u85AC\u6307\u5148"
+    400102: "!joint_\u53F3\u89AA\u6307\u5148"
+    400104: "!joint_\u53F3\u8DB3D"
+    400106: "!joint_\u53F3\u8DB3\u5148EX"
+    400108: "!joint_\u53F3\u8DB3\u9996D"
+    400110: "!joint_\u53F3\u9AEA2_3_1"
+    400112: "!joint_\u53F3\u9AEA3_5_1"
+    400114: "!joint_\u53F3\u9AEA_3_1"
+    400116: "!joint_\u5DE6\u3064\u307E\u5148"
+    400118: "!joint_\u5DE6\u3072\u3056D"
+    400120: "!joint_\u5DE6\u30B9\u30AB\u30FC\u30C83_0_2"
+    400122: "!joint_\u5DE6\u30B9\u30AB\u30FC\u30C83_7_0"
+    400124: "!joint_\u5DE6\u30B9\u30AB\u30FC\u30C83_7_1"
+    400126: "!joint_\u5DE6\u30B9\u30AB\u30FC\u30C83_7_2"
+    400128: "!joint_\u5DE6\u30C0\u30DF\u30FC"
+    400130: "!joint_\u5DE6\u4E0A\u534A\u8EAB2_2_1"
+    400132: "!joint_\u5DE6\u4E2D\u6307\u5148"
+    400134: "!joint_\u5DE6\u4EBA\u6307\u5148"
+    400136: "!joint_\u5DE6\u5C0F\u6307\u5148"
+    400138: "!joint_\u5DE6\u624B\u5148"
+    400140: "!joint_\u5DE6\u624B\u6369"
+    400142: "!joint_\u5DE6\u624B\u6369\u8EF8"
+    400144: "!joint_\u5DE6\u76EE\u5148"
+    400146: "!joint_\u5DE6\u80A9C"
+    400148: "!joint_\u5DE6\u80A9P"
+    400150: "!joint_\u5DE6\u80A9\u8896\u5148"
+    400152: "!joint_\u5DE6\u8155\u6369"
+    400154: "!joint_\u5DE6\u8155\u6369\u8EF8"
+    400156: "!joint_\u5DE6\u8155\u8896"
+    400158: "!joint_\u5DE6\u85AC\u6307\u5148"
+    400160: "!joint_\u5DE6\u89AA\u6307\u5148"
+    400162: "!joint_\u5DE6\u8DB3D"
+    400164: "!joint_\u5DE6\u8DB3\u5148EX"
+    400166: "!joint_\u5DE6\u8DB3\u9996D"
+    400168: "!joint_\u5DE6\u9AEA2_3_1"
+    400170: "!joint_\u5DE6\u9AEA3_5_1"
+    400172: "!joint_\u5DE6\u9AEA_3_1"
+    400174: "!joint_\u64CD\u4F5C\u4E2D\u5FC3"
+    400176: "!joint_\u8170"
+    400178: "!joint_\u8170\u30AD\u30E3\u30F3\u30BB\u30EB\u53F3"
+    400180: "!joint_\u8170\u30AD\u30E3\u30F3\u30BB\u30EB\u5DE6"
+    400182: "!joint_\u982D\u5148"
+    400184: "!joint_\u9AEA_5_1"
+    400186: '!Root'
+    400188: ".joint_\u30BB\u30F3\u30BF\u30FC"
+    400190: Arm_L_Clavicle_FK_ctrl
+    400192: Arm_L_Clavicle_FK_hlp
+    400194: Arm_L_Forearm_FK_ctrl
+    400196: Arm_L_Forearm_FK_hlp
+    400198: Arm_L_IK_ctrl
+    400200: Arm_L_IKGoal
+    400202: Arm_L_UpperArm_FK_ctrl
+    400204: Arm_L_UpperArm_FK_hlp
+    400206: Arm_L_Wrist_FK_ctrl
+    400208: Arm_L_Wrist_FK_hlp
+    400210: Arm_L_Wrist_IK_hlp
+    400212: Arm_R_Clavicle_FK_ctrl
+    400214: Arm_R_Clavicle_FK_hlp
+    400216: Arm_R_Forearm_FK_ctrl
+    400218: Arm_R_Forearm_FK_hlp
+    400220: Arm_R_IK_ctrl
+    400222: Arm_R_IKGoal
+    400224: Arm_R_UpperArm_FK_ctrl
+    400226: Arm_R_UpperArm_FK_hlp
+    400228: Arm_R_Wrist_FK_ctrl
+    400230: Arm_R_Wrist_FK_hlp
+    400232: Arm_R_Wrist_IK_hlp
+    400234: COM_ctrl
+    400236: Hand_L_Index_ctrl
+    400238: Hand_L_Index_hlp
+    400240: Hand_L_Middle_ctrl
+    400242: Hand_L_Middle_hlp
+    400244: Hand_L_Pinky_ctrl
+    400246: Hand_L_Pinky_hlp
+    400248: Hand_L_Ring_ctrl
+    400250: Hand_L_Ring_hlp
+    400252: Hand_L_Thumb_ctrl
+    400254: Hand_L_Thumb_hlp
+    400256: Hand_R_Index_ctrl
+    400258: Hand_R_Index_hlp
+    400260: Hand_R_Middle_ctrl
+    400262: Hand_R_Middle_hlp
+    400264: Hand_R_Pinky_ctrl
+    400266: Hand_R_Pinky_hlp
+    400268: Hand_R_Ring_ctrl
+    400270: Hand_R_Ring_hlp
+    400272: Hand_R_Thumb_ctrl
+    400274: Hand_R_Thumb_hlp
+    400276: Head_ctrl
+    400278: Hip_ctrl
+    400280: "joint_\u30B9\u30AB\u30FC\u30C82_0_1"
+    400282: "joint_\u30B9\u30AB\u30FC\u30C82_0_2"
+    400284: "joint_\u30B9\u30AB\u30FC\u30C82_1_1"
+    400286: "joint_\u30B9\u30AB\u30FC\u30C82_1_2"
+    400288: "joint_\u30B9\u30AB\u30FC\u30C82_2_1"
+    400290: "joint_\u30B9\u30AB\u30FC\u30C82_2_2"
+    400292: "joint_\u30B9\u30AB\u30FC\u30C82_3_1"
+    400294: "joint_\u30B9\u30AB\u30FC\u30C82_3_2"
+    400296: "joint_\u30B9\u30AB\u30FC\u30C82_4_1"
+    400298: "joint_\u30B9\u30AB\u30FC\u30C82_4_2"
+    400300: "joint_\u30B9\u30AB\u30FC\u30C82_5_1"
+    400302: "joint_\u30B9\u30AB\u30FC\u30C82_5_2"
+    400304: "joint_\u30B9\u30AB\u30FC\u30C82_6_1"
+    400306: "joint_\u30B9\u30AB\u30FC\u30C82_6_2"
+    400308: "joint_\u30B9\u30AB\u30FC\u30C8_0_0"
+    400310: "joint_\u30B9\u30AB\u30FC\u30C8_0_1"
+    400312: "joint_\u30B9\u30AB\u30FC\u30C8_0_10"
+    400314: "joint_\u30B9\u30AB\u30FC\u30C8_0_2"
+    400316: "joint_\u30B9\u30AB\u30FC\u30C8_0_3"
+    400318: "joint_\u30B9\u30AB\u30FC\u30C8_0_4"
+    400320: "joint_\u30B9\u30AB\u30FC\u30C8_0_5"
+    400322: "joint_\u30B9\u30AB\u30FC\u30C8_0_6"
+    400324: "joint_\u30B9\u30AB\u30FC\u30C8_0_7"
+    400326: "joint_\u30B9\u30AB\u30FC\u30C8_0_8"
+    400328: "joint_\u30B9\u30AB\u30FC\u30C8_0_9"
+    400330: "joint_\u30B9\u30AB\u30FC\u30C8_1_0"
+    400332: "joint_\u30B9\u30AB\u30FC\u30C8_1_1"
+    400334: "joint_\u30B9\u30AB\u30FC\u30C8_1_10"
+    400336: "joint_\u30B9\u30AB\u30FC\u30C8_1_2"
+    400338: "joint_\u30B9\u30AB\u30FC\u30C8_1_3"
+    400340: "joint_\u30B9\u30AB\u30FC\u30C8_1_4"
+    400342: "joint_\u30B9\u30AB\u30FC\u30C8_1_5"
+    400344: "joint_\u30B9\u30AB\u30FC\u30C8_1_6"
+    400346: "joint_\u30B9\u30AB\u30FC\u30C8_1_7"
+    400348: "joint_\u30B9\u30AB\u30FC\u30C8_1_8"
+    400350: "joint_\u30B9\u30AB\u30FC\u30C8_1_9"
+    400352: "joint_\u30B9\u30AB\u30FC\u30C8_2_0"
+    400354: "joint_\u30B9\u30AB\u30FC\u30C8_2_1"
+    400356: "joint_\u30B9\u30AB\u30FC\u30C8_2_10"
+    400358: "joint_\u30B9\u30AB\u30FC\u30C8_2_2"
+    400360: "joint_\u30B9\u30AB\u30FC\u30C8_2_3"
+    400362: "joint_\u30B9\u30AB\u30FC\u30C8_2_4"
+    400364: "joint_\u30B9\u30AB\u30FC\u30C8_2_5"
+    400366: "joint_\u30B9\u30AB\u30FC\u30C8_2_6"
+    400368: "joint_\u30B9\u30AB\u30FC\u30C8_2_7"
+    400370: "joint_\u30B9\u30AB\u30FC\u30C8_2_8"
+    400372: "joint_\u30B9\u30AB\u30FC\u30C8_2_9"
+    400374: "joint_\u30B9\u30AB\u30FC\u30C8_3_3"
+    400376: "joint_\u30B9\u30AB\u30FC\u30C8_3_4"
+    400378: "joint_\u30B9\u30AB\u30FC\u30C8_3_5"
+    400380: "joint_\u30B9\u30AB\u30FC\u30C8_3_6"
+    400382: "joint_\u30B9\u30AB\u30FC\u30C8_3_7"
+    400384: "joint_\u30B9\u30AB\u30FC\u30C8_3_8"
+    400386: "joint_\u30B9\u30AB\u30FC\u30C8_4_0"
+    400388: "joint_\u30B9\u30AB\u30FC\u30C8_4_1"
+    400390: "joint_\u30B9\u30AB\u30FC\u30C8_4_10"
+    400392: "joint_\u30B9\u30AB\u30FC\u30C8_4_2"
+    400394: "joint_\u30B9\u30AB\u30FC\u30C8_4_3"
+    400396: "joint_\u30B9\u30AB\u30FC\u30C8_4_4"
+    400398: "joint_\u30B9\u30AB\u30FC\u30C8_4_5"
+    400400: "joint_\u30B9\u30AB\u30FC\u30C8_4_6"
+    400402: "joint_\u30B9\u30AB\u30FC\u30C8_4_7"
+    400404: "joint_\u30B9\u30AB\u30FC\u30C8_4_8"
+    400406: "joint_\u30B9\u30AB\u30FC\u30C8_4_9"
+    400408: "joint_\u4E0A\u534A\u8EAB"
+    400410: "joint_\u4E0A\u534A\u8EAB2"
+    400412: "joint_\u4E0B\u534A\u8EAB"
+    400414: "joint_\u53F3\u3072\u3056"
+    400416: "joint_\u53F3\u3072\u3056__IK_bone"
+    400418: "joint_\u53F3\u3072\u3058"
+    400420: "joint_\u53F3\u3072\u3058_FK"
+    400422: "joint_\u53F3\u3072\u3058_IK"
+    400424: "joint_\u53F3\u30B9\u30AB\u30FC\u30C83_0_0"
+    400426: "joint_\u53F3\u30B9\u30AB\u30FC\u30C83_0_1"
+    400428: "joint_\u53F3\u30B9\u30AB\u30FC\u30C83_1_0"
+    400430: "joint_\u53F3\u30B9\u30AB\u30FC\u30C83_1_1"
+    400432: "joint_\u53F3\u30B9\u30AB\u30FC\u30C83_1_2"
+    400434: "joint_\u53F3\u30B9\u30AB\u30FC\u30C83_2_0"
+    400436: "joint_\u53F3\u30B9\u30AB\u30FC\u30C83_2_1"
+    400438: "joint_\u53F3\u30B9\u30AB\u30FC\u30C83_2_2"
+    400440: "joint_\u53F3\u30B9\u30AB\u30FC\u30C83_3_0"
+    400442: "joint_\u53F3\u30B9\u30AB\u30FC\u30C83_3_1"
+    400444: "joint_\u53F3\u30B9\u30AB\u30FC\u30C83_3_2"
+    400446: "joint_\u53F3\u30B9\u30AB\u30FC\u30C83_4_0"
+    400448: "joint_\u53F3\u30B9\u30AB\u30FC\u30C83_4_1"
+    400450: "joint_\u53F3\u30B9\u30AB\u30FC\u30C83_4_2"
+    400452: "joint_\u53F3\u30B9\u30AB\u30FC\u30C83_5_0"
+    400454: "joint_\u53F3\u30B9\u30AB\u30FC\u30C83_5_1"
+    400456: "joint_\u53F3\u30B9\u30AB\u30FC\u30C83_5_2"
+    400458: "joint_\u53F3\u30B9\u30AB\u30FC\u30C83_6_0"
+    400460: "joint_\u53F3\u30B9\u30AB\u30FC\u30C83_6_1"
+    400462: "joint_\u53F3\u30B9\u30AB\u30FC\u30C83_6_2"
+    400464: "joint_\u53F3\u4E0A\u534A\u8EAB2_0_1"
+    400466: "joint_\u53F3\u4E0A\u534A\u8EAB2_1_1"
+    400468: "joint_\u53F3\u4E2D\u6307\uFF11"
+    400470: "joint_\u53F3\u4E2D\u6307\uFF12"
+    400472: "joint_\u53F3\u4E2D\u6307\uFF13"
+    400474: "joint_\u53F3\u4EBA\u6307\uFF11"
+    400476: "joint_\u53F3\u4EBA\u6307\uFF12"
+    400478: "joint_\u53F3\u4EBA\u6307\uFF13"
+    400480: "joint_\u53F3\u5C0F\u6307\uFF11"
+    400482: "joint_\u53F3\u5C0F\u6307\uFF12"
+    400484: "joint_\u53F3\u5C0F\u6307\uFF13"
+    400486: "joint_\u53F3\u624B\u63691"
+    400488: "joint_\u53F3\u624B\u63692"
+    400490: "joint_\u53F3\u624B\u63693"
+    400492: "joint_\u53F3\u624B\u9996"
+    400494: "joint_\u53F3\u624B\u9996_FK"
+    400496: "joint_\u53F3\u624B\u9996_IK"
+    400498: "joint_\u53F3\u76EE"
+    400500: "joint_\u53F3\u80A9"
+    400502: "joint_\u53F3\u8155"
+    400504: "joint_\u53F3\u8155_FK"
+    400506: "joint_\u53F3\u8155_IK"
+    400508: "joint_\u53F3\u8155\u63691"
+    400510: "joint_\u53F3\u8155\u63692"
+    400512: "joint_\u53F3\u8155\u63693"
+    400514: "joint_\u53F3\u85AC\u6307\uFF11"
+    400516: "joint_\u53F3\u85AC\u6307\uFF12"
+    400518: "joint_\u53F3\u85AC\u6307\uFF13"
+    400520: "joint_\u53F3\u89AA\u6307\uFF10"
+    400522: "joint_\u53F3\u89AA\u6307\uFF11"
+    400524: "joint_\u53F3\u89AA\u6307\uFF12"
+    400526: "joint_\u53F3\u8DB3"
+    400528: "joint_\u53F3\u8DB3__IK_bone"
+    400530: "joint_\u53F3\u8DB3\u9996"
+    400532: "joint_\u53F3\u8DB3\u9996__IK_bone"
+    400534: "joint_\u53F3\u9AEA2_0_1"
+    400536: "joint_\u53F3\u9AEA2_1_1"
+    400538: "joint_\u53F3\u9AEA2_2_1"
+    400540: "joint_\u53F3\u9AEA3_0_1"
+    400542: "joint_\u53F3\u9AEA3_1_1"
+    400544: "joint_\u53F3\u9AEA3_2_1"
+    400546: "joint_\u53F3\u9AEA3_3_1"
+    400548: "joint_\u53F3\u9AEA3_4_1"
+    400550: "joint_\u53F3\u9AEA_0_1"
+    400552: "joint_\u53F3\u9AEA_1_1"
+    400554: "joint_\u53F3\u9AEA_2_1"
+    400556: "joint_\u5DE6\u3072\u3056"
+    400558: "joint_\u5DE6\u3072\u3056__IK_bone"
+    400560: "joint_\u5DE6\u3072\u3058"
+    400562: "joint_\u5DE6\u3072\u3058_FK"
+    400564: "joint_\u5DE6\u3072\u3058_IK"
+    400566: "joint_\u5DE6\u30B9\u30AB\u30FC\u30C83_0_0"
+    400568: "joint_\u5DE6\u30B9\u30AB\u30FC\u30C83_0_1"
+    400570: "joint_\u5DE6\u30B9\u30AB\u30FC\u30C83_1_0"
+    400572: "joint_\u5DE6\u30B9\u30AB\u30FC\u30C83_1_1"
+    400574: "joint_\u5DE6\u30B9\u30AB\u30FC\u30C83_1_2"
+    400576: "joint_\u5DE6\u30B9\u30AB\u30FC\u30C83_2_0"
+    400578: "joint_\u5DE6\u30B9\u30AB\u30FC\u30C83_2_1"
+    400580: "joint_\u5DE6\u30B9\u30AB\u30FC\u30C83_2_2"
+    400582: "joint_\u5DE6\u30B9\u30AB\u30FC\u30C83_3_0"
+    400584: "joint_\u5DE6\u30B9\u30AB\u30FC\u30C83_3_1"
+    400586: "joint_\u5DE6\u30B9\u30AB\u30FC\u30C83_3_2"
+    400588: "joint_\u5DE6\u30B9\u30AB\u30FC\u30C83_4_0"
+    400590: "joint_\u5DE6\u30B9\u30AB\u30FC\u30C83_4_1"
+    400592: "joint_\u5DE6\u30B9\u30AB\u30FC\u30C83_4_2"
+    400594: "joint_\u5DE6\u30B9\u30AB\u30FC\u30C83_5_0"
+    400596: "joint_\u5DE6\u30B9\u30AB\u30FC\u30C83_5_1"
+    400598: "joint_\u5DE6\u30B9\u30AB\u30FC\u30C83_5_2"
+    400600: "joint_\u5DE6\u30B9\u30AB\u30FC\u30C83_6_0"
+    400602: "joint_\u5DE6\u30B9\u30AB\u30FC\u30C83_6_1"
+    400604: "joint_\u5DE6\u30B9\u30AB\u30FC\u30C83_6_2"
+    400606: "joint_\u5DE6\u4E0A\u534A\u8EAB2_0_1"
+    400608: "joint_\u5DE6\u4E0A\u534A\u8EAB2_1_1"
+    400610: "joint_\u5DE6\u4E2D\u6307\uFF11"
+    400612: "joint_\u5DE6\u4E2D\u6307\uFF12"
+    400614: "joint_\u5DE6\u4E2D\u6307\uFF13"
+    400616: "joint_\u5DE6\u4EBA\u6307\uFF11"
+    400618: "joint_\u5DE6\u4EBA\u6307\uFF12"
+    400620: "joint_\u5DE6\u4EBA\u6307\uFF13"
+    400622: "joint_\u5DE6\u5C0F\u6307\uFF11"
+    400624: "joint_\u5DE6\u5C0F\u6307\uFF12"
+    400626: "joint_\u5DE6\u5C0F\u6307\uFF13"
+    400628: "joint_\u5DE6\u624B\u63691"
+    400630: "joint_\u5DE6\u624B\u63692"
+    400632: "joint_\u5DE6\u624B\u63693"
+    400634: "joint_\u5DE6\u624B\u9996"
+    400636: "joint_\u5DE6\u624B\u9996_FK"
+    400638: "joint_\u5DE6\u624B\u9996_IK"
+    400640: "joint_\u5DE6\u76EE"
+    400642: "joint_\u5DE6\u80A9"
+    400644: "joint_\u5DE6\u8155"
+    400646: "joint_\u5DE6\u8155_FK"
+    400648: "joint_\u5DE6\u8155_IK"
+    400650: "joint_\u5DE6\u8155\u63691"
+    400652: "joint_\u5DE6\u8155\u63692"
+    400654: "joint_\u5DE6\u8155\u63693"
+    400656: "joint_\u5DE6\u85AC\u6307\uFF11"
+    400658: "joint_\u5DE6\u85AC\u6307\uFF12"
+    400660: "joint_\u5DE6\u85AC\u6307\uFF13"
+    400662: "joint_\u5DE6\u89AA\u6307\uFF10"
+    400664: "joint_\u5DE6\u89AA\u6307\uFF11"
+    400666: "joint_\u5DE6\u89AA\u6307\uFF12"
+    400668: "joint_\u5DE6\u8DB3"
+    400670: "joint_\u5DE6\u8DB3__IK_bone"
+    400672: "joint_\u5DE6\u8DB3\u9996"
+    400674: "joint_\u5DE6\u8DB3\u9996__IK_bone"
+    400676: "joint_\u5DE6\u9AEA2_0_1"
+    400678: "joint_\u5DE6\u9AEA2_1_1"
+    400680: "joint_\u5DE6\u9AEA2_2_1"
+    400682: "joint_\u5DE6\u9AEA3_0_1"
+    400684: "joint_\u5DE6\u9AEA3_1_1"
+    400686: "joint_\u5DE6\u9AEA3_2_1"
+    400688: "joint_\u5DE6\u9AEA3_3_1"
+    400690: "joint_\u5DE6\u9AEA3_4_1"
+    400692: "joint_\u5DE6\u9AEA_0_1"
+    400694: "joint_\u5DE6\u9AEA_1_1"
+    400696: "joint_\u5DE6\u9AEA_2_1"
+    400698: "joint_\u982D"
+    400700: "joint_\u9996"
+    400702: "joint_\u9AEA_0_1"
+    400704: "joint_\u9AEA_1_1"
+    400706: "joint_\u9AEA_2_1"
+    400708: "joint_\u9AEA_3_1"
+    400710: "joint_\u9AEA_4_1"
+    400712: Leg_L_Heel_hlp
+    400714: Leg_L_Toe_hlp
+    400716: Leg_L_ToeLift_hlp
+    400718: Leg_R_Heel_hlp
+    400720: Leg_R_Toe_hlp
+    400722: Leg_R_ToeLift_hlp
+    400724: m_Armor_Head
+    400726: m_Armor_Head 1
+    400728: m_Armor_MainBody01
+    400730: m_Armor_Skirt1
+    400732: m_Sword1
+    400734: m_Sword2
+    400736: Main_ctrl
+    400738: mord_Leg_L_Foot_IKGoal
+    400740: mord_Leg_L_IK_ctrl
+    400742: mord_Leg_L_Toe_IKGoal
+    400744: mord_Leg_R_Foot_IKGoal
+    400746: mord_Leg_R_IK_ctrl
+    400748: mord_Leg_R_Toe_IKGoal
+    400750: //RootNode
+    400752: Neck_ctrl
+    400754: Point001
+    400756: Point002
+    400758: rec_ik l hand bindpose
+    400760: rec_ik l hand idle
+    400762: rec_weapon bindpose
+    400764: rec_weapon idlepos
+    400766: Spine_ctrl
+    2300000: Arm_L_Clavicle_FK_ctrl
+    2300002: Arm_L_Forearm_FK_ctrl
+    2300004: Arm_L_IK_ctrl
+    2300006: Arm_L_UpperArm_FK_ctrl
+    2300008: Arm_L_Wrist_FK_ctrl
+    2300010: Arm_R_Clavicle_FK_ctrl
+    2300012: Arm_R_Forearm_FK_ctrl
+    2300014: Arm_R_IK_ctrl
+    2300016: Arm_R_UpperArm_FK_ctrl
+    2300018: Arm_R_Wrist_FK_ctrl
+    2300020: Hand_L_Index_ctrl
+    2300022: Hand_L_Middle_ctrl
+    2300024: Hand_L_Pinky_ctrl
+    2300026: Hand_L_Ring_ctrl
+    2300028: Hand_R_Index_ctrl
+    2300030: Hand_R_Middle_ctrl
+    2300032: Hand_R_Pinky_ctrl
+    2300034: Hand_R_Ring_ctrl
+    2300036: mord_Leg_L_IK_ctrl
+    2300038: mord_Leg_R_IK_ctrl
+    3300000: Arm_L_Clavicle_FK_ctrl
+    3300002: Arm_L_Forearm_FK_ctrl
+    3300004: Arm_L_IK_ctrl
+    3300006: Arm_L_UpperArm_FK_ctrl
+    3300008: Arm_L_Wrist_FK_ctrl
+    3300010: Arm_R_Clavicle_FK_ctrl
+    3300012: Arm_R_Forearm_FK_ctrl
+    3300014: Arm_R_IK_ctrl
+    3300016: Arm_R_UpperArm_FK_ctrl
+    3300018: Arm_R_Wrist_FK_ctrl
+    3300020: Hand_L_Index_ctrl
+    3300022: Hand_L_Middle_ctrl
+    3300024: Hand_L_Pinky_ctrl
+    3300026: Hand_L_Ring_ctrl
+    3300028: Hand_R_Index_ctrl
+    3300030: Hand_R_Middle_ctrl
+    3300032: Hand_R_Pinky_ctrl
+    3300034: Hand_R_Ring_ctrl
+    3300036: mord_Leg_L_IK_ctrl
+    3300038: mord_Leg_R_IK_ctrl
+    4300000: m_Armor_Head
+    4300002: m_Armor_Head
+    4300004: Hand_L_Index_ctrl
+    4300006: Hand_L_Middle_ctrl
+    4300008: Hand_L_Ring_ctrl
+    4300010: Hand_L_Pinky_ctrl
+    4300012: Arm_L_UpperArm_FK_ctrl
+    4300014: Arm_L_Forearm_FK_ctrl
+    4300016: Arm_L_Wrist_FK_ctrl
+    4300018: Hand_R_Index_ctrl
+    4300020: Hand_R_Middle_ctrl
+    4300022: Hand_R_Ring_ctrl
+    4300024: Hand_R_Pinky_ctrl
+    4300026: Arm_R_UpperArm_FK_ctrl
+    4300028: Arm_R_Forearm_FK_ctrl
+    4300030: Arm_R_Wrist_FK_ctrl
+    4300032: Arm_R_Clavicle_FK_ctrl
+    4300034: Arm_L_Clavicle_FK_ctrl
+    4300036: Arm_R_IK_ctrl
+    4300038: Arm_L_IK_ctrl
+    4300040: mord_Leg_L_IK_ctrl
+    4300042: mord_Leg_R_IK_ctrl
+    4300044: m_Sword1
+    4300046: m_Sword2
+    4300048: m_Armor_Skirt1
+    4300050: m_Armor_MainBody01
+    7400000: idle
+    7400002: Take 001
+    9500000: //RootNode
+    13700000: m_Armor_Head
+    13700002: m_Armor_Head 1
+    13700004: m_Armor_MainBody01
+    13700006: m_Armor_Skirt1
+    13700008: m_Sword1
+    13700010: m_Sword2
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: idle
+      takeName: Take 001
+      firstFrame: 10
+      lastFrame: 70
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: '!Root'
+        weight: 1
+      - path: "!Root/!joint_\u4E0A\u534A\u8EAB2\u5148"
+        weight: 1
+      - path: "!Root/!joint_\u5168\u3066\u306E\u89AA"
+        weight: 1
+      - path: "!Root/!joint_\u5168\u3066\u306E\u89AA/!joint_\u30BB\u30F3\u30BF\u30FC"
+        weight: 1
+      - path: "!Root/!joint_\u5168\u3066\u306E\u89AA/!joint_\u30BB\u30F3\u30BF\u30FC/!joint_\u30B0\u30EB\u30FC\u30D6"
+        weight: 1
+      - path: "!Root/!joint_\u5168\u3066\u306E\u89AA/!joint_\u30BB\u30F3\u30BF\u30FC/!joint_\u30B0\u30EB\u30FC\u30D6/!joint_\u8170"
+        weight: 1
+      - path: "!Root/!joint_\u5168\u3066\u306E\u89AA/!joint_\u30BB\u30F3\u30BF\u30FC/!joint_\u30B0\u30EB\u30FC\u30D6/!joint_\u8170/!joint_\u30B0\u30EB\u30FC\u30D6\u5148"
+        weight: 1
+      - path: "!Root/!joint_\u5168\u3066\u306E\u89AA/!joint_\u30BB\u30F3\u30BF\u30FC/!joint_\u30BB\u30F3\u30BF\u30FC\u5148"
+        weight: 1
+      - path: "!Root/!joint_\u5DE6\u80A9\u8896\u5148"
+        weight: 1
+      - path: "!Root/!joint_\u5DE6\u8155\u8896"
+        weight: 1
+      - path: "!Root/!joint_\u5DE6\u8155\u8896/!joint_\u53F3\u80A9\u8896\u5148"
+        weight: 1
+      - path: "!Root/!joint_\u5DE6\u8155\u8896/!joint_\u53F3\u8155\u8896"
+        weight: 1
+      - path: "!Root/!joint_\u64CD\u4F5C\u4E2D\u5FC3"
+        weight: 1
+      - path: ".joint_\u30BB\u30F3\u30BF\u30FC"
+        weight: 1
+      - path: m_Armor_Head
+        weight: 1
+      - path: m_Armor_Head 1
+        weight: 1
+      - path: m_Armor_MainBody01
+        weight: 1
+      - path: m_Armor_Skirt1
+        weight: 1
+      - path: m_Sword1
+        weight: 1
+      - path: m_Sword2
+        weight: 1
+      - path: Main_ctrl
+        weight: 1
+      - path: Main_ctrl/COM_ctrl
+        weight: 1
+      - path: Main_ctrl/COM_ctrl/Arm_R_IK_ctrl
+        weight: 1
+      - path: Main_ctrl/COM_ctrl/Arm_R_IK_ctrl/Arm_L_IK_ctrl
+        weight: 1
+      - path: Main_ctrl/COM_ctrl/Arm_R_IK_ctrl/Arm_L_IK_ctrl/Arm_L_IKGoal
+        weight: 1
+      - path: Main_ctrl/COM_ctrl/Arm_R_IK_ctrl/Arm_L_IK_ctrl/Arm_L_Wrist_IK_hlp
+        weight: 1
+      - path: Main_ctrl/COM_ctrl/Arm_R_IK_ctrl/Arm_R_IKGoal
+        weight: 1
+      - path: Main_ctrl/COM_ctrl/Arm_R_IK_ctrl/Arm_R_Wrist_IK_hlp
+        weight: 1
+      - path: Main_ctrl/COM_ctrl/Head_ctrl
+        weight: 1
+      - path: Main_ctrl/COM_ctrl/Hip_ctrl
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/!joint_\u4E0B\u534A\u8EAB\u5148"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/!joint_\u53F3\u30B9\u30AB\u30FC\u30C83_0_2"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/!joint_\u53F3\u30B9\u30AB\u30FC\u30C83_0_2/joint_\u53F3\u30B9\u30AB\u30FC\u30C83_1_2"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/!joint_\u53F3\u30B9\u30AB\u30FC\u30C83_0_2/joint_\u53F3\u30B9\u30AB\u30FC\u30C83_1_2/joint_\u53F3\u30B9\u30AB\u30FC\u30C83_2_2"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/!joint_\u53F3\u30B9\u30AB\u30FC\u30C83_0_2/joint_\u53F3\u30B9\u30AB\u30FC\u30C83_1_2/joint_\u53F3\u30B9\u30AB\u30FC\u30C83_2_2/joint_\u53F3\u30B9\u30AB\u30FC\u30C83_3_2"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/!joint_\u53F3\u30B9\u30AB\u30FC\u30C83_0_2/joint_\u53F3\u30B9\u30AB\u30FC\u30C83_1_2/joint_\u53F3\u30B9\u30AB\u30FC\u30C83_2_2/joint_\u53F3\u30B9\u30AB\u30FC\u30C83_3_2/joint_\u53F3\u30B9\u30AB\u30FC\u30C83_4_2"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/!joint_\u53F3\u30B9\u30AB\u30FC\u30C83_0_2/joint_\u53F3\u30B9\u30AB\u30FC\u30C83_1_2/joint_\u53F3\u30B9\u30AB\u30FC\u30C83_2_2/joint_\u53F3\u30B9\u30AB\u30FC\u30C83_3_2/joint_\u53F3\u30B9\u30AB\u30FC\u30C83_4_2/joint_\u53F3\u30B9\u30AB\u30FC\u30C83_5_2"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/!joint_\u53F3\u30B9\u30AB\u30FC\u30C83_0_2/joint_\u53F3\u30B9\u30AB\u30FC\u30C83_1_2/joint_\u53F3\u30B9\u30AB\u30FC\u30C83_2_2/joint_\u53F3\u30B9\u30AB\u30FC\u30C83_3_2/joint_\u53F3\u30B9\u30AB\u30FC\u30C83_4_2/joint_\u53F3\u30B9\u30AB\u30FC\u30C83_5_2/joint_\u53F3\u30B9\u30AB\u30FC\u30C83_6_2"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/!joint_\u53F3\u30B9\u30AB\u30FC\u30C83_0_2/joint_\u53F3\u30B9\u30AB\u30FC\u30C83_1_2/joint_\u53F3\u30B9\u30AB\u30FC\u30C83_2_2/joint_\u53F3\u30B9\u30AB\u30FC\u30C83_3_2/joint_\u53F3\u30B9\u30AB\u30FC\u30C83_4_2/joint_\u53F3\u30B9\u30AB\u30FC\u30C83_5_2/joint_\u53F3\u30B9\u30AB\u30FC\u30C83_6_2/!joint_\u53F3\u30B9\u30AB\u30FC\u30C83_7_2"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/!joint_\u5DE6\u30B9\u30AB\u30FC\u30C83_0_2"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/!joint_\u5DE6\u30B9\u30AB\u30FC\u30C83_0_2/joint_\u5DE6\u30B9\u30AB\u30FC\u30C83_1_2"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/!joint_\u5DE6\u30B9\u30AB\u30FC\u30C83_0_2/joint_\u5DE6\u30B9\u30AB\u30FC\u30C83_1_2/joint_\u5DE6\u30B9\u30AB\u30FC\u30C83_2_2"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/!joint_\u5DE6\u30B9\u30AB\u30FC\u30C83_0_2/joint_\u5DE6\u30B9\u30AB\u30FC\u30C83_1_2/joint_\u5DE6\u30B9\u30AB\u30FC\u30C83_2_2/joint_\u5DE6\u30B9\u30AB\u30FC\u30C83_3_2"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/!joint_\u5DE6\u30B9\u30AB\u30FC\u30C83_0_2/joint_\u5DE6\u30B9\u30AB\u30FC\u30C83_1_2/joint_\u5DE6\u30B9\u30AB\u30FC\u30C83_2_2/joint_\u5DE6\u30B9\u30AB\u30FC\u30C83_3_2/joint_\u5DE6\u30B9\u30AB\u30FC\u30C83_4_2"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/!joint_\u5DE6\u30B9\u30AB\u30FC\u30C83_0_2/joint_\u5DE6\u30B9\u30AB\u30FC\u30C83_1_2/joint_\u5DE6\u30B9\u30AB\u30FC\u30C83_2_2/joint_\u5DE6\u30B9\u30AB\u30FC\u30C83_3_2/joint_\u5DE6\u30B9\u30AB\u30FC\u30C83_4_2/joint_\u5DE6\u30B9\u30AB\u30FC\u30C83_5_2"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/!joint_\u5DE6\u30B9\u30AB\u30FC\u30C83_0_2/joint_\u5DE6\u30B9\u30AB\u30FC\u30C83_1_2/joint_\u5DE6\u30B9\u30AB\u30FC\u30C83_2_2/joint_\u5DE6\u30B9\u30AB\u30FC\u30C83_3_2/joint_\u5DE6\u30B9\u30AB\u30FC\u30C83_4_2/joint_\u5DE6\u30B9\u30AB\u30FC\u30C83_5_2/joint_\u5DE6\u30B9\u30AB\u30FC\u30C83_6_2"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/!joint_\u5DE6\u30B9\u30AB\u30FC\u30C83_0_2/joint_\u5DE6\u30B9\u30AB\u30FC\u30C83_1_2/joint_\u5DE6\u30B9\u30AB\u30FC\u30C83_2_2/joint_\u5DE6\u30B9\u30AB\u30FC\u30C83_3_2/joint_\u5DE6\u30B9\u30AB\u30FC\u30C83_4_2/joint_\u5DE6\u30B9\u30AB\u30FC\u30C83_5_2/joint_\u5DE6\u30B9\u30AB\u30FC\u30C83_6_2/!joint_\u5DE6\u30B9\u30AB\u30FC\u30C83_7_2"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/!joint_\u8170\u30AD\u30E3\u30F3\u30BB\u30EB\u53F3"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/!joint_\u8170\u30AD\u30E3\u30F3\u30BB\u30EB\u53F3/!joint_\u53F3\u8DB3D"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/!joint_\u8170\u30AD\u30E3\u30F3\u30BB\u30EB\u53F3/!joint_\u53F3\u8DB3D/!joint_\u53F3\u3072\u3056D"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/!joint_\u8170\u30AD\u30E3\u30F3\u30BB\u30EB\u53F3/!joint_\u53F3\u8DB3D/!joint_\u53F3\u3072\u3056D/!joint_\u53F3\u8DB3\u9996D"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/!joint_\u8170\u30AD\u30E3\u30F3\u30BB\u30EB\u53F3/!joint_\u53F3\u8DB3D/!joint_\u53F3\u3072\u3056D/!joint_\u53F3\u8DB3\u9996D/!joint_\u53F3\u8DB3\u5148EX"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/!joint_\u8170\u30AD\u30E3\u30F3\u30BB\u30EB\u5DE6"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/!joint_\u8170\u30AD\u30E3\u30F3\u30BB\u30EB\u5DE6/!joint_\u5DE6\u8DB3D"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/!joint_\u8170\u30AD\u30E3\u30F3\u30BB\u30EB\u5DE6/!joint_\u5DE6\u8DB3D/!joint_\u5DE6\u3072\u3056D"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/!joint_\u8170\u30AD\u30E3\u30F3\u30BB\u30EB\u5DE6/!joint_\u5DE6\u8DB3D/!joint_\u5DE6\u3072\u3056D/!joint_\u5DE6\u8DB3\u9996D"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/!joint_\u8170\u30AD\u30E3\u30F3\u30BB\u30EB\u5DE6/!joint_\u5DE6\u8DB3D/!joint_\u5DE6\u3072\u3056D/!joint_\u5DE6\u8DB3\u9996D/!joint_\u5DE6\u8DB3\u5148EX"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u30B9\u30AB\u30FC\u30C82_0_1"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u30B9\u30AB\u30FC\u30C82_0_1/joint_\u30B9\u30AB\u30FC\u30C82_1_1"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u30B9\u30AB\u30FC\u30C82_0_1/joint_\u30B9\u30AB\u30FC\u30C82_1_1/joint_\u30B9\u30AB\u30FC\u30C82_2_1"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u30B9\u30AB\u30FC\u30C82_0_1/joint_\u30B9\u30AB\u30FC\u30C82_1_1/joint_\u30B9\u30AB\u30FC\u30C82_2_1/joint_\u30B9\u30AB\u30FC\u30C82_3_1"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u30B9\u30AB\u30FC\u30C82_0_1/joint_\u30B9\u30AB\u30FC\u30C82_1_1/joint_\u30B9\u30AB\u30FC\u30C82_2_1/joint_\u30B9\u30AB\u30FC\u30C82_3_1/joint_\u30B9\u30AB\u30FC\u30C82_4_1"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u30B9\u30AB\u30FC\u30C82_0_1/joint_\u30B9\u30AB\u30FC\u30C82_1_1/joint_\u30B9\u30AB\u30FC\u30C82_2_1/joint_\u30B9\u30AB\u30FC\u30C82_3_1/joint_\u30B9\u30AB\u30FC\u30C82_4_1/joint_\u30B9\u30AB\u30FC\u30C82_5_1"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u30B9\u30AB\u30FC\u30C82_0_1/joint_\u30B9\u30AB\u30FC\u30C82_1_1/joint_\u30B9\u30AB\u30FC\u30C82_2_1/joint_\u30B9\u30AB\u30FC\u30C82_3_1/joint_\u30B9\u30AB\u30FC\u30C82_4_1/joint_\u30B9\u30AB\u30FC\u30C82_5_1/joint_\u30B9\u30AB\u30FC\u30C82_6_1"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u30B9\u30AB\u30FC\u30C82_0_1/joint_\u30B9\u30AB\u30FC\u30C82_1_1/joint_\u30B9\u30AB\u30FC\u30C82_2_1/joint_\u30B9\u30AB\u30FC\u30C82_3_1/joint_\u30B9\u30AB\u30FC\u30C82_4_1/joint_\u30B9\u30AB\u30FC\u30C82_5_1/joint_\u30B9\u30AB\u30FC\u30C82_6_1/!joint_\u30B9\u30AB\u30FC\u30C82_7_1"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u30B9\u30AB\u30FC\u30C82_0_2"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u30B9\u30AB\u30FC\u30C82_0_2/joint_\u30B9\u30AB\u30FC\u30C82_1_2"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u30B9\u30AB\u30FC\u30C82_0_2/joint_\u30B9\u30AB\u30FC\u30C82_1_2/joint_\u30B9\u30AB\u30FC\u30C82_2_2"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u30B9\u30AB\u30FC\u30C82_0_2/joint_\u30B9\u30AB\u30FC\u30C82_1_2/joint_\u30B9\u30AB\u30FC\u30C82_2_2/joint_\u30B9\u30AB\u30FC\u30C82_3_2"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u30B9\u30AB\u30FC\u30C82_0_2/joint_\u30B9\u30AB\u30FC\u30C82_1_2/joint_\u30B9\u30AB\u30FC\u30C82_2_2/joint_\u30B9\u30AB\u30FC\u30C82_3_2/joint_\u30B9\u30AB\u30FC\u30C82_4_2"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u30B9\u30AB\u30FC\u30C82_0_2/joint_\u30B9\u30AB\u30FC\u30C82_1_2/joint_\u30B9\u30AB\u30FC\u30C82_2_2/joint_\u30B9\u30AB\u30FC\u30C82_3_2/joint_\u30B9\u30AB\u30FC\u30C82_4_2/joint_\u30B9\u30AB\u30FC\u30C82_5_2"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u30B9\u30AB\u30FC\u30C82_0_2/joint_\u30B9\u30AB\u30FC\u30C82_1_2/joint_\u30B9\u30AB\u30FC\u30C82_2_2/joint_\u30B9\u30AB\u30FC\u30C82_3_2/joint_\u30B9\u30AB\u30FC\u30C82_4_2/joint_\u30B9\u30AB\u30FC\u30C82_5_2/joint_\u30B9\u30AB\u30FC\u30C82_6_2"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u30B9\u30AB\u30FC\u30C82_0_2/joint_\u30B9\u30AB\u30FC\u30C82_1_2/joint_\u30B9\u30AB\u30FC\u30C82_2_2/joint_\u30B9\u30AB\u30FC\u30C82_3_2/joint_\u30B9\u30AB\u30FC\u30C82_4_2/joint_\u30B9\u30AB\u30FC\u30C82_5_2/joint_\u30B9\u30AB\u30FC\u30C82_6_2/!joint_\u30B9\u30AB\u30FC\u30C82_7_2"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u30B9\u30AB\u30FC\u30C8_0_0"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u30B9\u30AB\u30FC\u30C8_0_0/joint_\u30B9\u30AB\u30FC\u30C8_1_0"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u30B9\u30AB\u30FC\u30C8_0_0/joint_\u30B9\u30AB\u30FC\u30C8_1_0/joint_\u30B9\u30AB\u30FC\u30C8_2_0"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u30B9\u30AB\u30FC\u30C8_0_0/joint_\u30B9\u30AB\u30FC\u30C8_1_0/joint_\u30B9\u30AB\u30FC\u30C8_2_0/!joint_\u30B9\u30AB\u30FC\u30C8_3_0"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u30B9\u30AB\u30FC\u30C8_0_0/joint_\u30B9\u30AB\u30FC\u30C8_1_0/joint_\u30B9\u30AB\u30FC\u30C8_2_0/!joint_\u30B9\u30AB\u30FC\u30C8_3_0/joint_\u30B9\u30AB\u30FC\u30C8_4_0"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u30B9\u30AB\u30FC\u30C8_0_0/joint_\u30B9\u30AB\u30FC\u30C8_1_0/joint_\u30B9\u30AB\u30FC\u30C8_2_0/!joint_\u30B9\u30AB\u30FC\u30C8_3_0/joint_\u30B9\u30AB\u30FC\u30C8_4_0/!joint_\u30B9\u30AB\u30FC\u30C8_5_0"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u30B9\u30AB\u30FC\u30C8_0_1"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u30B9\u30AB\u30FC\u30C8_0_1/joint_\u30B9\u30AB\u30FC\u30C8_1_1"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u30B9\u30AB\u30FC\u30C8_0_1/joint_\u30B9\u30AB\u30FC\u30C8_1_1/joint_\u30B9\u30AB\u30FC\u30C8_2_1"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u30B9\u30AB\u30FC\u30C8_0_1/joint_\u30B9\u30AB\u30FC\u30C8_1_1/joint_\u30B9\u30AB\u30FC\u30C8_2_1/!joint_\u30B9\u30AB\u30FC\u30C8_3_1"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u30B9\u30AB\u30FC\u30C8_0_1/joint_\u30B9\u30AB\u30FC\u30C8_1_1/joint_\u30B9\u30AB\u30FC\u30C8_2_1/!joint_\u30B9\u30AB\u30FC\u30C8_3_1/joint_\u30B9\u30AB\u30FC\u30C8_4_1"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u30B9\u30AB\u30FC\u30C8_0_1/joint_\u30B9\u30AB\u30FC\u30C8_1_1/joint_\u30B9\u30AB\u30FC\u30C8_2_1/!joint_\u30B9\u30AB\u30FC\u30C8_3_1/joint_\u30B9\u30AB\u30FC\u30C8_4_1/!joint_\u30B9\u30AB\u30FC\u30C8_5_1"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u30B9\u30AB\u30FC\u30C8_0_2"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u30B9\u30AB\u30FC\u30C8_0_2/joint_\u30B9\u30AB\u30FC\u30C8_1_2"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u30B9\u30AB\u30FC\u30C8_0_2/joint_\u30B9\u30AB\u30FC\u30C8_1_2/joint_\u30B9\u30AB\u30FC\u30C8_2_2"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u30B9\u30AB\u30FC\u30C8_0_2/joint_\u30B9\u30AB\u30FC\u30C8_1_2/joint_\u30B9\u30AB\u30FC\u30C8_2_2/!joint_\u30B9\u30AB\u30FC\u30C8_3_2"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u30B9\u30AB\u30FC\u30C8_0_2/joint_\u30B9\u30AB\u30FC\u30C8_1_2/joint_\u30B9\u30AB\u30FC\u30C8_2_2/!joint_\u30B9\u30AB\u30FC\u30C8_3_2/joint_\u30B9\u30AB\u30FC\u30C8_4_2"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u30B9\u30AB\u30FC\u30C8_0_2/joint_\u30B9\u30AB\u30FC\u30C8_1_2/joint_\u30B9\u30AB\u30FC\u30C8_2_2/!joint_\u30B9\u30AB\u30FC\u30C8_3_2/joint_\u30B9\u30AB\u30FC\u30C8_4_2/!joint_\u30B9\u30AB\u30FC\u30C8_5_2"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u30B9\u30AB\u30FC\u30C8_0_3"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u30B9\u30AB\u30FC\u30C8_0_3/joint_\u30B9\u30AB\u30FC\u30C8_1_3"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u30B9\u30AB\u30FC\u30C8_0_3/joint_\u30B9\u30AB\u30FC\u30C8_1_3/joint_\u30B9\u30AB\u30FC\u30C8_2_3"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u30B9\u30AB\u30FC\u30C8_0_3/joint_\u30B9\u30AB\u30FC\u30C8_1_3/joint_\u30B9\u30AB\u30FC\u30C8_2_3/joint_\u30B9\u30AB\u30FC\u30C8_3_3"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u30B9\u30AB\u30FC\u30C8_0_3/joint_\u30B9\u30AB\u30FC\u30C8_1_3/joint_\u30B9\u30AB\u30FC\u30C8_2_3/joint_\u30B9\u30AB\u30FC\u30C8_3_3/joint_\u30B9\u30AB\u30FC\u30C8_4_3"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u30B9\u30AB\u30FC\u30C8_0_3/joint_\u30B9\u30AB\u30FC\u30C8_1_3/joint_\u30B9\u30AB\u30FC\u30C8_2_3/joint_\u30B9\u30AB\u30FC\u30C8_3_3/joint_\u30B9\u30AB\u30FC\u30C8_4_3/!joint_\u30B9\u30AB\u30FC\u30C8_5_3"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u30B9\u30AB\u30FC\u30C8_0_4"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u30B9\u30AB\u30FC\u30C8_0_4/joint_\u30B9\u30AB\u30FC\u30C8_1_4"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u30B9\u30AB\u30FC\u30C8_0_4/joint_\u30B9\u30AB\u30FC\u30C8_1_4/joint_\u30B9\u30AB\u30FC\u30C8_2_4"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u30B9\u30AB\u30FC\u30C8_0_4/joint_\u30B9\u30AB\u30FC\u30C8_1_4/joint_\u30B9\u30AB\u30FC\u30C8_2_4/joint_\u30B9\u30AB\u30FC\u30C8_3_4"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u30B9\u30AB\u30FC\u30C8_0_4/joint_\u30B9\u30AB\u30FC\u30C8_1_4/joint_\u30B9\u30AB\u30FC\u30C8_2_4/joint_\u30B9\u30AB\u30FC\u30C8_3_4/joint_\u30B9\u30AB\u30FC\u30C8_4_4"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u30B9\u30AB\u30FC\u30C8_0_4/joint_\u30B9\u30AB\u30FC\u30C8_1_4/joint_\u30B9\u30AB\u30FC\u30C8_2_4/joint_\u30B9\u30AB\u30FC\u30C8_3_4/joint_\u30B9\u30AB\u30FC\u30C8_4_4/!joint_\u30B9\u30AB\u30FC\u30C8_5_4"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u30B9\u30AB\u30FC\u30C8_0_5"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u30B9\u30AB\u30FC\u30C8_0_5/joint_\u30B9\u30AB\u30FC\u30C8_1_5"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u30B9\u30AB\u30FC\u30C8_0_5/joint_\u30B9\u30AB\u30FC\u30C8_1_5/joint_\u30B9\u30AB\u30FC\u30C8_2_5"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u30B9\u30AB\u30FC\u30C8_0_5/joint_\u30B9\u30AB\u30FC\u30C8_1_5/joint_\u30B9\u30AB\u30FC\u30C8_2_5/joint_\u30B9\u30AB\u30FC\u30C8_3_5"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u30B9\u30AB\u30FC\u30C8_0_5/joint_\u30B9\u30AB\u30FC\u30C8_1_5/joint_\u30B9\u30AB\u30FC\u30C8_2_5/joint_\u30B9\u30AB\u30FC\u30C8_3_5/joint_\u30B9\u30AB\u30FC\u30C8_4_5"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u30B9\u30AB\u30FC\u30C8_0_5/joint_\u30B9\u30AB\u30FC\u30C8_1_5/joint_\u30B9\u30AB\u30FC\u30C8_2_5/joint_\u30B9\u30AB\u30FC\u30C8_3_5/joint_\u30B9\u30AB\u30FC\u30C8_4_5/!joint_\u30B9\u30AB\u30FC\u30C8_5_5"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u30B9\u30AB\u30FC\u30C8_0_6"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u30B9\u30AB\u30FC\u30C8_0_6/joint_\u30B9\u30AB\u30FC\u30C8_1_6"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u30B9\u30AB\u30FC\u30C8_0_6/joint_\u30B9\u30AB\u30FC\u30C8_1_6/joint_\u30B9\u30AB\u30FC\u30C8_2_6"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u30B9\u30AB\u30FC\u30C8_0_6/joint_\u30B9\u30AB\u30FC\u30C8_1_6/joint_\u30B9\u30AB\u30FC\u30C8_2_6/joint_\u30B9\u30AB\u30FC\u30C8_3_6"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u30B9\u30AB\u30FC\u30C8_0_6/joint_\u30B9\u30AB\u30FC\u30C8_1_6/joint_\u30B9\u30AB\u30FC\u30C8_2_6/joint_\u30B9\u30AB\u30FC\u30C8_3_6/joint_\u30B9\u30AB\u30FC\u30C8_4_6"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u30B9\u30AB\u30FC\u30C8_0_6/joint_\u30B9\u30AB\u30FC\u30C8_1_6/joint_\u30B9\u30AB\u30FC\u30C8_2_6/joint_\u30B9\u30AB\u30FC\u30C8_3_6/joint_\u30B9\u30AB\u30FC\u30C8_4_6/!joint_\u30B9\u30AB\u30FC\u30C8_5_6"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u30B9\u30AB\u30FC\u30C8_0_7"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u30B9\u30AB\u30FC\u30C8_0_7/joint_\u30B9\u30AB\u30FC\u30C8_1_7"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u30B9\u30AB\u30FC\u30C8_0_7/joint_\u30B9\u30AB\u30FC\u30C8_1_7/joint_\u30B9\u30AB\u30FC\u30C8_2_7"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u30B9\u30AB\u30FC\u30C8_0_7/joint_\u30B9\u30AB\u30FC\u30C8_1_7/joint_\u30B9\u30AB\u30FC\u30C8_2_7/joint_\u30B9\u30AB\u30FC\u30C8_3_7"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u30B9\u30AB\u30FC\u30C8_0_7/joint_\u30B9\u30AB\u30FC\u30C8_1_7/joint_\u30B9\u30AB\u30FC\u30C8_2_7/joint_\u30B9\u30AB\u30FC\u30C8_3_7/joint_\u30B9\u30AB\u30FC\u30C8_4_7"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u30B9\u30AB\u30FC\u30C8_0_7/joint_\u30B9\u30AB\u30FC\u30C8_1_7/joint_\u30B9\u30AB\u30FC\u30C8_2_7/joint_\u30B9\u30AB\u30FC\u30C8_3_7/joint_\u30B9\u30AB\u30FC\u30C8_4_7/!joint_\u30B9\u30AB\u30FC\u30C8_5_7"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u30B9\u30AB\u30FC\u30C8_0_8"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u30B9\u30AB\u30FC\u30C8_0_8/joint_\u30B9\u30AB\u30FC\u30C8_1_8"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u30B9\u30AB\u30FC\u30C8_0_8/joint_\u30B9\u30AB\u30FC\u30C8_1_8/joint_\u30B9\u30AB\u30FC\u30C8_2_8"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u30B9\u30AB\u30FC\u30C8_0_8/joint_\u30B9\u30AB\u30FC\u30C8_1_8/joint_\u30B9\u30AB\u30FC\u30C8_2_8/joint_\u30B9\u30AB\u30FC\u30C8_3_8"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u30B9\u30AB\u30FC\u30C8_0_8/joint_\u30B9\u30AB\u30FC\u30C8_1_8/joint_\u30B9\u30AB\u30FC\u30C8_2_8/joint_\u30B9\u30AB\u30FC\u30C8_3_8/joint_\u30B9\u30AB\u30FC\u30C8_4_8"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u30B9\u30AB\u30FC\u30C8_0_8/joint_\u30B9\u30AB\u30FC\u30C8_1_8/joint_\u30B9\u30AB\u30FC\u30C8_2_8/joint_\u30B9\u30AB\u30FC\u30C8_3_8/joint_\u30B9\u30AB\u30FC\u30C8_4_8/!joint_\u30B9\u30AB\u30FC\u30C8_5_8"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u30B9\u30AB\u30FC\u30C8_0_9"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u30B9\u30AB\u30FC\u30C8_0_9/joint_\u30B9\u30AB\u30FC\u30C8_1_9"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u30B9\u30AB\u30FC\u30C8_0_9/joint_\u30B9\u30AB\u30FC\u30C8_1_9/joint_\u30B9\u30AB\u30FC\u30C8_2_9"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u30B9\u30AB\u30FC\u30C8_0_9/joint_\u30B9\u30AB\u30FC\u30C8_1_9/joint_\u30B9\u30AB\u30FC\u30C8_2_9/!joint_\u30B9\u30AB\u30FC\u30C8_3_9"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u30B9\u30AB\u30FC\u30C8_0_9/joint_\u30B9\u30AB\u30FC\u30C8_1_9/joint_\u30B9\u30AB\u30FC\u30C8_2_9/!joint_\u30B9\u30AB\u30FC\u30C8_3_9/joint_\u30B9\u30AB\u30FC\u30C8_4_9"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u30B9\u30AB\u30FC\u30C8_0_9/joint_\u30B9\u30AB\u30FC\u30C8_1_9/joint_\u30B9\u30AB\u30FC\u30C8_2_9/!joint_\u30B9\u30AB\u30FC\u30C8_3_9/joint_\u30B9\u30AB\u30FC\u30C8_4_9/!joint_\u30B9\u30AB\u30FC\u30C8_5_9"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u30B9\u30AB\u30FC\u30C8_0_10"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u30B9\u30AB\u30FC\u30C8_0_10/joint_\u30B9\u30AB\u30FC\u30C8_1_10"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u30B9\u30AB\u30FC\u30C8_0_10/joint_\u30B9\u30AB\u30FC\u30C8_1_10/joint_\u30B9\u30AB\u30FC\u30C8_2_10"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u30B9\u30AB\u30FC\u30C8_0_10/joint_\u30B9\u30AB\u30FC\u30C8_1_10/joint_\u30B9\u30AB\u30FC\u30C8_2_10/!joint_\u30B9\u30AB\u30FC\u30C8_3_10"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u30B9\u30AB\u30FC\u30C8_0_10/joint_\u30B9\u30AB\u30FC\u30C8_1_10/joint_\u30B9\u30AB\u30FC\u30C8_2_10/!joint_\u30B9\u30AB\u30FC\u30C8_3_10/joint_\u30B9\u30AB\u30FC\u30C8_4_10"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u30B9\u30AB\u30FC\u30C8_0_10/joint_\u30B9\u30AB\u30FC\u30C8_1_10/joint_\u30B9\u30AB\u30FC\u30C8_2_10/!joint_\u30B9\u30AB\u30FC\u30C8_3_10/joint_\u30B9\u30AB\u30FC\u30C8_4_10/!joint_\u30B9\u30AB\u30FC\u30C8_5_10"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB2"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB2/!joint_\u53F3\u80A9P"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB2/!joint_\u5DE6\u80A9P"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB2/Arm_L_Clavicle_FK_ctrl"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB2/Arm_L_Clavicle_FK_ctrl/Arm_L_Clavicle_FK_hlp"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB2/Arm_R_Clavicle_FK_ctrl"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB2/Arm_R_Clavicle_FK_ctrl/Arm_R_Clavicle_FK_hlp"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB2/joint_\u53F3\u80A9"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB2/joint_\u53F3\u80A9/!joint_\u53F3\u80A9C"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB2/joint_\u53F3\u80A9/Arm_R_UpperArm_FK_ctrl"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB2/joint_\u53F3\u80A9/Arm_R_UpperArm_FK_ctrl/Arm_R_Forearm_FK_ctrl"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB2/joint_\u53F3\u80A9/Arm_R_UpperArm_FK_ctrl/Arm_R_Forearm_FK_ctrl/Arm_R_Forearm_FK_hlp"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB2/joint_\u53F3\u80A9/Arm_R_UpperArm_FK_ctrl/Arm_R_Forearm_FK_ctrl/Arm_R_Wrist_FK_ctrl"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB2/joint_\u53F3\u80A9/Arm_R_UpperArm_FK_ctrl/Arm_R_Forearm_FK_ctrl/Arm_R_Wrist_FK_ctrl/Arm_R_Wrist_FK_hlp"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB2/joint_\u53F3\u80A9/Arm_R_UpperArm_FK_ctrl/Arm_R_UpperArm_FK_hlp"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB2/joint_\u53F3\u80A9/joint_\u53F3\u4E0A\u534A\u8EAB2_0_1"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB2/joint_\u53F3\u80A9/joint_\u53F3\u4E0A\u534A\u8EAB2_0_1/joint_\u53F3\u4E0A\u534A\u8EAB2_1_1"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB2/joint_\u53F3\u80A9/joint_\u53F3\u4E0A\u534A\u8EAB2_0_1/joint_\u53F3\u4E0A\u534A\u8EAB2_1_1/!joint_\u53F3\u4E0A\u534A\u8EAB2_2_1"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB2/joint_\u53F3\u80A9/joint_\u53F3\u8155"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB2/joint_\u53F3\u80A9/joint_\u53F3\u8155/!joint_\u53F3\u8155\u6369"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB2/joint_\u53F3\u80A9/joint_\u53F3\u8155/!joint_\u53F3\u8155\u6369/!joint_\u53F3\u8155\u6369\u8EF8"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB2/joint_\u53F3\u80A9/joint_\u53F3\u8155/joint_\u53F3\u3072\u3058"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB2/joint_\u53F3\u80A9/joint_\u53F3\u8155/joint_\u53F3\u3072\u3058/!joint_\u53F3\u624B\u6369"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB2/joint_\u53F3\u80A9/joint_\u53F3\u8155/joint_\u53F3\u3072\u3058/!joint_\u53F3\u624B\u6369/!joint_\u53F3\u624B\u6369\u8EF8"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB2/joint_\u53F3\u80A9/joint_\u53F3\u8155/joint_\u53F3\u3072\u3058/joint_\u53F3\u624B\u63691"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB2/joint_\u53F3\u80A9/joint_\u53F3\u8155/joint_\u53F3\u3072\u3058/joint_\u53F3\u624B\u63692"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB2/joint_\u53F3\u80A9/joint_\u53F3\u8155/joint_\u53F3\u3072\u3058/joint_\u53F3\u624B\u63693"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB2/joint_\u53F3\u80A9/joint_\u53F3\u8155/joint_\u53F3\u3072\u3058/joint_\u53F3\u624B\u9996"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB2/joint_\u53F3\u80A9/joint_\u53F3\u8155/joint_\u53F3\u3072\u3058/joint_\u53F3\u624B\u9996/!joint_RightThumb0M"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB2/joint_\u53F3\u80A9/joint_\u53F3\u8155/joint_\u53F3\u3072\u3058/joint_\u53F3\u624B\u9996/!joint_RightThumb0M/joint_\u53F3\u89AA\u6307\uFF11"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB2/joint_\u53F3\u80A9/joint_\u53F3\u8155/joint_\u53F3\u3072\u3058/joint_\u53F3\u624B\u9996/!joint_RightThumb0M/joint_\u53F3\u89AA\u6307\uFF11/joint_\u53F3\u89AA\u6307\uFF12"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB2/joint_\u53F3\u80A9/joint_\u53F3\u8155/joint_\u53F3\u3072\u3058/joint_\u53F3\u624B\u9996/!joint_RightThumb0M/joint_\u53F3\u89AA\u6307\uFF11/joint_\u53F3\u89AA\u6307\uFF12/!joint_\u53F3\u89AA\u6307\u5148"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB2/joint_\u53F3\u80A9/joint_\u53F3\u8155/joint_\u53F3\u3072\u3058/joint_\u53F3\u624B\u9996/!joint_\u53F3\u30C0\u30DF\u30FC"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB2/joint_\u53F3\u80A9/joint_\u53F3\u8155/joint_\u53F3\u3072\u3058/joint_\u53F3\u624B\u9996/!joint_\u53F3\u624B\u5148"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB2/joint_\u53F3\u80A9/joint_\u53F3\u8155/joint_\u53F3\u3072\u3058/joint_\u53F3\u624B\u9996/Hand_R_Index_ctrl"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB2/joint_\u53F3\u80A9/joint_\u53F3\u8155/joint_\u53F3\u3072\u3058/joint_\u53F3\u624B\u9996/Hand_R_Index_ctrl/Hand_R_Index_hlp"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB2/joint_\u53F3\u80A9/joint_\u53F3\u8155/joint_\u53F3\u3072\u3058/joint_\u53F3\u624B\u9996/Hand_R_Middle_ctrl"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB2/joint_\u53F3\u80A9/joint_\u53F3\u8155/joint_\u53F3\u3072\u3058/joint_\u53F3\u624B\u9996/Hand_R_Middle_ctrl/Hand_R_Middle_hlp"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB2/joint_\u53F3\u80A9/joint_\u53F3\u8155/joint_\u53F3\u3072\u3058/joint_\u53F3\u624B\u9996/Hand_R_Pinky_ctrl"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB2/joint_\u53F3\u80A9/joint_\u53F3\u8155/joint_\u53F3\u3072\u3058/joint_\u53F3\u624B\u9996/Hand_R_Pinky_ctrl/Hand_R_Pinky_hlp"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB2/joint_\u53F3\u80A9/joint_\u53F3\u8155/joint_\u53F3\u3072\u3058/joint_\u53F3\u624B\u9996/Hand_R_Ring_ctrl"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB2/joint_\u53F3\u80A9/joint_\u53F3\u8155/joint_\u53F3\u3072\u3058/joint_\u53F3\u624B\u9996/Hand_R_Ring_ctrl/Hand_R_Ring_hlp"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB2/joint_\u53F3\u80A9/joint_\u53F3\u8155/joint_\u53F3\u3072\u3058/joint_\u53F3\u624B\u9996/Hand_R_Thumb_ctrl"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB2/joint_\u53F3\u80A9/joint_\u53F3\u8155/joint_\u53F3\u3072\u3058/joint_\u53F3\u624B\u9996/Hand_R_Thumb_ctrl/Hand_R_Thumb_hlp"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB2/joint_\u53F3\u80A9/joint_\u53F3\u8155/joint_\u53F3\u3072\u3058/joint_\u53F3\u624B\u9996/joint_\u53F3\u4E2D\u6307\uFF11"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB2/joint_\u53F3\u80A9/joint_\u53F3\u8155/joint_\u53F3\u3072\u3058/joint_\u53F3\u624B\u9996/joint_\u53F3\u4E2D\u6307\uFF11/joint_\u53F3\u4E2D\u6307\uFF12"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB2/joint_\u53F3\u80A9/joint_\u53F3\u8155/joint_\u53F3\u3072\u3058/joint_\u53F3\u624B\u9996/joint_\u53F3\u4E2D\u6307\uFF11/joint_\u53F3\u4E2D\u6307\uFF12/joint_\u53F3\u4E2D\u6307\uFF13"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB2/joint_\u53F3\u80A9/joint_\u53F3\u8155/joint_\u53F3\u3072\u3058/joint_\u53F3\u624B\u9996/joint_\u53F3\u4E2D\u6307\uFF11/joint_\u53F3\u4E2D\u6307\uFF12/joint_\u53F3\u4E2D\u6307\uFF13/!joint_\u53F3\u4E2D\u6307\u5148"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB2/joint_\u53F3\u80A9/joint_\u53F3\u8155/joint_\u53F3\u3072\u3058/joint_\u53F3\u624B\u9996/joint_\u53F3\u4EBA\u6307\uFF11"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB2/joint_\u53F3\u80A9/joint_\u53F3\u8155/joint_\u53F3\u3072\u3058/joint_\u53F3\u624B\u9996/joint_\u53F3\u4EBA\u6307\uFF11/joint_\u53F3\u4EBA\u6307\uFF12"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB2/joint_\u53F3\u80A9/joint_\u53F3\u8155/joint_\u53F3\u3072\u3058/joint_\u53F3\u624B\u9996/joint_\u53F3\u4EBA\u6307\uFF11/joint_\u53F3\u4EBA\u6307\uFF12/joint_\u53F3\u4EBA\u6307\uFF13"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB2/joint_\u53F3\u80A9/joint_\u53F3\u8155/joint_\u53F3\u3072\u3058/joint_\u53F3\u624B\u9996/joint_\u53F3\u4EBA\u6307\uFF11/joint_\u53F3\u4EBA\u6307\uFF12/joint_\u53F3\u4EBA\u6307\uFF13/!joint_\u53F3\u4EBA\u6307\u5148"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB2/joint_\u53F3\u80A9/joint_\u53F3\u8155/joint_\u53F3\u3072\u3058/joint_\u53F3\u624B\u9996/joint_\u53F3\u5C0F\u6307\uFF11"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB2/joint_\u53F3\u80A9/joint_\u53F3\u8155/joint_\u53F3\u3072\u3058/joint_\u53F3\u624B\u9996/joint_\u53F3\u5C0F\u6307\uFF11/joint_\u53F3\u5C0F\u6307\uFF12"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB2/joint_\u53F3\u80A9/joint_\u53F3\u8155/joint_\u53F3\u3072\u3058/joint_\u53F3\u624B\u9996/joint_\u53F3\u5C0F\u6307\uFF11/joint_\u53F3\u5C0F\u6307\uFF12/joint_\u53F3\u5C0F\u6307\uFF13"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB2/joint_\u53F3\u80A9/joint_\u53F3\u8155/joint_\u53F3\u3072\u3058/joint_\u53F3\u624B\u9996/joint_\u53F3\u5C0F\u6307\uFF11/joint_\u53F3\u5C0F\u6307\uFF12/joint_\u53F3\u5C0F\u6307\uFF13/!joint_\u53F3\u5C0F\u6307\u5148"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB2/joint_\u53F3\u80A9/joint_\u53F3\u8155/joint_\u53F3\u3072\u3058/joint_\u53F3\u624B\u9996/joint_\u53F3\u85AC\u6307\uFF11"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB2/joint_\u53F3\u80A9/joint_\u53F3\u8155/joint_\u53F3\u3072\u3058/joint_\u53F3\u624B\u9996/joint_\u53F3\u85AC\u6307\uFF11/joint_\u53F3\u85AC\u6307\uFF12"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB2/joint_\u53F3\u80A9/joint_\u53F3\u8155/joint_\u53F3\u3072\u3058/joint_\u53F3\u624B\u9996/joint_\u53F3\u85AC\u6307\uFF11/joint_\u53F3\u85AC\u6307\uFF12/joint_\u53F3\u85AC\u6307\uFF13"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB2/joint_\u53F3\u80A9/joint_\u53F3\u8155/joint_\u53F3\u3072\u3058/joint_\u53F3\u624B\u9996/joint_\u53F3\u85AC\u6307\uFF11/joint_\u53F3\u85AC\u6307\uFF12/joint_\u53F3\u85AC\u6307\uFF13/!joint_\u53F3\u85AC\u6307\u5148"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB2/joint_\u53F3\u80A9/joint_\u53F3\u8155/joint_\u53F3\u3072\u3058/joint_\u53F3\u624B\u9996/joint_\u53F3\u89AA\u6307\uFF10"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB2/joint_\u53F3\u80A9/joint_\u53F3\u8155/joint_\u53F3\u8155\u63691"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB2/joint_\u53F3\u80A9/joint_\u53F3\u8155/joint_\u53F3\u8155\u63692"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB2/joint_\u53F3\u80A9/joint_\u53F3\u8155/joint_\u53F3\u8155\u63693"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB2/joint_\u53F3\u80A9/joint_\u53F3\u8155_FK"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB2/joint_\u53F3\u80A9/joint_\u53F3\u8155_FK/joint_\u53F3\u3072\u3058_FK"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB2/joint_\u53F3\u80A9/joint_\u53F3\u8155_FK/joint_\u53F3\u3072\u3058_FK/joint_\u53F3\u624B\u9996_FK"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB2/joint_\u53F3\u80A9/joint_\u53F3\u8155_IK"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB2/joint_\u53F3\u80A9/joint_\u53F3\u8155_IK/joint_\u53F3\u3072\u3058_IK"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB2/joint_\u53F3\u80A9/joint_\u53F3\u8155_IK/joint_\u53F3\u3072\u3058_IK/joint_\u53F3\u624B\u9996_IK"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB2/joint_\u5DE6\u80A9"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB2/joint_\u5DE6\u80A9/!joint_\u5DE6\u80A9C"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB2/joint_\u5DE6\u80A9/Arm_L_UpperArm_FK_ctrl"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB2/joint_\u5DE6\u80A9/Arm_L_UpperArm_FK_ctrl/Arm_L_Forearm_FK_ctrl"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB2/joint_\u5DE6\u80A9/Arm_L_UpperArm_FK_ctrl/Arm_L_Forearm_FK_ctrl/Arm_L_Forearm_FK_hlp"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB2/joint_\u5DE6\u80A9/Arm_L_UpperArm_FK_ctrl/Arm_L_Forearm_FK_ctrl/Arm_L_Wrist_FK_ctrl"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB2/joint_\u5DE6\u80A9/Arm_L_UpperArm_FK_ctrl/Arm_L_Forearm_FK_ctrl/Arm_L_Wrist_FK_ctrl/Arm_L_Wrist_FK_hlp"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB2/joint_\u5DE6\u80A9/Arm_L_UpperArm_FK_ctrl/Arm_L_UpperArm_FK_hlp"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB2/joint_\u5DE6\u80A9/joint_\u5DE6\u4E0A\u534A\u8EAB2_0_1"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB2/joint_\u5DE6\u80A9/joint_\u5DE6\u4E0A\u534A\u8EAB2_0_1/joint_\u5DE6\u4E0A\u534A\u8EAB2_1_1"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB2/joint_\u5DE6\u80A9/joint_\u5DE6\u4E0A\u534A\u8EAB2_0_1/joint_\u5DE6\u4E0A\u534A\u8EAB2_1_1/!joint_\u5DE6\u4E0A\u534A\u8EAB2_2_1"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB2/joint_\u5DE6\u80A9/joint_\u5DE6\u8155"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB2/joint_\u5DE6\u80A9/joint_\u5DE6\u8155/!joint_\u5DE6\u8155\u6369"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB2/joint_\u5DE6\u80A9/joint_\u5DE6\u8155/!joint_\u5DE6\u8155\u6369/!joint_\u5DE6\u8155\u6369\u8EF8"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB2/joint_\u5DE6\u80A9/joint_\u5DE6\u8155/joint_\u5DE6\u3072\u3058"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB2/joint_\u5DE6\u80A9/joint_\u5DE6\u8155/joint_\u5DE6\u3072\u3058/!joint_\u5DE6\u624B\u6369"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB2/joint_\u5DE6\u80A9/joint_\u5DE6\u8155/joint_\u5DE6\u3072\u3058/!joint_\u5DE6\u624B\u6369/!joint_\u5DE6\u624B\u6369\u8EF8"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB2/joint_\u5DE6\u80A9/joint_\u5DE6\u8155/joint_\u5DE6\u3072\u3058/joint_\u5DE6\u624B\u63691"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB2/joint_\u5DE6\u80A9/joint_\u5DE6\u8155/joint_\u5DE6\u3072\u3058/joint_\u5DE6\u624B\u63692"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB2/joint_\u5DE6\u80A9/joint_\u5DE6\u8155/joint_\u5DE6\u3072\u3058/joint_\u5DE6\u624B\u63693"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB2/joint_\u5DE6\u80A9/joint_\u5DE6\u8155/joint_\u5DE6\u3072\u3058/joint_\u5DE6\u624B\u9996"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB2/joint_\u5DE6\u80A9/joint_\u5DE6\u8155/joint_\u5DE6\u3072\u3058/joint_\u5DE6\u624B\u9996/!joint_LeftThumb0M"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB2/joint_\u5DE6\u80A9/joint_\u5DE6\u8155/joint_\u5DE6\u3072\u3058/joint_\u5DE6\u624B\u9996/!joint_LeftThumb0M/joint_\u5DE6\u89AA\u6307\uFF11"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB2/joint_\u5DE6\u80A9/joint_\u5DE6\u8155/joint_\u5DE6\u3072\u3058/joint_\u5DE6\u624B\u9996/!joint_LeftThumb0M/joint_\u5DE6\u89AA\u6307\uFF11/joint_\u5DE6\u89AA\u6307\uFF12"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB2/joint_\u5DE6\u80A9/joint_\u5DE6\u8155/joint_\u5DE6\u3072\u3058/joint_\u5DE6\u624B\u9996/!joint_LeftThumb0M/joint_\u5DE6\u89AA\u6307\uFF11/joint_\u5DE6\u89AA\u6307\uFF12/!joint_\u5DE6\u89AA\u6307\u5148"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB2/joint_\u5DE6\u80A9/joint_\u5DE6\u8155/joint_\u5DE6\u3072\u3058/joint_\u5DE6\u624B\u9996/!joint_\u5DE6\u30C0\u30DF\u30FC"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB2/joint_\u5DE6\u80A9/joint_\u5DE6\u8155/joint_\u5DE6\u3072\u3058/joint_\u5DE6\u624B\u9996/!joint_\u5DE6\u624B\u5148"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB2/joint_\u5DE6\u80A9/joint_\u5DE6\u8155/joint_\u5DE6\u3072\u3058/joint_\u5DE6\u624B\u9996/Hand_L_Index_ctrl"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB2/joint_\u5DE6\u80A9/joint_\u5DE6\u8155/joint_\u5DE6\u3072\u3058/joint_\u5DE6\u624B\u9996/Hand_L_Index_ctrl/Hand_L_Index_hlp"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB2/joint_\u5DE6\u80A9/joint_\u5DE6\u8155/joint_\u5DE6\u3072\u3058/joint_\u5DE6\u624B\u9996/Hand_L_Middle_ctrl"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB2/joint_\u5DE6\u80A9/joint_\u5DE6\u8155/joint_\u5DE6\u3072\u3058/joint_\u5DE6\u624B\u9996/Hand_L_Middle_ctrl/Hand_L_Middle_hlp"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB2/joint_\u5DE6\u80A9/joint_\u5DE6\u8155/joint_\u5DE6\u3072\u3058/joint_\u5DE6\u624B\u9996/Hand_L_Pinky_ctrl"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB2/joint_\u5DE6\u80A9/joint_\u5DE6\u8155/joint_\u5DE6\u3072\u3058/joint_\u5DE6\u624B\u9996/Hand_L_Pinky_ctrl/Hand_L_Pinky_hlp"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB2/joint_\u5DE6\u80A9/joint_\u5DE6\u8155/joint_\u5DE6\u3072\u3058/joint_\u5DE6\u624B\u9996/Hand_L_Ring_ctrl"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB2/joint_\u5DE6\u80A9/joint_\u5DE6\u8155/joint_\u5DE6\u3072\u3058/joint_\u5DE6\u624B\u9996/Hand_L_Ring_ctrl/Hand_L_Ring_hlp"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB2/joint_\u5DE6\u80A9/joint_\u5DE6\u8155/joint_\u5DE6\u3072\u3058/joint_\u5DE6\u624B\u9996/Hand_L_Thumb_ctrl"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB2/joint_\u5DE6\u80A9/joint_\u5DE6\u8155/joint_\u5DE6\u3072\u3058/joint_\u5DE6\u624B\u9996/Hand_L_Thumb_ctrl/Hand_L_Thumb_hlp"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB2/joint_\u5DE6\u80A9/joint_\u5DE6\u8155/joint_\u5DE6\u3072\u3058/joint_\u5DE6\u624B\u9996/joint_\u5DE6\u4E2D\u6307\uFF11"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB2/joint_\u5DE6\u80A9/joint_\u5DE6\u8155/joint_\u5DE6\u3072\u3058/joint_\u5DE6\u624B\u9996/joint_\u5DE6\u4E2D\u6307\uFF11/joint_\u5DE6\u4E2D\u6307\uFF12"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB2/joint_\u5DE6\u80A9/joint_\u5DE6\u8155/joint_\u5DE6\u3072\u3058/joint_\u5DE6\u624B\u9996/joint_\u5DE6\u4E2D\u6307\uFF11/joint_\u5DE6\u4E2D\u6307\uFF12/joint_\u5DE6\u4E2D\u6307\uFF13"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB2/joint_\u5DE6\u80A9/joint_\u5DE6\u8155/joint_\u5DE6\u3072\u3058/joint_\u5DE6\u624B\u9996/joint_\u5DE6\u4E2D\u6307\uFF11/joint_\u5DE6\u4E2D\u6307\uFF12/joint_\u5DE6\u4E2D\u6307\uFF13/!joint_\u5DE6\u4E2D\u6307\u5148"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB2/joint_\u5DE6\u80A9/joint_\u5DE6\u8155/joint_\u5DE6\u3072\u3058/joint_\u5DE6\u624B\u9996/joint_\u5DE6\u4EBA\u6307\uFF11"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB2/joint_\u5DE6\u80A9/joint_\u5DE6\u8155/joint_\u5DE6\u3072\u3058/joint_\u5DE6\u624B\u9996/joint_\u5DE6\u4EBA\u6307\uFF11/joint_\u5DE6\u4EBA\u6307\uFF12"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB2/joint_\u5DE6\u80A9/joint_\u5DE6\u8155/joint_\u5DE6\u3072\u3058/joint_\u5DE6\u624B\u9996/joint_\u5DE6\u4EBA\u6307\uFF11/joint_\u5DE6\u4EBA\u6307\uFF12/joint_\u5DE6\u4EBA\u6307\uFF13"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB2/joint_\u5DE6\u80A9/joint_\u5DE6\u8155/joint_\u5DE6\u3072\u3058/joint_\u5DE6\u624B\u9996/joint_\u5DE6\u4EBA\u6307\uFF11/joint_\u5DE6\u4EBA\u6307\uFF12/joint_\u5DE6\u4EBA\u6307\uFF13/!joint_\u5DE6\u4EBA\u6307\u5148"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB2/joint_\u5DE6\u80A9/joint_\u5DE6\u8155/joint_\u5DE6\u3072\u3058/joint_\u5DE6\u624B\u9996/joint_\u5DE6\u5C0F\u6307\uFF11"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB2/joint_\u5DE6\u80A9/joint_\u5DE6\u8155/joint_\u5DE6\u3072\u3058/joint_\u5DE6\u624B\u9996/joint_\u5DE6\u5C0F\u6307\uFF11/joint_\u5DE6\u5C0F\u6307\uFF12"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB2/joint_\u5DE6\u80A9/joint_\u5DE6\u8155/joint_\u5DE6\u3072\u3058/joint_\u5DE6\u624B\u9996/joint_\u5DE6\u5C0F\u6307\uFF11/joint_\u5DE6\u5C0F\u6307\uFF12/joint_\u5DE6\u5C0F\u6307\uFF13"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB2/joint_\u5DE6\u80A9/joint_\u5DE6\u8155/joint_\u5DE6\u3072\u3058/joint_\u5DE6\u624B\u9996/joint_\u5DE6\u5C0F\u6307\uFF11/joint_\u5DE6\u5C0F\u6307\uFF12/joint_\u5DE6\u5C0F\u6307\uFF13/!joint_\u5DE6\u5C0F\u6307\u5148"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB2/joint_\u5DE6\u80A9/joint_\u5DE6\u8155/joint_\u5DE6\u3072\u3058/joint_\u5DE6\u624B\u9996/joint_\u5DE6\u85AC\u6307\uFF11"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB2/joint_\u5DE6\u80A9/joint_\u5DE6\u8155/joint_\u5DE6\u3072\u3058/joint_\u5DE6\u624B\u9996/joint_\u5DE6\u85AC\u6307\uFF11/joint_\u5DE6\u85AC\u6307\uFF12"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB2/joint_\u5DE6\u80A9/joint_\u5DE6\u8155/joint_\u5DE6\u3072\u3058/joint_\u5DE6\u624B\u9996/joint_\u5DE6\u85AC\u6307\uFF11/joint_\u5DE6\u85AC\u6307\uFF12/joint_\u5DE6\u85AC\u6307\uFF13"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB2/joint_\u5DE6\u80A9/joint_\u5DE6\u8155/joint_\u5DE6\u3072\u3058/joint_\u5DE6\u624B\u9996/joint_\u5DE6\u85AC\u6307\uFF11/joint_\u5DE6\u85AC\u6307\uFF12/joint_\u5DE6\u85AC\u6307\uFF13/!joint_\u5DE6\u85AC\u6307\u5148"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB2/joint_\u5DE6\u80A9/joint_\u5DE6\u8155/joint_\u5DE6\u3072\u3058/joint_\u5DE6\u624B\u9996/joint_\u5DE6\u89AA\u6307\uFF10"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB2/joint_\u5DE6\u80A9/joint_\u5DE6\u8155/joint_\u5DE6\u8155\u63691"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB2/joint_\u5DE6\u80A9/joint_\u5DE6\u8155/joint_\u5DE6\u8155\u63692"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB2/joint_\u5DE6\u80A9/joint_\u5DE6\u8155/joint_\u5DE6\u8155\u63693"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB2/joint_\u5DE6\u80A9/joint_\u5DE6\u8155_FK"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB2/joint_\u5DE6\u80A9/joint_\u5DE6\u8155_FK/joint_\u5DE6\u3072\u3058_FK"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB2/joint_\u5DE6\u80A9/joint_\u5DE6\u8155_FK/joint_\u5DE6\u3072\u3058_FK/joint_\u5DE6\u624B\u9996_FK"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB2/joint_\u5DE6\u80A9/joint_\u5DE6\u8155_IK"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB2/joint_\u5DE6\u80A9/joint_\u5DE6\u8155_IK/joint_\u5DE6\u3072\u3058_IK"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB2/joint_\u5DE6\u80A9/joint_\u5DE6\u8155_IK/joint_\u5DE6\u3072\u3058_IK/joint_\u5DE6\u624B\u9996_IK"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB2/joint_\u9996"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB2/joint_\u9996/joint_\u982D"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB2/joint_\u9996/joint_\u982D/!joint_\u4E21\u76EE"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB2/joint_\u9996/joint_\u982D/!joint_\u4E21\u76EE/!joint_\u4E21\u76EE\u5148"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB2/joint_\u9996/joint_\u982D/!joint_\u982D\u5148"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB2/joint_\u9996/joint_\u982D/joint_\u53F3\u76EE"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB2/joint_\u9996/joint_\u982D/joint_\u53F3\u76EE/!joint_\u53F3\u76EE\u5148"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB2/joint_\u9996/joint_\u982D/joint_\u53F3\u9AEA2_0_1"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB2/joint_\u9996/joint_\u982D/joint_\u53F3\u9AEA2_0_1/joint_\u53F3\u9AEA2_1_1"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB2/joint_\u9996/joint_\u982D/joint_\u53F3\u9AEA2_0_1/joint_\u53F3\u9AEA2_1_1/joint_\u53F3\u9AEA2_2_1"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB2/joint_\u9996/joint_\u982D/joint_\u53F3\u9AEA2_0_1/joint_\u53F3\u9AEA2_1_1/joint_\u53F3\u9AEA2_2_1/!joint_\u53F3\u9AEA2_3_1"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB2/joint_\u9996/joint_\u982D/joint_\u53F3\u9AEA3_0_1"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB2/joint_\u9996/joint_\u982D/joint_\u53F3\u9AEA3_0_1/joint_\u53F3\u9AEA3_1_1"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB2/joint_\u9996/joint_\u982D/joint_\u53F3\u9AEA3_0_1/joint_\u53F3\u9AEA3_1_1/joint_\u53F3\u9AEA3_2_1"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB2/joint_\u9996/joint_\u982D/joint_\u53F3\u9AEA3_0_1/joint_\u53F3\u9AEA3_1_1/joint_\u53F3\u9AEA3_2_1/joint_\u53F3\u9AEA3_3_1"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB2/joint_\u9996/joint_\u982D/joint_\u53F3\u9AEA3_0_1/joint_\u53F3\u9AEA3_1_1/joint_\u53F3\u9AEA3_2_1/joint_\u53F3\u9AEA3_3_1/joint_\u53F3\u9AEA3_4_1"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB2/joint_\u9996/joint_\u982D/joint_\u53F3\u9AEA3_0_1/joint_\u53F3\u9AEA3_1_1/joint_\u53F3\u9AEA3_2_1/joint_\u53F3\u9AEA3_3_1/joint_\u53F3\u9AEA3_4_1/!joint_\u53F3\u9AEA3_5_1"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB2/joint_\u9996/joint_\u982D/joint_\u53F3\u9AEA_0_1"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB2/joint_\u9996/joint_\u982D/joint_\u53F3\u9AEA_0_1/joint_\u53F3\u9AEA_1_1"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB2/joint_\u9996/joint_\u982D/joint_\u53F3\u9AEA_0_1/joint_\u53F3\u9AEA_1_1/joint_\u53F3\u9AEA_2_1"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB2/joint_\u9996/joint_\u982D/joint_\u53F3\u9AEA_0_1/joint_\u53F3\u9AEA_1_1/joint_\u53F3\u9AEA_2_1/!joint_\u53F3\u9AEA_3_1"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB2/joint_\u9996/joint_\u982D/joint_\u5DE6\u76EE"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB2/joint_\u9996/joint_\u982D/joint_\u5DE6\u76EE/!joint_\u5DE6\u76EE\u5148"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB2/joint_\u9996/joint_\u982D/joint_\u5DE6\u9AEA2_0_1"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB2/joint_\u9996/joint_\u982D/joint_\u5DE6\u9AEA2_0_1/joint_\u5DE6\u9AEA2_1_1"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB2/joint_\u9996/joint_\u982D/joint_\u5DE6\u9AEA2_0_1/joint_\u5DE6\u9AEA2_1_1/joint_\u5DE6\u9AEA2_2_1"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB2/joint_\u9996/joint_\u982D/joint_\u5DE6\u9AEA2_0_1/joint_\u5DE6\u9AEA2_1_1/joint_\u5DE6\u9AEA2_2_1/!joint_\u5DE6\u9AEA2_3_1"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB2/joint_\u9996/joint_\u982D/joint_\u5DE6\u9AEA3_0_1"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB2/joint_\u9996/joint_\u982D/joint_\u5DE6\u9AEA3_0_1/joint_\u5DE6\u9AEA3_1_1"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB2/joint_\u9996/joint_\u982D/joint_\u5DE6\u9AEA3_0_1/joint_\u5DE6\u9AEA3_1_1/joint_\u5DE6\u9AEA3_2_1"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB2/joint_\u9996/joint_\u982D/joint_\u5DE6\u9AEA3_0_1/joint_\u5DE6\u9AEA3_1_1/joint_\u5DE6\u9AEA3_2_1/joint_\u5DE6\u9AEA3_3_1"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB2/joint_\u9996/joint_\u982D/joint_\u5DE6\u9AEA3_0_1/joint_\u5DE6\u9AEA3_1_1/joint_\u5DE6\u9AEA3_2_1/joint_\u5DE6\u9AEA3_3_1/joint_\u5DE6\u9AEA3_4_1"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB2/joint_\u9996/joint_\u982D/joint_\u5DE6\u9AEA3_0_1/joint_\u5DE6\u9AEA3_1_1/joint_\u5DE6\u9AEA3_2_1/joint_\u5DE6\u9AEA3_3_1/joint_\u5DE6\u9AEA3_4_1/!joint_\u5DE6\u9AEA3_5_1"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB2/joint_\u9996/joint_\u982D/joint_\u5DE6\u9AEA_0_1"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB2/joint_\u9996/joint_\u982D/joint_\u5DE6\u9AEA_0_1/joint_\u5DE6\u9AEA_1_1"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB2/joint_\u9996/joint_\u982D/joint_\u5DE6\u9AEA_0_1/joint_\u5DE6\u9AEA_1_1/joint_\u5DE6\u9AEA_2_1"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB2/joint_\u9996/joint_\u982D/joint_\u5DE6\u9AEA_0_1/joint_\u5DE6\u9AEA_1_1/joint_\u5DE6\u9AEA_2_1/!joint_\u5DE6\u9AEA_3_1"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB2/joint_\u9996/joint_\u982D/joint_\u9AEA_0_1"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB2/joint_\u9996/joint_\u982D/joint_\u9AEA_0_1/joint_\u9AEA_1_1"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB2/joint_\u9996/joint_\u982D/joint_\u9AEA_0_1/joint_\u9AEA_1_1/joint_\u9AEA_2_1"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB2/joint_\u9996/joint_\u982D/joint_\u9AEA_0_1/joint_\u9AEA_1_1/joint_\u9AEA_2_1/joint_\u9AEA_3_1"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB2/joint_\u9996/joint_\u982D/joint_\u9AEA_0_1/joint_\u9AEA_1_1/joint_\u9AEA_2_1/joint_\u9AEA_3_1/joint_\u9AEA_4_1"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB2/joint_\u9996/joint_\u982D/joint_\u9AEA_0_1/joint_\u9AEA_1_1/joint_\u9AEA_2_1/joint_\u9AEA_3_1/joint_\u9AEA_4_1/!joint_\u9AEA_5_1"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u53F3\u30B9\u30AB\u30FC\u30C83_0_0"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u53F3\u30B9\u30AB\u30FC\u30C83_0_0/joint_\u53F3\u30B9\u30AB\u30FC\u30C83_1_0"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u53F3\u30B9\u30AB\u30FC\u30C83_0_0/joint_\u53F3\u30B9\u30AB\u30FC\u30C83_1_0/joint_\u53F3\u30B9\u30AB\u30FC\u30C83_2_0"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u53F3\u30B9\u30AB\u30FC\u30C83_0_0/joint_\u53F3\u30B9\u30AB\u30FC\u30C83_1_0/joint_\u53F3\u30B9\u30AB\u30FC\u30C83_2_0/joint_\u53F3\u30B9\u30AB\u30FC\u30C83_3_0"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u53F3\u30B9\u30AB\u30FC\u30C83_0_0/joint_\u53F3\u30B9\u30AB\u30FC\u30C83_1_0/joint_\u53F3\u30B9\u30AB\u30FC\u30C83_2_0/joint_\u53F3\u30B9\u30AB\u30FC\u30C83_3_0/joint_\u53F3\u30B9\u30AB\u30FC\u30C83_4_0"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u53F3\u30B9\u30AB\u30FC\u30C83_0_0/joint_\u53F3\u30B9\u30AB\u30FC\u30C83_1_0/joint_\u53F3\u30B9\u30AB\u30FC\u30C83_2_0/joint_\u53F3\u30B9\u30AB\u30FC\u30C83_3_0/joint_\u53F3\u30B9\u30AB\u30FC\u30C83_4_0/joint_\u53F3\u30B9\u30AB\u30FC\u30C83_5_0"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u53F3\u30B9\u30AB\u30FC\u30C83_0_0/joint_\u53F3\u30B9\u30AB\u30FC\u30C83_1_0/joint_\u53F3\u30B9\u30AB\u30FC\u30C83_2_0/joint_\u53F3\u30B9\u30AB\u30FC\u30C83_3_0/joint_\u53F3\u30B9\u30AB\u30FC\u30C83_4_0/joint_\u53F3\u30B9\u30AB\u30FC\u30C83_5_0/joint_\u53F3\u30B9\u30AB\u30FC\u30C83_6_0"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u53F3\u30B9\u30AB\u30FC\u30C83_0_0/joint_\u53F3\u30B9\u30AB\u30FC\u30C83_1_0/joint_\u53F3\u30B9\u30AB\u30FC\u30C83_2_0/joint_\u53F3\u30B9\u30AB\u30FC\u30C83_3_0/joint_\u53F3\u30B9\u30AB\u30FC\u30C83_4_0/joint_\u53F3\u30B9\u30AB\u30FC\u30C83_5_0/joint_\u53F3\u30B9\u30AB\u30FC\u30C83_6_0/!joint_\u53F3\u30B9\u30AB\u30FC\u30C83_7_0"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u53F3\u30B9\u30AB\u30FC\u30C83_0_1"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u53F3\u30B9\u30AB\u30FC\u30C83_0_1/joint_\u53F3\u30B9\u30AB\u30FC\u30C83_1_1"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u53F3\u30B9\u30AB\u30FC\u30C83_0_1/joint_\u53F3\u30B9\u30AB\u30FC\u30C83_1_1/joint_\u53F3\u30B9\u30AB\u30FC\u30C83_2_1"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u53F3\u30B9\u30AB\u30FC\u30C83_0_1/joint_\u53F3\u30B9\u30AB\u30FC\u30C83_1_1/joint_\u53F3\u30B9\u30AB\u30FC\u30C83_2_1/joint_\u53F3\u30B9\u30AB\u30FC\u30C83_3_1"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u53F3\u30B9\u30AB\u30FC\u30C83_0_1/joint_\u53F3\u30B9\u30AB\u30FC\u30C83_1_1/joint_\u53F3\u30B9\u30AB\u30FC\u30C83_2_1/joint_\u53F3\u30B9\u30AB\u30FC\u30C83_3_1/joint_\u53F3\u30B9\u30AB\u30FC\u30C83_4_1"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u53F3\u30B9\u30AB\u30FC\u30C83_0_1/joint_\u53F3\u30B9\u30AB\u30FC\u30C83_1_1/joint_\u53F3\u30B9\u30AB\u30FC\u30C83_2_1/joint_\u53F3\u30B9\u30AB\u30FC\u30C83_3_1/joint_\u53F3\u30B9\u30AB\u30FC\u30C83_4_1/joint_\u53F3\u30B9\u30AB\u30FC\u30C83_5_1"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u53F3\u30B9\u30AB\u30FC\u30C83_0_1/joint_\u53F3\u30B9\u30AB\u30FC\u30C83_1_1/joint_\u53F3\u30B9\u30AB\u30FC\u30C83_2_1/joint_\u53F3\u30B9\u30AB\u30FC\u30C83_3_1/joint_\u53F3\u30B9\u30AB\u30FC\u30C83_4_1/joint_\u53F3\u30B9\u30AB\u30FC\u30C83_5_1/joint_\u53F3\u30B9\u30AB\u30FC\u30C83_6_1"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u53F3\u30B9\u30AB\u30FC\u30C83_0_1/joint_\u53F3\u30B9\u30AB\u30FC\u30C83_1_1/joint_\u53F3\u30B9\u30AB\u30FC\u30C83_2_1/joint_\u53F3\u30B9\u30AB\u30FC\u30C83_3_1/joint_\u53F3\u30B9\u30AB\u30FC\u30C83_4_1/joint_\u53F3\u30B9\u30AB\u30FC\u30C83_5_1/joint_\u53F3\u30B9\u30AB\u30FC\u30C83_6_1/!joint_\u53F3\u30B9\u30AB\u30FC\u30C83_7_1"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u53F3\u8DB3"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u53F3\u8DB3/joint_\u53F3\u3072\u3056"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u53F3\u8DB3/joint_\u53F3\u3072\u3056/joint_\u53F3\u8DB3\u9996"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u53F3\u8DB3/joint_\u53F3\u3072\u3056/joint_\u53F3\u8DB3\u9996/!joint_\u53F3\u3064\u307E\u5148"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u53F3\u8DB3__IK_bone"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u53F3\u8DB3__IK_bone/joint_\u53F3\u3072\u3056__IK_bone"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u53F3\u8DB3__IK_bone/joint_\u53F3\u3072\u3056__IK_bone/joint_\u53F3\u8DB3\u9996__IK_bone"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u5DE6\u30B9\u30AB\u30FC\u30C83_0_0"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u5DE6\u30B9\u30AB\u30FC\u30C83_0_0/joint_\u5DE6\u30B9\u30AB\u30FC\u30C83_1_0"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u5DE6\u30B9\u30AB\u30FC\u30C83_0_0/joint_\u5DE6\u30B9\u30AB\u30FC\u30C83_1_0/joint_\u5DE6\u30B9\u30AB\u30FC\u30C83_2_0"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u5DE6\u30B9\u30AB\u30FC\u30C83_0_0/joint_\u5DE6\u30B9\u30AB\u30FC\u30C83_1_0/joint_\u5DE6\u30B9\u30AB\u30FC\u30C83_2_0/joint_\u5DE6\u30B9\u30AB\u30FC\u30C83_3_0"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u5DE6\u30B9\u30AB\u30FC\u30C83_0_0/joint_\u5DE6\u30B9\u30AB\u30FC\u30C83_1_0/joint_\u5DE6\u30B9\u30AB\u30FC\u30C83_2_0/joint_\u5DE6\u30B9\u30AB\u30FC\u30C83_3_0/joint_\u5DE6\u30B9\u30AB\u30FC\u30C83_4_0"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u5DE6\u30B9\u30AB\u30FC\u30C83_0_0/joint_\u5DE6\u30B9\u30AB\u30FC\u30C83_1_0/joint_\u5DE6\u30B9\u30AB\u30FC\u30C83_2_0/joint_\u5DE6\u30B9\u30AB\u30FC\u30C83_3_0/joint_\u5DE6\u30B9\u30AB\u30FC\u30C83_4_0/joint_\u5DE6\u30B9\u30AB\u30FC\u30C83_5_0"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u5DE6\u30B9\u30AB\u30FC\u30C83_0_0/joint_\u5DE6\u30B9\u30AB\u30FC\u30C83_1_0/joint_\u5DE6\u30B9\u30AB\u30FC\u30C83_2_0/joint_\u5DE6\u30B9\u30AB\u30FC\u30C83_3_0/joint_\u5DE6\u30B9\u30AB\u30FC\u30C83_4_0/joint_\u5DE6\u30B9\u30AB\u30FC\u30C83_5_0/joint_\u5DE6\u30B9\u30AB\u30FC\u30C83_6_0"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u5DE6\u30B9\u30AB\u30FC\u30C83_0_0/joint_\u5DE6\u30B9\u30AB\u30FC\u30C83_1_0/joint_\u5DE6\u30B9\u30AB\u30FC\u30C83_2_0/joint_\u5DE6\u30B9\u30AB\u30FC\u30C83_3_0/joint_\u5DE6\u30B9\u30AB\u30FC\u30C83_4_0/joint_\u5DE6\u30B9\u30AB\u30FC\u30C83_5_0/joint_\u5DE6\u30B9\u30AB\u30FC\u30C83_6_0/!joint_\u5DE6\u30B9\u30AB\u30FC\u30C83_7_0"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u5DE6\u30B9\u30AB\u30FC\u30C83_0_1"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u5DE6\u30B9\u30AB\u30FC\u30C83_0_1/joint_\u5DE6\u30B9\u30AB\u30FC\u30C83_1_1"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u5DE6\u30B9\u30AB\u30FC\u30C83_0_1/joint_\u5DE6\u30B9\u30AB\u30FC\u30C83_1_1/joint_\u5DE6\u30B9\u30AB\u30FC\u30C83_2_1"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u5DE6\u30B9\u30AB\u30FC\u30C83_0_1/joint_\u5DE6\u30B9\u30AB\u30FC\u30C83_1_1/joint_\u5DE6\u30B9\u30AB\u30FC\u30C83_2_1/joint_\u5DE6\u30B9\u30AB\u30FC\u30C83_3_1"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u5DE6\u30B9\u30AB\u30FC\u30C83_0_1/joint_\u5DE6\u30B9\u30AB\u30FC\u30C83_1_1/joint_\u5DE6\u30B9\u30AB\u30FC\u30C83_2_1/joint_\u5DE6\u30B9\u30AB\u30FC\u30C83_3_1/joint_\u5DE6\u30B9\u30AB\u30FC\u30C83_4_1"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u5DE6\u30B9\u30AB\u30FC\u30C83_0_1/joint_\u5DE6\u30B9\u30AB\u30FC\u30C83_1_1/joint_\u5DE6\u30B9\u30AB\u30FC\u30C83_2_1/joint_\u5DE6\u30B9\u30AB\u30FC\u30C83_3_1/joint_\u5DE6\u30B9\u30AB\u30FC\u30C83_4_1/joint_\u5DE6\u30B9\u30AB\u30FC\u30C83_5_1"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u5DE6\u30B9\u30AB\u30FC\u30C83_0_1/joint_\u5DE6\u30B9\u30AB\u30FC\u30C83_1_1/joint_\u5DE6\u30B9\u30AB\u30FC\u30C83_2_1/joint_\u5DE6\u30B9\u30AB\u30FC\u30C83_3_1/joint_\u5DE6\u30B9\u30AB\u30FC\u30C83_4_1/joint_\u5DE6\u30B9\u30AB\u30FC\u30C83_5_1/joint_\u5DE6\u30B9\u30AB\u30FC\u30C83_6_1"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u5DE6\u30B9\u30AB\u30FC\u30C83_0_1/joint_\u5DE6\u30B9\u30AB\u30FC\u30C83_1_1/joint_\u5DE6\u30B9\u30AB\u30FC\u30C83_2_1/joint_\u5DE6\u30B9\u30AB\u30FC\u30C83_3_1/joint_\u5DE6\u30B9\u30AB\u30FC\u30C83_4_1/joint_\u5DE6\u30B9\u30AB\u30FC\u30C83_5_1/joint_\u5DE6\u30B9\u30AB\u30FC\u30C83_6_1/!joint_\u5DE6\u30B9\u30AB\u30FC\u30C83_7_1"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u5DE6\u8DB3"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u5DE6\u8DB3/joint_\u5DE6\u3072\u3056"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u5DE6\u8DB3/joint_\u5DE6\u3072\u3056/joint_\u5DE6\u8DB3\u9996"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u5DE6\u8DB3/joint_\u5DE6\u3072\u3056/joint_\u5DE6\u8DB3\u9996/!joint_\u5DE6\u3064\u307E\u5148"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u5DE6\u8DB3__IK_bone"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u5DE6\u8DB3__IK_bone/joint_\u5DE6\u3072\u3056__IK_bone"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u5DE6\u8DB3__IK_bone/joint_\u5DE6\u3072\u3056__IK_bone/joint_\u5DE6\u8DB3\u9996__IK_bone"
+        weight: 1
+      - path: Main_ctrl/COM_ctrl/Neck_ctrl
+        weight: 1
+      - path: Main_ctrl/COM_ctrl/Spine_ctrl
+        weight: 1
+      - path: Main_ctrl/mord_Leg_L_IK_ctrl
+        weight: 1
+      - path: Main_ctrl/mord_Leg_L_IK_ctrl/Leg_L_Heel_hlp
+        weight: 1
+      - path: Main_ctrl/mord_Leg_L_IK_ctrl/Leg_L_Heel_hlp/Leg_L_ToeLift_hlp
+        weight: 1
+      - path: Main_ctrl/mord_Leg_L_IK_ctrl/Leg_L_Heel_hlp/Leg_L_ToeLift_hlp/Leg_L_Toe_hlp
+        weight: 1
+      - path: Main_ctrl/mord_Leg_L_IK_ctrl/Leg_L_Heel_hlp/Leg_L_ToeLift_hlp/Leg_L_Toe_hlp/mord_Leg_L_Foot_IKGoal
+        weight: 1
+      - path: Main_ctrl/mord_Leg_L_IK_ctrl/Leg_L_Heel_hlp/Leg_L_ToeLift_hlp/Leg_L_Toe_hlp/mord_Leg_L_Toe_IKGoal
+        weight: 1
+      - path: Main_ctrl/mord_Leg_R_IK_ctrl
+        weight: 1
+      - path: Main_ctrl/mord_Leg_R_IK_ctrl/Leg_R_Heel_hlp
+        weight: 1
+      - path: Main_ctrl/mord_Leg_R_IK_ctrl/Leg_R_Heel_hlp/Leg_R_ToeLift_hlp
+        weight: 1
+      - path: Main_ctrl/mord_Leg_R_IK_ctrl/Leg_R_Heel_hlp/Leg_R_ToeLift_hlp/Leg_R_Toe_hlp
+        weight: 1
+      - path: Main_ctrl/mord_Leg_R_IK_ctrl/Leg_R_Heel_hlp/Leg_R_ToeLift_hlp/Leg_R_Toe_hlp/mord_Leg_R_Foot_IKGoal
+        weight: 1
+      - path: Main_ctrl/mord_Leg_R_IK_ctrl/Leg_R_Heel_hlp/Leg_R_ToeLift_hlp/Leg_R_Toe_hlp/mord_Leg_R_Toe_IKGoal
+        weight: 1
+      - path: Point001
+        weight: 1
+      - path: Point002
+        weight: 1
+      - path: rec_ik l hand bindpose
+        weight: 1
+      - path: rec_ik l hand idle
+        weight: 1
+      - path: rec_weapon bindpose
+        weight: 1
+      - path: rec_weapon idlepos
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Take 001
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 1800
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: '!Root'
+        weight: 1
+      - path: "!Root/!joint_\u4E0A\u534A\u8EAB2\u5148"
+        weight: 1
+      - path: "!Root/!joint_\u5168\u3066\u306E\u89AA"
+        weight: 1
+      - path: "!Root/!joint_\u5168\u3066\u306E\u89AA/!joint_\u30BB\u30F3\u30BF\u30FC"
+        weight: 1
+      - path: "!Root/!joint_\u5168\u3066\u306E\u89AA/!joint_\u30BB\u30F3\u30BF\u30FC/!joint_\u30B0\u30EB\u30FC\u30D6"
+        weight: 1
+      - path: "!Root/!joint_\u5168\u3066\u306E\u89AA/!joint_\u30BB\u30F3\u30BF\u30FC/!joint_\u30B0\u30EB\u30FC\u30D6/!joint_\u8170"
+        weight: 1
+      - path: "!Root/!joint_\u5168\u3066\u306E\u89AA/!joint_\u30BB\u30F3\u30BF\u30FC/!joint_\u30B0\u30EB\u30FC\u30D6/!joint_\u8170/!joint_\u30B0\u30EB\u30FC\u30D6\u5148"
+        weight: 1
+      - path: "!Root/!joint_\u5168\u3066\u306E\u89AA/!joint_\u30BB\u30F3\u30BF\u30FC/!joint_\u30BB\u30F3\u30BF\u30FC\u5148"
+        weight: 1
+      - path: "!Root/!joint_\u5DE6\u80A9\u8896\u5148"
+        weight: 1
+      - path: "!Root/!joint_\u5DE6\u8155\u8896"
+        weight: 1
+      - path: "!Root/!joint_\u5DE6\u8155\u8896/!joint_\u53F3\u80A9\u8896\u5148"
+        weight: 1
+      - path: "!Root/!joint_\u5DE6\u8155\u8896/!joint_\u53F3\u8155\u8896"
+        weight: 1
+      - path: "!Root/!joint_\u64CD\u4F5C\u4E2D\u5FC3"
+        weight: 1
+      - path: ".joint_\u30BB\u30F3\u30BF\u30FC"
+        weight: 1
+      - path: m_Armor_Head
+        weight: 1
+      - path: m_Armor_Head 1
+        weight: 1
+      - path: m_Armor_MainBody01
+        weight: 1
+      - path: m_Armor_Skirt1
+        weight: 1
+      - path: m_Sword1
+        weight: 1
+      - path: m_Sword2
+        weight: 1
+      - path: Main_ctrl
+        weight: 1
+      - path: Main_ctrl/COM_ctrl
+        weight: 1
+      - path: Main_ctrl/COM_ctrl/Arm_R_IK_ctrl
+        weight: 1
+      - path: Main_ctrl/COM_ctrl/Arm_R_IK_ctrl/Arm_L_IK_ctrl
+        weight: 1
+      - path: Main_ctrl/COM_ctrl/Arm_R_IK_ctrl/Arm_L_IK_ctrl/Arm_L_IKGoal
+        weight: 1
+      - path: Main_ctrl/COM_ctrl/Arm_R_IK_ctrl/Arm_L_IK_ctrl/Arm_L_Wrist_IK_hlp
+        weight: 1
+      - path: Main_ctrl/COM_ctrl/Arm_R_IK_ctrl/Arm_R_IKGoal
+        weight: 1
+      - path: Main_ctrl/COM_ctrl/Arm_R_IK_ctrl/Arm_R_Wrist_IK_hlp
+        weight: 1
+      - path: Main_ctrl/COM_ctrl/Head_ctrl
+        weight: 1
+      - path: Main_ctrl/COM_ctrl/Hip_ctrl
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/!joint_\u4E0B\u534A\u8EAB\u5148"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/!joint_\u53F3\u30B9\u30AB\u30FC\u30C83_0_2"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/!joint_\u53F3\u30B9\u30AB\u30FC\u30C83_0_2/joint_\u53F3\u30B9\u30AB\u30FC\u30C83_1_2"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/!joint_\u53F3\u30B9\u30AB\u30FC\u30C83_0_2/joint_\u53F3\u30B9\u30AB\u30FC\u30C83_1_2/joint_\u53F3\u30B9\u30AB\u30FC\u30C83_2_2"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/!joint_\u53F3\u30B9\u30AB\u30FC\u30C83_0_2/joint_\u53F3\u30B9\u30AB\u30FC\u30C83_1_2/joint_\u53F3\u30B9\u30AB\u30FC\u30C83_2_2/joint_\u53F3\u30B9\u30AB\u30FC\u30C83_3_2"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/!joint_\u53F3\u30B9\u30AB\u30FC\u30C83_0_2/joint_\u53F3\u30B9\u30AB\u30FC\u30C83_1_2/joint_\u53F3\u30B9\u30AB\u30FC\u30C83_2_2/joint_\u53F3\u30B9\u30AB\u30FC\u30C83_3_2/joint_\u53F3\u30B9\u30AB\u30FC\u30C83_4_2"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/!joint_\u53F3\u30B9\u30AB\u30FC\u30C83_0_2/joint_\u53F3\u30B9\u30AB\u30FC\u30C83_1_2/joint_\u53F3\u30B9\u30AB\u30FC\u30C83_2_2/joint_\u53F3\u30B9\u30AB\u30FC\u30C83_3_2/joint_\u53F3\u30B9\u30AB\u30FC\u30C83_4_2/joint_\u53F3\u30B9\u30AB\u30FC\u30C83_5_2"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/!joint_\u53F3\u30B9\u30AB\u30FC\u30C83_0_2/joint_\u53F3\u30B9\u30AB\u30FC\u30C83_1_2/joint_\u53F3\u30B9\u30AB\u30FC\u30C83_2_2/joint_\u53F3\u30B9\u30AB\u30FC\u30C83_3_2/joint_\u53F3\u30B9\u30AB\u30FC\u30C83_4_2/joint_\u53F3\u30B9\u30AB\u30FC\u30C83_5_2/joint_\u53F3\u30B9\u30AB\u30FC\u30C83_6_2"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/!joint_\u53F3\u30B9\u30AB\u30FC\u30C83_0_2/joint_\u53F3\u30B9\u30AB\u30FC\u30C83_1_2/joint_\u53F3\u30B9\u30AB\u30FC\u30C83_2_2/joint_\u53F3\u30B9\u30AB\u30FC\u30C83_3_2/joint_\u53F3\u30B9\u30AB\u30FC\u30C83_4_2/joint_\u53F3\u30B9\u30AB\u30FC\u30C83_5_2/joint_\u53F3\u30B9\u30AB\u30FC\u30C83_6_2/!joint_\u53F3\u30B9\u30AB\u30FC\u30C83_7_2"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/!joint_\u5DE6\u30B9\u30AB\u30FC\u30C83_0_2"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/!joint_\u5DE6\u30B9\u30AB\u30FC\u30C83_0_2/joint_\u5DE6\u30B9\u30AB\u30FC\u30C83_1_2"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/!joint_\u5DE6\u30B9\u30AB\u30FC\u30C83_0_2/joint_\u5DE6\u30B9\u30AB\u30FC\u30C83_1_2/joint_\u5DE6\u30B9\u30AB\u30FC\u30C83_2_2"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/!joint_\u5DE6\u30B9\u30AB\u30FC\u30C83_0_2/joint_\u5DE6\u30B9\u30AB\u30FC\u30C83_1_2/joint_\u5DE6\u30B9\u30AB\u30FC\u30C83_2_2/joint_\u5DE6\u30B9\u30AB\u30FC\u30C83_3_2"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/!joint_\u5DE6\u30B9\u30AB\u30FC\u30C83_0_2/joint_\u5DE6\u30B9\u30AB\u30FC\u30C83_1_2/joint_\u5DE6\u30B9\u30AB\u30FC\u30C83_2_2/joint_\u5DE6\u30B9\u30AB\u30FC\u30C83_3_2/joint_\u5DE6\u30B9\u30AB\u30FC\u30C83_4_2"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/!joint_\u5DE6\u30B9\u30AB\u30FC\u30C83_0_2/joint_\u5DE6\u30B9\u30AB\u30FC\u30C83_1_2/joint_\u5DE6\u30B9\u30AB\u30FC\u30C83_2_2/joint_\u5DE6\u30B9\u30AB\u30FC\u30C83_3_2/joint_\u5DE6\u30B9\u30AB\u30FC\u30C83_4_2/joint_\u5DE6\u30B9\u30AB\u30FC\u30C83_5_2"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/!joint_\u5DE6\u30B9\u30AB\u30FC\u30C83_0_2/joint_\u5DE6\u30B9\u30AB\u30FC\u30C83_1_2/joint_\u5DE6\u30B9\u30AB\u30FC\u30C83_2_2/joint_\u5DE6\u30B9\u30AB\u30FC\u30C83_3_2/joint_\u5DE6\u30B9\u30AB\u30FC\u30C83_4_2/joint_\u5DE6\u30B9\u30AB\u30FC\u30C83_5_2/joint_\u5DE6\u30B9\u30AB\u30FC\u30C83_6_2"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/!joint_\u5DE6\u30B9\u30AB\u30FC\u30C83_0_2/joint_\u5DE6\u30B9\u30AB\u30FC\u30C83_1_2/joint_\u5DE6\u30B9\u30AB\u30FC\u30C83_2_2/joint_\u5DE6\u30B9\u30AB\u30FC\u30C83_3_2/joint_\u5DE6\u30B9\u30AB\u30FC\u30C83_4_2/joint_\u5DE6\u30B9\u30AB\u30FC\u30C83_5_2/joint_\u5DE6\u30B9\u30AB\u30FC\u30C83_6_2/!joint_\u5DE6\u30B9\u30AB\u30FC\u30C83_7_2"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/!joint_\u8170\u30AD\u30E3\u30F3\u30BB\u30EB\u53F3"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/!joint_\u8170\u30AD\u30E3\u30F3\u30BB\u30EB\u53F3/!joint_\u53F3\u8DB3D"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/!joint_\u8170\u30AD\u30E3\u30F3\u30BB\u30EB\u53F3/!joint_\u53F3\u8DB3D/!joint_\u53F3\u3072\u3056D"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/!joint_\u8170\u30AD\u30E3\u30F3\u30BB\u30EB\u53F3/!joint_\u53F3\u8DB3D/!joint_\u53F3\u3072\u3056D/!joint_\u53F3\u8DB3\u9996D"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/!joint_\u8170\u30AD\u30E3\u30F3\u30BB\u30EB\u53F3/!joint_\u53F3\u8DB3D/!joint_\u53F3\u3072\u3056D/!joint_\u53F3\u8DB3\u9996D/!joint_\u53F3\u8DB3\u5148EX"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/!joint_\u8170\u30AD\u30E3\u30F3\u30BB\u30EB\u5DE6"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/!joint_\u8170\u30AD\u30E3\u30F3\u30BB\u30EB\u5DE6/!joint_\u5DE6\u8DB3D"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/!joint_\u8170\u30AD\u30E3\u30F3\u30BB\u30EB\u5DE6/!joint_\u5DE6\u8DB3D/!joint_\u5DE6\u3072\u3056D"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/!joint_\u8170\u30AD\u30E3\u30F3\u30BB\u30EB\u5DE6/!joint_\u5DE6\u8DB3D/!joint_\u5DE6\u3072\u3056D/!joint_\u5DE6\u8DB3\u9996D"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/!joint_\u8170\u30AD\u30E3\u30F3\u30BB\u30EB\u5DE6/!joint_\u5DE6\u8DB3D/!joint_\u5DE6\u3072\u3056D/!joint_\u5DE6\u8DB3\u9996D/!joint_\u5DE6\u8DB3\u5148EX"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u30B9\u30AB\u30FC\u30C82_0_1"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u30B9\u30AB\u30FC\u30C82_0_1/joint_\u30B9\u30AB\u30FC\u30C82_1_1"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u30B9\u30AB\u30FC\u30C82_0_1/joint_\u30B9\u30AB\u30FC\u30C82_1_1/joint_\u30B9\u30AB\u30FC\u30C82_2_1"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u30B9\u30AB\u30FC\u30C82_0_1/joint_\u30B9\u30AB\u30FC\u30C82_1_1/joint_\u30B9\u30AB\u30FC\u30C82_2_1/joint_\u30B9\u30AB\u30FC\u30C82_3_1"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u30B9\u30AB\u30FC\u30C82_0_1/joint_\u30B9\u30AB\u30FC\u30C82_1_1/joint_\u30B9\u30AB\u30FC\u30C82_2_1/joint_\u30B9\u30AB\u30FC\u30C82_3_1/joint_\u30B9\u30AB\u30FC\u30C82_4_1"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u30B9\u30AB\u30FC\u30C82_0_1/joint_\u30B9\u30AB\u30FC\u30C82_1_1/joint_\u30B9\u30AB\u30FC\u30C82_2_1/joint_\u30B9\u30AB\u30FC\u30C82_3_1/joint_\u30B9\u30AB\u30FC\u30C82_4_1/joint_\u30B9\u30AB\u30FC\u30C82_5_1"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u30B9\u30AB\u30FC\u30C82_0_1/joint_\u30B9\u30AB\u30FC\u30C82_1_1/joint_\u30B9\u30AB\u30FC\u30C82_2_1/joint_\u30B9\u30AB\u30FC\u30C82_3_1/joint_\u30B9\u30AB\u30FC\u30C82_4_1/joint_\u30B9\u30AB\u30FC\u30C82_5_1/joint_\u30B9\u30AB\u30FC\u30C82_6_1"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u30B9\u30AB\u30FC\u30C82_0_1/joint_\u30B9\u30AB\u30FC\u30C82_1_1/joint_\u30B9\u30AB\u30FC\u30C82_2_1/joint_\u30B9\u30AB\u30FC\u30C82_3_1/joint_\u30B9\u30AB\u30FC\u30C82_4_1/joint_\u30B9\u30AB\u30FC\u30C82_5_1/joint_\u30B9\u30AB\u30FC\u30C82_6_1/!joint_\u30B9\u30AB\u30FC\u30C82_7_1"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u30B9\u30AB\u30FC\u30C82_0_2"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u30B9\u30AB\u30FC\u30C82_0_2/joint_\u30B9\u30AB\u30FC\u30C82_1_2"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u30B9\u30AB\u30FC\u30C82_0_2/joint_\u30B9\u30AB\u30FC\u30C82_1_2/joint_\u30B9\u30AB\u30FC\u30C82_2_2"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u30B9\u30AB\u30FC\u30C82_0_2/joint_\u30B9\u30AB\u30FC\u30C82_1_2/joint_\u30B9\u30AB\u30FC\u30C82_2_2/joint_\u30B9\u30AB\u30FC\u30C82_3_2"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u30B9\u30AB\u30FC\u30C82_0_2/joint_\u30B9\u30AB\u30FC\u30C82_1_2/joint_\u30B9\u30AB\u30FC\u30C82_2_2/joint_\u30B9\u30AB\u30FC\u30C82_3_2/joint_\u30B9\u30AB\u30FC\u30C82_4_2"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u30B9\u30AB\u30FC\u30C82_0_2/joint_\u30B9\u30AB\u30FC\u30C82_1_2/joint_\u30B9\u30AB\u30FC\u30C82_2_2/joint_\u30B9\u30AB\u30FC\u30C82_3_2/joint_\u30B9\u30AB\u30FC\u30C82_4_2/joint_\u30B9\u30AB\u30FC\u30C82_5_2"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u30B9\u30AB\u30FC\u30C82_0_2/joint_\u30B9\u30AB\u30FC\u30C82_1_2/joint_\u30B9\u30AB\u30FC\u30C82_2_2/joint_\u30B9\u30AB\u30FC\u30C82_3_2/joint_\u30B9\u30AB\u30FC\u30C82_4_2/joint_\u30B9\u30AB\u30FC\u30C82_5_2/joint_\u30B9\u30AB\u30FC\u30C82_6_2"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u30B9\u30AB\u30FC\u30C82_0_2/joint_\u30B9\u30AB\u30FC\u30C82_1_2/joint_\u30B9\u30AB\u30FC\u30C82_2_2/joint_\u30B9\u30AB\u30FC\u30C82_3_2/joint_\u30B9\u30AB\u30FC\u30C82_4_2/joint_\u30B9\u30AB\u30FC\u30C82_5_2/joint_\u30B9\u30AB\u30FC\u30C82_6_2/!joint_\u30B9\u30AB\u30FC\u30C82_7_2"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u30B9\u30AB\u30FC\u30C8_0_0"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u30B9\u30AB\u30FC\u30C8_0_0/joint_\u30B9\u30AB\u30FC\u30C8_1_0"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u30B9\u30AB\u30FC\u30C8_0_0/joint_\u30B9\u30AB\u30FC\u30C8_1_0/joint_\u30B9\u30AB\u30FC\u30C8_2_0"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u30B9\u30AB\u30FC\u30C8_0_0/joint_\u30B9\u30AB\u30FC\u30C8_1_0/joint_\u30B9\u30AB\u30FC\u30C8_2_0/!joint_\u30B9\u30AB\u30FC\u30C8_3_0"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u30B9\u30AB\u30FC\u30C8_0_0/joint_\u30B9\u30AB\u30FC\u30C8_1_0/joint_\u30B9\u30AB\u30FC\u30C8_2_0/!joint_\u30B9\u30AB\u30FC\u30C8_3_0/joint_\u30B9\u30AB\u30FC\u30C8_4_0"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u30B9\u30AB\u30FC\u30C8_0_0/joint_\u30B9\u30AB\u30FC\u30C8_1_0/joint_\u30B9\u30AB\u30FC\u30C8_2_0/!joint_\u30B9\u30AB\u30FC\u30C8_3_0/joint_\u30B9\u30AB\u30FC\u30C8_4_0/!joint_\u30B9\u30AB\u30FC\u30C8_5_0"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u30B9\u30AB\u30FC\u30C8_0_1"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u30B9\u30AB\u30FC\u30C8_0_1/joint_\u30B9\u30AB\u30FC\u30C8_1_1"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u30B9\u30AB\u30FC\u30C8_0_1/joint_\u30B9\u30AB\u30FC\u30C8_1_1/joint_\u30B9\u30AB\u30FC\u30C8_2_1"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u30B9\u30AB\u30FC\u30C8_0_1/joint_\u30B9\u30AB\u30FC\u30C8_1_1/joint_\u30B9\u30AB\u30FC\u30C8_2_1/!joint_\u30B9\u30AB\u30FC\u30C8_3_1"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u30B9\u30AB\u30FC\u30C8_0_1/joint_\u30B9\u30AB\u30FC\u30C8_1_1/joint_\u30B9\u30AB\u30FC\u30C8_2_1/!joint_\u30B9\u30AB\u30FC\u30C8_3_1/joint_\u30B9\u30AB\u30FC\u30C8_4_1"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u30B9\u30AB\u30FC\u30C8_0_1/joint_\u30B9\u30AB\u30FC\u30C8_1_1/joint_\u30B9\u30AB\u30FC\u30C8_2_1/!joint_\u30B9\u30AB\u30FC\u30C8_3_1/joint_\u30B9\u30AB\u30FC\u30C8_4_1/!joint_\u30B9\u30AB\u30FC\u30C8_5_1"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u30B9\u30AB\u30FC\u30C8_0_2"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u30B9\u30AB\u30FC\u30C8_0_2/joint_\u30B9\u30AB\u30FC\u30C8_1_2"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u30B9\u30AB\u30FC\u30C8_0_2/joint_\u30B9\u30AB\u30FC\u30C8_1_2/joint_\u30B9\u30AB\u30FC\u30C8_2_2"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u30B9\u30AB\u30FC\u30C8_0_2/joint_\u30B9\u30AB\u30FC\u30C8_1_2/joint_\u30B9\u30AB\u30FC\u30C8_2_2/!joint_\u30B9\u30AB\u30FC\u30C8_3_2"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u30B9\u30AB\u30FC\u30C8_0_2/joint_\u30B9\u30AB\u30FC\u30C8_1_2/joint_\u30B9\u30AB\u30FC\u30C8_2_2/!joint_\u30B9\u30AB\u30FC\u30C8_3_2/joint_\u30B9\u30AB\u30FC\u30C8_4_2"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u30B9\u30AB\u30FC\u30C8_0_2/joint_\u30B9\u30AB\u30FC\u30C8_1_2/joint_\u30B9\u30AB\u30FC\u30C8_2_2/!joint_\u30B9\u30AB\u30FC\u30C8_3_2/joint_\u30B9\u30AB\u30FC\u30C8_4_2/!joint_\u30B9\u30AB\u30FC\u30C8_5_2"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u30B9\u30AB\u30FC\u30C8_0_3"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u30B9\u30AB\u30FC\u30C8_0_3/joint_\u30B9\u30AB\u30FC\u30C8_1_3"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u30B9\u30AB\u30FC\u30C8_0_3/joint_\u30B9\u30AB\u30FC\u30C8_1_3/joint_\u30B9\u30AB\u30FC\u30C8_2_3"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u30B9\u30AB\u30FC\u30C8_0_3/joint_\u30B9\u30AB\u30FC\u30C8_1_3/joint_\u30B9\u30AB\u30FC\u30C8_2_3/joint_\u30B9\u30AB\u30FC\u30C8_3_3"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u30B9\u30AB\u30FC\u30C8_0_3/joint_\u30B9\u30AB\u30FC\u30C8_1_3/joint_\u30B9\u30AB\u30FC\u30C8_2_3/joint_\u30B9\u30AB\u30FC\u30C8_3_3/joint_\u30B9\u30AB\u30FC\u30C8_4_3"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u30B9\u30AB\u30FC\u30C8_0_3/joint_\u30B9\u30AB\u30FC\u30C8_1_3/joint_\u30B9\u30AB\u30FC\u30C8_2_3/joint_\u30B9\u30AB\u30FC\u30C8_3_3/joint_\u30B9\u30AB\u30FC\u30C8_4_3/!joint_\u30B9\u30AB\u30FC\u30C8_5_3"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u30B9\u30AB\u30FC\u30C8_0_4"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u30B9\u30AB\u30FC\u30C8_0_4/joint_\u30B9\u30AB\u30FC\u30C8_1_4"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u30B9\u30AB\u30FC\u30C8_0_4/joint_\u30B9\u30AB\u30FC\u30C8_1_4/joint_\u30B9\u30AB\u30FC\u30C8_2_4"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u30B9\u30AB\u30FC\u30C8_0_4/joint_\u30B9\u30AB\u30FC\u30C8_1_4/joint_\u30B9\u30AB\u30FC\u30C8_2_4/joint_\u30B9\u30AB\u30FC\u30C8_3_4"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u30B9\u30AB\u30FC\u30C8_0_4/joint_\u30B9\u30AB\u30FC\u30C8_1_4/joint_\u30B9\u30AB\u30FC\u30C8_2_4/joint_\u30B9\u30AB\u30FC\u30C8_3_4/joint_\u30B9\u30AB\u30FC\u30C8_4_4"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u30B9\u30AB\u30FC\u30C8_0_4/joint_\u30B9\u30AB\u30FC\u30C8_1_4/joint_\u30B9\u30AB\u30FC\u30C8_2_4/joint_\u30B9\u30AB\u30FC\u30C8_3_4/joint_\u30B9\u30AB\u30FC\u30C8_4_4/!joint_\u30B9\u30AB\u30FC\u30C8_5_4"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u30B9\u30AB\u30FC\u30C8_0_5"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u30B9\u30AB\u30FC\u30C8_0_5/joint_\u30B9\u30AB\u30FC\u30C8_1_5"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u30B9\u30AB\u30FC\u30C8_0_5/joint_\u30B9\u30AB\u30FC\u30C8_1_5/joint_\u30B9\u30AB\u30FC\u30C8_2_5"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u30B9\u30AB\u30FC\u30C8_0_5/joint_\u30B9\u30AB\u30FC\u30C8_1_5/joint_\u30B9\u30AB\u30FC\u30C8_2_5/joint_\u30B9\u30AB\u30FC\u30C8_3_5"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u30B9\u30AB\u30FC\u30C8_0_5/joint_\u30B9\u30AB\u30FC\u30C8_1_5/joint_\u30B9\u30AB\u30FC\u30C8_2_5/joint_\u30B9\u30AB\u30FC\u30C8_3_5/joint_\u30B9\u30AB\u30FC\u30C8_4_5"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u30B9\u30AB\u30FC\u30C8_0_5/joint_\u30B9\u30AB\u30FC\u30C8_1_5/joint_\u30B9\u30AB\u30FC\u30C8_2_5/joint_\u30B9\u30AB\u30FC\u30C8_3_5/joint_\u30B9\u30AB\u30FC\u30C8_4_5/!joint_\u30B9\u30AB\u30FC\u30C8_5_5"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u30B9\u30AB\u30FC\u30C8_0_6"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u30B9\u30AB\u30FC\u30C8_0_6/joint_\u30B9\u30AB\u30FC\u30C8_1_6"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u30B9\u30AB\u30FC\u30C8_0_6/joint_\u30B9\u30AB\u30FC\u30C8_1_6/joint_\u30B9\u30AB\u30FC\u30C8_2_6"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u30B9\u30AB\u30FC\u30C8_0_6/joint_\u30B9\u30AB\u30FC\u30C8_1_6/joint_\u30B9\u30AB\u30FC\u30C8_2_6/joint_\u30B9\u30AB\u30FC\u30C8_3_6"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u30B9\u30AB\u30FC\u30C8_0_6/joint_\u30B9\u30AB\u30FC\u30C8_1_6/joint_\u30B9\u30AB\u30FC\u30C8_2_6/joint_\u30B9\u30AB\u30FC\u30C8_3_6/joint_\u30B9\u30AB\u30FC\u30C8_4_6"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u30B9\u30AB\u30FC\u30C8_0_6/joint_\u30B9\u30AB\u30FC\u30C8_1_6/joint_\u30B9\u30AB\u30FC\u30C8_2_6/joint_\u30B9\u30AB\u30FC\u30C8_3_6/joint_\u30B9\u30AB\u30FC\u30C8_4_6/!joint_\u30B9\u30AB\u30FC\u30C8_5_6"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u30B9\u30AB\u30FC\u30C8_0_7"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u30B9\u30AB\u30FC\u30C8_0_7/joint_\u30B9\u30AB\u30FC\u30C8_1_7"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u30B9\u30AB\u30FC\u30C8_0_7/joint_\u30B9\u30AB\u30FC\u30C8_1_7/joint_\u30B9\u30AB\u30FC\u30C8_2_7"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u30B9\u30AB\u30FC\u30C8_0_7/joint_\u30B9\u30AB\u30FC\u30C8_1_7/joint_\u30B9\u30AB\u30FC\u30C8_2_7/joint_\u30B9\u30AB\u30FC\u30C8_3_7"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u30B9\u30AB\u30FC\u30C8_0_7/joint_\u30B9\u30AB\u30FC\u30C8_1_7/joint_\u30B9\u30AB\u30FC\u30C8_2_7/joint_\u30B9\u30AB\u30FC\u30C8_3_7/joint_\u30B9\u30AB\u30FC\u30C8_4_7"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u30B9\u30AB\u30FC\u30C8_0_7/joint_\u30B9\u30AB\u30FC\u30C8_1_7/joint_\u30B9\u30AB\u30FC\u30C8_2_7/joint_\u30B9\u30AB\u30FC\u30C8_3_7/joint_\u30B9\u30AB\u30FC\u30C8_4_7/!joint_\u30B9\u30AB\u30FC\u30C8_5_7"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u30B9\u30AB\u30FC\u30C8_0_8"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u30B9\u30AB\u30FC\u30C8_0_8/joint_\u30B9\u30AB\u30FC\u30C8_1_8"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u30B9\u30AB\u30FC\u30C8_0_8/joint_\u30B9\u30AB\u30FC\u30C8_1_8/joint_\u30B9\u30AB\u30FC\u30C8_2_8"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u30B9\u30AB\u30FC\u30C8_0_8/joint_\u30B9\u30AB\u30FC\u30C8_1_8/joint_\u30B9\u30AB\u30FC\u30C8_2_8/joint_\u30B9\u30AB\u30FC\u30C8_3_8"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u30B9\u30AB\u30FC\u30C8_0_8/joint_\u30B9\u30AB\u30FC\u30C8_1_8/joint_\u30B9\u30AB\u30FC\u30C8_2_8/joint_\u30B9\u30AB\u30FC\u30C8_3_8/joint_\u30B9\u30AB\u30FC\u30C8_4_8"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u30B9\u30AB\u30FC\u30C8_0_8/joint_\u30B9\u30AB\u30FC\u30C8_1_8/joint_\u30B9\u30AB\u30FC\u30C8_2_8/joint_\u30B9\u30AB\u30FC\u30C8_3_8/joint_\u30B9\u30AB\u30FC\u30C8_4_8/!joint_\u30B9\u30AB\u30FC\u30C8_5_8"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u30B9\u30AB\u30FC\u30C8_0_9"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u30B9\u30AB\u30FC\u30C8_0_9/joint_\u30B9\u30AB\u30FC\u30C8_1_9"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u30B9\u30AB\u30FC\u30C8_0_9/joint_\u30B9\u30AB\u30FC\u30C8_1_9/joint_\u30B9\u30AB\u30FC\u30C8_2_9"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u30B9\u30AB\u30FC\u30C8_0_9/joint_\u30B9\u30AB\u30FC\u30C8_1_9/joint_\u30B9\u30AB\u30FC\u30C8_2_9/!joint_\u30B9\u30AB\u30FC\u30C8_3_9"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u30B9\u30AB\u30FC\u30C8_0_9/joint_\u30B9\u30AB\u30FC\u30C8_1_9/joint_\u30B9\u30AB\u30FC\u30C8_2_9/!joint_\u30B9\u30AB\u30FC\u30C8_3_9/joint_\u30B9\u30AB\u30FC\u30C8_4_9"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u30B9\u30AB\u30FC\u30C8_0_9/joint_\u30B9\u30AB\u30FC\u30C8_1_9/joint_\u30B9\u30AB\u30FC\u30C8_2_9/!joint_\u30B9\u30AB\u30FC\u30C8_3_9/joint_\u30B9\u30AB\u30FC\u30C8_4_9/!joint_\u30B9\u30AB\u30FC\u30C8_5_9"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u30B9\u30AB\u30FC\u30C8_0_10"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u30B9\u30AB\u30FC\u30C8_0_10/joint_\u30B9\u30AB\u30FC\u30C8_1_10"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u30B9\u30AB\u30FC\u30C8_0_10/joint_\u30B9\u30AB\u30FC\u30C8_1_10/joint_\u30B9\u30AB\u30FC\u30C8_2_10"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u30B9\u30AB\u30FC\u30C8_0_10/joint_\u30B9\u30AB\u30FC\u30C8_1_10/joint_\u30B9\u30AB\u30FC\u30C8_2_10/!joint_\u30B9\u30AB\u30FC\u30C8_3_10"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u30B9\u30AB\u30FC\u30C8_0_10/joint_\u30B9\u30AB\u30FC\u30C8_1_10/joint_\u30B9\u30AB\u30FC\u30C8_2_10/!joint_\u30B9\u30AB\u30FC\u30C8_3_10/joint_\u30B9\u30AB\u30FC\u30C8_4_10"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u30B9\u30AB\u30FC\u30C8_0_10/joint_\u30B9\u30AB\u30FC\u30C8_1_10/joint_\u30B9\u30AB\u30FC\u30C8_2_10/!joint_\u30B9\u30AB\u30FC\u30C8_3_10/joint_\u30B9\u30AB\u30FC\u30C8_4_10/!joint_\u30B9\u30AB\u30FC\u30C8_5_10"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB2"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB2/!joint_\u53F3\u80A9P"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB2/!joint_\u5DE6\u80A9P"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB2/Arm_L_Clavicle_FK_ctrl"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB2/Arm_L_Clavicle_FK_ctrl/Arm_L_Clavicle_FK_hlp"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB2/Arm_R_Clavicle_FK_ctrl"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB2/Arm_R_Clavicle_FK_ctrl/Arm_R_Clavicle_FK_hlp"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB2/joint_\u53F3\u80A9"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB2/joint_\u53F3\u80A9/!joint_\u53F3\u80A9C"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB2/joint_\u53F3\u80A9/Arm_R_UpperArm_FK_ctrl"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB2/joint_\u53F3\u80A9/Arm_R_UpperArm_FK_ctrl/Arm_R_Forearm_FK_ctrl"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB2/joint_\u53F3\u80A9/Arm_R_UpperArm_FK_ctrl/Arm_R_Forearm_FK_ctrl/Arm_R_Forearm_FK_hlp"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB2/joint_\u53F3\u80A9/Arm_R_UpperArm_FK_ctrl/Arm_R_Forearm_FK_ctrl/Arm_R_Wrist_FK_ctrl"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB2/joint_\u53F3\u80A9/Arm_R_UpperArm_FK_ctrl/Arm_R_Forearm_FK_ctrl/Arm_R_Wrist_FK_ctrl/Arm_R_Wrist_FK_hlp"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB2/joint_\u53F3\u80A9/Arm_R_UpperArm_FK_ctrl/Arm_R_UpperArm_FK_hlp"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB2/joint_\u53F3\u80A9/joint_\u53F3\u4E0A\u534A\u8EAB2_0_1"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB2/joint_\u53F3\u80A9/joint_\u53F3\u4E0A\u534A\u8EAB2_0_1/joint_\u53F3\u4E0A\u534A\u8EAB2_1_1"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB2/joint_\u53F3\u80A9/joint_\u53F3\u4E0A\u534A\u8EAB2_0_1/joint_\u53F3\u4E0A\u534A\u8EAB2_1_1/!joint_\u53F3\u4E0A\u534A\u8EAB2_2_1"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB2/joint_\u53F3\u80A9/joint_\u53F3\u8155"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB2/joint_\u53F3\u80A9/joint_\u53F3\u8155/!joint_\u53F3\u8155\u6369"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB2/joint_\u53F3\u80A9/joint_\u53F3\u8155/!joint_\u53F3\u8155\u6369/!joint_\u53F3\u8155\u6369\u8EF8"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB2/joint_\u53F3\u80A9/joint_\u53F3\u8155/joint_\u53F3\u3072\u3058"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB2/joint_\u53F3\u80A9/joint_\u53F3\u8155/joint_\u53F3\u3072\u3058/!joint_\u53F3\u624B\u6369"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB2/joint_\u53F3\u80A9/joint_\u53F3\u8155/joint_\u53F3\u3072\u3058/!joint_\u53F3\u624B\u6369/!joint_\u53F3\u624B\u6369\u8EF8"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB2/joint_\u53F3\u80A9/joint_\u53F3\u8155/joint_\u53F3\u3072\u3058/joint_\u53F3\u624B\u63691"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB2/joint_\u53F3\u80A9/joint_\u53F3\u8155/joint_\u53F3\u3072\u3058/joint_\u53F3\u624B\u63692"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB2/joint_\u53F3\u80A9/joint_\u53F3\u8155/joint_\u53F3\u3072\u3058/joint_\u53F3\u624B\u63693"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB2/joint_\u53F3\u80A9/joint_\u53F3\u8155/joint_\u53F3\u3072\u3058/joint_\u53F3\u624B\u9996"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB2/joint_\u53F3\u80A9/joint_\u53F3\u8155/joint_\u53F3\u3072\u3058/joint_\u53F3\u624B\u9996/!joint_RightThumb0M"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB2/joint_\u53F3\u80A9/joint_\u53F3\u8155/joint_\u53F3\u3072\u3058/joint_\u53F3\u624B\u9996/!joint_RightThumb0M/joint_\u53F3\u89AA\u6307\uFF11"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB2/joint_\u53F3\u80A9/joint_\u53F3\u8155/joint_\u53F3\u3072\u3058/joint_\u53F3\u624B\u9996/!joint_RightThumb0M/joint_\u53F3\u89AA\u6307\uFF11/joint_\u53F3\u89AA\u6307\uFF12"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB2/joint_\u53F3\u80A9/joint_\u53F3\u8155/joint_\u53F3\u3072\u3058/joint_\u53F3\u624B\u9996/!joint_RightThumb0M/joint_\u53F3\u89AA\u6307\uFF11/joint_\u53F3\u89AA\u6307\uFF12/!joint_\u53F3\u89AA\u6307\u5148"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB2/joint_\u53F3\u80A9/joint_\u53F3\u8155/joint_\u53F3\u3072\u3058/joint_\u53F3\u624B\u9996/!joint_\u53F3\u30C0\u30DF\u30FC"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB2/joint_\u53F3\u80A9/joint_\u53F3\u8155/joint_\u53F3\u3072\u3058/joint_\u53F3\u624B\u9996/!joint_\u53F3\u624B\u5148"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB2/joint_\u53F3\u80A9/joint_\u53F3\u8155/joint_\u53F3\u3072\u3058/joint_\u53F3\u624B\u9996/Hand_R_Index_ctrl"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB2/joint_\u53F3\u80A9/joint_\u53F3\u8155/joint_\u53F3\u3072\u3058/joint_\u53F3\u624B\u9996/Hand_R_Index_ctrl/Hand_R_Index_hlp"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB2/joint_\u53F3\u80A9/joint_\u53F3\u8155/joint_\u53F3\u3072\u3058/joint_\u53F3\u624B\u9996/Hand_R_Middle_ctrl"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB2/joint_\u53F3\u80A9/joint_\u53F3\u8155/joint_\u53F3\u3072\u3058/joint_\u53F3\u624B\u9996/Hand_R_Middle_ctrl/Hand_R_Middle_hlp"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB2/joint_\u53F3\u80A9/joint_\u53F3\u8155/joint_\u53F3\u3072\u3058/joint_\u53F3\u624B\u9996/Hand_R_Pinky_ctrl"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB2/joint_\u53F3\u80A9/joint_\u53F3\u8155/joint_\u53F3\u3072\u3058/joint_\u53F3\u624B\u9996/Hand_R_Pinky_ctrl/Hand_R_Pinky_hlp"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB2/joint_\u53F3\u80A9/joint_\u53F3\u8155/joint_\u53F3\u3072\u3058/joint_\u53F3\u624B\u9996/Hand_R_Ring_ctrl"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB2/joint_\u53F3\u80A9/joint_\u53F3\u8155/joint_\u53F3\u3072\u3058/joint_\u53F3\u624B\u9996/Hand_R_Ring_ctrl/Hand_R_Ring_hlp"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB2/joint_\u53F3\u80A9/joint_\u53F3\u8155/joint_\u53F3\u3072\u3058/joint_\u53F3\u624B\u9996/Hand_R_Thumb_ctrl"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB2/joint_\u53F3\u80A9/joint_\u53F3\u8155/joint_\u53F3\u3072\u3058/joint_\u53F3\u624B\u9996/Hand_R_Thumb_ctrl/Hand_R_Thumb_hlp"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB2/joint_\u53F3\u80A9/joint_\u53F3\u8155/joint_\u53F3\u3072\u3058/joint_\u53F3\u624B\u9996/joint_\u53F3\u4E2D\u6307\uFF11"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB2/joint_\u53F3\u80A9/joint_\u53F3\u8155/joint_\u53F3\u3072\u3058/joint_\u53F3\u624B\u9996/joint_\u53F3\u4E2D\u6307\uFF11/joint_\u53F3\u4E2D\u6307\uFF12"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB2/joint_\u53F3\u80A9/joint_\u53F3\u8155/joint_\u53F3\u3072\u3058/joint_\u53F3\u624B\u9996/joint_\u53F3\u4E2D\u6307\uFF11/joint_\u53F3\u4E2D\u6307\uFF12/joint_\u53F3\u4E2D\u6307\uFF13"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB2/joint_\u53F3\u80A9/joint_\u53F3\u8155/joint_\u53F3\u3072\u3058/joint_\u53F3\u624B\u9996/joint_\u53F3\u4E2D\u6307\uFF11/joint_\u53F3\u4E2D\u6307\uFF12/joint_\u53F3\u4E2D\u6307\uFF13/!joint_\u53F3\u4E2D\u6307\u5148"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB2/joint_\u53F3\u80A9/joint_\u53F3\u8155/joint_\u53F3\u3072\u3058/joint_\u53F3\u624B\u9996/joint_\u53F3\u4EBA\u6307\uFF11"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB2/joint_\u53F3\u80A9/joint_\u53F3\u8155/joint_\u53F3\u3072\u3058/joint_\u53F3\u624B\u9996/joint_\u53F3\u4EBA\u6307\uFF11/joint_\u53F3\u4EBA\u6307\uFF12"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB2/joint_\u53F3\u80A9/joint_\u53F3\u8155/joint_\u53F3\u3072\u3058/joint_\u53F3\u624B\u9996/joint_\u53F3\u4EBA\u6307\uFF11/joint_\u53F3\u4EBA\u6307\uFF12/joint_\u53F3\u4EBA\u6307\uFF13"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB2/joint_\u53F3\u80A9/joint_\u53F3\u8155/joint_\u53F3\u3072\u3058/joint_\u53F3\u624B\u9996/joint_\u53F3\u4EBA\u6307\uFF11/joint_\u53F3\u4EBA\u6307\uFF12/joint_\u53F3\u4EBA\u6307\uFF13/!joint_\u53F3\u4EBA\u6307\u5148"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB2/joint_\u53F3\u80A9/joint_\u53F3\u8155/joint_\u53F3\u3072\u3058/joint_\u53F3\u624B\u9996/joint_\u53F3\u5C0F\u6307\uFF11"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB2/joint_\u53F3\u80A9/joint_\u53F3\u8155/joint_\u53F3\u3072\u3058/joint_\u53F3\u624B\u9996/joint_\u53F3\u5C0F\u6307\uFF11/joint_\u53F3\u5C0F\u6307\uFF12"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB2/joint_\u53F3\u80A9/joint_\u53F3\u8155/joint_\u53F3\u3072\u3058/joint_\u53F3\u624B\u9996/joint_\u53F3\u5C0F\u6307\uFF11/joint_\u53F3\u5C0F\u6307\uFF12/joint_\u53F3\u5C0F\u6307\uFF13"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB2/joint_\u53F3\u80A9/joint_\u53F3\u8155/joint_\u53F3\u3072\u3058/joint_\u53F3\u624B\u9996/joint_\u53F3\u5C0F\u6307\uFF11/joint_\u53F3\u5C0F\u6307\uFF12/joint_\u53F3\u5C0F\u6307\uFF13/!joint_\u53F3\u5C0F\u6307\u5148"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB2/joint_\u53F3\u80A9/joint_\u53F3\u8155/joint_\u53F3\u3072\u3058/joint_\u53F3\u624B\u9996/joint_\u53F3\u85AC\u6307\uFF11"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB2/joint_\u53F3\u80A9/joint_\u53F3\u8155/joint_\u53F3\u3072\u3058/joint_\u53F3\u624B\u9996/joint_\u53F3\u85AC\u6307\uFF11/joint_\u53F3\u85AC\u6307\uFF12"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB2/joint_\u53F3\u80A9/joint_\u53F3\u8155/joint_\u53F3\u3072\u3058/joint_\u53F3\u624B\u9996/joint_\u53F3\u85AC\u6307\uFF11/joint_\u53F3\u85AC\u6307\uFF12/joint_\u53F3\u85AC\u6307\uFF13"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB2/joint_\u53F3\u80A9/joint_\u53F3\u8155/joint_\u53F3\u3072\u3058/joint_\u53F3\u624B\u9996/joint_\u53F3\u85AC\u6307\uFF11/joint_\u53F3\u85AC\u6307\uFF12/joint_\u53F3\u85AC\u6307\uFF13/!joint_\u53F3\u85AC\u6307\u5148"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB2/joint_\u53F3\u80A9/joint_\u53F3\u8155/joint_\u53F3\u3072\u3058/joint_\u53F3\u624B\u9996/joint_\u53F3\u89AA\u6307\uFF10"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB2/joint_\u53F3\u80A9/joint_\u53F3\u8155/joint_\u53F3\u8155\u63691"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB2/joint_\u53F3\u80A9/joint_\u53F3\u8155/joint_\u53F3\u8155\u63692"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB2/joint_\u53F3\u80A9/joint_\u53F3\u8155/joint_\u53F3\u8155\u63693"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB2/joint_\u53F3\u80A9/joint_\u53F3\u8155_FK"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB2/joint_\u53F3\u80A9/joint_\u53F3\u8155_FK/joint_\u53F3\u3072\u3058_FK"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB2/joint_\u53F3\u80A9/joint_\u53F3\u8155_FK/joint_\u53F3\u3072\u3058_FK/joint_\u53F3\u624B\u9996_FK"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB2/joint_\u53F3\u80A9/joint_\u53F3\u8155_IK"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB2/joint_\u53F3\u80A9/joint_\u53F3\u8155_IK/joint_\u53F3\u3072\u3058_IK"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB2/joint_\u53F3\u80A9/joint_\u53F3\u8155_IK/joint_\u53F3\u3072\u3058_IK/joint_\u53F3\u624B\u9996_IK"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB2/joint_\u5DE6\u80A9"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB2/joint_\u5DE6\u80A9/!joint_\u5DE6\u80A9C"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB2/joint_\u5DE6\u80A9/Arm_L_UpperArm_FK_ctrl"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB2/joint_\u5DE6\u80A9/Arm_L_UpperArm_FK_ctrl/Arm_L_Forearm_FK_ctrl"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB2/joint_\u5DE6\u80A9/Arm_L_UpperArm_FK_ctrl/Arm_L_Forearm_FK_ctrl/Arm_L_Forearm_FK_hlp"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB2/joint_\u5DE6\u80A9/Arm_L_UpperArm_FK_ctrl/Arm_L_Forearm_FK_ctrl/Arm_L_Wrist_FK_ctrl"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB2/joint_\u5DE6\u80A9/Arm_L_UpperArm_FK_ctrl/Arm_L_Forearm_FK_ctrl/Arm_L_Wrist_FK_ctrl/Arm_L_Wrist_FK_hlp"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB2/joint_\u5DE6\u80A9/Arm_L_UpperArm_FK_ctrl/Arm_L_UpperArm_FK_hlp"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB2/joint_\u5DE6\u80A9/joint_\u5DE6\u4E0A\u534A\u8EAB2_0_1"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB2/joint_\u5DE6\u80A9/joint_\u5DE6\u4E0A\u534A\u8EAB2_0_1/joint_\u5DE6\u4E0A\u534A\u8EAB2_1_1"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB2/joint_\u5DE6\u80A9/joint_\u5DE6\u4E0A\u534A\u8EAB2_0_1/joint_\u5DE6\u4E0A\u534A\u8EAB2_1_1/!joint_\u5DE6\u4E0A\u534A\u8EAB2_2_1"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB2/joint_\u5DE6\u80A9/joint_\u5DE6\u8155"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB2/joint_\u5DE6\u80A9/joint_\u5DE6\u8155/!joint_\u5DE6\u8155\u6369"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB2/joint_\u5DE6\u80A9/joint_\u5DE6\u8155/!joint_\u5DE6\u8155\u6369/!joint_\u5DE6\u8155\u6369\u8EF8"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB2/joint_\u5DE6\u80A9/joint_\u5DE6\u8155/joint_\u5DE6\u3072\u3058"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB2/joint_\u5DE6\u80A9/joint_\u5DE6\u8155/joint_\u5DE6\u3072\u3058/!joint_\u5DE6\u624B\u6369"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB2/joint_\u5DE6\u80A9/joint_\u5DE6\u8155/joint_\u5DE6\u3072\u3058/!joint_\u5DE6\u624B\u6369/!joint_\u5DE6\u624B\u6369\u8EF8"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB2/joint_\u5DE6\u80A9/joint_\u5DE6\u8155/joint_\u5DE6\u3072\u3058/joint_\u5DE6\u624B\u63691"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB2/joint_\u5DE6\u80A9/joint_\u5DE6\u8155/joint_\u5DE6\u3072\u3058/joint_\u5DE6\u624B\u63692"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB2/joint_\u5DE6\u80A9/joint_\u5DE6\u8155/joint_\u5DE6\u3072\u3058/joint_\u5DE6\u624B\u63693"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB2/joint_\u5DE6\u80A9/joint_\u5DE6\u8155/joint_\u5DE6\u3072\u3058/joint_\u5DE6\u624B\u9996"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB2/joint_\u5DE6\u80A9/joint_\u5DE6\u8155/joint_\u5DE6\u3072\u3058/joint_\u5DE6\u624B\u9996/!joint_LeftThumb0M"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB2/joint_\u5DE6\u80A9/joint_\u5DE6\u8155/joint_\u5DE6\u3072\u3058/joint_\u5DE6\u624B\u9996/!joint_LeftThumb0M/joint_\u5DE6\u89AA\u6307\uFF11"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB2/joint_\u5DE6\u80A9/joint_\u5DE6\u8155/joint_\u5DE6\u3072\u3058/joint_\u5DE6\u624B\u9996/!joint_LeftThumb0M/joint_\u5DE6\u89AA\u6307\uFF11/joint_\u5DE6\u89AA\u6307\uFF12"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB2/joint_\u5DE6\u80A9/joint_\u5DE6\u8155/joint_\u5DE6\u3072\u3058/joint_\u5DE6\u624B\u9996/!joint_LeftThumb0M/joint_\u5DE6\u89AA\u6307\uFF11/joint_\u5DE6\u89AA\u6307\uFF12/!joint_\u5DE6\u89AA\u6307\u5148"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB2/joint_\u5DE6\u80A9/joint_\u5DE6\u8155/joint_\u5DE6\u3072\u3058/joint_\u5DE6\u624B\u9996/!joint_\u5DE6\u30C0\u30DF\u30FC"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB2/joint_\u5DE6\u80A9/joint_\u5DE6\u8155/joint_\u5DE6\u3072\u3058/joint_\u5DE6\u624B\u9996/!joint_\u5DE6\u624B\u5148"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB2/joint_\u5DE6\u80A9/joint_\u5DE6\u8155/joint_\u5DE6\u3072\u3058/joint_\u5DE6\u624B\u9996/Hand_L_Index_ctrl"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB2/joint_\u5DE6\u80A9/joint_\u5DE6\u8155/joint_\u5DE6\u3072\u3058/joint_\u5DE6\u624B\u9996/Hand_L_Index_ctrl/Hand_L_Index_hlp"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB2/joint_\u5DE6\u80A9/joint_\u5DE6\u8155/joint_\u5DE6\u3072\u3058/joint_\u5DE6\u624B\u9996/Hand_L_Middle_ctrl"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB2/joint_\u5DE6\u80A9/joint_\u5DE6\u8155/joint_\u5DE6\u3072\u3058/joint_\u5DE6\u624B\u9996/Hand_L_Middle_ctrl/Hand_L_Middle_hlp"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB2/joint_\u5DE6\u80A9/joint_\u5DE6\u8155/joint_\u5DE6\u3072\u3058/joint_\u5DE6\u624B\u9996/Hand_L_Pinky_ctrl"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB2/joint_\u5DE6\u80A9/joint_\u5DE6\u8155/joint_\u5DE6\u3072\u3058/joint_\u5DE6\u624B\u9996/Hand_L_Pinky_ctrl/Hand_L_Pinky_hlp"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB2/joint_\u5DE6\u80A9/joint_\u5DE6\u8155/joint_\u5DE6\u3072\u3058/joint_\u5DE6\u624B\u9996/Hand_L_Ring_ctrl"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB2/joint_\u5DE6\u80A9/joint_\u5DE6\u8155/joint_\u5DE6\u3072\u3058/joint_\u5DE6\u624B\u9996/Hand_L_Ring_ctrl/Hand_L_Ring_hlp"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB2/joint_\u5DE6\u80A9/joint_\u5DE6\u8155/joint_\u5DE6\u3072\u3058/joint_\u5DE6\u624B\u9996/Hand_L_Thumb_ctrl"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB2/joint_\u5DE6\u80A9/joint_\u5DE6\u8155/joint_\u5DE6\u3072\u3058/joint_\u5DE6\u624B\u9996/Hand_L_Thumb_ctrl/Hand_L_Thumb_hlp"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB2/joint_\u5DE6\u80A9/joint_\u5DE6\u8155/joint_\u5DE6\u3072\u3058/joint_\u5DE6\u624B\u9996/joint_\u5DE6\u4E2D\u6307\uFF11"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB2/joint_\u5DE6\u80A9/joint_\u5DE6\u8155/joint_\u5DE6\u3072\u3058/joint_\u5DE6\u624B\u9996/joint_\u5DE6\u4E2D\u6307\uFF11/joint_\u5DE6\u4E2D\u6307\uFF12"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB2/joint_\u5DE6\u80A9/joint_\u5DE6\u8155/joint_\u5DE6\u3072\u3058/joint_\u5DE6\u624B\u9996/joint_\u5DE6\u4E2D\u6307\uFF11/joint_\u5DE6\u4E2D\u6307\uFF12/joint_\u5DE6\u4E2D\u6307\uFF13"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB2/joint_\u5DE6\u80A9/joint_\u5DE6\u8155/joint_\u5DE6\u3072\u3058/joint_\u5DE6\u624B\u9996/joint_\u5DE6\u4E2D\u6307\uFF11/joint_\u5DE6\u4E2D\u6307\uFF12/joint_\u5DE6\u4E2D\u6307\uFF13/!joint_\u5DE6\u4E2D\u6307\u5148"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB2/joint_\u5DE6\u80A9/joint_\u5DE6\u8155/joint_\u5DE6\u3072\u3058/joint_\u5DE6\u624B\u9996/joint_\u5DE6\u4EBA\u6307\uFF11"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB2/joint_\u5DE6\u80A9/joint_\u5DE6\u8155/joint_\u5DE6\u3072\u3058/joint_\u5DE6\u624B\u9996/joint_\u5DE6\u4EBA\u6307\uFF11/joint_\u5DE6\u4EBA\u6307\uFF12"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB2/joint_\u5DE6\u80A9/joint_\u5DE6\u8155/joint_\u5DE6\u3072\u3058/joint_\u5DE6\u624B\u9996/joint_\u5DE6\u4EBA\u6307\uFF11/joint_\u5DE6\u4EBA\u6307\uFF12/joint_\u5DE6\u4EBA\u6307\uFF13"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB2/joint_\u5DE6\u80A9/joint_\u5DE6\u8155/joint_\u5DE6\u3072\u3058/joint_\u5DE6\u624B\u9996/joint_\u5DE6\u4EBA\u6307\uFF11/joint_\u5DE6\u4EBA\u6307\uFF12/joint_\u5DE6\u4EBA\u6307\uFF13/!joint_\u5DE6\u4EBA\u6307\u5148"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB2/joint_\u5DE6\u80A9/joint_\u5DE6\u8155/joint_\u5DE6\u3072\u3058/joint_\u5DE6\u624B\u9996/joint_\u5DE6\u5C0F\u6307\uFF11"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB2/joint_\u5DE6\u80A9/joint_\u5DE6\u8155/joint_\u5DE6\u3072\u3058/joint_\u5DE6\u624B\u9996/joint_\u5DE6\u5C0F\u6307\uFF11/joint_\u5DE6\u5C0F\u6307\uFF12"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB2/joint_\u5DE6\u80A9/joint_\u5DE6\u8155/joint_\u5DE6\u3072\u3058/joint_\u5DE6\u624B\u9996/joint_\u5DE6\u5C0F\u6307\uFF11/joint_\u5DE6\u5C0F\u6307\uFF12/joint_\u5DE6\u5C0F\u6307\uFF13"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB2/joint_\u5DE6\u80A9/joint_\u5DE6\u8155/joint_\u5DE6\u3072\u3058/joint_\u5DE6\u624B\u9996/joint_\u5DE6\u5C0F\u6307\uFF11/joint_\u5DE6\u5C0F\u6307\uFF12/joint_\u5DE6\u5C0F\u6307\uFF13/!joint_\u5DE6\u5C0F\u6307\u5148"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB2/joint_\u5DE6\u80A9/joint_\u5DE6\u8155/joint_\u5DE6\u3072\u3058/joint_\u5DE6\u624B\u9996/joint_\u5DE6\u85AC\u6307\uFF11"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB2/joint_\u5DE6\u80A9/joint_\u5DE6\u8155/joint_\u5DE6\u3072\u3058/joint_\u5DE6\u624B\u9996/joint_\u5DE6\u85AC\u6307\uFF11/joint_\u5DE6\u85AC\u6307\uFF12"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB2/joint_\u5DE6\u80A9/joint_\u5DE6\u8155/joint_\u5DE6\u3072\u3058/joint_\u5DE6\u624B\u9996/joint_\u5DE6\u85AC\u6307\uFF11/joint_\u5DE6\u85AC\u6307\uFF12/joint_\u5DE6\u85AC\u6307\uFF13"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB2/joint_\u5DE6\u80A9/joint_\u5DE6\u8155/joint_\u5DE6\u3072\u3058/joint_\u5DE6\u624B\u9996/joint_\u5DE6\u85AC\u6307\uFF11/joint_\u5DE6\u85AC\u6307\uFF12/joint_\u5DE6\u85AC\u6307\uFF13/!joint_\u5DE6\u85AC\u6307\u5148"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB2/joint_\u5DE6\u80A9/joint_\u5DE6\u8155/joint_\u5DE6\u3072\u3058/joint_\u5DE6\u624B\u9996/joint_\u5DE6\u89AA\u6307\uFF10"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB2/joint_\u5DE6\u80A9/joint_\u5DE6\u8155/joint_\u5DE6\u8155\u63691"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB2/joint_\u5DE6\u80A9/joint_\u5DE6\u8155/joint_\u5DE6\u8155\u63692"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB2/joint_\u5DE6\u80A9/joint_\u5DE6\u8155/joint_\u5DE6\u8155\u63693"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB2/joint_\u5DE6\u80A9/joint_\u5DE6\u8155_FK"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB2/joint_\u5DE6\u80A9/joint_\u5DE6\u8155_FK/joint_\u5DE6\u3072\u3058_FK"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB2/joint_\u5DE6\u80A9/joint_\u5DE6\u8155_FK/joint_\u5DE6\u3072\u3058_FK/joint_\u5DE6\u624B\u9996_FK"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB2/joint_\u5DE6\u80A9/joint_\u5DE6\u8155_IK"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB2/joint_\u5DE6\u80A9/joint_\u5DE6\u8155_IK/joint_\u5DE6\u3072\u3058_IK"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB2/joint_\u5DE6\u80A9/joint_\u5DE6\u8155_IK/joint_\u5DE6\u3072\u3058_IK/joint_\u5DE6\u624B\u9996_IK"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB2/joint_\u9996"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB2/joint_\u9996/joint_\u982D"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB2/joint_\u9996/joint_\u982D/!joint_\u4E21\u76EE"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB2/joint_\u9996/joint_\u982D/!joint_\u4E21\u76EE/!joint_\u4E21\u76EE\u5148"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB2/joint_\u9996/joint_\u982D/!joint_\u982D\u5148"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB2/joint_\u9996/joint_\u982D/joint_\u53F3\u76EE"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB2/joint_\u9996/joint_\u982D/joint_\u53F3\u76EE/!joint_\u53F3\u76EE\u5148"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB2/joint_\u9996/joint_\u982D/joint_\u53F3\u9AEA2_0_1"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB2/joint_\u9996/joint_\u982D/joint_\u53F3\u9AEA2_0_1/joint_\u53F3\u9AEA2_1_1"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB2/joint_\u9996/joint_\u982D/joint_\u53F3\u9AEA2_0_1/joint_\u53F3\u9AEA2_1_1/joint_\u53F3\u9AEA2_2_1"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB2/joint_\u9996/joint_\u982D/joint_\u53F3\u9AEA2_0_1/joint_\u53F3\u9AEA2_1_1/joint_\u53F3\u9AEA2_2_1/!joint_\u53F3\u9AEA2_3_1"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB2/joint_\u9996/joint_\u982D/joint_\u53F3\u9AEA3_0_1"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB2/joint_\u9996/joint_\u982D/joint_\u53F3\u9AEA3_0_1/joint_\u53F3\u9AEA3_1_1"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB2/joint_\u9996/joint_\u982D/joint_\u53F3\u9AEA3_0_1/joint_\u53F3\u9AEA3_1_1/joint_\u53F3\u9AEA3_2_1"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB2/joint_\u9996/joint_\u982D/joint_\u53F3\u9AEA3_0_1/joint_\u53F3\u9AEA3_1_1/joint_\u53F3\u9AEA3_2_1/joint_\u53F3\u9AEA3_3_1"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB2/joint_\u9996/joint_\u982D/joint_\u53F3\u9AEA3_0_1/joint_\u53F3\u9AEA3_1_1/joint_\u53F3\u9AEA3_2_1/joint_\u53F3\u9AEA3_3_1/joint_\u53F3\u9AEA3_4_1"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB2/joint_\u9996/joint_\u982D/joint_\u53F3\u9AEA3_0_1/joint_\u53F3\u9AEA3_1_1/joint_\u53F3\u9AEA3_2_1/joint_\u53F3\u9AEA3_3_1/joint_\u53F3\u9AEA3_4_1/!joint_\u53F3\u9AEA3_5_1"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB2/joint_\u9996/joint_\u982D/joint_\u53F3\u9AEA_0_1"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB2/joint_\u9996/joint_\u982D/joint_\u53F3\u9AEA_0_1/joint_\u53F3\u9AEA_1_1"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB2/joint_\u9996/joint_\u982D/joint_\u53F3\u9AEA_0_1/joint_\u53F3\u9AEA_1_1/joint_\u53F3\u9AEA_2_1"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB2/joint_\u9996/joint_\u982D/joint_\u53F3\u9AEA_0_1/joint_\u53F3\u9AEA_1_1/joint_\u53F3\u9AEA_2_1/!joint_\u53F3\u9AEA_3_1"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB2/joint_\u9996/joint_\u982D/joint_\u5DE6\u76EE"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB2/joint_\u9996/joint_\u982D/joint_\u5DE6\u76EE/!joint_\u5DE6\u76EE\u5148"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB2/joint_\u9996/joint_\u982D/joint_\u5DE6\u9AEA2_0_1"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB2/joint_\u9996/joint_\u982D/joint_\u5DE6\u9AEA2_0_1/joint_\u5DE6\u9AEA2_1_1"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB2/joint_\u9996/joint_\u982D/joint_\u5DE6\u9AEA2_0_1/joint_\u5DE6\u9AEA2_1_1/joint_\u5DE6\u9AEA2_2_1"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB2/joint_\u9996/joint_\u982D/joint_\u5DE6\u9AEA2_0_1/joint_\u5DE6\u9AEA2_1_1/joint_\u5DE6\u9AEA2_2_1/!joint_\u5DE6\u9AEA2_3_1"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB2/joint_\u9996/joint_\u982D/joint_\u5DE6\u9AEA3_0_1"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB2/joint_\u9996/joint_\u982D/joint_\u5DE6\u9AEA3_0_1/joint_\u5DE6\u9AEA3_1_1"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB2/joint_\u9996/joint_\u982D/joint_\u5DE6\u9AEA3_0_1/joint_\u5DE6\u9AEA3_1_1/joint_\u5DE6\u9AEA3_2_1"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB2/joint_\u9996/joint_\u982D/joint_\u5DE6\u9AEA3_0_1/joint_\u5DE6\u9AEA3_1_1/joint_\u5DE6\u9AEA3_2_1/joint_\u5DE6\u9AEA3_3_1"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB2/joint_\u9996/joint_\u982D/joint_\u5DE6\u9AEA3_0_1/joint_\u5DE6\u9AEA3_1_1/joint_\u5DE6\u9AEA3_2_1/joint_\u5DE6\u9AEA3_3_1/joint_\u5DE6\u9AEA3_4_1"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB2/joint_\u9996/joint_\u982D/joint_\u5DE6\u9AEA3_0_1/joint_\u5DE6\u9AEA3_1_1/joint_\u5DE6\u9AEA3_2_1/joint_\u5DE6\u9AEA3_3_1/joint_\u5DE6\u9AEA3_4_1/!joint_\u5DE6\u9AEA3_5_1"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB2/joint_\u9996/joint_\u982D/joint_\u5DE6\u9AEA_0_1"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB2/joint_\u9996/joint_\u982D/joint_\u5DE6\u9AEA_0_1/joint_\u5DE6\u9AEA_1_1"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB2/joint_\u9996/joint_\u982D/joint_\u5DE6\u9AEA_0_1/joint_\u5DE6\u9AEA_1_1/joint_\u5DE6\u9AEA_2_1"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB2/joint_\u9996/joint_\u982D/joint_\u5DE6\u9AEA_0_1/joint_\u5DE6\u9AEA_1_1/joint_\u5DE6\u9AEA_2_1/!joint_\u5DE6\u9AEA_3_1"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB2/joint_\u9996/joint_\u982D/joint_\u9AEA_0_1"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB2/joint_\u9996/joint_\u982D/joint_\u9AEA_0_1/joint_\u9AEA_1_1"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB2/joint_\u9996/joint_\u982D/joint_\u9AEA_0_1/joint_\u9AEA_1_1/joint_\u9AEA_2_1"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB2/joint_\u9996/joint_\u982D/joint_\u9AEA_0_1/joint_\u9AEA_1_1/joint_\u9AEA_2_1/joint_\u9AEA_3_1"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB2/joint_\u9996/joint_\u982D/joint_\u9AEA_0_1/joint_\u9AEA_1_1/joint_\u9AEA_2_1/joint_\u9AEA_3_1/joint_\u9AEA_4_1"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB/joint_\u4E0A\u534A\u8EAB2/joint_\u9996/joint_\u982D/joint_\u9AEA_0_1/joint_\u9AEA_1_1/joint_\u9AEA_2_1/joint_\u9AEA_3_1/joint_\u9AEA_4_1/!joint_\u9AEA_5_1"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u53F3\u30B9\u30AB\u30FC\u30C83_0_0"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u53F3\u30B9\u30AB\u30FC\u30C83_0_0/joint_\u53F3\u30B9\u30AB\u30FC\u30C83_1_0"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u53F3\u30B9\u30AB\u30FC\u30C83_0_0/joint_\u53F3\u30B9\u30AB\u30FC\u30C83_1_0/joint_\u53F3\u30B9\u30AB\u30FC\u30C83_2_0"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u53F3\u30B9\u30AB\u30FC\u30C83_0_0/joint_\u53F3\u30B9\u30AB\u30FC\u30C83_1_0/joint_\u53F3\u30B9\u30AB\u30FC\u30C83_2_0/joint_\u53F3\u30B9\u30AB\u30FC\u30C83_3_0"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u53F3\u30B9\u30AB\u30FC\u30C83_0_0/joint_\u53F3\u30B9\u30AB\u30FC\u30C83_1_0/joint_\u53F3\u30B9\u30AB\u30FC\u30C83_2_0/joint_\u53F3\u30B9\u30AB\u30FC\u30C83_3_0/joint_\u53F3\u30B9\u30AB\u30FC\u30C83_4_0"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u53F3\u30B9\u30AB\u30FC\u30C83_0_0/joint_\u53F3\u30B9\u30AB\u30FC\u30C83_1_0/joint_\u53F3\u30B9\u30AB\u30FC\u30C83_2_0/joint_\u53F3\u30B9\u30AB\u30FC\u30C83_3_0/joint_\u53F3\u30B9\u30AB\u30FC\u30C83_4_0/joint_\u53F3\u30B9\u30AB\u30FC\u30C83_5_0"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u53F3\u30B9\u30AB\u30FC\u30C83_0_0/joint_\u53F3\u30B9\u30AB\u30FC\u30C83_1_0/joint_\u53F3\u30B9\u30AB\u30FC\u30C83_2_0/joint_\u53F3\u30B9\u30AB\u30FC\u30C83_3_0/joint_\u53F3\u30B9\u30AB\u30FC\u30C83_4_0/joint_\u53F3\u30B9\u30AB\u30FC\u30C83_5_0/joint_\u53F3\u30B9\u30AB\u30FC\u30C83_6_0"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u53F3\u30B9\u30AB\u30FC\u30C83_0_0/joint_\u53F3\u30B9\u30AB\u30FC\u30C83_1_0/joint_\u53F3\u30B9\u30AB\u30FC\u30C83_2_0/joint_\u53F3\u30B9\u30AB\u30FC\u30C83_3_0/joint_\u53F3\u30B9\u30AB\u30FC\u30C83_4_0/joint_\u53F3\u30B9\u30AB\u30FC\u30C83_5_0/joint_\u53F3\u30B9\u30AB\u30FC\u30C83_6_0/!joint_\u53F3\u30B9\u30AB\u30FC\u30C83_7_0"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u53F3\u30B9\u30AB\u30FC\u30C83_0_1"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u53F3\u30B9\u30AB\u30FC\u30C83_0_1/joint_\u53F3\u30B9\u30AB\u30FC\u30C83_1_1"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u53F3\u30B9\u30AB\u30FC\u30C83_0_1/joint_\u53F3\u30B9\u30AB\u30FC\u30C83_1_1/joint_\u53F3\u30B9\u30AB\u30FC\u30C83_2_1"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u53F3\u30B9\u30AB\u30FC\u30C83_0_1/joint_\u53F3\u30B9\u30AB\u30FC\u30C83_1_1/joint_\u53F3\u30B9\u30AB\u30FC\u30C83_2_1/joint_\u53F3\u30B9\u30AB\u30FC\u30C83_3_1"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u53F3\u30B9\u30AB\u30FC\u30C83_0_1/joint_\u53F3\u30B9\u30AB\u30FC\u30C83_1_1/joint_\u53F3\u30B9\u30AB\u30FC\u30C83_2_1/joint_\u53F3\u30B9\u30AB\u30FC\u30C83_3_1/joint_\u53F3\u30B9\u30AB\u30FC\u30C83_4_1"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u53F3\u30B9\u30AB\u30FC\u30C83_0_1/joint_\u53F3\u30B9\u30AB\u30FC\u30C83_1_1/joint_\u53F3\u30B9\u30AB\u30FC\u30C83_2_1/joint_\u53F3\u30B9\u30AB\u30FC\u30C83_3_1/joint_\u53F3\u30B9\u30AB\u30FC\u30C83_4_1/joint_\u53F3\u30B9\u30AB\u30FC\u30C83_5_1"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u53F3\u30B9\u30AB\u30FC\u30C83_0_1/joint_\u53F3\u30B9\u30AB\u30FC\u30C83_1_1/joint_\u53F3\u30B9\u30AB\u30FC\u30C83_2_1/joint_\u53F3\u30B9\u30AB\u30FC\u30C83_3_1/joint_\u53F3\u30B9\u30AB\u30FC\u30C83_4_1/joint_\u53F3\u30B9\u30AB\u30FC\u30C83_5_1/joint_\u53F3\u30B9\u30AB\u30FC\u30C83_6_1"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u53F3\u30B9\u30AB\u30FC\u30C83_0_1/joint_\u53F3\u30B9\u30AB\u30FC\u30C83_1_1/joint_\u53F3\u30B9\u30AB\u30FC\u30C83_2_1/joint_\u53F3\u30B9\u30AB\u30FC\u30C83_3_1/joint_\u53F3\u30B9\u30AB\u30FC\u30C83_4_1/joint_\u53F3\u30B9\u30AB\u30FC\u30C83_5_1/joint_\u53F3\u30B9\u30AB\u30FC\u30C83_6_1/!joint_\u53F3\u30B9\u30AB\u30FC\u30C83_7_1"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u53F3\u8DB3"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u53F3\u8DB3/joint_\u53F3\u3072\u3056"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u53F3\u8DB3/joint_\u53F3\u3072\u3056/joint_\u53F3\u8DB3\u9996"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u53F3\u8DB3/joint_\u53F3\u3072\u3056/joint_\u53F3\u8DB3\u9996/!joint_\u53F3\u3064\u307E\u5148"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u53F3\u8DB3__IK_bone"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u53F3\u8DB3__IK_bone/joint_\u53F3\u3072\u3056__IK_bone"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u53F3\u8DB3__IK_bone/joint_\u53F3\u3072\u3056__IK_bone/joint_\u53F3\u8DB3\u9996__IK_bone"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u5DE6\u30B9\u30AB\u30FC\u30C83_0_0"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u5DE6\u30B9\u30AB\u30FC\u30C83_0_0/joint_\u5DE6\u30B9\u30AB\u30FC\u30C83_1_0"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u5DE6\u30B9\u30AB\u30FC\u30C83_0_0/joint_\u5DE6\u30B9\u30AB\u30FC\u30C83_1_0/joint_\u5DE6\u30B9\u30AB\u30FC\u30C83_2_0"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u5DE6\u30B9\u30AB\u30FC\u30C83_0_0/joint_\u5DE6\u30B9\u30AB\u30FC\u30C83_1_0/joint_\u5DE6\u30B9\u30AB\u30FC\u30C83_2_0/joint_\u5DE6\u30B9\u30AB\u30FC\u30C83_3_0"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u5DE6\u30B9\u30AB\u30FC\u30C83_0_0/joint_\u5DE6\u30B9\u30AB\u30FC\u30C83_1_0/joint_\u5DE6\u30B9\u30AB\u30FC\u30C83_2_0/joint_\u5DE6\u30B9\u30AB\u30FC\u30C83_3_0/joint_\u5DE6\u30B9\u30AB\u30FC\u30C83_4_0"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u5DE6\u30B9\u30AB\u30FC\u30C83_0_0/joint_\u5DE6\u30B9\u30AB\u30FC\u30C83_1_0/joint_\u5DE6\u30B9\u30AB\u30FC\u30C83_2_0/joint_\u5DE6\u30B9\u30AB\u30FC\u30C83_3_0/joint_\u5DE6\u30B9\u30AB\u30FC\u30C83_4_0/joint_\u5DE6\u30B9\u30AB\u30FC\u30C83_5_0"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u5DE6\u30B9\u30AB\u30FC\u30C83_0_0/joint_\u5DE6\u30B9\u30AB\u30FC\u30C83_1_0/joint_\u5DE6\u30B9\u30AB\u30FC\u30C83_2_0/joint_\u5DE6\u30B9\u30AB\u30FC\u30C83_3_0/joint_\u5DE6\u30B9\u30AB\u30FC\u30C83_4_0/joint_\u5DE6\u30B9\u30AB\u30FC\u30C83_5_0/joint_\u5DE6\u30B9\u30AB\u30FC\u30C83_6_0"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u5DE6\u30B9\u30AB\u30FC\u30C83_0_0/joint_\u5DE6\u30B9\u30AB\u30FC\u30C83_1_0/joint_\u5DE6\u30B9\u30AB\u30FC\u30C83_2_0/joint_\u5DE6\u30B9\u30AB\u30FC\u30C83_3_0/joint_\u5DE6\u30B9\u30AB\u30FC\u30C83_4_0/joint_\u5DE6\u30B9\u30AB\u30FC\u30C83_5_0/joint_\u5DE6\u30B9\u30AB\u30FC\u30C83_6_0/!joint_\u5DE6\u30B9\u30AB\u30FC\u30C83_7_0"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u5DE6\u30B9\u30AB\u30FC\u30C83_0_1"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u5DE6\u30B9\u30AB\u30FC\u30C83_0_1/joint_\u5DE6\u30B9\u30AB\u30FC\u30C83_1_1"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u5DE6\u30B9\u30AB\u30FC\u30C83_0_1/joint_\u5DE6\u30B9\u30AB\u30FC\u30C83_1_1/joint_\u5DE6\u30B9\u30AB\u30FC\u30C83_2_1"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u5DE6\u30B9\u30AB\u30FC\u30C83_0_1/joint_\u5DE6\u30B9\u30AB\u30FC\u30C83_1_1/joint_\u5DE6\u30B9\u30AB\u30FC\u30C83_2_1/joint_\u5DE6\u30B9\u30AB\u30FC\u30C83_3_1"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u5DE6\u30B9\u30AB\u30FC\u30C83_0_1/joint_\u5DE6\u30B9\u30AB\u30FC\u30C83_1_1/joint_\u5DE6\u30B9\u30AB\u30FC\u30C83_2_1/joint_\u5DE6\u30B9\u30AB\u30FC\u30C83_3_1/joint_\u5DE6\u30B9\u30AB\u30FC\u30C83_4_1"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u5DE6\u30B9\u30AB\u30FC\u30C83_0_1/joint_\u5DE6\u30B9\u30AB\u30FC\u30C83_1_1/joint_\u5DE6\u30B9\u30AB\u30FC\u30C83_2_1/joint_\u5DE6\u30B9\u30AB\u30FC\u30C83_3_1/joint_\u5DE6\u30B9\u30AB\u30FC\u30C83_4_1/joint_\u5DE6\u30B9\u30AB\u30FC\u30C83_5_1"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u5DE6\u30B9\u30AB\u30FC\u30C83_0_1/joint_\u5DE6\u30B9\u30AB\u30FC\u30C83_1_1/joint_\u5DE6\u30B9\u30AB\u30FC\u30C83_2_1/joint_\u5DE6\u30B9\u30AB\u30FC\u30C83_3_1/joint_\u5DE6\u30B9\u30AB\u30FC\u30C83_4_1/joint_\u5DE6\u30B9\u30AB\u30FC\u30C83_5_1/joint_\u5DE6\u30B9\u30AB\u30FC\u30C83_6_1"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u5DE6\u30B9\u30AB\u30FC\u30C83_0_1/joint_\u5DE6\u30B9\u30AB\u30FC\u30C83_1_1/joint_\u5DE6\u30B9\u30AB\u30FC\u30C83_2_1/joint_\u5DE6\u30B9\u30AB\u30FC\u30C83_3_1/joint_\u5DE6\u30B9\u30AB\u30FC\u30C83_4_1/joint_\u5DE6\u30B9\u30AB\u30FC\u30C83_5_1/joint_\u5DE6\u30B9\u30AB\u30FC\u30C83_6_1/!joint_\u5DE6\u30B9\u30AB\u30FC\u30C83_7_1"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u5DE6\u8DB3"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u5DE6\u8DB3/joint_\u5DE6\u3072\u3056"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u5DE6\u8DB3/joint_\u5DE6\u3072\u3056/joint_\u5DE6\u8DB3\u9996"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u5DE6\u8DB3/joint_\u5DE6\u3072\u3056/joint_\u5DE6\u8DB3\u9996/!joint_\u5DE6\u3064\u307E\u5148"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u5DE6\u8DB3__IK_bone"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u5DE6\u8DB3__IK_bone/joint_\u5DE6\u3072\u3056__IK_bone"
+        weight: 1
+      - path: "Main_ctrl/COM_ctrl/joint_\u4E0B\u534A\u8EAB/joint_\u5DE6\u8DB3__IK_bone/joint_\u5DE6\u3072\u3056__IK_bone/joint_\u5DE6\u8DB3\u9996__IK_bone"
+        weight: 1
+      - path: Main_ctrl/COM_ctrl/Neck_ctrl
+        weight: 1
+      - path: Main_ctrl/COM_ctrl/Spine_ctrl
+        weight: 1
+      - path: Main_ctrl/mord_Leg_L_IK_ctrl
+        weight: 1
+      - path: Main_ctrl/mord_Leg_L_IK_ctrl/Leg_L_Heel_hlp
+        weight: 1
+      - path: Main_ctrl/mord_Leg_L_IK_ctrl/Leg_L_Heel_hlp/Leg_L_ToeLift_hlp
+        weight: 1
+      - path: Main_ctrl/mord_Leg_L_IK_ctrl/Leg_L_Heel_hlp/Leg_L_ToeLift_hlp/Leg_L_Toe_hlp
+        weight: 1
+      - path: Main_ctrl/mord_Leg_L_IK_ctrl/Leg_L_Heel_hlp/Leg_L_ToeLift_hlp/Leg_L_Toe_hlp/mord_Leg_L_Foot_IKGoal
+        weight: 1
+      - path: Main_ctrl/mord_Leg_L_IK_ctrl/Leg_L_Heel_hlp/Leg_L_ToeLift_hlp/Leg_L_Toe_hlp/mord_Leg_L_Toe_IKGoal
+        weight: 1
+      - path: Main_ctrl/mord_Leg_R_IK_ctrl
+        weight: 1
+      - path: Main_ctrl/mord_Leg_R_IK_ctrl/Leg_R_Heel_hlp
+        weight: 1
+      - path: Main_ctrl/mord_Leg_R_IK_ctrl/Leg_R_Heel_hlp/Leg_R_ToeLift_hlp
+        weight: 1
+      - path: Main_ctrl/mord_Leg_R_IK_ctrl/Leg_R_Heel_hlp/Leg_R_ToeLift_hlp/Leg_R_Toe_hlp
+        weight: 1
+      - path: Main_ctrl/mord_Leg_R_IK_ctrl/Leg_R_Heel_hlp/Leg_R_ToeLift_hlp/Leg_R_Toe_hlp/mord_Leg_R_Foot_IKGoal
+        weight: 1
+      - path: Main_ctrl/mord_Leg_R_IK_ctrl/Leg_R_Heel_hlp/Leg_R_ToeLift_hlp/Leg_R_Toe_hlp/mord_Leg_R_Toe_IKGoal
+        weight: 1
+      - path: Point001
+        weight: 1
+      - path: Point002
+        weight: 1
+      - path: rec_ik l hand bindpose
+        weight: 1
+      - path: rec_ik l hand idle
+        weight: 1
+      - path: rec_weapon bindpose
+        weight: 1
+      - path: rec_weapon idlepos
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 1
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {fileID: 9000000, guid: 9b42612f9cb257f4c8cc886f620d361d,
+    type: 3}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

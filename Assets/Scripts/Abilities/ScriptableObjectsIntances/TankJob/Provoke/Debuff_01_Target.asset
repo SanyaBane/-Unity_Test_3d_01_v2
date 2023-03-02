@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8f1dc7ee20dd4df4bb0e662a8347dfce, type: 3}
+  m_Name: Debuff_01_Target
+  m_EditorClassIdentifier: 
+  Icon: {fileID: -7058381370366184134, guid: a3f85d47d4783164c9a2b1ea2217d51a, type: 3}
+  Id: Provoke
+  IsPurgeableByEsuna: 1
+  IsFriendly: 0
+  OnlyOneInstance: 1
+  BuffBehavioursSO: []
+  DurationSO: {fileID: 11400000, guid: fb1d14009cf803e48b8346aefa9f534e, type: 2}
+  RecastTypeSO: {fileID: 0}
+  DisplayStacksCountInIcon: 0
+  InitialStacksCount: 1

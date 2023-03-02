@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 39480a78b1ef4a6d987ada6896605eaf, type: 3}
+  m_Name: ShieldOath_AnimationRule_IfBuffed
+  m_EditorClassIdentifier: 
+  _animationId: Ability_PAL_ShieldOath
+  PlayIfBuffExists: 0
+  BuffIds:
+  - PAL_ShieldOath_Source

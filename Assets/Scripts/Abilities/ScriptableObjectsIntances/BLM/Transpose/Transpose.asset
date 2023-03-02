@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f66ce2208790ba342b44c68e9054e9fd, type: 3}
+  m_Name: Transpose
+  m_EditorClassIdentifier: 
+  Id: BLM_Transpose
+  Name: Transpose
+  Icon: {fileID: -857475618982846117, guid: cad0a9369e883cf46bab63ed6715b0c0, type: 3}
+  InitialManaCost: 0
+  InitialCastTime: 0
+  DelayAfterFinishCast: 0.8
+  AbilityAnimationRuleSO: {fileID: 11400000, guid: 70344b7fee9fd8341bf8d2b53446b0cd,
+    type: 2}
+  CooldownSO: {fileID: 11400000, guid: d136800f8ddf83f47b503e662b0fcbc9, type: 2}
+  Order: 1
+  ResetAutoAttackTimerAfterCastFinish: 1
+  BreaksOthersComboChain: 1
+  CanDisplayErrorMessages: 1
+  ComboContinuerAbilitySO: {fileID: 0}
+  AbilityBehavioursBeforeDelaySO: []
+  AbilityBehavioursSO:
+  - {fileID: 11400000, guid: 513e39a89ebf47344b34f383e08eab3a, type: 2}
+  CustomAvailabilitiesSO: []
+  ListOnCreateCustomLogicSO: []
+  IsLookOnTarget: 1
+  Distance: 0
+  TargetIsAlwaysSelf: 1
+  CanCastOn: 1
+  CollisionParticlePrefabs: []

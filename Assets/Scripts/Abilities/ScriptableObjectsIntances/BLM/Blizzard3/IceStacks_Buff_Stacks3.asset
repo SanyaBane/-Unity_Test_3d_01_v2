@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8f1dc7ee20dd4df4bb0e662a8347dfce, type: 3}
+  m_Name: IceStacks_Buff_Stacks3
+  m_EditorClassIdentifier: 
+  Icon: {fileID: 5919234792489944331, guid: fc1d27b106556134a9631524b338e559, type: 3}
+  Id: BLM_IceStacks
+  IsPurgeableByEsuna: 0
+  IsFriendly: 1
+  BuffBehavioursSO: []
+  DurationSO: {fileID: 11400000, guid: 7f42daddbd26ae2489158bbffbd951f2, type: 2}
+  RecastTypeSO: {fileID: 11400000, guid: 50ff4e39d5a63fb489db6e1053a1e70e, type: 2}
+  DisplayStacksCountInIcon: 1
+  InitialStacksCount: 3

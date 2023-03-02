@@ -1,0 +1,152 @@
+fileFormatVersion: 2
+guid: ea0650e17eb7fc74cbb591efef7e4962
+ModelImporter:
+  serializedVersion: 19301
+  internalIDToNameTable:
+  - first:
+      74: -3902390290323937014
+    second: cbbm_abl_trans
+  - first:
+      74: 5794197395125728871
+    second: cbbm_abl_transpose
+  - first:
+      74: 5595127998355823044
+    second: cbbm_abl_convert
+  - first:
+      74: 2783816999471446106
+    second: cbbm_abl_conv
+  - first:
+      74: -876886218100499339
+    second: cbbm_abl_lethargy
+  - first:
+      74: -672368684196915612
+    second: cbbm_abl_excruciate
+  - first:
+      74: -8679360443621140687
+    second: cbbm_abl_3
+  - first:
+      74: -3657787179593012539
+    second: cbbm_abl_estep
+  - first:
+      74: 2762530804862057631
+    second: cbbm_abl_mabarrier
+  - first:
+      74: -6103874778060910486
+    second: cbbm_ws_s01
+  - first:
+      74: -35773010695381108
+    second: cbbm_pvp001_a
+  - first:
+      74: 4670217368362579186
+    second: cbbm_pvp001_b
+  - first:
+      74: -8180175449431468551
+    second: cbbm_pvp001_c
+  - first:
+      74: 6307074708489611499
+    second: cbbm_abl059
+  - first:
+      74: -5466677131928008424
+    second: cbbm_abl105
+  - first:
+      74: 2742807690779027429
+    second: cbbm_abl106
+  - first:
+      74: -8777327915153074754
+    second: cbbm_abl152
+  - first:
+      74: -8546586321623824393
+    second: cbbm_abl230
+  externalObjects: {}
+  materials:
+    materialImportMode: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 0
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 1
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 0.1
+    rootMotionBoneName: n_root
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {fileID: 9000000, guid: e7053add81894f346b68aa6868a892d9,
+    type: 3}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 2
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d91b1b30845f1ab4c9f926dacd74b1a1, type: 3}
+  m_Name: Tomahawk
+  m_EditorClassIdentifier: 
+  Id: WAR_Tomahawk
+  Name: Tomahawk
+  Icon: {fileID: -1714770332359368905, guid: 304ab212137ee8a48a862059181a2681, type: 3}
+  InitialManaCost: 0
+  InitialCastTime: 0
+  DelayAfterFinishCast: 0.35
+  AbilityAnimationRuleSO: {fileID: 11400000, guid: 5096be3032b4b8140a1ad8b4854add0b,
+    type: 2}
+  CooldownSO: {fileID: 11400000, guid: 744d09aaffee86e488a0e79f9a52a1df, type: 2}
+  Order: 1
+  BreaksOthersComboChain: 1
+  CanDisplayErrorMessages: 1
+  ComboContinuerAbilitySO: {fileID: 0}
+  AbilityBehavioursBeforeDelaySO: []
+  AbilityBehavioursSO:
+  - {fileID: 11400000, guid: c1a5718635fdd214e9527fe8d93c1a20, type: 2}
+  CustomAvailabilitiesSO: []
+  IsLookOnTarget: 1
+  Distance: 15
+  TargetIsAlwaysSelf: 0
+  CanCastOn: 4
+  CollisionParticlePrefabs: []
+  PrefabGameObject: {fileID: 2404874925295604979, guid: fd4aa011b8bfe6942b63790101907b9a,
+    type: 3}
+  MoveSpeed: 60
+  abilityProjectileMovementType: 0

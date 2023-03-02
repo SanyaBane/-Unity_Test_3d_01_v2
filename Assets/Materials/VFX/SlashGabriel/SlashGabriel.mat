@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: SlashGabriel
+  m_Shader: {fileID: -6465566751694194690, guid: 9adaa6ffd7b9ac441bd06f87671cf6af,
+    type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - Texture2D_60CA911F:
+        m_Texture: {fileID: 2800000, guid: a6756ba32fc73c547b21a7035f649f94, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - Texture2D_B5DDEE96:
+        m_Texture: {fileID: 2800000, guid: 9050eebb2e18c804b93412c5e1a8ce96, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - Vector1_3F61A1F6: 0.72
+    - Vector1_4A9F09E3: 1
+    - Vector1_BFC92063: 12
+    m_Colors:
+    - Color_30CEC568: {r: 0.05301476, g: 0, b: 1, a: 0}
+    - Color_FE539F1E: {r: 1, g: 1, b: 1, a: 1}

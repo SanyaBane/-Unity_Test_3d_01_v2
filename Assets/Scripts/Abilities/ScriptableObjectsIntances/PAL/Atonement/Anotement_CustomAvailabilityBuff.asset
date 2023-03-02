@@ -1,0 +1,16 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 859db99e7581406ea98e2f439ae00dee, type: 3}
+  m_Name: Anotement_CustomAvailabilityBuff
+  m_EditorClassIdentifier: 
+  BuffsAllowCast:
+  - {fileID: 11400000, guid: 299dcd520c905c8419ace526eb2e6482, type: 2}

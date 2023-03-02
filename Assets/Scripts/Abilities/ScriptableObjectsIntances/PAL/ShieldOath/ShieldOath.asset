@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f66ce2208790ba342b44c68e9054e9fd, type: 3}
+  m_Name: ShieldOath
+  m_EditorClassIdentifier: 
+  Id: PAL_ShieldOath
+  Name: Shield Oath
+  Icon: {fileID: 2452356321404758621, guid: 019523943c75c6c4b9e2cdbc0d2b81a6, type: 3}
+  InitialManaCost: 0
+  InitialCastTime: 0
+  DelayAfterFinishCast: 0.5
+  AbilityAnimationRuleSO: {fileID: 11400000, guid: aeb1994e01ff12f4a8243c5a98d4044c,
+    type: 2}
+  CooldownSO: {fileID: 11400000, guid: 390e127268bb09e448d9cd9fff249a8d, type: 2}
+  Order: 1
+  BreaksOthersComboChain: 1
+  CanDisplayErrorMessages: 1
+  ComboContinuerAbilitySO: {fileID: 0}
+  AbilityBehavioursBeforeDelaySO: []
+  AbilityBehavioursSO:
+  - {fileID: 11400000, guid: 8ca3da183a450f848827a33ce92d0365, type: 2}
+  CustomAvailabilitiesSO: []
+  IsLookOnTarget: 1
+  Distance: 0
+  TargetIsAlwaysSelf: 1
+  CanCastOn: 1
+  CollisionParticlePrefabs: []

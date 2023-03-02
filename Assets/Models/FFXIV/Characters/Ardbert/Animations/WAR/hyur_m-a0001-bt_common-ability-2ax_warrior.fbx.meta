@@ -1,0 +1,161 @@
+fileFormatVersion: 2
+guid: f9ff5b4b1e4a55f498bbfbf01706e2f0
+ModelImporter:
+  serializedVersion: 19301
+  internalIDToNameTable:
+  - first:
+      74: -1993642869376843342
+    second: cbbm_abl_foresight
+  - first:
+      74: -5250225058753223294
+    second: cbbm_abl_bloodbath
+  - first:
+      74: -8679360443621140687
+    second: cbbm_abl_3
+  - first:
+      74: -8213777062928664040
+    second: cbbm_abl_berserk
+  - first:
+      74: -7348476601961595358
+    second: cbbm_abl_thrillofbattle
+  - first:
+      74: -1760411579890899161
+    second: cbbm_abl_defender
+  - first:
+      74: -6018668435844974953
+    second: cbbm_abl_taim
+  - first:
+      74: -3977917661519274784
+    second: cbbm_abl_unchained
+  - first:
+      74: -2913006816978629974
+    second: cbbm_abl_warcry
+  - first:
+      74: 7753211069027271263
+    second: cbbm_abl_vengeance
+  - first:
+      74: 435972018682055517
+    second: cbbm_ws_s11
+  - first:
+      74: -4336297414161811676
+    second: cbbm_abl048
+  - first:
+      74: 8952389088912226387
+    second: cbbm_abl049
+  - first:
+      74: 6897904850911403407
+    second: cbbm_abl050
+  - first:
+      74: 4796021762658383085
+    second: cbbm_abl131
+  - first:
+      74: -6608526048066101431
+    second: cbbm_abl132
+  - first:
+      74: 3955470075806261784
+    second: cbbm_abl133
+  - first:
+      74: 8640104239822680541
+    second: cbbm_abl134
+  - first:
+      74: -8454719102692333225
+    second: cbbm_abl211
+  - first:
+      74: -2752576564128177723
+    second: cbbm_abl211_bm
+  - first:
+      74: 1950705051224100275
+    second: cbbm_abl212
+  externalObjects: {}
+  materials:
+    materialImportMode: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 0
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 1
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 0.1
+    rootMotionBoneName: n_root
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {fileID: 9000000, guid: e7053add81894f346b68aa6868a892d9,
+    type: 3}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 2
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

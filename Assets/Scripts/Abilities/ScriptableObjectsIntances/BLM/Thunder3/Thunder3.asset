@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d91b1b30845f1ab4c9f926dacd74b1a1, type: 3}
+  m_Name: Thunder3
+  m_EditorClassIdentifier: 
+  Id: BLM_Thunder3
+  Name: Thunder III
+  Icon: {fileID: -3390650057708418810, guid: df5131b06c964dc479cec208d23c703c, type: 3}
+  InitialManaCost: 400
+  InitialCastTime: 2.5
+  DelayAfterFinishCast: 0.5
+  AbilityAnimationRuleSO: {fileID: 11400000, guid: e39d2d070fd733b479dc84b890937012,
+    type: 2}
+  CooldownSO: {fileID: 0}
+  Order: 1
+  ResetAutoAttackTimerAfterCastFinish: 1
+  BreaksOthersComboChain: 1
+  CanDisplayErrorMessages: 1
+  ComboContinuerAbilitySO: {fileID: 0}
+  AbilityBehavioursBeforeDelaySO: []
+  AbilityBehavioursSO:
+  - {fileID: 11400000, guid: 90fcbd8f0061f304bb6d4d7c39912dc9, type: 2}
+  - {fileID: 11400000, guid: bd9d41c1e95e0334e83d48997088ec12, type: 2}
+  CustomAvailabilitiesSO: []
+  ListOnCreateCustomLogicSO: []
+  IsLookOnTarget: 1
+  Distance: 25
+  TargetIsAlwaysSelf: 0
+  CanCastOn: 4
+  CollisionParticlePrefabs: []
+  PrefabGameObject: {fileID: 2404874925295604979, guid: 445f531d66340ff4ab9498111b522c7b,
+    type: 3}
+  MoveSpeed: 25
+  abilityProjectileMovementType: 1

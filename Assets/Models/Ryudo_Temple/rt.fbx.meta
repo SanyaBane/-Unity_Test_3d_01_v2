@@ -1,0 +1,192 @@
+fileFormatVersion: 2
+guid: 34b9887001b93b340922ee605e8eee54
+timeCreated: 1517489454
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: 0000_GMOP_Sky_rz1b0c1_a00_o00
+    100002: 0001_GMOP_Ground1_rz1b0c1_a02_o02
+    100004: 0002_GMOP_Hayasi1_rz1b1c1_a01_o01
+    100006: 0003_GMOP_Ground1_rz1b0c1_a02_o02
+    100008: 0004_GMOP_Tera2_rz1b0c1_a19_o19_cl0
+    100010: 0005_GMOP_Stone2_rz1b1c1_a20_o20_cl0
+    100012: 0006_GMOP_Ground1_rz1b0c1_a02_o02
+    100014: 0007_GMOP_Hayasi2_rz1b1c1_a03_o03
+    100016: 0008_GMOP_Wall1_rz1b0c1_a05_o05
+    100018: 0009_GMOP_Wall2_rz1b0c1_a06_o06_cl3
+    100020: 0010_GMOP_Gate1_rz1b1c1_a07_o07_cl3
+    100022: 0011_GMOP_Stone1_rz1b1c1_a16_o16_cl2
+    100024: 0012_GMOP_Stone1_rz1b1c1_a17_o17_cl5
+    100026: 0013_GMOP_Hayasi3_rz1b1c1_a08_o08
+    100028: 0014_GMOP_Hayasi4_rz1b1c1_a09_o09
+    100030: 0015_GMOP_Wood2_rz1b1c1_a13_o13_cl1
+    100032: 0016_GMOP_Wood2_rz1b1c1_a14_o14_cl6
+    100034: 0017_GMOP_Tera1_rz1b1c1_a18_o18_cl0
+    100036: 0018_GMOP_Tera2_rz1b0c1_a19_o19_cl0
+    100038: b0
+    100040: b1
+    100042: b10
+    100044: b11
+    100046: b12
+    100048: b13
+    100050: b14
+    100052: b15
+    100054: b16
+    100056: b17
+    100058: b2
+    100060: b3
+    100062: b4
+    100064: b5
+    100066: b6
+    100068: b7
+    100070: b8
+    100072: b9
+    100074: //RootNode
+    400000: 0000_GMOP_Sky_rz1b0c1_a00_o00
+    400002: 0001_GMOP_Ground1_rz1b0c1_a02_o02
+    400004: 0002_GMOP_Hayasi1_rz1b1c1_a01_o01
+    400006: 0003_GMOP_Ground1_rz1b0c1_a02_o02
+    400008: 0004_GMOP_Tera2_rz1b0c1_a19_o19_cl0
+    400010: 0005_GMOP_Stone2_rz1b1c1_a20_o20_cl0
+    400012: 0006_GMOP_Ground1_rz1b0c1_a02_o02
+    400014: 0007_GMOP_Hayasi2_rz1b1c1_a03_o03
+    400016: 0008_GMOP_Wall1_rz1b0c1_a05_o05
+    400018: 0009_GMOP_Wall2_rz1b0c1_a06_o06_cl3
+    400020: 0010_GMOP_Gate1_rz1b1c1_a07_o07_cl3
+    400022: 0011_GMOP_Stone1_rz1b1c1_a16_o16_cl2
+    400024: 0012_GMOP_Stone1_rz1b1c1_a17_o17_cl5
+    400026: 0013_GMOP_Hayasi3_rz1b1c1_a08_o08
+    400028: 0014_GMOP_Hayasi4_rz1b1c1_a09_o09
+    400030: 0015_GMOP_Wood2_rz1b1c1_a13_o13_cl1
+    400032: 0016_GMOP_Wood2_rz1b1c1_a14_o14_cl6
+    400034: 0017_GMOP_Tera1_rz1b1c1_a18_o18_cl0
+    400036: 0018_GMOP_Tera2_rz1b0c1_a19_o19_cl0
+    400038: b0
+    400040: b1
+    400042: b10
+    400044: b11
+    400046: b12
+    400048: b13
+    400050: b14
+    400052: b15
+    400054: b16
+    400056: b17
+    400058: b2
+    400060: b3
+    400062: b4
+    400064: b5
+    400066: b6
+    400068: b7
+    400070: b8
+    400072: b9
+    400074: //RootNode
+    4300000: 0000_GMOP_Sky_rz1b0c1_a00_o00
+    4300002: 0001_GMOP_Ground1_rz1b0c1_a02_o02
+    4300004: 0002_GMOP_Hayasi1_rz1b1c1_a01_o01
+    4300006: 0003_GMOP_Ground1_rz1b0c1_a02_o02
+    4300008: 0004_GMOP_Tera2_rz1b0c1_a19_o19_cl0
+    4300010: 0005_GMOP_Stone2_rz1b1c1_a20_o20_cl0
+    4300012: 0006_GMOP_Ground1_rz1b0c1_a02_o02
+    4300014: 0007_GMOP_Hayasi2_rz1b1c1_a03_o03
+    4300016: 0008_GMOP_Wall1_rz1b0c1_a05_o05
+    4300018: 0009_GMOP_Wall2_rz1b0c1_a06_o06_cl3
+    4300020: 0010_GMOP_Gate1_rz1b1c1_a07_o07_cl3
+    4300022: 0011_GMOP_Stone1_rz1b1c1_a16_o16_cl2
+    4300024: 0012_GMOP_Stone1_rz1b1c1_a17_o17_cl5
+    4300026: 0013_GMOP_Hayasi3_rz1b1c1_a08_o08
+    4300028: 0014_GMOP_Hayasi4_rz1b1c1_a09_o09
+    4300030: 0015_GMOP_Wood2_rz1b1c1_a13_o13_cl1
+    4300032: 0016_GMOP_Wood2_rz1b1c1_a14_o14_cl6
+    4300034: 0017_GMOP_Tera1_rz1b1c1_a18_o18_cl0
+    4300036: 0018_GMOP_Tera2_rz1b0c1_a19_o19_cl0
+    9500000: //RootNode
+    13700000: 0000_GMOP_Sky_rz1b0c1_a00_o00
+    13700002: 0001_GMOP_Ground1_rz1b0c1_a02_o02
+    13700004: 0002_GMOP_Hayasi1_rz1b1c1_a01_o01
+    13700006: 0003_GMOP_Ground1_rz1b0c1_a02_o02
+    13700008: 0004_GMOP_Tera2_rz1b0c1_a19_o19_cl0
+    13700010: 0005_GMOP_Stone2_rz1b1c1_a20_o20_cl0
+    13700012: 0006_GMOP_Ground1_rz1b0c1_a02_o02
+    13700014: 0007_GMOP_Hayasi2_rz1b1c1_a03_o03
+    13700016: 0008_GMOP_Wall1_rz1b0c1_a05_o05
+    13700018: 0009_GMOP_Wall2_rz1b0c1_a06_o06_cl3
+    13700020: 0010_GMOP_Gate1_rz1b1c1_a07_o07_cl3
+    13700022: 0011_GMOP_Stone1_rz1b1c1_a16_o16_cl2
+    13700024: 0012_GMOP_Stone1_rz1b1c1_a17_o17_cl5
+    13700026: 0013_GMOP_Hayasi3_rz1b1c1_a08_o08
+    13700028: 0014_GMOP_Hayasi4_rz1b1c1_a09_o09
+    13700030: 0015_GMOP_Wood2_rz1b1c1_a13_o13_cl1
+    13700032: 0016_GMOP_Wood2_rz1b1c1_a14_o14_cl6
+    13700034: 0017_GMOP_Tera1_rz1b1c1_a18_o18_cl0
+    13700036: 0018_GMOP_Tera2_rz1b0c1_a19_o19_cl0
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

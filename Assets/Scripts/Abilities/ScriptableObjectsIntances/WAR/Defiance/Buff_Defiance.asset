@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8f1dc7ee20dd4df4bb0e662a8347dfce, type: 3}
+  m_Name: Buff_Defiance
+  m_EditorClassIdentifier: 
+  Icon: {fileID: -6235035042195275656, guid: 61d524ba21d23554e97e5fa9e85ebf7e, type: 3}
+  Id: WAR_Defiance_Source
+  IsPurgeableByEsuna: 0
+  IsFriendly: 1
+  BuffBehavioursSO:
+  - {fileID: 11400000, guid: 5633239b346a21d469c0ab924c99a587, type: 2}
+  DurationSO: {fileID: 11400000, guid: f47c51b371b0ce540ae0d562b00c073f, type: 2}
+  RecastTypeSO: {fileID: 0}
+  DisplayStacksCountInIcon: 0
+  InitialStacksCount: 1

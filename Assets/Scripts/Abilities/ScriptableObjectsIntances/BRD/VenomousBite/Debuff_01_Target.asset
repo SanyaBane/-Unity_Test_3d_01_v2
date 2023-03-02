@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8f1dc7ee20dd4df4bb0e662a8347dfce, type: 3}
+  m_Name: Debuff_01_Target
+  m_EditorClassIdentifier: 
+  Icon: {fileID: -4577037397479363494, guid: 3157ea79a81aa534ca9bcd817fa53e6a, type: 3}
+  Id: VenomousBite_Target
+  IsPurgeableByEsuna: 1
+  IsFriendly: 0
+  OnlyOneInstance: 0
+  BuffBehavioursSO:
+  - {fileID: 11400000, guid: 5844b9043e86c4a4882083e1136db146, type: 2}
+  DurationSO: {fileID: 11400000, guid: 02849eb7a14f3e245bd903af4978b803, type: 2}
+  RecastTypeSO: {fileID: 0}
+  DisplayStacksCountInIcon: 0
+  InitialStacksCount: 1

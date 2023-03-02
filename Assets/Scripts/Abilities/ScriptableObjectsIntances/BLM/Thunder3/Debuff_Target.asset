@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8f1dc7ee20dd4df4bb0e662a8347dfce, type: 3}
+  m_Name: Debuff_Target
+  m_EditorClassIdentifier: 
+  Icon: {fileID: -3390650057708418810, guid: df5131b06c964dc479cec208d23c703c, type: 3}
+  Id: BLM_Thunder3_Target
+  IsPurgeableByEsuna: 1
+  IsFriendly: 0
+  OnlyOneInstance: 0
+  BuffBehavioursSO:
+  - {fileID: 11400000, guid: cf0da5f4f12470e4e9208e075db75c85, type: 2}
+  DurationSO: {fileID: 11400000, guid: e102a5aa9c3b9cb4fad5a0cc1ab299de, type: 2}
+  RecastTypeSO: {fileID: 0}
+  DisplayStacksCountInIcon: 0
+  InitialStacksCount: 1

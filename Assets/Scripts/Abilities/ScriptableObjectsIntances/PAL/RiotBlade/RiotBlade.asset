@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f66ce2208790ba342b44c68e9054e9fd, type: 3}
+  m_Name: RiotBlade
+  m_EditorClassIdentifier: 
+  Id: PAL_RiotBlade
+  Name: Riot Blade
+  Icon: {fileID: 8864526136959668823, guid: 4322d5c6a3ccf9747871cf53b8f16199, type: 3}
+  InitialManaCost: 0
+  InitialCooldown: 2
+  AffectsGlobalCooldown: 1
+  InitialCastTime: 0
+  DelayAfterFinishCast: 0.8
+  AbilityAnimationRuleSO: {fileID: 11400000, guid: 24b3c1ab2aa547d4db3801b69e20b52b,
+    type: 2}
+  CooldownSO: {fileID: 11400000, guid: 4466de95f60c2b44185f37e149b2788b, type: 2}
+  Order: 2
+  BreaksOthersComboChain: 1
+  CanDisplayErrorMessages: 1
+  ComboContinuerAbilitySO: {fileID: 11400000, guid: a2504f127d745a7428ef35af9a604d6c,
+    type: 2}
+  AbilityBehavioursBeforeDelaySO: []
+  AbilityBehavioursSO:
+  - {fileID: 11400000, guid: b012dddf297ea174a99735e6587f3bb3, type: 2}
+  CustomAvailabilitiesSO: []
+  IsLookOnTarget: 1
+  Distance: 1
+  TargetIsAlwaysSelf: 0
+  CanCastOn: 4
+  CollisionParticlePrefabs: []

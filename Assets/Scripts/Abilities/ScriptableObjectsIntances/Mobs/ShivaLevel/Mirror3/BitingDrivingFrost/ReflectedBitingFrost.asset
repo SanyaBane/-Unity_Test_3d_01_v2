@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 52f6e54981f94053900b592b9fbe0d45, type: 3}
+  m_Name: ReflectedBitingFrost
+  m_EditorClassIdentifier: 
+  Id: ShivaMirror_BitingFrost
+  Name: Reflected Biting Frost
+  Icon: {fileID: 0}
+  InitialCooldown: 5
+  InitialCastTime: 3
+  DelayAfterFinishCast: 0.5
+  AnimationNameCasting: Ability_BitingFrost
+  Order: 1
+  AffectsGlobalCooldown: 1
+  BreaksOthersComboChain: 1
+  CanDisplayErrorMessages: 1
+  ComboContinuerAbilitySO: {fileID: 0}
+  AbilityBehavioursSO:
+  - {fileID: 11400000, guid: 55891ec8737a2d2459e420d485c4ba4d, type: 2}
+  - {fileID: 11400000, guid: f958fee89148d4d41a9e57c2fc2ba61b, type: 2}
+  - {fileID: 11400000, guid: f668363fb6c873342a134e045b2aaa1a, type: 2}
+  DisplayAOEZone: 0
+  AbilityAffects: 4
+  Height: 6
+  Radius: 20
+  Angle: 270
+  ClockwiseRotation: 0
+  ParticlesCasterCastFinish: []

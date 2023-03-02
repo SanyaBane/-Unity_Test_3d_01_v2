@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f66ce2208790ba342b44c68e9054e9fd, type: 3}
+  m_Name: Regen
+  m_EditorClassIdentifier: 
+  Id: WHM_Regen
+  Name: Regen
+  Icon: {fileID: -4751123163905818129, guid: 88a338255059c444c9d7bb421aaab8af, type: 3}
+  InitialManaCost: 0
+  InitialCastTime: 0
+  DelayAfterFinishCast: 0.5
+  AbilityAnimationRuleSO: {fileID: 11400000, guid: d1669a10cb32aae4da05e7616abbbcf5,
+    type: 2}
+  CooldownSO: {fileID: 11400000, guid: 3d77b9e2dfae53c4a9c7719b0ec14f40, type: 2}
+  Order: 1
+  ResetAutoAttackTimerAfterCastFinish: 1
+  BreaksOthersComboChain: 1
+  CanDisplayErrorMessages: 1
+  ComboContinuerAbilitySO: {fileID: 0}
+  AbilityBehavioursBeforeDelaySO: []
+  AbilityBehavioursSO:
+  - {fileID: 11400000, guid: 8df5c853dc043c241a4b555f121997df, type: 2}
+  CustomAvailabilitiesSO: []
+  ListOnCreateCustomLogicSO: []
+  IsLookOnTarget: 1
+  Distance: 30
+  TargetIsAlwaysSelf: 0
+  CanCastOn: 3
+  CollisionParticlePrefabs: []

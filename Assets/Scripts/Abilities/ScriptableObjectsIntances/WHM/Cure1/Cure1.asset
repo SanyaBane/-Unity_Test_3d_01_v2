@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f66ce2208790ba342b44c68e9054e9fd, type: 3}
+  m_Name: Cure1
+  m_EditorClassIdentifier: 
+  Id: WHM_Cure1
+  Name: Cure I
+  Icon: {fileID: 3818275987620308931, guid: 314225c2314621340b3163a0ae7285fb, type: 3}
+  InitialManaCost: 400
+  InitialCastTime: 2
+  DelayAfterFinishCast: 0.5
+  AbilityAnimationRuleSO: {fileID: 11400000, guid: bb5052a3f47295b4183b8abeed2eeec9,
+    type: 2}
+  CooldownSO: {fileID: 11400000, guid: 3e08438e0b634834e9c129b54992d36a, type: 2}
+  Order: 1
+  ResetAutoAttackTimerAfterCastFinish: 1
+  BreaksOthersComboChain: 1
+  CanDisplayErrorMessages: 1
+  ComboContinuerAbilitySO: {fileID: 0}
+  AbilityBehavioursBeforeDelaySO: []
+  AbilityBehavioursSO:
+  - {fileID: 11400000, guid: ee555a4f7e68ff041963fdc9e146f5ab, type: 2}
+  CustomAvailabilitiesSO: []
+  ListOnCreateCustomLogicSO: []
+  IsLookOnTarget: 1
+  Distance: 30
+  TargetIsAlwaysSelf: 0
+  CanCastOn: 3
+  CollisionParticlePrefabs: []

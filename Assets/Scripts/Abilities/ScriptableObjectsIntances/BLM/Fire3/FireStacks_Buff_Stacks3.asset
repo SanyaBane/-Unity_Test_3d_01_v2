@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8f1dc7ee20dd4df4bb0e662a8347dfce, type: 3}
+  m_Name: FireStacks_Buff_Stacks3
+  m_EditorClassIdentifier: 
+  Icon: {fileID: 8334651344603559088, guid: c7ada9481a004b845b19824906e86768, type: 3}
+  Id: BLM_FireStacks
+  IsPurgeableByEsuna: 0
+  IsFriendly: 1
+  BuffBehavioursSO: []
+  DurationSO: {fileID: 11400000, guid: 174df3b3c4aef0145909bd16b714cec2, type: 2}
+  RecastTypeSO: {fileID: 11400000, guid: 2f3ddb706c8532048a79751feb59bcfa, type: 2}
+  DisplayStacksCountInIcon: 1
+  InitialStacksCount: 3

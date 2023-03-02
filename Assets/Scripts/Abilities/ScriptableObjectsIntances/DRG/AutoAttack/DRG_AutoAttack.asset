@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad5d095fee6bce940a9824c5d6514db1, type: 3}
+  m_Name: DRG_AutoAttack
+  m_EditorClassIdentifier: 
+  Id: 
+  Name: Auto-attack
+  Icon: {fileID: 0}
+  InitialManaCost: 0
+  InitialCastTime: 0
+  DelayAfterFinishCast: 0.45
+  AbilityAnimationRuleSO: {fileID: 0}
+  CooldownSO: {fileID: 11400000, guid: c156ea1ee074a3e4faaf1888c628789a, type: 2}
+  Order: 1
+  BreaksOthersComboChain: 0
+  CanDisplayErrorMessages: 0
+  ComboContinuerAbilitySO: {fileID: 0}
+  AbilityBehavioursBeforeDelaySO: []
+  AbilityBehavioursSO:
+  - {fileID: 11400000, guid: 21c0d3a6b656be248a606e5a146592bf, type: 2}
+  CustomAvailabilitiesSO: []
+  ListOnCreateCustomLogicSO: []
+  IsLookOnTarget: 1
+  Distance: 1
+  TargetIsAlwaysSelf: 0
+  CanCastOn: 4
+  CollisionParticlePrefabs: []
+  PreferableMaxDistance: 1.5
+  Job: 2

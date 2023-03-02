@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d91b1b30845f1ab4c9f926dacd74b1a1, type: 3}
+  m_Name: ShieldLob
+  m_EditorClassIdentifier: 
+  Id: PAL_ShieldLob
+  Name: Shield Lob
+  Icon: {fileID: -4030963369469592432, guid: 7be0bd42687a79b45807056cfca7a1a4, type: 3}
+  InitialManaCost: 0
+  InitialCastTime: 0
+  DelayAfterFinishCast: 0.35
+  AbilityAnimationRuleSO: {fileID: 11400000, guid: 170e37ec2579cf94c94ee154d632f2f5,
+    type: 2}
+  CooldownSO: {fileID: 11400000, guid: 435c366f1732c494e80d1e286e6e581c, type: 2}
+  Order: 1
+  BreaksOthersComboChain: 1
+  CanDisplayErrorMessages: 1
+  ComboContinuerAbilitySO: {fileID: 0}
+  AbilityBehavioursBeforeDelaySO: []
+  AbilityBehavioursSO:
+  - {fileID: 11400000, guid: 54da490d042741645b471fe057153aad, type: 2}
+  CustomAvailabilitiesSO: []
+  IsLookOnTarget: 1
+  Distance: 15
+  TargetIsAlwaysSelf: 0
+  CanCastOn: 4
+  CollisionParticlePrefabs: []
+  PrefabGameObject: {fileID: 2404874925295604979, guid: fd4aa011b8bfe6942b63790101907b9a,
+    type: 3}
+  MoveSpeed: 60
+  abilityProjectileMovementType: 0

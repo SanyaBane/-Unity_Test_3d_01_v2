@@ -1,0 +1,2728 @@
+fileFormatVersion: 2
+guid: d20d84d0e117ef14b87ea897837b393f
+ModelImporter:
+  serializedVersion: 19301
+  internalIDToNameTable:
+  - first:
+      1: 100000
+    second: 2b_COM_ctrl
+  - first:
+      1: 100002
+    second: 2b_Elbow_L_FK_ctrl
+  - first:
+      1: 100004
+    second: 2b_Elbow_R_FK_ctrl
+  - first:
+      1: 100006
+    second: 2b_Hand_L_FK_ctrl
+  - first:
+      1: 100008
+    second: 2b_Hand_R_FK_ctrl
+  - first:
+      1: 100010
+    second: 2b_Head_ctrl
+  - first:
+      1: 100012
+    second: 2b_Hip_ctrl
+  - first:
+      1: 100014
+    second: 2b_L_Clavicle_ctrl
+  - first:
+      1: 100016
+    second: 2b_L_Hand_IK_ctrl
+  - first:
+      1: 100018
+    second: 2b_L_Hand_IKGoal
+  - first:
+      1: 100020
+    second: 2b_L_Index_ctrl
+  - first:
+      1: 100022
+    second: 2b_L_Middle_ctrl
+  - first:
+      1: 100024
+    second: 2b_L_Pinky_ctrl
+  - first:
+      1: 100026
+    second: 2b_L_Ring_ctrl
+  - first:
+      1: 100028
+    second: 2b_L_Thumb_ctrl
+  - first:
+      1: 100030
+    second: 2b_Main_ctrl
+  - first:
+      1: 100032
+    second: 2b_NeckBase_ctrl
+  - first:
+      1: 100034
+    second: 2b_R_Clavicle_ctrl
+  - first:
+      1: 100036
+    second: 2b_R_Hand_IK_ctrl
+  - first:
+      1: 100038
+    second: 2b_R_Hand_IKGoal
+  - first:
+      1: 100040
+    second: 2b_R_Index_ctrl
+  - first:
+      1: 100042
+    second: 2b_R_Middle_ctrl
+  - first:
+      1: 100044
+    second: 2b_R_Pinky_ctrl
+  - first:
+      1: 100046
+    second: 2b_R_Ring_ctrl
+  - first:
+      1: 100048
+    second: 2b_R_Thumb_ctrl
+  - first:
+      1: 100050
+    second: 2b_Shoulder_L_FK_ctrl
+  - first:
+      1: 100052
+    second: 2b_Shoulder_R_FK_ctrl
+  - first:
+      1: 100054
+    second: 2b_SpineBase_ctrl
+  - first:
+      1: 100056
+    second: arm left elbow ctr2_bone
+  - first:
+      1: 100058
+    second: arm left elbow ctr_bone
+  - first:
+      1: 100060
+    second: arm left elbow_bone
+  - first:
+      1: 100062
+    second: arm left elbow_FK_bone
+  - first:
+      1: 100064
+    second: arm left elbow_IK_bone
+  - first:
+      1: 100066
+    second: arm left finger 1a_bone
+  - first:
+      1: 100068
+    second: arm left finger 1b_bone
+  - first:
+      1: 100070
+    second: arm left finger 1c_bone
+  - first:
+      1: 100072
+    second: arm left finger 2a_bone
+  - first:
+      1: 100074
+    second: arm left finger 2b_bone
+  - first:
+      1: 100076
+    second: arm left finger 2c_bone
+  - first:
+      1: 100078
+    second: arm left finger 3a_bone
+  - first:
+      1: 100080
+    second: arm left finger 3b_bone
+  - first:
+      1: 100082
+    second: arm left finger 3c_bone
+  - first:
+      1: 100084
+    second: arm left finger 4a_bone
+  - first:
+      1: 100086
+    second: arm left finger 4b_bone
+  - first:
+      1: 100088
+    second: arm left finger 4c_bone
+  - first:
+      1: 100090
+    second: arm left finger 5a_bone
+  - first:
+      1: 100092
+    second: arm left finger 5b_bone
+  - first:
+      1: 100094
+    second: arm left finger 5c_bone
+  - first:
+      1: 100096
+    second: arm left metacarpal_bone
+  - first:
+      1: 100098
+    second: arm left shoulder 1_bone
+  - first:
+      1: 100100
+    second: arm left shoulder 2 ctr2_bone
+  - first:
+      1: 100102
+    second: arm left shoulder 2 ctr_bone
+  - first:
+      1: 100104
+    second: arm left shoulder 2_bone
+  - first:
+      1: 100106
+    second: arm left shoulder_FK_bone
+  - first:
+      1: 100108
+    second: arm left shoulder_IK_bone
+  - first:
+      1: 100110
+    second: arm left wrist ctr_bone
+  - first:
+      1: 100112
+    second: arm left wrist_bone
+  - first:
+      1: 100114
+    second: arm left wrist_FK_bone
+  - first:
+      1: 100116
+    second: arm left wrist_IK_bone
+  - first:
+      1: 100118
+    second: arm right elbow ctr2_bone
+  - first:
+      1: 100120
+    second: arm right elbow ctr_bone
+  - first:
+      1: 100122
+    second: arm right elbow_bone
+  - first:
+      1: 100124
+    second: arm right elbow_FK_bone
+  - first:
+      1: 100126
+    second: arm right elbow_IK_bone
+  - first:
+      1: 100128
+    second: arm right finger 1a_bone
+  - first:
+      1: 100130
+    second: arm right finger 1b_bone
+  - first:
+      1: 100132
+    second: arm right finger 1c_bone
+  - first:
+      1: 100134
+    second: arm right finger 2a_bone
+  - first:
+      1: 100136
+    second: arm right finger 2b_bone
+  - first:
+      1: 100138
+    second: arm right finger 2c_bone
+  - first:
+      1: 100140
+    second: arm right finger 3a_bone
+  - first:
+      1: 100142
+    second: arm right finger 3b_bone
+  - first:
+      1: 100144
+    second: arm right finger 3c_bone
+  - first:
+      1: 100146
+    second: arm right finger 4a_bone
+  - first:
+      1: 100148
+    second: arm right finger 4b_bone
+  - first:
+      1: 100150
+    second: arm right finger 4c_bone
+  - first:
+      1: 100152
+    second: arm right finger 5a_bone
+  - first:
+      1: 100154
+    second: arm right finger 5b_bone
+  - first:
+      1: 100156
+    second: arm right finger 5c_bone
+  - first:
+      1: 100158
+    second: arm right metacarpal_bone
+  - first:
+      1: 100160
+    second: arm right shoulder 1_bone
+  - first:
+      1: 100162
+    second: arm right shoulder 2 ctr2_bone
+  - first:
+      1: 100164
+    second: arm right shoulder 2 ctr_bone
+  - first:
+      1: 100166
+    second: arm right shoulder 2_bone
+  - first:
+      1: 100168
+    second: arm right shoulder_FK_bone
+  - first:
+      1: 100170
+    second: arm right shoulder_IK_bone
+  - first:
+      1: 100172
+    second: arm right wrist ctr_bone
+  - first:
+      1: 100174
+    second: arm right wrist_bone
+  - first:
+      1: 100176
+    second: arm right wrist_FK_bone
+  - first:
+      1: 100178
+    second: arm right wrist_IK_bone
+  - first:
+      1: 100180
+    second: breast left a_bone
+  - first:
+      1: 100182
+    second: breast left b_bone
+  - first:
+      1: 100184
+    second: breast left base_bone
+  - first:
+      1: 100186
+    second: breast left c_bone
+  - first:
+      1: 100188
+    second: breast left d_bone
+  - first:
+      1: 100190
+    second: breast left e_bone
+  - first:
+      1: 100192
+    second: breast left tip_bone
+  - first:
+      1: 100194
+    second: breast right a_bone
+  - first:
+      1: 100196
+    second: breast right b_bone
+  - first:
+      1: 100198
+    second: breast right base_bone
+  - first:
+      1: 100200
+    second: breast right c_bone
+  - first:
+      1: 100202
+    second: breast right d_bone
+  - first:
+      1: 100204
+    second: breast right e_bone
+  - first:
+      1: 100206
+    second: breast right tip_bone
+  - first:
+      1: 100208
+    second: hair back left 1a_bone
+  - first:
+      1: 100210
+    second: hair back left 1b_bone
+  - first:
+      1: 100212
+    second: hair back left 1c_bone
+  - first:
+      1: 100214
+    second: hair back left 1d_bone
+  - first:
+      1: 100216
+    second: hair back left 1e_bone
+  - first:
+      1: 100218
+    second: hair back left 2a_bone
+  - first:
+      1: 100220
+    second: hair back left 2b_bone
+  - first:
+      1: 100222
+    second: hair back left 2c_bone
+  - first:
+      1: 100224
+    second: hair back left 2d_bone
+  - first:
+      1: 100226
+    second: hair back left 2e_bone
+  - first:
+      1: 100228
+    second: hair back left 3a_bone
+  - first:
+      1: 100230
+    second: hair back left 3b_bone
+  - first:
+      1: 100232
+    second: hair back left 3c_bone
+  - first:
+      1: 100234
+    second: hair back left 3d_bone
+  - first:
+      1: 100236
+    second: hair back left 3e_bone
+  - first:
+      1: 100238
+    second: hair back right 1a_bone
+  - first:
+      1: 100240
+    second: hair back right 1b_bone
+  - first:
+      1: 100242
+    second: hair back right 1c_bone
+  - first:
+      1: 100244
+    second: hair back right 1d_bone
+  - first:
+      1: 100246
+    second: hair back right 1e_bone
+  - first:
+      1: 100248
+    second: hair back right 2a_bone
+  - first:
+      1: 100250
+    second: hair back right 2b_bone
+  - first:
+      1: 100252
+    second: hair back right 2c_bone
+  - first:
+      1: 100254
+    second: hair back right 2d_bone
+  - first:
+      1: 100256
+    second: hair back right 2e_bone
+  - first:
+      1: 100258
+    second: hair back right 3a_bone
+  - first:
+      1: 100260
+    second: hair back right 3b_bone
+  - first:
+      1: 100262
+    second: hair back right 3c_bone
+  - first:
+      1: 100264
+    second: hair back right 3d_bone
+  - first:
+      1: 100266
+    second: hair back right 3e_bone
+  - first:
+      1: 100268
+    second: hair front left 1a_bone
+  - first:
+      1: 100270
+    second: hair front left 1b_bone
+  - first:
+      1: 100272
+    second: hair front left 1c_bone
+  - first:
+      1: 100274
+    second: hair front right 1a_bone
+  - first:
+      1: 100276
+    second: hair front right 1b_bone
+  - first:
+      1: 100278
+    second: hair front right 1c_bone
+  - first:
+      1: 100280
+    second: hair left side a_bone
+  - first:
+      1: 100282
+    second: hair left side b_bone
+  - first:
+      1: 100284
+    second: hair left side c_bone
+  - first:
+      1: 100286
+    second: hair left side d_bone
+  - first:
+      1: 100288
+    second: hair left side e_bone
+  - first:
+      1: 100290
+    second: hair left side f_bone
+  - first:
+      1: 100292
+    second: hair right side a_bone
+  - first:
+      1: 100294
+    second: hair right side b_bone
+  - first:
+      1: 100296
+    second: hair right side c_bone
+  - first:
+      1: 100298
+    second: hair right side d_bone
+  - first:
+      1: 100300
+    second: hair right side e_bone
+  - first:
+      1: 100302
+    second: hair right side f_bone
+  - first:
+      1: 100304
+    second: head cheek left a_bone
+  - first:
+      1: 100306
+    second: head cheek left b_bone
+  - first:
+      1: 100308
+    second: head cheek left c_bone
+  - first:
+      1: 100310
+    second: head cheek right a_bone
+  - first:
+      1: 100312
+    second: head cheek right b_bone
+  - first:
+      1: 100314
+    second: head cheek right c_bone
+  - first:
+      1: 100316
+    second: head eyeball left_bone
+  - first:
+      1: 100318
+    second: head eyeball right_bone
+  - first:
+      1: 100320
+    second: head eyebrow left a_bone
+  - first:
+      1: 100322
+    second: head eyebrow left b_bone
+  - first:
+      1: 100324
+    second: head eyebrow left c_bone
+  - first:
+      1: 100326
+    second: head eyebrow middle_bone
+  - first:
+      1: 100328
+    second: head eyebrow right a_bone
+  - first:
+      1: 100330
+    second: head eyebrow right b_bone
+  - first:
+      1: 100332
+    second: head eyebrow right c_bone
+  - first:
+      1: 100334
+    second: head eyelid lower left a_bone
+  - first:
+      1: 100336
+    second: head eyelid lower left b_bone
+  - first:
+      1: 100338
+    second: head eyelid lower right a_bone
+  - first:
+      1: 100340
+    second: head eyelid lower right b_bone
+  - first:
+      1: 100342
+    second: head eyelid upper left_bone
+  - first:
+      1: 100344
+    second: head eyelid upper right_bone
+  - first:
+      1: 100346
+    second: head forehead left_bone
+  - first:
+      1: 100348
+    second: head forehead right_bone
+  - first:
+      1: 100350
+    second: head jaw_bone
+  - first:
+      1: 100352
+    second: head lip corner left_bone
+  - first:
+      1: 100354
+    second: head lip corner right_bone
+  - first:
+      1: 100356
+    second: head lip lower left_bone
+  - first:
+      1: 100358
+    second: head lip lower middle_bone
+  - first:
+      1: 100360
+    second: head lip lower right_bone
+  - first:
+      1: 100362
+    second: head lip upper left_bone
+  - first:
+      1: 100364
+    second: head lip upper middle_bone
+  - first:
+      1: 100366
+    second: head lip upper right_bone
+  - first:
+      1: 100368
+    second: head neck lower_bone
+  - first:
+      1: 100370
+    second: head neck upper_bone
+  - first:
+      1: 100372
+    second: head nose left 1a_bone
+  - first:
+      1: 100374
+    second: head nose left 1b_bone
+  - first:
+      1: 100376
+    second: head nose left 1c_bone
+  - first:
+      1: 100378
+    second: head nose left 1d_bone
+  - first:
+      1: 100380
+    second: head nose middle_bone
+  - first:
+      1: 100382
+    second: head nose right 1a_bone
+  - first:
+      1: 100384
+    second: head nose right 1b_bone
+  - first:
+      1: 100386
+    second: head nose right 1c_bone
+  - first:
+      1: 100388
+    second: head nose right 1d_bone
+  - first:
+      1: 100390
+    second: head tongue a_bone
+  - first:
+      1: 100392
+    second: head tongue b_bone
+  - first:
+      1: 100394
+    second: //RootNode
+  - first:
+      1: 100396
+    second: leg left butt ctr_bone
+  - first:
+      1: 100398
+    second: leg left foot_bone
+  - first:
+      1: 100400
+    second: leg left knee ctr_bone
+  - first:
+      1: 100402
+    second: leg left knee_bone
+  - first:
+      1: 100404
+    second: leg left thigh ctr2_bone
+  - first:
+      1: 100406
+    second: leg left thigh ctr_bone
+  - first:
+      1: 100408
+    second: leg left thigh_bone
+  - first:
+      1: 100410
+    second: leg left toe_bone
+  - first:
+      1: 100412
+    second: leg right butt ctr_bone
+  - first:
+      1: 100414
+    second: leg right foot_bone
+  - first:
+      1: 100416
+    second: leg right knee ctr_bone
+  - first:
+      1: 100418
+    second: leg right knee_bone
+  - first:
+      1: 100420
+    second: leg right thigh ctr2_bone
+  - first:
+      1: 100422
+    second: leg right thigh ctr_bone
+  - first:
+      1: 100424
+    second: leg right thigh_bone
+  - first:
+      1: 100426
+    second: leg right toe_bone
+  - first:
+      1: 100428
+    second: leg_left_foot_ctrl
+  - first:
+      1: 100430
+    second: leg_left_foot_heel_hlp
+  - first:
+      1: 100432
+    second: leg_left_foot_IKGoal
+  - first:
+      1: 100434
+    second: leg_left_foot_toe_hlp
+  - first:
+      1: 100436
+    second: leg_left_toe_IKGoal
+  - first:
+      1: 100438
+    second: leg_right_foot_ctrl
+  - first:
+      1: 100440
+    second: leg_right_foot_heel_hlp
+  - first:
+      1: 100442
+    second: leg_right_foot_IKGoal
+  - first:
+      1: 100444
+    second: leg_right_foot_toe_hlp
+  - first:
+      1: 100446
+    second: leg_right_toe_IKGoal
+  - first:
+      1: 100448
+    second: m_Arms
+  - first:
+      1: 100450
+    second: m_Arms_Feathers
+  - first:
+      1: 100452
+    second: m_Blindfold
+  - first:
+      1: 100454
+    second: m_Body002
+  - first:
+      1: 100456
+    second: m_Body003
+  - first:
+      1: 100458
+    second: m_Body1
+  - first:
+      1: 100460
+    second: m_Body2_bottom
+  - first:
+      1: 100462
+    second: m_Body2_top
+  - first:
+      1: 100464
+    second: m_Body3_skin
+  - first:
+      1: 100466
+    second: m_Eyelashes
+  - first:
+      1: 100468
+    second: m_Eyes
+  - first:
+      1: 100470
+    second: m_Hair1
+  - first:
+      1: 100472
+    second: m_Hair2
+  - first:
+      1: 100474
+    second: m_Head
+  - first:
+      1: 100476
+    second: m_Hoop
+  - first:
+      1: 100478
+    second: m_Skirt
+  - first:
+      1: 100480
+    second: m_Sword
+  - first:
+      1: 100482
+    second: m_Teeth
+  - first:
+      1: 100484
+    second: root hips_bone
+  - first:
+      1: 100486
+    second: skirt back left 1a_bone
+  - first:
+      1: 100488
+    second: skirt back left 1b_bone
+  - first:
+      1: 100490
+    second: skirt back left 1c_bone
+  - first:
+      1: 100492
+    second: skirt back left 1d_bone
+  - first:
+      1: 100494
+    second: skirt back left 1e_bone
+  - first:
+      1: 100496
+    second: skirt back left 1f_bone
+  - first:
+      1: 100498
+    second: skirt back left 1g_bone
+  - first:
+      1: 100500
+    second: skirt back left 2a_bone
+  - first:
+      1: 100502
+    second: skirt back left 2b_bone
+  - first:
+      1: 100504
+    second: skirt back left 2c_bone
+  - first:
+      1: 100506
+    second: skirt back left 2d_bone
+  - first:
+      1: 100508
+    second: skirt back left 2e_bone
+  - first:
+      1: 100510
+    second: skirt back left 2f_bone
+  - first:
+      1: 100512
+    second: skirt back left 2g_bone
+  - first:
+      1: 100514
+    second: skirt back left 3a_bone
+  - first:
+      1: 100516
+    second: skirt back left 3b_bone
+  - first:
+      1: 100518
+    second: skirt back left 3c_bone
+  - first:
+      1: 100520
+    second: skirt back left 3d_bone
+  - first:
+      1: 100522
+    second: skirt back left 3e_bone
+  - first:
+      1: 100524
+    second: skirt back left 3f_bone
+  - first:
+      1: 100526
+    second: skirt back left 3g_bone
+  - first:
+      1: 100528
+    second: skirt back right 1a_bone
+  - first:
+      1: 100530
+    second: skirt back right 1b_bone
+  - first:
+      1: 100532
+    second: skirt back right 1c_bone
+  - first:
+      1: 100534
+    second: skirt back right 1d_bone
+  - first:
+      1: 100536
+    second: skirt back right 1e_bone
+  - first:
+      1: 100538
+    second: skirt back right 1f_bone
+  - first:
+      1: 100540
+    second: skirt back right 1g_bone
+  - first:
+      1: 100542
+    second: skirt back right 2a_bone
+  - first:
+      1: 100544
+    second: skirt back right 2b_bone
+  - first:
+      1: 100546
+    second: skirt back right 2c_bone
+  - first:
+      1: 100548
+    second: skirt back right 2d_bone
+  - first:
+      1: 100550
+    second: skirt back right 2e_bone
+  - first:
+      1: 100552
+    second: skirt back right 2f_bone
+  - first:
+      1: 100554
+    second: skirt back right 2g_bone
+  - first:
+      1: 100556
+    second: skirt back right 3a_bone
+  - first:
+      1: 100558
+    second: skirt back right 3b_bone
+  - first:
+      1: 100560
+    second: skirt back right 3c_bone
+  - first:
+      1: 100562
+    second: skirt back right 3d_bone
+  - first:
+      1: 100564
+    second: skirt back right 3e_bone
+  - first:
+      1: 100566
+    second: skirt back right 3f_bone
+  - first:
+      1: 100568
+    second: skirt back right 3g_bone
+  - first:
+      1: 100570
+    second: skirt front left 1a_bone
+  - first:
+      1: 100572
+    second: skirt front left 1b_bone
+  - first:
+      1: 100574
+    second: skirt front left 1c_bone
+  - first:
+      1: 100576
+    second: skirt front left 1d_bone
+  - first:
+      1: 100578
+    second: skirt front left 1e_bone
+  - first:
+      1: 100580
+    second: skirt front left 1f_bone
+  - first:
+      1: 100582
+    second: skirt front left 1g_bone
+  - first:
+      1: 100584
+    second: skirt front left 2a_bone
+  - first:
+      1: 100586
+    second: skirt front left 2b_bone
+  - first:
+      1: 100588
+    second: skirt front left 2c_bone
+  - first:
+      1: 100590
+    second: skirt front left 2d_bone
+  - first:
+      1: 100592
+    second: skirt front left 2e_bone
+  - first:
+      1: 100594
+    second: skirt front left 2f_bone
+  - first:
+      1: 100596
+    second: skirt front left 2g_bone
+  - first:
+      1: 100598
+    second: skirt front left 3a_bone
+  - first:
+      1: 100600
+    second: skirt front left 3b_bone
+  - first:
+      1: 100602
+    second: skirt front left 3c_bone
+  - first:
+      1: 100604
+    second: skirt front left 3d_bone
+  - first:
+      1: 100606
+    second: skirt front left 3e_bone
+  - first:
+      1: 100608
+    second: skirt front left 3f_bone
+  - first:
+      1: 100610
+    second: skirt front left 3g_bone
+  - first:
+      1: 100612
+    second: skirt front left 4a_bone
+  - first:
+      1: 100614
+    second: skirt front left 4b_bone
+  - first:
+      1: 100616
+    second: skirt front left 4c_bone
+  - first:
+      1: 100618
+    second: skirt front left 4d_bone
+  - first:
+      1: 100620
+    second: skirt front left 4e_bone
+  - first:
+      1: 100622
+    second: skirt front left 4f_bone
+  - first:
+      1: 100624
+    second: skirt front left 4g_bone
+  - first:
+      1: 100626
+    second: skirt front middle a_bone
+  - first:
+      1: 100628
+    second: skirt front middle b_bone
+  - first:
+      1: 100630
+    second: skirt front middle c_bone
+  - first:
+      1: 100632
+    second: skirt front middle d_bone
+  - first:
+      1: 100634
+    second: skirt front middle e_bone
+  - first:
+      1: 100636
+    second: skirt front middle f_bone
+  - first:
+      1: 100638
+    second: skirt front middle g_bone
+  - first:
+      1: 100640
+    second: skirt front right 1a_bone
+  - first:
+      1: 100642
+    second: skirt front right 1b_bone
+  - first:
+      1: 100644
+    second: skirt front right 1c_bone
+  - first:
+      1: 100646
+    second: skirt front right 1d_bone
+  - first:
+      1: 100648
+    second: skirt front right 1e_bone
+  - first:
+      1: 100650
+    second: skirt front right 1f_bone
+  - first:
+      1: 100652
+    second: skirt front right 1g_bone
+  - first:
+      1: 100654
+    second: skirt front right 2a_bone
+  - first:
+      1: 100656
+    second: skirt front right 2b_bone
+  - first:
+      1: 100658
+    second: skirt front right 2c_bone
+  - first:
+      1: 100660
+    second: skirt front right 2d_bone
+  - first:
+      1: 100662
+    second: skirt front right 2e_bone
+  - first:
+      1: 100664
+    second: skirt front right 2f_bone
+  - first:
+      1: 100666
+    second: skirt front right 2g_bone
+  - first:
+      1: 100668
+    second: skirt front right 3a_bone
+  - first:
+      1: 100670
+    second: skirt front right 3b_bone
+  - first:
+      1: 100672
+    second: skirt front right 3c_bone
+  - first:
+      1: 100674
+    second: skirt front right 3d_bone
+  - first:
+      1: 100676
+    second: skirt front right 3e_bone
+  - first:
+      1: 100678
+    second: skirt front right 3f_bone
+  - first:
+      1: 100680
+    second: skirt front right 3g_bone
+  - first:
+      1: 100682
+    second: skirt front right 4a_bone
+  - first:
+      1: 100684
+    second: skirt front right 4b_bone
+  - first:
+      1: 100686
+    second: skirt front right 4c_bone
+  - first:
+      1: 100688
+    second: skirt front right 4d_bone
+  - first:
+      1: 100690
+    second: skirt front right 4e_bone
+  - first:
+      1: 100692
+    second: skirt front right 4f_bone
+  - first:
+      1: 100694
+    second: skirt front right 4g_bone
+  - first:
+      1: 100696
+    second: skirt left side a_bone
+  - first:
+      1: 100698
+    second: skirt left side b_bone
+  - first:
+      1: 100700
+    second: skirt left side c_bone
+  - first:
+      1: 100702
+    second: skirt left side d_bone
+  - first:
+      1: 100704
+    second: skirt left side e_bone
+  - first:
+      1: 100706
+    second: skirt left side f_bone
+  - first:
+      1: 100708
+    second: skirt left side g_bone
+  - first:
+      1: 100710
+    second: skirt right side a_bone
+  - first:
+      1: 100712
+    second: skirt right side b_bone
+  - first:
+      1: 100714
+    second: skirt right side c_bone
+  - first:
+      1: 100716
+    second: skirt right side d_bone
+  - first:
+      1: 100718
+    second: skirt right side e_bone
+  - first:
+      1: 100720
+    second: skirt right side f_bone
+  - first:
+      1: 100722
+    second: skirt right side g_bone
+  - first:
+      1: 100724
+    second: skirt root_bone
+  - first:
+      1: 100726
+    second: spine lower_bone
+  - first:
+      1: 100728
+    second: spine upper_bone
+  - first:
+      1: 100730
+    second: sword root_bone
+  - first:
+      1: 100732
+    second: tassel a_bone
+  - first:
+      1: 100734
+    second: tassel b_bone
+  - first:
+      1: 100736
+    second: tassel c_bone
+  - first:
+      1: 100738
+    second: tassel d_bone
+  - first:
+      1: 100740
+    second: u head neck upper attached_hair and head 2_bone
+  - first:
+      1: 100742
+    second: u opt acs osage l16 item_hair fix item_head and hair_bone
+  - first:
+      1: 100744
+    second: u opt acs osage l17 item_hair fix item_head and hair_bone
+  - first:
+      1: 100746
+    second: u opt acs osage r16 item_hair fix item_head and hair_bone
+  - first:
+      1: 100748
+    second: u opt acs osage r17 item_hair fix item_head and hair_bone
+  - first:
+      1: 100750
+    second: unused head neck upper attached_hair fix_bone
+  - first:
+      1: 100752
+    second: unused opt dummy head item_hair fix item_head and hair_bone
+  - first:
+      4: 400000
+    second: 2b_COM_ctrl
+  - first:
+      4: 400002
+    second: 2b_Elbow_L_FK_ctrl
+  - first:
+      4: 400004
+    second: 2b_Elbow_R_FK_ctrl
+  - first:
+      4: 400006
+    second: 2b_Hand_L_FK_ctrl
+  - first:
+      4: 400008
+    second: 2b_Hand_R_FK_ctrl
+  - first:
+      4: 400010
+    second: 2b_Head_ctrl
+  - first:
+      4: 400012
+    second: 2b_Hip_ctrl
+  - first:
+      4: 400014
+    second: 2b_L_Clavicle_ctrl
+  - first:
+      4: 400016
+    second: 2b_L_Hand_IK_ctrl
+  - first:
+      4: 400018
+    second: 2b_L_Hand_IKGoal
+  - first:
+      4: 400020
+    second: 2b_L_Index_ctrl
+  - first:
+      4: 400022
+    second: 2b_L_Middle_ctrl
+  - first:
+      4: 400024
+    second: 2b_L_Pinky_ctrl
+  - first:
+      4: 400026
+    second: 2b_L_Ring_ctrl
+  - first:
+      4: 400028
+    second: 2b_L_Thumb_ctrl
+  - first:
+      4: 400030
+    second: 2b_Main_ctrl
+  - first:
+      4: 400032
+    second: 2b_NeckBase_ctrl
+  - first:
+      4: 400034
+    second: 2b_R_Clavicle_ctrl
+  - first:
+      4: 400036
+    second: 2b_R_Hand_IK_ctrl
+  - first:
+      4: 400038
+    second: 2b_R_Hand_IKGoal
+  - first:
+      4: 400040
+    second: 2b_R_Index_ctrl
+  - first:
+      4: 400042
+    second: 2b_R_Middle_ctrl
+  - first:
+      4: 400044
+    second: 2b_R_Pinky_ctrl
+  - first:
+      4: 400046
+    second: 2b_R_Ring_ctrl
+  - first:
+      4: 400048
+    second: 2b_R_Thumb_ctrl
+  - first:
+      4: 400050
+    second: 2b_Shoulder_L_FK_ctrl
+  - first:
+      4: 400052
+    second: 2b_Shoulder_R_FK_ctrl
+  - first:
+      4: 400054
+    second: 2b_SpineBase_ctrl
+  - first:
+      4: 400056
+    second: arm left elbow ctr2_bone
+  - first:
+      4: 400058
+    second: arm left elbow ctr_bone
+  - first:
+      4: 400060
+    second: arm left elbow_bone
+  - first:
+      4: 400062
+    second: arm left elbow_FK_bone
+  - first:
+      4: 400064
+    second: arm left elbow_IK_bone
+  - first:
+      4: 400066
+    second: arm left finger 1a_bone
+  - first:
+      4: 400068
+    second: arm left finger 1b_bone
+  - first:
+      4: 400070
+    second: arm left finger 1c_bone
+  - first:
+      4: 400072
+    second: arm left finger 2a_bone
+  - first:
+      4: 400074
+    second: arm left finger 2b_bone
+  - first:
+      4: 400076
+    second: arm left finger 2c_bone
+  - first:
+      4: 400078
+    second: arm left finger 3a_bone
+  - first:
+      4: 400080
+    second: arm left finger 3b_bone
+  - first:
+      4: 400082
+    second: arm left finger 3c_bone
+  - first:
+      4: 400084
+    second: arm left finger 4a_bone
+  - first:
+      4: 400086
+    second: arm left finger 4b_bone
+  - first:
+      4: 400088
+    second: arm left finger 4c_bone
+  - first:
+      4: 400090
+    second: arm left finger 5a_bone
+  - first:
+      4: 400092
+    second: arm left finger 5b_bone
+  - first:
+      4: 400094
+    second: arm left finger 5c_bone
+  - first:
+      4: 400096
+    second: arm left metacarpal_bone
+  - first:
+      4: 400098
+    second: arm left shoulder 1_bone
+  - first:
+      4: 400100
+    second: arm left shoulder 2 ctr2_bone
+  - first:
+      4: 400102
+    second: arm left shoulder 2 ctr_bone
+  - first:
+      4: 400104
+    second: arm left shoulder 2_bone
+  - first:
+      4: 400106
+    second: arm left shoulder_FK_bone
+  - first:
+      4: 400108
+    second: arm left shoulder_IK_bone
+  - first:
+      4: 400110
+    second: arm left wrist ctr_bone
+  - first:
+      4: 400112
+    second: arm left wrist_bone
+  - first:
+      4: 400114
+    second: arm left wrist_FK_bone
+  - first:
+      4: 400116
+    second: arm left wrist_IK_bone
+  - first:
+      4: 400118
+    second: arm right elbow ctr2_bone
+  - first:
+      4: 400120
+    second: arm right elbow ctr_bone
+  - first:
+      4: 400122
+    second: arm right elbow_bone
+  - first:
+      4: 400124
+    second: arm right elbow_FK_bone
+  - first:
+      4: 400126
+    second: arm right elbow_IK_bone
+  - first:
+      4: 400128
+    second: arm right finger 1a_bone
+  - first:
+      4: 400130
+    second: arm right finger 1b_bone
+  - first:
+      4: 400132
+    second: arm right finger 1c_bone
+  - first:
+      4: 400134
+    second: arm right finger 2a_bone
+  - first:
+      4: 400136
+    second: arm right finger 2b_bone
+  - first:
+      4: 400138
+    second: arm right finger 2c_bone
+  - first:
+      4: 400140
+    second: arm right finger 3a_bone
+  - first:
+      4: 400142
+    second: arm right finger 3b_bone
+  - first:
+      4: 400144
+    second: arm right finger 3c_bone
+  - first:
+      4: 400146
+    second: arm right finger 4a_bone
+  - first:
+      4: 400148
+    second: arm right finger 4b_bone
+  - first:
+      4: 400150
+    second: arm right finger 4c_bone
+  - first:
+      4: 400152
+    second: arm right finger 5a_bone
+  - first:
+      4: 400154
+    second: arm right finger 5b_bone
+  - first:
+      4: 400156
+    second: arm right finger 5c_bone
+  - first:
+      4: 400158
+    second: arm right metacarpal_bone
+  - first:
+      4: 400160
+    second: arm right shoulder 1_bone
+  - first:
+      4: 400162
+    second: arm right shoulder 2 ctr2_bone
+  - first:
+      4: 400164
+    second: arm right shoulder 2 ctr_bone
+  - first:
+      4: 400166
+    second: arm right shoulder 2_bone
+  - first:
+      4: 400168
+    second: arm right shoulder_FK_bone
+  - first:
+      4: 400170
+    second: arm right shoulder_IK_bone
+  - first:
+      4: 400172
+    second: arm right wrist ctr_bone
+  - first:
+      4: 400174
+    second: arm right wrist_bone
+  - first:
+      4: 400176
+    second: arm right wrist_FK_bone
+  - first:
+      4: 400178
+    second: arm right wrist_IK_bone
+  - first:
+      4: 400180
+    second: breast left a_bone
+  - first:
+      4: 400182
+    second: breast left b_bone
+  - first:
+      4: 400184
+    second: breast left base_bone
+  - first:
+      4: 400186
+    second: breast left c_bone
+  - first:
+      4: 400188
+    second: breast left d_bone
+  - first:
+      4: 400190
+    second: breast left e_bone
+  - first:
+      4: 400192
+    second: breast left tip_bone
+  - first:
+      4: 400194
+    second: breast right a_bone
+  - first:
+      4: 400196
+    second: breast right b_bone
+  - first:
+      4: 400198
+    second: breast right base_bone
+  - first:
+      4: 400200
+    second: breast right c_bone
+  - first:
+      4: 400202
+    second: breast right d_bone
+  - first:
+      4: 400204
+    second: breast right e_bone
+  - first:
+      4: 400206
+    second: breast right tip_bone
+  - first:
+      4: 400208
+    second: hair back left 1a_bone
+  - first:
+      4: 400210
+    second: hair back left 1b_bone
+  - first:
+      4: 400212
+    second: hair back left 1c_bone
+  - first:
+      4: 400214
+    second: hair back left 1d_bone
+  - first:
+      4: 400216
+    second: hair back left 1e_bone
+  - first:
+      4: 400218
+    second: hair back left 2a_bone
+  - first:
+      4: 400220
+    second: hair back left 2b_bone
+  - first:
+      4: 400222
+    second: hair back left 2c_bone
+  - first:
+      4: 400224
+    second: hair back left 2d_bone
+  - first:
+      4: 400226
+    second: hair back left 2e_bone
+  - first:
+      4: 400228
+    second: hair back left 3a_bone
+  - first:
+      4: 400230
+    second: hair back left 3b_bone
+  - first:
+      4: 400232
+    second: hair back left 3c_bone
+  - first:
+      4: 400234
+    second: hair back left 3d_bone
+  - first:
+      4: 400236
+    second: hair back left 3e_bone
+  - first:
+      4: 400238
+    second: hair back right 1a_bone
+  - first:
+      4: 400240
+    second: hair back right 1b_bone
+  - first:
+      4: 400242
+    second: hair back right 1c_bone
+  - first:
+      4: 400244
+    second: hair back right 1d_bone
+  - first:
+      4: 400246
+    second: hair back right 1e_bone
+  - first:
+      4: 400248
+    second: hair back right 2a_bone
+  - first:
+      4: 400250
+    second: hair back right 2b_bone
+  - first:
+      4: 400252
+    second: hair back right 2c_bone
+  - first:
+      4: 400254
+    second: hair back right 2d_bone
+  - first:
+      4: 400256
+    second: hair back right 2e_bone
+  - first:
+      4: 400258
+    second: hair back right 3a_bone
+  - first:
+      4: 400260
+    second: hair back right 3b_bone
+  - first:
+      4: 400262
+    second: hair back right 3c_bone
+  - first:
+      4: 400264
+    second: hair back right 3d_bone
+  - first:
+      4: 400266
+    second: hair back right 3e_bone
+  - first:
+      4: 400268
+    second: hair front left 1a_bone
+  - first:
+      4: 400270
+    second: hair front left 1b_bone
+  - first:
+      4: 400272
+    second: hair front left 1c_bone
+  - first:
+      4: 400274
+    second: hair front right 1a_bone
+  - first:
+      4: 400276
+    second: hair front right 1b_bone
+  - first:
+      4: 400278
+    second: hair front right 1c_bone
+  - first:
+      4: 400280
+    second: hair left side a_bone
+  - first:
+      4: 400282
+    second: hair left side b_bone
+  - first:
+      4: 400284
+    second: hair left side c_bone
+  - first:
+      4: 400286
+    second: hair left side d_bone
+  - first:
+      4: 400288
+    second: hair left side e_bone
+  - first:
+      4: 400290
+    second: hair left side f_bone
+  - first:
+      4: 400292
+    second: hair right side a_bone
+  - first:
+      4: 400294
+    second: hair right side b_bone
+  - first:
+      4: 400296
+    second: hair right side c_bone
+  - first:
+      4: 400298
+    second: hair right side d_bone
+  - first:
+      4: 400300
+    second: hair right side e_bone
+  - first:
+      4: 400302
+    second: hair right side f_bone
+  - first:
+      4: 400304
+    second: head cheek left a_bone
+  - first:
+      4: 400306
+    second: head cheek left b_bone
+  - first:
+      4: 400308
+    second: head cheek left c_bone
+  - first:
+      4: 400310
+    second: head cheek right a_bone
+  - first:
+      4: 400312
+    second: head cheek right b_bone
+  - first:
+      4: 400314
+    second: head cheek right c_bone
+  - first:
+      4: 400316
+    second: head eyeball left_bone
+  - first:
+      4: 400318
+    second: head eyeball right_bone
+  - first:
+      4: 400320
+    second: head eyebrow left a_bone
+  - first:
+      4: 400322
+    second: head eyebrow left b_bone
+  - first:
+      4: 400324
+    second: head eyebrow left c_bone
+  - first:
+      4: 400326
+    second: head eyebrow middle_bone
+  - first:
+      4: 400328
+    second: head eyebrow right a_bone
+  - first:
+      4: 400330
+    second: head eyebrow right b_bone
+  - first:
+      4: 400332
+    second: head eyebrow right c_bone
+  - first:
+      4: 400334
+    second: head eyelid lower left a_bone
+  - first:
+      4: 400336
+    second: head eyelid lower left b_bone
+  - first:
+      4: 400338
+    second: head eyelid lower right a_bone
+  - first:
+      4: 400340
+    second: head eyelid lower right b_bone
+  - first:
+      4: 400342
+    second: head eyelid upper left_bone
+  - first:
+      4: 400344
+    second: head eyelid upper right_bone
+  - first:
+      4: 400346
+    second: head forehead left_bone
+  - first:
+      4: 400348
+    second: head forehead right_bone
+  - first:
+      4: 400350
+    second: head jaw_bone
+  - first:
+      4: 400352
+    second: head lip corner left_bone
+  - first:
+      4: 400354
+    second: head lip corner right_bone
+  - first:
+      4: 400356
+    second: head lip lower left_bone
+  - first:
+      4: 400358
+    second: head lip lower middle_bone
+  - first:
+      4: 400360
+    second: head lip lower right_bone
+  - first:
+      4: 400362
+    second: head lip upper left_bone
+  - first:
+      4: 400364
+    second: head lip upper middle_bone
+  - first:
+      4: 400366
+    second: head lip upper right_bone
+  - first:
+      4: 400368
+    second: head neck lower_bone
+  - first:
+      4: 400370
+    second: head neck upper_bone
+  - first:
+      4: 400372
+    second: head nose left 1a_bone
+  - first:
+      4: 400374
+    second: head nose left 1b_bone
+  - first:
+      4: 400376
+    second: head nose left 1c_bone
+  - first:
+      4: 400378
+    second: head nose left 1d_bone
+  - first:
+      4: 400380
+    second: head nose middle_bone
+  - first:
+      4: 400382
+    second: head nose right 1a_bone
+  - first:
+      4: 400384
+    second: head nose right 1b_bone
+  - first:
+      4: 400386
+    second: head nose right 1c_bone
+  - first:
+      4: 400388
+    second: head nose right 1d_bone
+  - first:
+      4: 400390
+    second: head tongue a_bone
+  - first:
+      4: 400392
+    second: head tongue b_bone
+  - first:
+      4: 400394
+    second: //RootNode
+  - first:
+      4: 400396
+    second: leg left butt ctr_bone
+  - first:
+      4: 400398
+    second: leg left foot_bone
+  - first:
+      4: 400400
+    second: leg left knee ctr_bone
+  - first:
+      4: 400402
+    second: leg left knee_bone
+  - first:
+      4: 400404
+    second: leg left thigh ctr2_bone
+  - first:
+      4: 400406
+    second: leg left thigh ctr_bone
+  - first:
+      4: 400408
+    second: leg left thigh_bone
+  - first:
+      4: 400410
+    second: leg left toe_bone
+  - first:
+      4: 400412
+    second: leg right butt ctr_bone
+  - first:
+      4: 400414
+    second: leg right foot_bone
+  - first:
+      4: 400416
+    second: leg right knee ctr_bone
+  - first:
+      4: 400418
+    second: leg right knee_bone
+  - first:
+      4: 400420
+    second: leg right thigh ctr2_bone
+  - first:
+      4: 400422
+    second: leg right thigh ctr_bone
+  - first:
+      4: 400424
+    second: leg right thigh_bone
+  - first:
+      4: 400426
+    second: leg right toe_bone
+  - first:
+      4: 400428
+    second: leg_left_foot_ctrl
+  - first:
+      4: 400430
+    second: leg_left_foot_heel_hlp
+  - first:
+      4: 400432
+    second: leg_left_foot_IKGoal
+  - first:
+      4: 400434
+    second: leg_left_foot_toe_hlp
+  - first:
+      4: 400436
+    second: leg_left_toe_IKGoal
+  - first:
+      4: 400438
+    second: leg_right_foot_ctrl
+  - first:
+      4: 400440
+    second: leg_right_foot_heel_hlp
+  - first:
+      4: 400442
+    second: leg_right_foot_IKGoal
+  - first:
+      4: 400444
+    second: leg_right_foot_toe_hlp
+  - first:
+      4: 400446
+    second: leg_right_toe_IKGoal
+  - first:
+      4: 400448
+    second: m_Arms
+  - first:
+      4: 400450
+    second: m_Arms_Feathers
+  - first:
+      4: 400452
+    second: m_Blindfold
+  - first:
+      4: 400454
+    second: m_Body002
+  - first:
+      4: 400456
+    second: m_Body003
+  - first:
+      4: 400458
+    second: m_Body1
+  - first:
+      4: 400460
+    second: m_Body2_bottom
+  - first:
+      4: 400462
+    second: m_Body2_top
+  - first:
+      4: 400464
+    second: m_Body3_skin
+  - first:
+      4: 400466
+    second: m_Eyelashes
+  - first:
+      4: 400468
+    second: m_Eyes
+  - first:
+      4: 400470
+    second: m_Hair1
+  - first:
+      4: 400472
+    second: m_Hair2
+  - first:
+      4: 400474
+    second: m_Head
+  - first:
+      4: 400476
+    second: m_Hoop
+  - first:
+      4: 400478
+    second: m_Skirt
+  - first:
+      4: 400480
+    second: m_Sword
+  - first:
+      4: 400482
+    second: m_Teeth
+  - first:
+      4: 400484
+    second: root hips_bone
+  - first:
+      4: 400486
+    second: skirt back left 1a_bone
+  - first:
+      4: 400488
+    second: skirt back left 1b_bone
+  - first:
+      4: 400490
+    second: skirt back left 1c_bone
+  - first:
+      4: 400492
+    second: skirt back left 1d_bone
+  - first:
+      4: 400494
+    second: skirt back left 1e_bone
+  - first:
+      4: 400496
+    second: skirt back left 1f_bone
+  - first:
+      4: 400498
+    second: skirt back left 1g_bone
+  - first:
+      4: 400500
+    second: skirt back left 2a_bone
+  - first:
+      4: 400502
+    second: skirt back left 2b_bone
+  - first:
+      4: 400504
+    second: skirt back left 2c_bone
+  - first:
+      4: 400506
+    second: skirt back left 2d_bone
+  - first:
+      4: 400508
+    second: skirt back left 2e_bone
+  - first:
+      4: 400510
+    second: skirt back left 2f_bone
+  - first:
+      4: 400512
+    second: skirt back left 2g_bone
+  - first:
+      4: 400514
+    second: skirt back left 3a_bone
+  - first:
+      4: 400516
+    second: skirt back left 3b_bone
+  - first:
+      4: 400518
+    second: skirt back left 3c_bone
+  - first:
+      4: 400520
+    second: skirt back left 3d_bone
+  - first:
+      4: 400522
+    second: skirt back left 3e_bone
+  - first:
+      4: 400524
+    second: skirt back left 3f_bone
+  - first:
+      4: 400526
+    second: skirt back left 3g_bone
+  - first:
+      4: 400528
+    second: skirt back right 1a_bone
+  - first:
+      4: 400530
+    second: skirt back right 1b_bone
+  - first:
+      4: 400532
+    second: skirt back right 1c_bone
+  - first:
+      4: 400534
+    second: skirt back right 1d_bone
+  - first:
+      4: 400536
+    second: skirt back right 1e_bone
+  - first:
+      4: 400538
+    second: skirt back right 1f_bone
+  - first:
+      4: 400540
+    second: skirt back right 1g_bone
+  - first:
+      4: 400542
+    second: skirt back right 2a_bone
+  - first:
+      4: 400544
+    second: skirt back right 2b_bone
+  - first:
+      4: 400546
+    second: skirt back right 2c_bone
+  - first:
+      4: 400548
+    second: skirt back right 2d_bone
+  - first:
+      4: 400550
+    second: skirt back right 2e_bone
+  - first:
+      4: 400552
+    second: skirt back right 2f_bone
+  - first:
+      4: 400554
+    second: skirt back right 2g_bone
+  - first:
+      4: 400556
+    second: skirt back right 3a_bone
+  - first:
+      4: 400558
+    second: skirt back right 3b_bone
+  - first:
+      4: 400560
+    second: skirt back right 3c_bone
+  - first:
+      4: 400562
+    second: skirt back right 3d_bone
+  - first:
+      4: 400564
+    second: skirt back right 3e_bone
+  - first:
+      4: 400566
+    second: skirt back right 3f_bone
+  - first:
+      4: 400568
+    second: skirt back right 3g_bone
+  - first:
+      4: 400570
+    second: skirt front left 1a_bone
+  - first:
+      4: 400572
+    second: skirt front left 1b_bone
+  - first:
+      4: 400574
+    second: skirt front left 1c_bone
+  - first:
+      4: 400576
+    second: skirt front left 1d_bone
+  - first:
+      4: 400578
+    second: skirt front left 1e_bone
+  - first:
+      4: 400580
+    second: skirt front left 1f_bone
+  - first:
+      4: 400582
+    second: skirt front left 1g_bone
+  - first:
+      4: 400584
+    second: skirt front left 2a_bone
+  - first:
+      4: 400586
+    second: skirt front left 2b_bone
+  - first:
+      4: 400588
+    second: skirt front left 2c_bone
+  - first:
+      4: 400590
+    second: skirt front left 2d_bone
+  - first:
+      4: 400592
+    second: skirt front left 2e_bone
+  - first:
+      4: 400594
+    second: skirt front left 2f_bone
+  - first:
+      4: 400596
+    second: skirt front left 2g_bone
+  - first:
+      4: 400598
+    second: skirt front left 3a_bone
+  - first:
+      4: 400600
+    second: skirt front left 3b_bone
+  - first:
+      4: 400602
+    second: skirt front left 3c_bone
+  - first:
+      4: 400604
+    second: skirt front left 3d_bone
+  - first:
+      4: 400606
+    second: skirt front left 3e_bone
+  - first:
+      4: 400608
+    second: skirt front left 3f_bone
+  - first:
+      4: 400610
+    second: skirt front left 3g_bone
+  - first:
+      4: 400612
+    second: skirt front left 4a_bone
+  - first:
+      4: 400614
+    second: skirt front left 4b_bone
+  - first:
+      4: 400616
+    second: skirt front left 4c_bone
+  - first:
+      4: 400618
+    second: skirt front left 4d_bone
+  - first:
+      4: 400620
+    second: skirt front left 4e_bone
+  - first:
+      4: 400622
+    second: skirt front left 4f_bone
+  - first:
+      4: 400624
+    second: skirt front left 4g_bone
+  - first:
+      4: 400626
+    second: skirt front middle a_bone
+  - first:
+      4: 400628
+    second: skirt front middle b_bone
+  - first:
+      4: 400630
+    second: skirt front middle c_bone
+  - first:
+      4: 400632
+    second: skirt front middle d_bone
+  - first:
+      4: 400634
+    second: skirt front middle e_bone
+  - first:
+      4: 400636
+    second: skirt front middle f_bone
+  - first:
+      4: 400638
+    second: skirt front middle g_bone
+  - first:
+      4: 400640
+    second: skirt front right 1a_bone
+  - first:
+      4: 400642
+    second: skirt front right 1b_bone
+  - first:
+      4: 400644
+    second: skirt front right 1c_bone
+  - first:
+      4: 400646
+    second: skirt front right 1d_bone
+  - first:
+      4: 400648
+    second: skirt front right 1e_bone
+  - first:
+      4: 400650
+    second: skirt front right 1f_bone
+  - first:
+      4: 400652
+    second: skirt front right 1g_bone
+  - first:
+      4: 400654
+    second: skirt front right 2a_bone
+  - first:
+      4: 400656
+    second: skirt front right 2b_bone
+  - first:
+      4: 400658
+    second: skirt front right 2c_bone
+  - first:
+      4: 400660
+    second: skirt front right 2d_bone
+  - first:
+      4: 400662
+    second: skirt front right 2e_bone
+  - first:
+      4: 400664
+    second: skirt front right 2f_bone
+  - first:
+      4: 400666
+    second: skirt front right 2g_bone
+  - first:
+      4: 400668
+    second: skirt front right 3a_bone
+  - first:
+      4: 400670
+    second: skirt front right 3b_bone
+  - first:
+      4: 400672
+    second: skirt front right 3c_bone
+  - first:
+      4: 400674
+    second: skirt front right 3d_bone
+  - first:
+      4: 400676
+    second: skirt front right 3e_bone
+  - first:
+      4: 400678
+    second: skirt front right 3f_bone
+  - first:
+      4: 400680
+    second: skirt front right 3g_bone
+  - first:
+      4: 400682
+    second: skirt front right 4a_bone
+  - first:
+      4: 400684
+    second: skirt front right 4b_bone
+  - first:
+      4: 400686
+    second: skirt front right 4c_bone
+  - first:
+      4: 400688
+    second: skirt front right 4d_bone
+  - first:
+      4: 400690
+    second: skirt front right 4e_bone
+  - first:
+      4: 400692
+    second: skirt front right 4f_bone
+  - first:
+      4: 400694
+    second: skirt front right 4g_bone
+  - first:
+      4: 400696
+    second: skirt left side a_bone
+  - first:
+      4: 400698
+    second: skirt left side b_bone
+  - first:
+      4: 400700
+    second: skirt left side c_bone
+  - first:
+      4: 400702
+    second: skirt left side d_bone
+  - first:
+      4: 400704
+    second: skirt left side e_bone
+  - first:
+      4: 400706
+    second: skirt left side f_bone
+  - first:
+      4: 400708
+    second: skirt left side g_bone
+  - first:
+      4: 400710
+    second: skirt right side a_bone
+  - first:
+      4: 400712
+    second: skirt right side b_bone
+  - first:
+      4: 400714
+    second: skirt right side c_bone
+  - first:
+      4: 400716
+    second: skirt right side d_bone
+  - first:
+      4: 400718
+    second: skirt right side e_bone
+  - first:
+      4: 400720
+    second: skirt right side f_bone
+  - first:
+      4: 400722
+    second: skirt right side g_bone
+  - first:
+      4: 400724
+    second: skirt root_bone
+  - first:
+      4: 400726
+    second: spine lower_bone
+  - first:
+      4: 400728
+    second: spine upper_bone
+  - first:
+      4: 400730
+    second: sword root_bone
+  - first:
+      4: 400732
+    second: tassel a_bone
+  - first:
+      4: 400734
+    second: tassel b_bone
+  - first:
+      4: 400736
+    second: tassel c_bone
+  - first:
+      4: 400738
+    second: tassel d_bone
+  - first:
+      4: 400740
+    second: u head neck upper attached_hair and head 2_bone
+  - first:
+      4: 400742
+    second: u opt acs osage l16 item_hair fix item_head and hair_bone
+  - first:
+      4: 400744
+    second: u opt acs osage l17 item_hair fix item_head and hair_bone
+  - first:
+      4: 400746
+    second: u opt acs osage r16 item_hair fix item_head and hair_bone
+  - first:
+      4: 400748
+    second: u opt acs osage r17 item_hair fix item_head and hair_bone
+  - first:
+      4: 400750
+    second: unused head neck upper attached_hair fix_bone
+  - first:
+      4: 400752
+    second: unused opt dummy head item_hair fix item_head and hair_bone
+  - first:
+      21: 2100000
+    second: outfit_base
+  - first:
+      21: 2100002
+    second: sword_base
+  - first:
+      21: 2100004
+    second: skin_base
+  - first:
+      21: 2100006
+    second: dets_base
+  - first:
+      21: 2100008
+    second: snood
+  - first:
+      21: 2100010
+    second: hair1_base
+  - first:
+      21: 2100012
+    second: hair2_base
+  - first:
+      21: 2100014
+    second: eyelashes
+  - first:
+      21: 2100016
+    second: No Name
+  - first:
+      23: 2300000
+    second: 2b_Elbow_L_FK_ctrl
+  - first:
+      23: 2300002
+    second: 2b_Elbow_R_FK_ctrl
+  - first:
+      23: 2300004
+    second: 2b_Hand_L_FK_ctrl
+  - first:
+      23: 2300006
+    second: 2b_Hand_R_FK_ctrl
+  - first:
+      23: 2300008
+    second: 2b_L_Clavicle_ctrl
+  - first:
+      23: 2300010
+    second: 2b_L_Hand_IK_ctrl
+  - first:
+      23: 2300012
+    second: 2b_L_Index_ctrl
+  - first:
+      23: 2300014
+    second: 2b_L_Middle_ctrl
+  - first:
+      23: 2300016
+    second: 2b_L_Pinky_ctrl
+  - first:
+      23: 2300018
+    second: 2b_L_Ring_ctrl
+  - first:
+      23: 2300020
+    second: 2b_L_Thumb_ctrl
+  - first:
+      23: 2300022
+    second: 2b_R_Clavicle_ctrl
+  - first:
+      23: 2300024
+    second: 2b_R_Hand_IK_ctrl
+  - first:
+      23: 2300026
+    second: 2b_R_Index_ctrl
+  - first:
+      23: 2300028
+    second: 2b_R_Middle_ctrl
+  - first:
+      23: 2300030
+    second: 2b_R_Pinky_ctrl
+  - first:
+      23: 2300032
+    second: 2b_R_Ring_ctrl
+  - first:
+      23: 2300034
+    second: 2b_R_Thumb_ctrl
+  - first:
+      23: 2300036
+    second: 2b_Shoulder_L_FK_ctrl
+  - first:
+      23: 2300038
+    second: 2b_Shoulder_R_FK_ctrl
+  - first:
+      23: 2300040
+    second: leg_left_foot_ctrl
+  - first:
+      23: 2300042
+    second: leg_right_foot_ctrl
+  - first:
+      33: 3300000
+    second: 2b_Elbow_L_FK_ctrl
+  - first:
+      33: 3300002
+    second: 2b_Elbow_R_FK_ctrl
+  - first:
+      33: 3300004
+    second: 2b_Hand_L_FK_ctrl
+  - first:
+      33: 3300006
+    second: 2b_Hand_R_FK_ctrl
+  - first:
+      33: 3300008
+    second: 2b_L_Clavicle_ctrl
+  - first:
+      33: 3300010
+    second: 2b_L_Hand_IK_ctrl
+  - first:
+      33: 3300012
+    second: 2b_L_Index_ctrl
+  - first:
+      33: 3300014
+    second: 2b_L_Middle_ctrl
+  - first:
+      33: 3300016
+    second: 2b_L_Pinky_ctrl
+  - first:
+      33: 3300018
+    second: 2b_L_Ring_ctrl
+  - first:
+      33: 3300020
+    second: 2b_L_Thumb_ctrl
+  - first:
+      33: 3300022
+    second: 2b_R_Clavicle_ctrl
+  - first:
+      33: 3300024
+    second: 2b_R_Hand_IK_ctrl
+  - first:
+      33: 3300026
+    second: 2b_R_Index_ctrl
+  - first:
+      33: 3300028
+    second: 2b_R_Middle_ctrl
+  - first:
+      33: 3300030
+    second: 2b_R_Pinky_ctrl
+  - first:
+      33: 3300032
+    second: 2b_R_Ring_ctrl
+  - first:
+      33: 3300034
+    second: 2b_R_Thumb_ctrl
+  - first:
+      33: 3300036
+    second: 2b_Shoulder_L_FK_ctrl
+  - first:
+      33: 3300038
+    second: 2b_Shoulder_R_FK_ctrl
+  - first:
+      33: 3300040
+    second: leg_left_foot_ctrl
+  - first:
+      33: 3300042
+    second: leg_right_foot_ctrl
+  - first:
+      43: 4300000
+    second: m_Blindfold
+  - first:
+      43: 4300002
+    second: m_Skirt
+  - first:
+      43: 4300004
+    second: m_Sword
+  - first:
+      43: 4300006
+    second: m_Body2_top
+  - first:
+      43: 4300008
+    second: m_Eyes
+  - first:
+      43: 4300010
+    second: m_Head
+  - first:
+      43: 4300012
+    second: m_Body1
+  - first:
+      43: 4300014
+    second: m_Body3_skin
+  - first:
+      43: 4300016
+    second: m_Teeth
+  - first:
+      43: 4300018
+    second: m_Arms_Feathers
+  - first:
+      43: 4300020
+    second: m_Hoop
+  - first:
+      43: 4300022
+    second: m_Hair2
+  - first:
+      43: 4300024
+    second: m_Hair1
+  - first:
+      43: 4300026
+    second: m_Eyelashes
+  - first:
+      43: 4300028
+    second: leg_left_foot_ctrl
+  - first:
+      43: 4300030
+    second: leg_right_foot_ctrl
+  - first:
+      43: 4300032
+    second: 2b_L_Index_ctrl
+  - first:
+      43: 4300034
+    second: 2b_L_Ring_ctrl
+  - first:
+      43: 4300036
+    second: 2b_L_Middle_ctrl
+  - first:
+      43: 4300038
+    second: 2b_L_Pinky_ctrl
+  - first:
+      43: 4300040
+    second: 2b_L_Thumb_ctrl
+  - first:
+      43: 4300042
+    second: 2b_Shoulder_L_FK_ctrl
+  - first:
+      43: 4300044
+    second: 2b_Elbow_L_FK_ctrl
+  - first:
+      43: 4300046
+    second: 2b_Hand_L_FK_ctrl
+  - first:
+      43: 4300048
+    second: 2b_R_Pinky_ctrl
+  - first:
+      43: 4300050
+    second: 2b_R_Ring_ctrl
+  - first:
+      43: 4300052
+    second: 2b_R_Middle_ctrl
+  - first:
+      43: 4300054
+    second: 2b_R_Index_ctrl
+  - first:
+      43: 4300056
+    second: 2b_R_Thumb_ctrl
+  - first:
+      43: 4300058
+    second: 2b_Shoulder_R_FK_ctrl
+  - first:
+      43: 4300060
+    second: 2b_Elbow_R_FK_ctrl
+  - first:
+      43: 4300062
+    second: 2b_Hand_R_FK_ctrl
+  - first:
+      43: 4300064
+    second: 2b_L_Clavicle_ctrl
+  - first:
+      43: 4300066
+    second: 2b_R_Clavicle_ctrl
+  - first:
+      43: 4300068
+    second: 2b_L_Hand_IK_ctrl
+  - first:
+      43: 4300070
+    second: 2b_R_Hand_IK_ctrl
+  - first:
+      43: 4300072
+    second: m_Arms
+  - first:
+      43: 4300074
+    second: m_Body2_bottom
+  - first:
+      43: 4300076
+    second: m_Body002
+  - first:
+      43: 4300078
+    second: m_Body003
+  - first:
+      74: 7400000
+    second: idle
+  - first:
+      95: 9500000
+    second: //RootNode
+  - first:
+      137: 13700000
+    second: m_Arms
+  - first:
+      137: 13700002
+    second: m_Arms_Feathers
+  - first:
+      137: 13700004
+    second: m_Blindfold
+  - first:
+      137: 13700006
+    second: m_Body002
+  - first:
+      137: 13700008
+    second: m_Body003
+  - first:
+      137: 13700010
+    second: m_Body1
+  - first:
+      137: 13700012
+    second: m_Body2_bottom
+  - first:
+      137: 13700014
+    second: m_Body2_top
+  - first:
+      137: 13700016
+    second: m_Body3_skin
+  - first:
+      137: 13700018
+    second: m_Eyelashes
+  - first:
+      137: 13700020
+    second: m_Eyes
+  - first:
+      137: 13700022
+    second: m_Hair1
+  - first:
+      137: 13700024
+    second: m_Hair2
+  - first:
+      137: 13700026
+    second: m_Head
+  - first:
+      137: 13700028
+    second: m_Hoop
+  - first:
+      137: 13700030
+    second: m_Skirt
+  - first:
+      137: 13700032
+    second: m_Sword
+  - first:
+      137: 13700034
+    second: m_Teeth
+  externalObjects: {}
+  materials:
+    materialImportMode: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 0
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: idle
+      takeName: Take 001
+      internalID: 0
+      firstFrame: 20
+      lastFrame: 130
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    fileIdsGeneration: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {fileID: 9000000, guid: 752aa7ab9fe4f8d4c989dfa09f0cb21b,
+    type: 3}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 2
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

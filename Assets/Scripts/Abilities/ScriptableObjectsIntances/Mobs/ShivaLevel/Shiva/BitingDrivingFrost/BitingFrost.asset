@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 52f6e54981f94053900b592b9fbe0d45, type: 3}
+  m_Name: BitingFrost
+  m_EditorClassIdentifier: 
+  Id: Shiva_BitingFrost
+  Name: Biting Frost
+  Icon: {fileID: 0}
+  InitialManaCost: 0
+  InitialCooldown: 4
+  InitialCastTime: 3
+  DelayAfterFinishCast: 0.5
+  AnimationNameCasting: Ability_BitingFrost
+  AbilityAnimationRuleSO: {fileID: 11400000, guid: 2f5568905fc700f47a0dec774a40af43,
+    type: 2}
+  Order: 1
+  AffectsGlobalCooldown: 1
+  BreaksOthersComboChain: 1
+  CanDisplayErrorMessages: 1
+  ComboContinuerAbilitySO: {fileID: 0}
+  AbilityBehavioursBeforeDelaySO: []
+  AbilityBehavioursSO:
+  - {fileID: 11400000, guid: c7b6dddbc9ca5074f87a5dea9a70c904, type: 2}
+  - {fileID: 11400000, guid: f958fee89148d4d41a9e57c2fc2ba61b, type: 2}
+  - {fileID: 11400000, guid: 3367560a54242eb4faf3840415273a92, type: 2}
+  CustomAvailabilitiesSO: []
+  DisplayAOEZone: 1
+  AbilityAffects: 4
+  Height: 6
+  Radius: 30
+  Angle: 270
+  ClockwiseRotation: 0
+  ParticlesCasterCastFinish: []

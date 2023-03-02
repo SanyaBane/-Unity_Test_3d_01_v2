@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f66ce2208790ba342b44c68e9054e9fd, type: 3}
+  m_Name: StormsPath
+  m_EditorClassIdentifier: 
+  Id: WAR_StormsPath
+  Name: Storm's Path
+  Icon: {fileID: -3850023402912375933, guid: 63f22f64e3f00d3489392c32fbac1c38, type: 3}
+  InitialManaCost: 0
+  InitialCooldown: 2
+  AffectsGlobalCooldown: 1
+  InitialCastTime: 0
+  DelayAfterFinishCast: 1.1
+  AbilityAnimationRuleSO: {fileID: 11400000, guid: c543251471822064dbb06be0a800ddb3,
+    type: 2}
+  CooldownSO: {fileID: 11400000, guid: bf13d5edcd38fd6459dcd0817fccc4f7, type: 2}
+  Order: 3
+  BreaksOthersComboChain: 1
+  CanDisplayErrorMessages: 1
+  ComboContinuerAbilitySO: {fileID: 11400000, guid: 5a0a1bef1bafc2f47a683471f6524a77,
+    type: 2}
+  AbilityBehavioursBeforeDelaySO: []
+  AbilityBehavioursSO:
+  - {fileID: 11400000, guid: 4774e78771ce00149bf80052114653a2, type: 2}
+  - {fileID: 11400000, guid: 6e1fee9ec9ae43c46a24d2895f7705e4, type: 2}
+  CustomAvailabilitiesSO: []
+  IsLookOnTarget: 1
+  Distance: 1
+  TargetIsAlwaysSelf: 0
+  CanCastOn: 4
+  CollisionParticlePrefabs: []

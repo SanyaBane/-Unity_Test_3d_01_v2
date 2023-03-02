@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ebf8bf6e01fbf0147918b8ff39b4a8c7, type: 3}
+  m_Name: Neutral-Friendly
+  m_EditorClassIdentifier: 
+  Title: Neutral-Friendly
+  enemies: []
+  unfriends: []
+  neutrals:
+  - {fileID: 11400000, guid: 1ac655cc61d4ae04bab13be647ed0eec, type: 2}
+  - {fileID: 11400000, guid: b524c986ee036c7418b64407d84ecc09, type: 2}
+  friends: []
+  allies: []
+  DefaultRelationToNotListedFactions: 100

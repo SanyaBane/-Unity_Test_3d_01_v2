@@ -1,0 +1,317 @@
+fileFormatVersion: 2
+guid: 18ec061d22973f145a66d4f6508beaf4
+timeCreated: 1479735902
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: arm_L_01
+    100002: arm_L_02
+    100004: arm_L_03
+    100006: arm_L_04
+    100008: arm_L_05
+    100010: arm_L_06
+    100012: arm_L_07
+    100014: arm_L_08
+    100016: arm_L_09
+    100018: arm_L_10
+    100020: arm_L_11
+    100022: arm_R_01
+    100024: arm_R_02
+    100026: arm_R_03
+    100028: arm_R_04
+    100030: arm_R_05
+    100032: arm_R_06
+    100034: arm_R_07
+    100036: arm_R_08
+    100038: arm_R_09
+    100040: arm_R_10
+    100042: arm_R_11
+    100044: bone_weapon
+    100046: bottom
+    100048: hair_back_01
+    100050: hair_back_02
+    100052: hair_back_03
+    100054: hair_back_04
+    100056: hair_L_01
+    100058: hair_L_02
+    100060: hair_L_03
+    100062: hair_R_01
+    100064: hair_R_02
+    100066: hair_R_03
+    100068: head
+    100070: leg_L_01
+    100072: leg_L_02
+    100074: leg_L_03
+    100076: leg_R_01
+    100078: leg_R_02
+    100080: leg_R_03
+    100082: m3bone_root
+    100084: root
+    100086: //RootNode
+    100088: skirt_back_L_01
+    100090: skirt_back_L_02
+    100092: skirt_back_R_01
+    100094: skirt_back_R_02
+    100096: skirt_front_L_01
+    100098: skirt_front_L_02
+    100100: skirt_front_R_01
+    100102: skirt_front_R_02
+    100104: top_1
+    100106: top_2
+    400000: arm_L_01
+    400002: arm_L_02
+    400004: arm_L_03
+    400006: arm_L_04
+    400008: arm_L_05
+    400010: arm_L_06
+    400012: arm_L_07
+    400014: arm_L_08
+    400016: arm_L_09
+    400018: arm_L_10
+    400020: arm_L_11
+    400022: arm_R_01
+    400024: arm_R_02
+    400026: arm_R_03
+    400028: arm_R_04
+    400030: arm_R_05
+    400032: arm_R_06
+    400034: arm_R_07
+    400036: arm_R_08
+    400038: arm_R_09
+    400040: arm_R_10
+    400042: arm_R_11
+    400044: bone_weapon
+    400046: bottom
+    400048: hair_back_01
+    400050: hair_back_02
+    400052: hair_back_03
+    400054: hair_back_04
+    400056: hair_L_01
+    400058: hair_L_02
+    400060: hair_L_03
+    400062: hair_R_01
+    400064: hair_R_02
+    400066: hair_R_03
+    400068: head
+    400070: leg_L_01
+    400072: leg_L_02
+    400074: leg_L_03
+    400076: leg_R_01
+    400078: leg_R_02
+    400080: leg_R_03
+    400082: m3bone_root
+    400084: root
+    400086: //RootNode
+    400088: skirt_back_L_01
+    400090: skirt_back_L_02
+    400092: skirt_back_R_01
+    400094: skirt_back_R_02
+    400096: skirt_front_L_01
+    400098: skirt_front_L_02
+    400100: skirt_front_R_01
+    400102: skirt_front_R_02
+    400104: top_1
+    400106: top_2
+    7400000: run
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: run
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 30
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: m3bone_root
+        weight: 1
+      - path: m3bone_root/root
+        weight: 1
+      - path: m3bone_root/root/bottom
+        weight: 1
+      - path: m3bone_root/root/bottom/leg_L_01
+        weight: 1
+      - path: m3bone_root/root/bottom/leg_L_01/leg_L_02
+        weight: 1
+      - path: m3bone_root/root/bottom/leg_L_01/leg_L_02/leg_L_03
+        weight: 1
+      - path: m3bone_root/root/bottom/leg_R_01
+        weight: 1
+      - path: m3bone_root/root/bottom/leg_R_01/leg_R_02
+        weight: 1
+      - path: m3bone_root/root/bottom/leg_R_01/leg_R_02/leg_R_03
+        weight: 1
+      - path: m3bone_root/root/bottom/skirt_back_L_01
+        weight: 1
+      - path: m3bone_root/root/bottom/skirt_back_L_01/skirt_back_L_02
+        weight: 1
+      - path: m3bone_root/root/bottom/skirt_back_R_01
+        weight: 1
+      - path: m3bone_root/root/bottom/skirt_back_R_01/skirt_back_R_02
+        weight: 1
+      - path: m3bone_root/root/bottom/skirt_front_L_01
+        weight: 1
+      - path: m3bone_root/root/bottom/skirt_front_L_01/skirt_front_L_02
+        weight: 1
+      - path: m3bone_root/root/bottom/skirt_front_R_01
+        weight: 1
+      - path: m3bone_root/root/bottom/skirt_front_R_01/skirt_front_R_02
+        weight: 1
+      - path: m3bone_root/root/top_1
+        weight: 1
+      - path: m3bone_root/root/top_1/top_2
+        weight: 1
+      - path: m3bone_root/root/top_1/top_2/arm_L_01
+        weight: 1
+      - path: m3bone_root/root/top_1/top_2/arm_L_01/arm_L_02
+        weight: 1
+      - path: m3bone_root/root/top_1/top_2/arm_L_01/arm_L_02/arm_L_03
+        weight: 1
+      - path: m3bone_root/root/top_1/top_2/arm_L_01/arm_L_02/arm_L_03/arm_L_04
+        weight: 1
+      - path: m3bone_root/root/top_1/top_2/arm_L_01/arm_L_02/arm_L_03/arm_L_04/arm_L_05
+        weight: 1
+      - path: m3bone_root/root/top_1/top_2/arm_L_01/arm_L_02/arm_L_03/arm_L_06
+        weight: 1
+      - path: m3bone_root/root/top_1/top_2/arm_L_01/arm_L_02/arm_L_03/arm_L_06/arm_L_07
+        weight: 1
+      - path: m3bone_root/root/top_1/top_2/arm_L_01/arm_L_02/arm_L_03/arm_L_08
+        weight: 1
+      - path: m3bone_root/root/top_1/top_2/arm_L_01/arm_L_02/arm_L_03/arm_L_08/arm_L_09
+        weight: 1
+      - path: m3bone_root/root/top_1/top_2/arm_L_01/arm_L_02/arm_L_03/arm_L_10
+        weight: 1
+      - path: m3bone_root/root/top_1/top_2/arm_L_01/arm_L_02/arm_L_03/arm_L_10/arm_L_11
+        weight: 1
+      - path: m3bone_root/root/top_1/top_2/arm_R_01
+        weight: 1
+      - path: m3bone_root/root/top_1/top_2/arm_R_01/arm_R_02
+        weight: 1
+      - path: m3bone_root/root/top_1/top_2/arm_R_01/arm_R_02/arm_R_03
+        weight: 1
+      - path: m3bone_root/root/top_1/top_2/arm_R_01/arm_R_02/arm_R_03/arm_R_04
+        weight: 1
+      - path: m3bone_root/root/top_1/top_2/arm_R_01/arm_R_02/arm_R_03/arm_R_04/arm_R_05
+        weight: 1
+      - path: m3bone_root/root/top_1/top_2/arm_R_01/arm_R_02/arm_R_03/arm_R_06
+        weight: 1
+      - path: m3bone_root/root/top_1/top_2/arm_R_01/arm_R_02/arm_R_03/arm_R_06/arm_R_07
+        weight: 1
+      - path: m3bone_root/root/top_1/top_2/arm_R_01/arm_R_02/arm_R_03/arm_R_08
+        weight: 1
+      - path: m3bone_root/root/top_1/top_2/arm_R_01/arm_R_02/arm_R_03/arm_R_08/arm_R_09
+        weight: 1
+      - path: m3bone_root/root/top_1/top_2/arm_R_01/arm_R_02/arm_R_03/arm_R_10
+        weight: 1
+      - path: m3bone_root/root/top_1/top_2/arm_R_01/arm_R_02/arm_R_03/arm_R_10/arm_R_11
+        weight: 1
+      - path: m3bone_root/root/top_1/top_2/arm_R_01/arm_R_02/arm_R_03/bone_weapon
+        weight: 1
+      - path: m3bone_root/root/top_1/top_2/head
+        weight: 1
+      - path: m3bone_root/root/top_1/top_2/head/hair_back_01
+        weight: 1
+      - path: m3bone_root/root/top_1/top_2/head/hair_back_01/hair_back_02
+        weight: 1
+      - path: m3bone_root/root/top_1/top_2/head/hair_back_01/hair_back_02/hair_back_03
+        weight: 1
+      - path: m3bone_root/root/top_1/top_2/head/hair_back_01/hair_back_02/hair_back_03/hair_back_04
+        weight: 1
+      - path: m3bone_root/root/top_1/top_2/head/hair_L_01
+        weight: 1
+      - path: m3bone_root/root/top_1/top_2/head/hair_L_01/hair_L_02
+        weight: 1
+      - path: m3bone_root/root/top_1/top_2/head/hair_L_01/hair_L_02/hair_L_03
+        weight: 1
+      - path: m3bone_root/root/top_1/top_2/head/hair_R_01
+        weight: 1
+      - path: m3bone_root/root/top_1/top_2/head/hair_R_01/hair_R_02
+        weight: 1
+      - path: m3bone_root/root/top_1/top_2/head/hair_R_01/hair_R_02/hair_R_03
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
