@@ -10,6 +10,7 @@ using Assets.Scripts.Abilities.Modifiers;
 using Assets.Scripts.Abilities.OnCreateCustomLogic;
 using Assets.Scripts.Abilities.Parameters;
 using Assets.Scripts.Interfaces;
+using Assets.Scripts.Managers;
 using UnityEngine;
 
 namespace Assets.Scripts.Abilities.General

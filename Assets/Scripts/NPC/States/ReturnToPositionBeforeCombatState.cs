@@ -1,11 +1,12 @@
 ﻿using System;
 using Assets.Scripts.Buffs;
+using Assets.Scripts.Health;
 using Assets.Scripts.HelpersUnity;
 using Assets.Scripts.StateMachineScripts;
 using Pathfinding;
 using UnityEngine;
 
-namespace Assets.Scripts.NPC
+namespace Assets.Scripts.NPC.States
 {
     public class ReturnToPositionBeforeCombatState : BaseNpcAiState
     {

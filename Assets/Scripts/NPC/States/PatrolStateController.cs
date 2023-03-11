@@ -1,7 +1,7 @@
 ﻿using System;
 using UnityEngine;
 
-namespace Assets.Scripts.NPC
+namespace Assets.Scripts.NPC.States
 {
     [RequireComponent(typeof(NpcAI))]
     public class PatrolStateController : MonoBehaviour

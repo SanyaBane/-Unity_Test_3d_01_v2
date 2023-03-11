@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using Assets.Scripts.HelpersUnity;
 
-namespace Assets.Scripts
+namespace Assets.Scripts.TestScripts
 {
     public class MovingPlatform : MonoBehaviour
     {

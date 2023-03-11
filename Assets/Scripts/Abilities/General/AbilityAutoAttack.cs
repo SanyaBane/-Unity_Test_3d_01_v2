@@ -1,4 +1,5 @@
 ﻿using Assets.Scripts.Abilities.General.ScriptableObjects;
+using Assets.Scripts.Enums;
 using Assets.Scripts.Interfaces;
 
 namespace Assets.Scripts.Abilities.General

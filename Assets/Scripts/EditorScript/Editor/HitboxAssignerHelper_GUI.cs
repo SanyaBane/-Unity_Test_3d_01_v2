@@ -1,45 +1,48 @@
-﻿using Assets.Scripts;
+﻿using Assets.Scripts.Managers;
 using UnityEditor;
 using UnityEngine;
 
-[CustomEditor(typeof(HitboxAssignerHelper))]
-public class HitboxAssignerHelper_GUI : Editor
+namespace Assets.Scripts.EditorScript
 {
-    public override void OnInspectorGUI()
+    [CustomEditor(typeof(HitboxAssignerHelper))]
+    public class HitboxAssignerHelper_GUI : Editor
     {
-        DrawDefaultInspector();
-
-        var script = (HitboxAssignerHelper)target;
-
-        if (GUILayout.Button("Create hitboxes for matching meshes"))
+        public override void OnInspectorGUI()
         {
-            script.CreateHitboxes();
-        }
+            DrawDefaultInspector();
 
-        if (GUILayout.Button("Remove hitboxes for matching meshes"))
-        {
-            script.RemoveHitboxes();
-        }
+            var script = (HitboxAssignerHelper)target;
+
+            if (GUILayout.Button("Create hitboxes for matching meshes"))
+            {
+                script.CreateHitboxes();
+            }
+
+            if (GUILayout.Button("Remove hitboxes for matching meshes"))
+            {
+                script.RemoveHitboxes();
+            }
 
 
-        if (GUILayout.Button("Show matching meshes MeshRenderers"))
-        {
-            script.ShowMeshRendererForHitboxes();
-        }
+            if (GUILayout.Button("Show matching meshes MeshRenderers"))
+            {
+                script.ShowMeshRendererForHitboxes();
+            }
 
-        if (GUILayout.Button("Hide matching meshes MeshRenderers"))
-        {
-            script.HideMeshRendererForHitboxes();
-        }
-        
-        if (GUILayout.Button("Set hitboxes to \"Default\" layer."))
-        {
-            script.SetHitboxesToSelectableLayer(LayerManager.LAYER_INDEX_DEFAULT);
-        }
-        
-        if (GUILayout.Button("Set hitboxes to \"Selectable\" layer."))
-        {
-            script.SetHitboxesToSelectableLayer(LayerManager.LAYER_INDEX_SELECTABLE);
+            if (GUILayout.Button("Hide matching meshes MeshRenderers"))
+            {
+                script.HideMeshRendererForHitboxes();
+            }
+            
+            if (GUILayout.Button("Set hitboxes to \"Default\" layer."))
+            {
+                script.SetHitboxesToSelectableLayer(LayerManager.LAYER_INDEX_DEFAULT);
+            }
+            
+            if (GUILayout.Button("Set hitboxes to \"Selectable\" layer."))
+            {
+                script.SetHitboxesToSelectableLayer(LayerManager.LAYER_INDEX_SELECTABLE);
+            }
         }
     }
 }

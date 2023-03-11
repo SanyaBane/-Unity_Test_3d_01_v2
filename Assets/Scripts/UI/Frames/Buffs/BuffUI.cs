@@ -1,6 +1,6 @@
 ﻿using Assets.Scripts.Buffs;
 
-namespace Assets.Scripts.UI
+namespace Assets.Scripts.UI.Frames.Buffs
 {
     public class BuffUI
     {

@@ -4,7 +4,7 @@ using Assets.Scripts.Abilities.Parameters;
 using Assets.Scripts.Interfaces;
 using UnityEngine;
 
-namespace Assets.Scripts
+namespace Assets.Scripts.Abilities.Behaviours
 {
     public class DamageInfo
     {

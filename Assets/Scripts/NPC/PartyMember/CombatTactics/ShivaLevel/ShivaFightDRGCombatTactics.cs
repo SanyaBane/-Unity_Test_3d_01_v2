@@ -1,4 +1,4 @@
-﻿using Assets.Scripts.Levels;
+﻿using Assets.Scripts.Levels.ShivaLevel;
 using UnityEngine;
 
 namespace Assets.Scripts.NPC.PartyMember.CombatTactics.ShivaLevel

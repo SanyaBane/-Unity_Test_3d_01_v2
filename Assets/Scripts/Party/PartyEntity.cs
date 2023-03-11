@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using Assets.Scripts.Interfaces;
 using UnityEngine;
 
-namespace Assets.Scripts
+namespace Assets.Scripts.Party
 {
     public class PartyEntity
     {

@@ -3,6 +3,7 @@ using Assets.Scripts.Abilities.Controller;
 using Assets.Scripts.Abilities.General;
 using Assets.Scripts.AutoAttack;
 using Assets.Scripts.Interfaces;
+using Assets.Scripts.NPC.States;
 using Assets.Scripts.StateMachineScripts;
 using UnityEngine;
 

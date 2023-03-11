@@ -1,10 +1,11 @@
 ﻿using Assets.Scripts.Interfaces;
 using System;
 using System.Runtime.InteropServices;
+using Assets.Scripts.Managers;
 using UnityEngine;
 using UnityEngine.EventSystems;
 
-namespace Assets.Scripts
+namespace Assets.Scripts.CameraScripts
 {
     public class Camera_WoW : MonoBehaviour
     {
@@ -34,7 +35,7 @@ namespace Assets.Scripts
 
         [SerializeField] public CameraModeEnum CameraMode = CameraModeEnum.FollowPlayerBack;
 
-        private Camera _camera;
+        private UnityEngine.Camera _camera;
         private IPlayerController _playerController;
 
         public float CameraInputXBeforeUpdate { get; private set; }
@@ -150,7 +151,7 @@ namespace Assets.Scripts
 
             _playerController = GameManager.Instance.PlayerGameObject.GetComponent<IPlayerController>();
 
-            _camera = this.GetComponent<Camera>();
+            _camera = this.GetComponent<UnityEngine.Camera>();
 
             _currentCameraDistance = StartupCameraDistance;
 

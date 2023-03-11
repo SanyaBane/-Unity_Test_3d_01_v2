@@ -5,10 +5,12 @@ using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.Linq;
 using Assets.Scripts.Buffs;
+using Assets.Scripts.UI.Frames.Buffs;
+using Assets.Scripts.UI.HorizontalMultipleRowsLayoutGroup;
 using UnityEngine;
 using UnityEngine.UI;
 
-namespace Assets.Scripts.UI
+namespace Assets.Scripts.UI.Frames
 {
     public class CreatureBuffsUI : LayoutGroup
     {

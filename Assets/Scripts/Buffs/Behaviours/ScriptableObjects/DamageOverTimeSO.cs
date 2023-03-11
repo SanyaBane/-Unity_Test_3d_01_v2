@@ -1,4 +1,5 @@
-﻿using Assets.Scripts.Abilities.General;
+﻿using Assets.Scripts.Abilities.Behaviours;
+using Assets.Scripts.Abilities.General;
 using Assets.Scripts.Abilities.Interfaces;
 using Assets.Scripts.Abilities.Parameters;
 using UnityEngine;

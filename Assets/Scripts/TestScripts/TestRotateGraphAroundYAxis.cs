@@ -1,20 +1,23 @@
 ﻿using UnityEngine;
 
-public class TestRotateGraphAroundYAxis : MonoBehaviour
+namespace Assets.Scripts.TestScripts
 {
-    public bool DoRotation = true;
-    public float Speed = 10.0f;
-
-    void Update()
+    public class TestRotateGraphAroundYAxis : MonoBehaviour
     {
-        if (DoRotation)
-        {
-            Vector3 rotation = this.transform.rotation.eulerAngles;
-            rotation.y += Time.deltaTime * Speed;
+        public bool DoRotation = true;
+        public float Speed = 10.0f;
 
-            this.transform.rotation = Quaternion.Euler(rotation);
+        void Update()
+        {
+            if (DoRotation)
+            {
+                Vector3 rotation = this.transform.rotation.eulerAngles;
+                rotation.y += Time.deltaTime * Speed;
+
+                this.transform.rotation = Quaternion.Euler(rotation);
+            }
+            
+            // this.transform.Translate(Vector3.forward * Time.deltaTime);
         }
-        
-        // this.transform.Translate(Vector3.forward * Time.deltaTime);
     }
 }

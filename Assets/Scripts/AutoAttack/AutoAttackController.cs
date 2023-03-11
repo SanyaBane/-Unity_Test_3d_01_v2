@@ -8,6 +8,9 @@ using Assets.Scripts.Abilities.General;
 using Assets.Scripts.Abilities.General.ScriptableObjects;
 using Assets.Scripts.Abilities.Parameters;
 using Assets.Scripts.Attachments;
+using Assets.Scripts.Health;
+using Assets.Scripts.Managers;
+using Assets.Scripts.Utilities;
 using UnityEngine;
 
 namespace Assets.Scripts.AutoAttack

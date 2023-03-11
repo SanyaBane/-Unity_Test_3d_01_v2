@@ -3,7 +3,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 
-namespace Assets.Scripts.Creatures
+namespace Assets.Scripts.Creatures.Combat
 {
     public class CombatInfoHandler
     {

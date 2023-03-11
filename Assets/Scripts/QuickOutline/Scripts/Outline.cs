@@ -12,8 +12,8 @@ using System.Linq;
 using Assets.Scripts.Creatures;
 using UnityEngine;
 
-// namespace OutlineChris
-// {
+namespace QuickOutline
+{
     [DisallowMultipleComponent]
     public class Outline : MonoBehaviour
     {
@@ -299,4 +299,4 @@ using UnityEngine;
             }
         }
     }
-// }
+}

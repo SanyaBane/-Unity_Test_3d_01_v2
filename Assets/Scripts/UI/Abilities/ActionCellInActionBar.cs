@@ -1,5 +1,8 @@
 ﻿using Assets.Scripts.SerializableData;
 using System.Linq;
+using Assets.Scripts.Enums;
+using Assets.Scripts.Managers;
+using Assets.Scripts.UI.Frames;
 using UnityEngine;
 using UnityEngine.EventSystems;
 

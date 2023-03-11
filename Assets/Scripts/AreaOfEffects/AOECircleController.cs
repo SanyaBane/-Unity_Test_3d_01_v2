@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using Assets.Scripts.HelpersUnity;
+using Assets.Scripts.Managers;
 using Assets.Scripts.NPC;
 using Assets.Scripts.VFX;
 using UnityEngine;

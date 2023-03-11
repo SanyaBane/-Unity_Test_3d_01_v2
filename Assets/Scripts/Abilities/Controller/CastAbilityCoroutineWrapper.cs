@@ -4,6 +4,8 @@ using Assets.Scripts.Abilities.General;
 using Assets.Scripts.Abilities.Parameters;
 using Assets.Scripts.Creatures;
 using Assets.Scripts.Interfaces;
+using Assets.Scripts.Managers;
+using Assets.Scripts.Utilities;
 using Assets.Scripts.VFX;
 using UnityEngine;
 

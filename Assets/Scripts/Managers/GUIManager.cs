@@ -1,9 +1,11 @@
-﻿using Assets.Scripts.UI;
-using Assets.Scripts.SerializableData;
+﻿using Assets.Scripts.SerializableData;
+using Assets.Scripts.UI.Abilities;
+using Assets.Scripts.UI.Frames;
+using Assets.Scripts.UI.PlayerMessages;
 using TMPro;
 using UnityEngine;
 
-namespace Assets.Scripts
+namespace Assets.Scripts.Managers
 {
     public class GUIManager : MonoBehaviour
     {

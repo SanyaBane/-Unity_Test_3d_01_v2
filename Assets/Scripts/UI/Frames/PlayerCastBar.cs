@@ -2,12 +2,13 @@
 using Assets.Scripts.Abilities.General;
 using Assets.Scripts.Creatures;
 using Assets.Scripts.Interfaces;
+using Assets.Scripts.Managers;
+using Assets.Scripts.Utilities;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
-
-namespace Assets.Scripts.UI
+namespace Assets.Scripts.UI.Frames
 {
     public class PlayerCastBar : BaseUIFrame
     {

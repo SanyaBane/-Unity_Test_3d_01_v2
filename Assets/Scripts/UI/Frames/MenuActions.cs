@@ -1,8 +1,9 @@
 ﻿using Assets.Scripts.UI.Abilities;
 using System.Linq;
+using Assets.Scripts.Managers;
 using UnityEngine;
 
-namespace Assets.Scripts.UI
+namespace Assets.Scripts.UI.Frames
 {
     public class MenuActions : BaseUIFrame
     {

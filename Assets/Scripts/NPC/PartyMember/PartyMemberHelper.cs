@@ -1,4 +1,5 @@
 ﻿using System;
+using Assets.Scripts.Enums;
 using UnityEngine;
 
 namespace Assets.Scripts.NPC.PartyMember

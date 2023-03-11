@@ -1,5 +1,6 @@
 ﻿using System;
 using Assets.Scripts.Interfaces;
+using Assets.Scripts.Managers;
 using Assets.Scripts.ManaSystem;
 using TMPro;
 using UnityEngine;

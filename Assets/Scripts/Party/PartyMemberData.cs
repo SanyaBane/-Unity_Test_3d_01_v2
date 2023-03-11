@@ -1,6 +1,7 @@
-﻿using Assets.Scripts.Interfaces;
+﻿using Assets.Scripts.Enums;
+using Assets.Scripts.Interfaces;
 
-namespace Assets.Scripts
+namespace Assets.Scripts.Party
 {
     public class PartyMemberData
     {

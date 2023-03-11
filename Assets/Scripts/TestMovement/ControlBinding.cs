@@ -1,89 +1,92 @@
 ﻿using UnityEngine;
 
-[System.Serializable]
-public class ControlBinding
+namespace Assets.Scripts.TestMovement
 {
-    public KeyCode[] primary = new KeyCode[1], secondary;
-
-    public bool GetControlBinding()
+    [System.Serializable]
+    public class ControlBinding
     {
-        bool primaryPressed = false, secondaryPressed = false;
+        public KeyCode[] primary = new KeyCode[1], secondary;
 
-        //Primary
-        if(primary.Length == 1)
+        public bool GetControlBinding()
         {
-            if (Input.GetKey(primary[0]))
-                primaryPressed = true;
-        }
-        else if(primary.Length == 2)
-        {
-            if (Input.GetKey(primary[0]) && Input.GetKey(primary[1]))
-                primaryPressed = true;
-        }
+            bool primaryPressed = false, secondaryPressed = false;
 
-        //Secondary
-        if (secondary.Length == 1)
-        {
-            if (Input.GetKey(secondary[0]))
-                secondaryPressed = true;
-        }
-        else if (secondary.Length == 2)
-        {
-            if (Input.GetKey(secondary[0]) && Input.GetKey(secondary[1]))
-                secondaryPressed = true;
-        }
-
-        //Check Keybindings
-        if (primaryPressed || secondaryPressed)
-            return true;
-
-        return false;
-    }
-
-    bool unpressed = false;
-
-    public bool GetControlBindingDown()
-    {
-        bool primaryPressed = false, secondaryPressed = false;
-
-        //Primary
-        if (primary.Length == 1)
-        {
-            if (Input.GetKey(primary[0]))
-                primaryPressed = true;
-        }
-        else if (primary.Length == 2)
-        {
-            if (Input.GetKey(primary[0]) && Input.GetKey(primary[1]))
-                primaryPressed = true;
-        }
-
-        //Secondary
-        if (secondary.Length == 1)
-        {
-            if (Input.GetKey(secondary[0]))
-                secondaryPressed = true;
-        }
-        else if (secondary.Length == 2)
-        {
-            if (Input.GetKey(secondary[0]) && Input.GetKey(secondary[1]))
-                secondaryPressed = true;
-        }
-
-        if(!unpressed)
-        {
-            if(primaryPressed || secondaryPressed)
+            //Primary
+            if(primary.Length == 1)
             {
-                unpressed = true;
-                return true;
+                if (Input.GetKey(primary[0]))
+                    primaryPressed = true;
             }
-        }
-        else
-        {
-            if(!primaryPressed && !secondaryPressed)
-                unpressed = false;
+            else if(primary.Length == 2)
+            {
+                if (Input.GetKey(primary[0]) && Input.GetKey(primary[1]))
+                    primaryPressed = true;
+            }
+
+            //Secondary
+            if (secondary.Length == 1)
+            {
+                if (Input.GetKey(secondary[0]))
+                    secondaryPressed = true;
+            }
+            else if (secondary.Length == 2)
+            {
+                if (Input.GetKey(secondary[0]) && Input.GetKey(secondary[1]))
+                    secondaryPressed = true;
+            }
+
+            //Check Keybindings
+            if (primaryPressed || secondaryPressed)
+                return true;
+
+            return false;
         }
 
-        return false;
+        bool unpressed = false;
+
+        public bool GetControlBindingDown()
+        {
+            bool primaryPressed = false, secondaryPressed = false;
+
+            //Primary
+            if (primary.Length == 1)
+            {
+                if (Input.GetKey(primary[0]))
+                    primaryPressed = true;
+            }
+            else if (primary.Length == 2)
+            {
+                if (Input.GetKey(primary[0]) && Input.GetKey(primary[1]))
+                    primaryPressed = true;
+            }
+
+            //Secondary
+            if (secondary.Length == 1)
+            {
+                if (Input.GetKey(secondary[0]))
+                    secondaryPressed = true;
+            }
+            else if (secondary.Length == 2)
+            {
+                if (Input.GetKey(secondary[0]) && Input.GetKey(secondary[1]))
+                    secondaryPressed = true;
+            }
+
+            if(!unpressed)
+            {
+                if(primaryPressed || secondaryPressed)
+                {
+                    unpressed = true;
+                    return true;
+                }
+            }
+            else
+            {
+                if(!primaryPressed && !secondaryPressed)
+                    unpressed = false;
+            }
+
+            return false;
+        }
     }
 }

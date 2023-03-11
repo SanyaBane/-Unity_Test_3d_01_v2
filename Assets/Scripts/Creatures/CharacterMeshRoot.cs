@@ -1,6 +1,9 @@
 ﻿using UnityEngine;
 
-public class CharacterMeshRoot : MonoBehaviour
+namespace Assets.Scripts.Creatures
 {
-    // do not delete this class
+    public class CharacterMeshRoot : MonoBehaviour
+    {
+        // do not delete this class
+    }
 }

@@ -1,6 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
 using Assets.Scripts.Abilities.General.ScriptableObjects;
+using Assets.Scripts.Enums;
 using UnityEngine;
 
 namespace Assets.Scripts.AutoAttack

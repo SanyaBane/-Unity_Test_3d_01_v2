@@ -1,7 +1,7 @@
 ﻿using Assets.Scripts.Levels;
 using UnityEngine;
 
-namespace Assets.Scripts
+namespace Assets.Scripts.Managers
 {
     public class AiManager : MonoBehaviour
     {

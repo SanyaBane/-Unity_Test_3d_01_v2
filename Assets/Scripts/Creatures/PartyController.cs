@@ -1,4 +1,5 @@
 ﻿using System;
+using Assets.Scripts.Party;
 using UnityEngine;
 
 namespace Assets.Scripts.Creatures

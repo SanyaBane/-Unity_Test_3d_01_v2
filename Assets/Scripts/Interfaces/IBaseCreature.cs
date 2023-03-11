@@ -5,9 +5,13 @@ using Assets.Scripts.Attachments;
 using Assets.Scripts.Buffs;
 using Assets.Scripts.Creatures;
 using Assets.Scripts.AutoAttack;
+using Assets.Scripts.Creatures.Combat;
+using Assets.Scripts.Enums;
+using Assets.Scripts.Health;
 using Assets.Scripts.ManaSystem;
 using Assets.Scripts.Stats;
 using Assets.Scripts.TargetHandling;
+using QuickOutline;
 using UnityEngine;
 
 namespace Assets.Scripts.Interfaces

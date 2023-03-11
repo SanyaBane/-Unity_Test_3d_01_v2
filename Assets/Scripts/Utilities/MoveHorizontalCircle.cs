@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-namespace Assets.Scripts
+namespace Assets.Scripts.Utilities
 {
     // https://youtu.be/mFOi6W7lohk
     public class MoveHorizontalCircle : MonoBehaviour

@@ -1,4 +1,5 @@
 ﻿using Assets.Scripts.AutoAttack;
+using Assets.Scripts.Enums;
 using Assets.Scripts.Interfaces;
 using Assets.Scripts.HelpersUnity;
 using Assets.Scripts.TargetHandling;

@@ -2,11 +2,15 @@
 using Assets.Scripts.Interfaces;
 using System.Collections.Generic;
 using System.Linq;
+using Assets.Scripts.Creatures;
+using Assets.Scripts.Creatures.Combat;
+using Assets.Scripts.Enums;
 using Assets.Scripts.Factions;
+using Assets.Scripts.Managers;
 using UnityEngine;
 using UnityEngine.UI;
 
-namespace Assets.Scripts.UI
+namespace Assets.Scripts.UI.Frames
 {
     public class PlayerFrame : CreatureFrame
     {

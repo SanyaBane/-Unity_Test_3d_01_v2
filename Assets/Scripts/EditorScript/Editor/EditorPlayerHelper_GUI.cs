@@ -1,17 +1,20 @@
 ﻿using UnityEditor;
 using UnityEngine;
 
-[CustomEditor(typeof(EditorPlayerHelper))]
-public class EditorPlayerHelper_GUI : Editor
+namespace Assets.Scripts.EditorScript
 {
-    public override void OnInspectorGUI()
+    [CustomEditor(typeof(EditorPlayerHelper))]
+    public class EditorPlayerHelper_GUI : Editor
     {
-        DrawDefaultInspector();
-
-        var script = (EditorPlayerHelper)target;
-        if (GUILayout.Button("Select Gameobject by Name"))
+        public override void OnInspectorGUI()
         {
-            script.EditorSelect();
+            DrawDefaultInspector();
+
+            var script = (EditorPlayerHelper)target;
+            if (GUILayout.Button("Select Gameobject by Name"))
+            {
+                script.EditorSelect();
+            }
         }
     }
 }

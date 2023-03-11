@@ -2,7 +2,7 @@
 using UnityEngine;
 using UnityEngine.AI;
 
-namespace Assets.Scripts
+namespace Assets.Scripts.NavMeshAgentUtils
 {
     [RequireComponent(typeof(NavMeshAgent))]
     public class NavMeshAgentMisc : MonoBehaviour

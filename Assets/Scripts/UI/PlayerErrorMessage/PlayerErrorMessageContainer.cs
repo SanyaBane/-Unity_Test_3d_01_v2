@@ -2,17 +2,20 @@
 using System.Linq;
 using UnityEngine;
 
-public class PlayerErrorMessageContainer : MonoBehaviour
+namespace Assets.Scripts.UI.PlayerMessages
 {
-    public List<PlayerErrorMessage> ErrorMessages;
-
-    public void DisplayErrorMessage(string text)
+    public class PlayerErrorMessageContainer : MonoBehaviour
     {
-        //Debug.Log(text);
-    
-        var oldestErrorMessage = ErrorMessages.OrderBy(x => x.LastTimeDisplayed).First();
-    
-        oldestErrorMessage.DisplayErrorMessage(text);
-        oldestErrorMessage.transform.SetAsFirstSibling();
+        public List<PlayerErrorMessage> ErrorMessages;
+
+        public void DisplayErrorMessage(string text)
+        {
+            //Debug.Log(text);
+        
+            var oldestErrorMessage = ErrorMessages.OrderBy(x => x.LastTimeDisplayed).First();
+        
+            oldestErrorMessage.DisplayErrorMessage(text);
+            oldestErrorMessage.transform.SetAsFirstSibling();
+        }
     }
 }

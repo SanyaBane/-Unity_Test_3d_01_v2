@@ -1,17 +1,20 @@
 ﻿using UnityEditor;
 using UnityEngine;
 
-[CustomEditor(typeof(AnimationsReassignerHelper))]
-public class AnimationsReassignerHelper_GUI : Editor
+namespace Assets.Scripts.EditorScript
 {
-    public override void OnInspectorGUI()
+    [CustomEditor(typeof(AnimationsReassignerHelper))]
+    public class AnimationsReassignerHelper_GUI : Editor
     {
-        DrawDefaultInspector();
-
-        var script = (AnimationsReassignerHelper)target;
-        if (GUILayout.Button("Reassign animations"))
+        public override void OnInspectorGUI()
         {
-            script.DoWork();
+            DrawDefaultInspector();
+
+            var script = (AnimationsReassignerHelper)target;
+            if (GUILayout.Button("Reassign animations"))
+            {
+                script.DoWork();
+            }
         }
     }
 }

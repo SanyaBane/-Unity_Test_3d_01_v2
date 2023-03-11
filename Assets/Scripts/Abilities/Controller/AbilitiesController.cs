@@ -10,6 +10,8 @@ using Assets.Scripts.Abilities.General;
 using Assets.Scripts.Abilities.General.ScriptableObjects;
 using Assets.Scripts.Abilities.Parameters;
 using Assets.Scripts.Factions;
+using Assets.Scripts.Health;
+using Assets.Scripts.Managers;
 using UnityEngine;
 
 namespace Assets.Scripts.Abilities.Controller

@@ -9,9 +9,10 @@ using Assets.Scripts.Abilities.Controller;
 using Assets.Scripts.Abilities.General;
 using Assets.Scripts.AreaOfEffects;
 using Assets.Scripts.Extensions;
+using Assets.Scripts.Managers;
 using UnityEngine;
 
-namespace Assets.Scripts.NPC
+namespace Assets.Scripts.NPC.States
 {
     public class BaseCombatState : BaseNpcAiState
     {

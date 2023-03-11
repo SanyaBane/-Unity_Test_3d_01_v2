@@ -1,19 +1,22 @@
 ﻿using UnityEngine;
 
-public class TestUpdateGraph : MonoBehaviour
+namespace Assets.Scripts.TestScripts
 {
-    private float nextActionTime = 0.0f;
-    public float period = 0.5f;
-
-    void Update()
+    public class TestUpdateGraph : MonoBehaviour
     {
-        if (Time.time > nextActionTime ) {
-            nextActionTime += period;
-            
-            var graphToScan = AstarPath.active.data.navmesh;
-            AstarPath.active.Scan(graphToScan);
+        private float nextActionTime = 0.0f;
+        public float period = 0.5f;
+
+        void Update()
+        {
+            if (Time.time > nextActionTime ) {
+                nextActionTime += period;
                 
-            // Debug.Log($"_collider.bounds: {_collider.bounds}");
-        }  
+                var graphToScan = AstarPath.active.data.navmesh;
+                AstarPath.active.Scan(graphToScan);
+                    
+                // Debug.Log($"_collider.bounds: {_collider.bounds}");
+            }  
+        }
     }
 }

@@ -1,7 +1,7 @@
 ﻿using Assets.Scripts.StateMachineScripts;
 using UnityEngine;
 
-namespace Assets.Scripts.NPC
+namespace Assets.Scripts.NPC.States
 {
     public class IdleState : BaseNpcAiState
     {

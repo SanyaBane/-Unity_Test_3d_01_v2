@@ -2,7 +2,7 @@
 using System.Collections;
 using UnityEngine;
 
-namespace Assets.Scripts
+namespace Assets.Scripts.Utilities
 {
     // https://answers.unity.com/questions/24640/how-do-i-return-a-value-from-a-coroutine.html
     public class CoroutineWrapper

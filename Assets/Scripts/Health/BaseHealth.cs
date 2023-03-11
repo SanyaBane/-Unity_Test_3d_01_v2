@@ -1,11 +1,13 @@
 ﻿using Assets.Scripts.Interfaces;
 using System;
+using Assets.Scripts.Abilities.Behaviours;
 using Assets.Scripts.Creatures;
 using Assets.Scripts.Factions;
+using Assets.Scripts.Managers;
 using Assets.Scripts.VFX;
 using UnityEngine;
 
-namespace Assets.Scripts
+namespace Assets.Scripts.Health
 {
     public abstract class BaseHealth : MonoBehaviour
     {

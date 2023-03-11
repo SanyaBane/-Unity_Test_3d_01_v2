@@ -2,24 +2,20 @@
 using System.Collections.Generic;
 using Assets.Scripts.Abilities.General.ScriptableObjects;
 using Assets.Scripts.Creatures;
+using Assets.Scripts.Creatures.Combat;
+using Assets.Scripts.Enums;
+using Assets.Scripts.Managers;
 using Assets.Scripts.NPC;
 using Assets.Scripts.NPC.PartyMember.CombatTactics.ShivaLevel;
 using Assets.Scripts.NPC.PartyMember.PeaceTactics;
 using Assets.Scripts.NPC.ShivaBoss;
 using Assets.Scripts.NPC.Tactics;
+using Assets.Scripts.Party;
 using UnityEngine;
 using Random = UnityEngine.Random;
 
-namespace Assets.Scripts.Levels
+namespace Assets.Scripts.Levels.ShivaLevel
 {
-    public enum enFightPhase
-    {
-        None,
-        StartFight, // Single "Absolute Zero" cast
-        FirstBitingOrDrivingCast,
-        
-    }
-    
     public class ShivaLevelManager : BaseLevelManager
     {
         [Header("General")]

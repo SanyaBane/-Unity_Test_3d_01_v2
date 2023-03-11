@@ -1,28 +1,30 @@
-﻿using Assets.Scripts;
-using Assets.Scripts.Interfaces;
+﻿using Assets.Scripts.Interfaces;
 using UnityEngine;
 
-public class CheatManager : MonoBehaviour
+namespace Assets.Scripts.Managers
 {
-    [SerializeField] Vector3 _teleportPosition = Vector3.zero;
-    [SerializeField] Vector3 _teleportRotation = Vector3.zero;
-
-    private void Update()
+    public class CheatManager : MonoBehaviour
     {
-        if (Input.GetKeyDown(KeyCode.U))
+        [SerializeField] Vector3 _teleportPosition = Vector3.zero;
+        [SerializeField] Vector3 _teleportRotation = Vector3.zero;
+
+        private void Update()
         {
-            TestTeleport(GameManager.Instance.PlayerCreature, _teleportPosition, Quaternion.Euler(_teleportRotation));
+            if (Input.GetKeyDown(KeyCode.U))
+            {
+                TestTeleport(GameManager.Instance.PlayerCreature, _teleportPosition, Quaternion.Euler(_teleportRotation));
+            }
+
+            if (Input.GetKeyDown(KeyCode.I))
+            {
+                TestTeleport(GameManager.Instance.PlayerCreature, new Vector3(0, 0, 0), Quaternion.identity);
+            }
         }
 
-        if (Input.GetKeyDown(KeyCode.I))
+        private void TestTeleport(IBaseCreature baseCreature, Vector3 pos, Quaternion rotation)
         {
-            TestTeleport(GameManager.Instance.PlayerCreature, new Vector3(0, 0, 0), Quaternion.identity);
+            baseCreature.GetRootObjectTransform().position = pos;
+            baseCreature.GetRootObjectTransform().rotation = rotation;
         }
-    }
-
-    private void TestTeleport(IBaseCreature baseCreature, Vector3 pos, Quaternion rotation)
-    {
-        baseCreature.GetRootObjectTransform().position = pos;
-        baseCreature.GetRootObjectTransform().rotation = rotation;
     }
 }

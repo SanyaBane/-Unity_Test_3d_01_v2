@@ -1,5 +1,6 @@
 ﻿using System;
 using Assets.Scripts.Abilities.General;
+using Assets.Scripts.Enums;
 using Assets.Scripts.NPC.Tactics;
 
 namespace Assets.Scripts.NPC.PartyMember.PeaceTactics

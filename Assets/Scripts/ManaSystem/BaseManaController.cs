@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using Assets.Scripts.Creatures;
 using Assets.Scripts.Interfaces;
+using Assets.Scripts.Managers;
 using Assets.Scripts.ManaSystem.Modifiers;
 using Assets.Scripts.ManaSystem.Modifiers.ScriptableObjects;
 using UnityEngine;

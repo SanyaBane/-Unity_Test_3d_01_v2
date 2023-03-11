@@ -1,37 +1,40 @@
-﻿using Assets.Scripts.Interfaces;
-using Assets.Scripts.UI;
+﻿using Assets.Scripts.Health;
+using Assets.Scripts.Interfaces;
 using TMPro;
 using UnityEngine;
 
-public class CombatTargetSingle : MonoBehaviour
+namespace Assets.Scripts.UI.Frames
 {
-    [SerializeField] private TextMeshProUGUI CreatureNameTextMeshProUGUI;
-    [SerializeField] private HealthBarGUI HealthBarGUI;
-    [SerializeField] private TargetCastBar TargetCastBar;
-
-    public IBaseCreature OwnerCreature { get; private set; }
-
-    public void SetupCreature(IBaseCreature baseCreature)
+    public class CombatTargetSingle : MonoBehaviour
     {
-        OwnerCreature = baseCreature;
+        [SerializeField] private TextMeshProUGUI CreatureNameTextMeshProUGUI;
+        [SerializeField] private HealthBarGUI HealthBarGUI;
+        [SerializeField] private TargetCastBar TargetCastBar;
 
-        CreatureNameTextMeshProUGUI.text = OwnerCreature.ITargetable.NameWhenTargeted;
+        public IBaseCreature OwnerCreature { get; private set; }
 
-        OwnerCreature.Health.CurrentHPChanged += Health_CurrentHPChanged;
-        Health_CurrentHPChanged(OwnerCreature.Health);
-        
-        TargetCastBar.Setup();
-        TargetCastBar.UpdateOwnerInfo(OwnerCreature);
-    }
+        public void SetupCreature(IBaseCreature baseCreature)
+        {
+            OwnerCreature = baseCreature;
 
-    public void OnDestroy()
-    {
-        TargetCastBar.UpdateOwnerInfo(null);
-        OwnerCreature.Health.CurrentHPChanged -= Health_CurrentHPChanged;
-    }
+            CreatureNameTextMeshProUGUI.text = OwnerCreature.ITargetable.NameWhenTargeted;
 
-    private void Health_CurrentHPChanged(Assets.Scripts.BaseHealth baseHealth)
-    {
-        HealthBarGUI.SetHitPoints(baseHealth.CurrentHP, baseHealth.MaxHP);
+            OwnerCreature.Health.CurrentHPChanged += Health_CurrentHPChanged;
+            Health_CurrentHPChanged(OwnerCreature.Health);
+            
+            TargetCastBar.Setup();
+            TargetCastBar.UpdateOwnerInfo(OwnerCreature);
+        }
+
+        public void OnDestroy()
+        {
+            TargetCastBar.UpdateOwnerInfo(null);
+            OwnerCreature.Health.CurrentHPChanged -= Health_CurrentHPChanged;
+        }
+
+        private void Health_CurrentHPChanged(BaseHealth baseHealth)
+        {
+            HealthBarGUI.SetHitPoints(baseHealth.CurrentHP, baseHealth.MaxHP);
+        }
     }
 }

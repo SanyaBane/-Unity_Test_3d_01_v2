@@ -1,34 +1,37 @@
 ﻿using Pathfinding;
 using UnityEngine;
 
-public class GraphUpdateSceneTesting : MonoBehaviour
+namespace Assets.Scripts.TestScripts
 {
-    private GraphUpdateScene _graphUpdateScene;
-    private Collider _collider;
-
-    private void Awake()
+    public class GraphUpdateSceneTesting : MonoBehaviour
     {
-        _graphUpdateScene = this.GetComponent<GraphUpdateScene>();
-        _collider = this.GetComponent<Collider>();
-    }
+        private GraphUpdateScene _graphUpdateScene;
+        private Collider _collider;
 
-    private float nextActionTime = 0.0f;
-    public float period = 0.5f;
-
-    private void Update()
-    {
-        if (Time.time > nextActionTime)
+        private void Awake()
         {
-            nextActionTime += period;
-            // execute block of code here
+            _graphUpdateScene = this.GetComponent<GraphUpdateScene>();
+            _collider = this.GetComponent<Collider>();
+        }
 
-            var guo = new GraphUpdateObject();
-            guo.bounds = _collider.bounds;
-            AstarPath.active.UpdateGraphs(guo);
-            
-            // _graphUpdateScene.RecalcConvex();
-            // _graphUpdateScene.set
-            _graphUpdateScene.Apply();
+        private float nextActionTime = 0.0f;
+        public float period = 0.5f;
+
+        private void Update()
+        {
+            if (Time.time > nextActionTime)
+            {
+                nextActionTime += period;
+                // execute block of code here
+
+                var guo = new GraphUpdateObject();
+                guo.bounds = _collider.bounds;
+                AstarPath.active.UpdateGraphs(guo);
+                
+                // _graphUpdateScene.RecalcConvex();
+                // _graphUpdateScene.set
+                _graphUpdateScene.Apply();
+            }
         }
     }
 }

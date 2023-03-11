@@ -3,7 +3,7 @@ using Assets.Scripts.AreaOfEffects;
 using Pathfinding;
 using UnityEngine;
 
-namespace Assets.Scripts
+namespace Assets.Scripts.Managers
 {
     public class AOEManager : MonoBehaviour
     {

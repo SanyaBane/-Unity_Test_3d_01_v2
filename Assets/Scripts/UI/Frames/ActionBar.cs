@@ -4,9 +4,11 @@ using System;
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
+using Assets.Scripts.Enums;
+using Assets.Scripts.Managers;
 using UnityEngine;
 
-namespace Assets.Scripts.UI
+namespace Assets.Scripts.UI.Frames
 {
     [DebuggerDisplay("Index: {Index};")]
     public class ActionBar : BaseUIFrame

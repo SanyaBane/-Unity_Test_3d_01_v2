@@ -1,6 +1,6 @@
 ﻿using Assets.Scripts.StateMachineScripts;
 
-namespace Assets.Scripts.NPC
+namespace Assets.Scripts.NPC.States
 {
     public abstract class BaseNpcAiState : BaseState
     {

@@ -1,7 +1,8 @@
 ﻿using System.Collections;
+using Assets.Scripts.Utilities;
 using UnityEngine;
 
-namespace Assets.Scripts
+namespace Assets.Scripts.Health
 {
     public class PlayerHealth : BaseHealth
     {

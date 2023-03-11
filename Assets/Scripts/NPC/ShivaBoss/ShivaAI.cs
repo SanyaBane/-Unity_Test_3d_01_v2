@@ -1,7 +1,7 @@
 ﻿using System;
 using Assets.Scripts.Abilities.Parameters;
 using Assets.Scripts.Buffs.ScriptableObjects;
-using Assets.Scripts.Levels;
+using Assets.Scripts.Levels.ShivaLevel;
 using Assets.Scripts.NPC.Tactics;
 using UnityEngine;
 

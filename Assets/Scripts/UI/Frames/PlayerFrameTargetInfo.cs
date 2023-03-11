@@ -1,6 +1,8 @@
-﻿using Assets.Scripts.Interfaces;
+﻿using Assets.Scripts.Creatures;
+using Assets.Scripts.Creatures.Combat;
+using Assets.Scripts.Interfaces;
 
-namespace Assets.Scripts.UI
+namespace Assets.Scripts.UI.Frames
 {
     public class PlayerFrameTargetInfo
     {

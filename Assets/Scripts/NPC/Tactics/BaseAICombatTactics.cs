@@ -4,6 +4,7 @@ using Assets.Scripts.Abilities.General;
 using Assets.Scripts.Factions;
 using Assets.Scripts.HelpersUnity;
 using Assets.Scripts.Interfaces;
+using Assets.Scripts.Managers;
 using UnityEngine;
 
 namespace Assets.Scripts.NPC.Tactics

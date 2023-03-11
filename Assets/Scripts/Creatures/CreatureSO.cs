@@ -1,4 +1,5 @@
-﻿using Assets.Scripts.Factions;
+﻿using Assets.Scripts.Enums;
+using Assets.Scripts.Factions;
 using UnityEngine;
 
 namespace Assets.Scripts.Creatures

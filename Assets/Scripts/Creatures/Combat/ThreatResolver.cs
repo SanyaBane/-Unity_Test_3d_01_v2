@@ -1,6 +1,7 @@
 ﻿using System;
+using Assets.Scripts.Creatures.Combat;
 
-namespace Assets.Scripts.Creatures
+namespace Assets.Scripts.Creatures.Combat
 {
     public class ThreatResolver
     {

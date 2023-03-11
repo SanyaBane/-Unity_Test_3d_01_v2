@@ -1,9 +1,10 @@
 ﻿using System;
 using Assets.Scripts.Creatures;
 using Assets.Scripts.HelpersUnity;
+using Assets.Scripts.PlayerController;
 using UnityEngine;
 
-namespace Assets.Scripts
+namespace Assets.Scripts.Managers
 {
     public class GameManager : MonoBehaviour
     {

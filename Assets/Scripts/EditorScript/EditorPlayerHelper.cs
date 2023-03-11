@@ -1,20 +1,23 @@
 ﻿using UnityEditor;
 using UnityEngine;
 
-public class EditorPlayerHelper : MonoBehaviour
+namespace Assets.Scripts.EditorScript
 {
-    public string SelectChildName = "WeaponSlot";
-
-    public void EditorSelect()
+    public class EditorPlayerHelper : MonoBehaviour
     {
-        Transform[] children = transform.GetComponentsInChildren<Transform>();
-        foreach (var child in children)
+        public string SelectChildName = "WeaponSlot";
+
+        public void EditorSelect()
         {
-            if (child.name == SelectChildName)
+            Transform[] children = transform.GetComponentsInChildren<Transform>();
+            foreach (var child in children)
             {
-#if UNITY_EDITOR
-                Selection.activeGameObject = child.gameObject;
-#endif
+                if (child.name == SelectChildName)
+                {
+    #if UNITY_EDITOR
+                    Selection.activeGameObject = child.gameObject;
+    #endif
+                }
             }
         }
     }

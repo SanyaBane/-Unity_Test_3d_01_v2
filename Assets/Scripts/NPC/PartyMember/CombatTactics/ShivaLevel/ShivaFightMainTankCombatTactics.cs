@@ -1,6 +1,6 @@
 ﻿using Assets.Scripts.Abilities.Controller;
 using Assets.Scripts.Abilities.General;
-using Assets.Scripts.Levels;
+using Assets.Scripts.Levels.ShivaLevel;
 using UnityEngine;
 
 namespace Assets.Scripts.NPC.PartyMember.CombatTactics.ShivaLevel

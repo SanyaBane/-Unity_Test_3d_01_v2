@@ -1,9 +1,11 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
 using Assets.Scripts.Interfaces;
+using Assets.Scripts.Managers;
+using Assets.Scripts.Party;
 using UnityEngine;
 
-namespace Assets.Scripts.UI
+namespace Assets.Scripts.UI.Frames
 {
     public class PartyFrame : MonoBehaviour
     {

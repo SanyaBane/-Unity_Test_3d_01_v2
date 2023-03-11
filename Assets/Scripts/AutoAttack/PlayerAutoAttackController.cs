@@ -1,4 +1,6 @@
-﻿namespace Assets.Scripts.AutoAttack
+﻿using Assets.Scripts.Managers;
+
+namespace Assets.Scripts.AutoAttack
 {
     public class PlayerAutoAttackController : AutoAttackController
     {

@@ -1,17 +1,20 @@
 ﻿using UnityEngine;
 using UnityEngine.UI;
 
-public class HorizontalLayoutRow : MonoBehaviour
+namespace Assets.Scripts.UI.HorizontalMultipleRowsLayoutGroup
 {
-    private HorizontalLayoutGroup _HorizontalLayoutGroup;
-    public HorizontalLayoutGroup HorizontalLayoutGroup
+    public class HorizontalLayoutRow : MonoBehaviour
     {
-        get
+        private HorizontalLayoutGroup _HorizontalLayoutGroup;
+        public HorizontalLayoutGroup HorizontalLayoutGroup
         {
-            if (_HorizontalLayoutGroup == null)
-                _HorizontalLayoutGroup = this.GetComponent<HorizontalLayoutGroup>();
+            get
+            {
+                if (_HorizontalLayoutGroup == null)
+                    _HorizontalLayoutGroup = this.GetComponent<HorizontalLayoutGroup>();
 
-            return _HorizontalLayoutGroup;
+                return _HorizontalLayoutGroup;
+            }
         }
     }
 }

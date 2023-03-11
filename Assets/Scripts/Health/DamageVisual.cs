@@ -2,7 +2,7 @@
 using System.Diagnostics;
 using Assets.Scripts.Abilities.General;
 
-namespace Assets.Scripts
+namespace Assets.Scripts.Health
 {
     [DebuggerDisplay("Amount: {Amount}; DisplayName: {DisplayName};")]
     public class DamageVisual

@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Diagnostics;
+using Assets.Scripts.Enums;
 
 namespace Assets.Scripts.SerializableData
 {

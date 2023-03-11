@@ -1,9 +1,11 @@
 ﻿using Assets.Scripts.Creatures;
 using System.Collections.Generic;
 using System.Linq;
+using Assets.Scripts.Creatures.Combat;
+using Assets.Scripts.Managers;
 using UnityEngine;
 
-namespace Assets.Scripts.UI
+namespace Assets.Scripts.UI.Frames
 {
     public class CombatTargetsUI : BaseUIFrame
     {

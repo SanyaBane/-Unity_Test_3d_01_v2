@@ -1,4 +1,5 @@
 ﻿using Assets.Scripts.Abilities.Enums;
+using Assets.Scripts.Enums;
 using Assets.Scripts.Interfaces;
 using UnityEngine;
 

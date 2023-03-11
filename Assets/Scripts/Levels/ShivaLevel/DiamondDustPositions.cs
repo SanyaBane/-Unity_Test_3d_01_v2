@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-namespace Assets.Scripts.Levels
+namespace Assets.Scripts.Levels.ShivaLevel
 {
     public class DiamondDustPositions : MonoBehaviour
     {

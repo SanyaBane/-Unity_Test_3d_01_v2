@@ -1,23 +1,26 @@
 ﻿using Pathfinding;
 using UnityEngine;
 
-public class TestAstarFollowTarget : MonoBehaviour
+namespace Assets.Scripts.TestScripts.TestAstar
 {
-    public Transform Ally;
-    public Transform Enemy;
-    public Transform Player;
-    
-    public void Attack()
+    public class TestAstarFollowTarget : MonoBehaviour
     {
-        Debug.Log("Attack()");
-        Ally.GetComponent<AIPath>().destination = Enemy.position;
-        // Ally.GetComponent<AIPath>().canMove = false;
-    }
-    
-    public void GoToPlayer()
-    {
-        Debug.Log("GoToPlayer()");
-        Ally.GetComponent<AIPath>().destination = Player.position;
-        // Ally.GetComponent<AIPath>().canMove = true;
+        public Transform Ally;
+        public Transform Enemy;
+        public Transform Player;
+        
+        public void Attack()
+        {
+            Debug.Log("Attack()");
+            Ally.GetComponent<AIPath>().destination = Enemy.position;
+            // Ally.GetComponent<AIPath>().canMove = false;
+        }
+        
+        public void GoToPlayer()
+        {
+            Debug.Log("GoToPlayer()");
+            Ally.GetComponent<AIPath>().destination = Player.position;
+            // Ally.GetComponent<AIPath>().canMove = true;
+        }
     }
 }

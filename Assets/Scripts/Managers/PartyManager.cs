@@ -3,7 +3,7 @@ using Assets.Scripts.Factions;
 using Assets.Scripts.Interfaces;
 using UnityEngine;
 
-namespace Assets.Scripts
+namespace Assets.Scripts.Managers
 {
     public class PartyManager : MonoBehaviour
     {

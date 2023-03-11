@@ -1,14 +1,17 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
-using Assets.Scripts.UI;
+using Assets.Scripts.UI.Frames;
 using UnityEngine;
 
-public class ActionBarsContainer : MonoBehaviour
+namespace Assets.Scripts.UI.Abilities
 {
-    public List<ActionBar> ActionBars { get; private set; }
-    
-    private void Awake()
+    public class ActionBarsContainer : MonoBehaviour
     {
-        ActionBars = this.GetComponentsInChildren<ActionBar>().ToList();
+        public List<ActionBar> ActionBars { get; private set; }
+        
+        private void Awake()
+        {
+            ActionBars = this.GetComponentsInChildren<ActionBar>().ToList();
+        }
     }
 }
