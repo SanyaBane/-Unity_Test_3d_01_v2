@@ -61,6 +61,10 @@ sysinfo.txt
 # Crashlytics generated file
 crashlytics-build.properties
 
+# =================
+
+.idea/
+
 # MY_SANYABANE
 # https://stackoverflow.com/questions/4035779/gitignore-by-file-size
 # To satisfy github's <100MB file limit, run this:
