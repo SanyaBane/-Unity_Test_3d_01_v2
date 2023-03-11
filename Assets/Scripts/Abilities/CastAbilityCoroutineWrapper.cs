@@ -50,16 +50,21 @@ namespace Assets.Scripts.Abilities
             _canContinueCastingFirstCheck = true;
             while (CurrentlyCastedTime < Ability.CastTime)
             {
+                if (StopCoroutineFlag)
+                    yield break;
+                
                 yield return CastingAbility();
             }
+            
+            if (StopCoroutineFlag)
+                yield break;
 
             if (AbilitiesController.IsCanFinishCast(Ability, IAbilityParameters) == false)
             {
                 AbilitiesController.InterruptCast();
+                
                 if (StopCoroutineFlag)
-                {
                     yield break;
-                }
             }
 
             AbilitiesController.StartCoroutine(AbilitiesController.FinishCastSuccessfully(Ability, IAbilityParameters, this));
@@ -100,10 +105,9 @@ namespace Assets.Scripts.Abilities
             if (AbilitiesController.IsCanContinueCasting(Ability, IAbilityParameters, _canContinueCastingFirstCheck) == false)
             {
                 AbilitiesController.InterruptCast();
+                
                 if (StopCoroutineFlag)
-                {
                     yield break;
-                }
             }
 
             _canContinueCastingFirstCheck = false;
