@@ -6,25 +6,16 @@ using Assets.Scripts.Abilities;
 
 namespace Assets.Scripts
 {
+    [RequireComponent(typeof(GroundedInfo))]
     public class PlayerController_CC_WoW : MonoBehaviour, IPlayerController
     {
+        #region Fields
+
         private CreatureInfoContainer _creatureInfoContainer;
 
         private Camera _cameraMain;
         private Camera_WoW _cameraScript;
-
-        public CharacterController CharacterController { get; private set; }
-
-        private PlayerCreature _playerCreature => _creatureInfoContainer.BaseCreature as PlayerCreature;
-        private PlayerHealth _playerHealth => _creatureInfoContainer.BaseCreature.Health as PlayerHealth;
-        private AbilitiesController _abilitiesController => _creatureInfoContainer.BaseCreature.AbilitiesController;
-        public Animator Animator => _creatureInfoContainer.BaseCreature.Animator;
-
-        public Vector3 PlayerPositionLastFrame { get; private set; } = Vector3.zero;
-
-        public float HorizontalInput { get; private set; }
-        public float VerticalInput { get; private set; }
-        public float StrafeInput { get; private set; }
+        private GroundedInfo _groundedInfo;
 
         #region Running
 
@@ -55,7 +46,7 @@ namespace Assets.Scripts
         [SerializeField] private GameObject _fallDirectionAxisHelper;
         [SerializeField] private bool _showFallDirectionAxisHelper = false;
 
-        #endregion
+        #endregion // Running
 
         #region Gravity and Velocity_Y
 
@@ -65,7 +56,7 @@ namespace Assets.Scripts
         public float MaxNegativeVelocityY = -12.0f;
         private float _velocity_Y = 0;
 
-        #endregion
+        #endregion // Gravity and Velocity_Y
 
         #region Turning
 
@@ -79,61 +70,7 @@ namespace Assets.Scripts
 
         public float TurnSpeed = 2.0f;
 
-        #endregion
-
-        #region Grounded
-
-        [Header("Grounded")]
-        [SerializeField] private bool _IsGroundedByRaycast = true;
-
-        public bool IsGroundedByRaycast
-        {
-            get => _IsGroundedByRaycast;
-            private set { _IsGroundedByRaycast = value; }
-        }
-
-        [SerializeField] private bool _IsGroundedByCharController = true;
-
-        public bool IsGroundedByCharController
-        {
-            get => _IsGroundedByCharController;
-            private set { _IsGroundedByCharController = value; }
-        }
-
-        [SerializeField] private bool _IsGroundedBySphere;
-
-        public bool IsGroundedBySphere
-        {
-            get => _IsGroundedBySphere;
-            private set { _IsGroundedBySphere = value; }
-        }
-
-        private float _howLongGrounded = 0;
-        private float _howLongNotGrounded = 0;
-
-        [SerializeField] private bool _slidingDownTheSlope = false;
-
-        private float IsGroundedSphereRadius;
-        //public float IsGroundedSphereRadius => _characterController.radius;
-
-        private Vector3 IsGroundedSpherePosition;
-        //public Vector3 IsGroundedSpherePosition
-        //{
-        //    get
-        //    {
-        //        return _playerCreature.GetTransform().position // спавним прямо под персонажем
-        //            + new Vector3(0, IsGroundedSphereRadius, 0) // сдвигаем наверх на значение равное радиусу
-        //            + new Vector3(0, -IsGroundedSphereOffsetY, 0); // делаем сдвиг вниз чтобы сфера была чуть ниже Character Controller'a
-        //    }
-        //}
-
-        //public float IsGroundedSphereOffsetY = 0.01f;
-        public LayerMask GroundMask;
-
-        [SerializeField] private float _stepOffsetCCWhenGrounded = 0.3f;
-        [SerializeField] private float _stepOffsetCCWhenNotGrounded = 0.01f;
-
-        #endregion
+        #endregion // Turning
 
         #region Jumping
 
@@ -155,7 +92,7 @@ namespace Assets.Scripts
         private bool _isDisableDoubleJumpIfTooMuchNegativeVelocity = false; // probably should remain "false"
         private readonly float _negativeVelocityThresholdForDoubleJump = -5.0f;
 
-        #endregion
+        #endregion // Jumping
 
         #region Animator stuff
 
@@ -169,16 +106,34 @@ namespace Assets.Scripts
         private readonly float _animVelocityXValueMax = 1.0f;
         private readonly float _animVelocityYValueMax = 1.0f;
 
-        #endregion
+        #endregion // Animator stuff
 
         private Vector3 _playerPositionOnLastCollision = Vector3.zero;
         private Vector3 collisionPoint = Vector3.zero;
 
+        #endregion // Fields
+
+        #region Properties
+
+        private PlayerCreature _playerCreature => _creatureInfoContainer.BaseCreature as PlayerCreature;
+        private PlayerHealth _playerHealth => _creatureInfoContainer.BaseCreature.Health as PlayerHealth;
+        private AbilitiesController _abilitiesController => _creatureInfoContainer.BaseCreature.AbilitiesController;
+        public Animator Animator => _creatureInfoContainer.BaseCreature.Animator;
+        public CharacterController CharacterController { get; private set; }
+        public Vector3 PlayerPositionLastFrame { get; private set; } = Vector3.zero;
+
+        public float HorizontalInput { get; private set; }
+        public float VerticalInput { get; private set; }
+        public float StrafeInput { get; private set; }
+
+        #endregion // Properties
+        
         protected void Awake()
         {
             //Application.targetFrameRate = 8;
 
             _creatureInfoContainer = GetComponent<CreatureInfoContainer>();
+            _groundedInfo = GetComponent<GroundedInfo>();
 
             CharacterController = GetComponent<CharacterController>();
             if (CharacterController == null)
@@ -211,7 +166,7 @@ namespace Assets.Scripts
 
             // IsGroundedSphere
             Gizmos.color = Color.red;
-            Gizmos.DrawWireSphere(IsGroundedSpherePosition, IsGroundedSphereRadius);
+            Gizmos.DrawWireSphere(_groundedInfo.IsGroundedSpherePosition, _groundedInfo.IsGroundedSphereRadius);
 
 
             //if (_lastGroundedCharControllerColliderHitInfo.Count > 0)
@@ -234,50 +189,6 @@ namespace Assets.Scripts
             //}
         }
 
-        private void UpdateIsGrounded()
-        {
-            GroundSphereCheck();
-
-            if (IsGroundedByCharController && _slidingDownTheSlope == false)
-            {
-                if (_howLongGrounded < 60000.0f) // to prevent overflow?
-                    _howLongGrounded += Time.deltaTime;
-
-                _howLongNotGrounded = 0;
-            }
-            else
-            {
-                if (_howLongNotGrounded < 60000.0f) // to prevent overflow?
-                    _howLongNotGrounded += Time.deltaTime;
-
-                _howLongGrounded = 0;
-            }
-
-            //bool checkBySphere = Physics.CheckSphere(IsGroundedSpherePosition, IsGroundedSphereRadius, GroundMask);
-            //IsGrounded = checkBySphere;
-            IsGroundedByCharController = CharacterController.isGrounded;
-
-
-            // когда персонаж на земле, пусть у него будет возможность забираться на относительно высокие препятствия, 
-            // но когда персонаж в воздухе (поднимается или падает), stepOffset надо серьёзно ограничивать
-            CharacterController.stepOffset = IsGroundedByCharController ? _stepOffsetCCWhenGrounded : _stepOffsetCCWhenNotGrounded;
-        }
-
-        private void GroundSphereCheck()
-        {
-            float gSkin = CharacterController.skinWidth * 1.2f;
-
-            IsGroundedSphereRadius = Mathf.Cos(CharacterController.slopeLimit * Mathf.Deg2Rad);
-            IsGroundedSphereRadius = IsGroundedSphereRadius / (1 - IsGroundedSphereRadius);
-            IsGroundedSphereRadius *= gSkin;
-            IsGroundedSphereRadius = CharacterController.radius - IsGroundedSphereRadius;
-
-            IsGroundedSpherePosition = transform.position + Vector3.up * (IsGroundedSphereRadius - gSkin);
-            //Debug.Log($"IsGroundedSpherePosition (local): {IsGroundedSpherePosition - _playerCreature.GetTransform().position}");
-
-            IsGroundedBySphere = Physics.CheckSphere(IsGroundedSpherePosition, IsGroundedSphereRadius, GroundMask);
-        }
-
         protected void Update()
         {
             if (GameManager.Instance.InputController_WoW.IsNumpadSlashPressed)
@@ -290,7 +201,7 @@ namespace Assets.Scripts
 
             Locomotion();
 
-            _playerCreature.IsGrounded = this.IsGroundedByCharController;
+            _playerCreature.IsGrounded = _groundedInfo.IsGroundedByCharController;
 
             _playerCreature.IsMoving = this.IsRunning || (PlayerPositionLastFrame != GetRootObjectTransform().position);
             // _playerCreature.IsMoving = this.IsRunning || (this.IsGroundedByCharController == false || this.IsGroundedBySphere == false);
@@ -303,7 +214,7 @@ namespace Assets.Scripts
 
         private void Locomotion()
         {
-            UpdateIsGrounded();
+            _groundedInfo.UpdateIsGrounded();
 
             var playerRotationBeforeTurning = GetRootObjectTransform().eulerAngles.y;
 
@@ -439,10 +350,10 @@ namespace Assets.Scripts
                 }
             }
 
-            IsRunning = (_animatorPlayerData.IsRunningForward || _animatorPlayerData.IsRunningBackward || _animatorPlayerData.IsRunningStrafeRight || _animatorPlayerData.IsRunningStrafeLeft) &&
-                        _slidingDownTheSlope == false;
+            IsRunning = (_animatorPlayerData.IsRunningForward || _animatorPlayerData.IsRunningBackward || _animatorPlayerData.IsRunningStrafeRight || _animatorPlayerData.IsRunningStrafeLeft) 
+                        && _groundedInfo.SlidingDownTheSlope == false;
 
-            //if (_slidingDownTheSlope)
+            //if (_groundedInfo.SlidingDownTheSlope)
             //{
             //    moveDirectionWorldVector = Vector3.zero;
             //}
@@ -478,11 +389,11 @@ namespace Assets.Scripts
             float strafeMult = 1;
             float fallMult = 1;
 
-            IsGroundedByRaycast = false;
+            _groundedInfo.IsGroundedByRaycast = false;
 
             Vector3 charControllerColliderHitPoint;
 
-            if (IsGroundedByCharController)
+            if (_groundedInfo.IsGroundedByCharController)
                 charControllerColliderHitPoint = collisionPoint;
             else
                 charControllerColliderHitPoint = GetRootObjectTransform().position;
@@ -495,10 +406,10 @@ namespace Assets.Scripts
             float groundRayDistance = 0.3f;
 
 
-            _slidingDownTheSlope = false;
+            _groundedInfo.SlidingDownTheSlope = false;
 
-            IsGroundedByRaycast = Physics.Raycast(groundRay, out RaycastHit groundHit, groundRayDistance, GroundMask);
-            if (IsGroundedByRaycast)
+            _groundedInfo.IsGroundedByRaycast = Physics.Raycast(groundRay, out RaycastHit groundHit, groundRayDistance, _groundedInfo.GroundMask);
+            if (_groundedInfo.IsGroundedByRaycast)
             {
                 Vector3 groundHitNormal = groundHit.normal;
 
@@ -526,7 +437,7 @@ namespace Assets.Scripts
                 }
                 else
                 {
-                    _slidingDownTheSlope = true;
+                    _groundedInfo.SlidingDownTheSlope = true;
 
                     fallMult = 1 / Mathf.Cos((90 - slopeAngle) * Mathf.Deg2Rad);
 
@@ -557,7 +468,7 @@ namespace Assets.Scripts
 
             if (_groundDirectionAxisHelper != null)
             {
-                _groundDirectionAxisHelper.SetActive(_showGroundDirectionAxisHelper && IsGroundedByRaycast /*IsGroundedByCharController*/);
+                _groundDirectionAxisHelper.SetActive(_showGroundDirectionAxisHelper && _groundedInfo.IsGroundedByRaycast /*IsGroundedByCharController*/);
             }
 
             if (_fallDirectionAxisHelper != null)
@@ -622,13 +533,13 @@ namespace Assets.Scripts
             bool playerCanJump = (maxJumpsLimit < 0 || _howManyJumpsPerformed < maxJumpsLimit) &&
                                  (_playerHealth.IsAlive || (_playerHealth.IsAlive == false && _playerHealth.CanMoveWhenDead));
 
-            if (IsGroundedByCharController) //&& (moveResult & CollisionFlags.CollidedBelow) > 0)
+            if (_groundedInfo.IsGroundedByCharController) //&& (moveResult & CollisionFlags.CollidedBelow) > 0)
             {
                 _howManyJumpsPerformed = 0;
 
                 // Reset velocity_Y to "zero" only if we are sure that character not sliding from slope 
                 // (when he do this, he sometimes not grounded, so we need this extra check)
-                if (_slidingDownTheSlope == false)
+                if (_groundedInfo.SlidingDownTheSlope == false)
                 {
                     _velocity_Y = 0;
                 }
@@ -689,7 +600,7 @@ namespace Assets.Scripts
         {
             // если персонаж прыгнул с положительной "_velocity_Y" и ударился об потолок, надо это отследить и моментально изменить "_velocity_Y" на "0"
             // иначе персонаж продолжит "парить" в воздухе пока "_velocity_Y" постепенно не станет "<= 0"
-            if (IsGroundedByCharController == false && _velocity_Y > 0 && GetRootObjectTransform().position.y == PlayerPositionLastFrame.y)
+            if (_groundedInfo.IsGroundedByCharController == false && _velocity_Y > 0 && GetRootObjectTransform().position.y == PlayerPositionLastFrame.y)
             {
                 // При очень низком Velocity_Y, условие выше способно выполняться даже во время обычного прыжка. 
                 // То есть просто иногда так получается что даже при позитивном, но крайне маленьким, Velocity_Y, два кадра подряд позиция игрока по оси Y не меняется.
@@ -762,7 +673,7 @@ namespace Assets.Scripts
             float characterRootTurnSpeed = 10.0f; // probably should be class-variable
 
             float characterRootGoalYRotation;
-            if (_animatorPlayerData.IsRunningBackward && IsGroundedByCharController)
+            if (_animatorPlayerData.IsRunningBackward && _groundedInfo.IsGroundedByCharController)
                 characterRootGoalYRotation = _animatorInputX * -45;
             else
                 characterRootGoalYRotation = 0;
@@ -777,12 +688,12 @@ namespace Assets.Scripts
             Animator.SetFloat(ConstantsAnimator.PLAYER_CONTROLLER_FLOAT_INPUT_Y, _animatorInputY);
 
             Animator.SetBool(ConstantsAnimator.PLAYER_CONTROLLER_BOOL_IS_RUNNING, IsRunning);
-            Animator.SetFloat(ConstantsAnimator.PLAYER_CONTROLLER_FLOAT_HOW_LONG_GROUNDED, _howLongGrounded);
-            Animator.SetFloat(ConstantsAnimator.PLAYER_CONTROLLER_FLOAT_HOW_LONG_NOT_GROUNDED, _howLongNotGrounded);
+            Animator.SetFloat(ConstantsAnimator.PLAYER_CONTROLLER_FLOAT_HOW_LONG_GROUNDED, _groundedInfo.HowLongGrounded);
+            Animator.SetFloat(ConstantsAnimator.PLAYER_CONTROLLER_FLOAT_HOW_LONG_NOT_GROUNDED, _groundedInfo.HowLongNotGrounded);
 
             Animator.SetBool(ConstantsAnimator.PLAYER_CONTROLLER_BOOL_JUMP_START, _animatorPlayerData.JumpStart);
 
-            Animator.SetBool(ConstantsAnimator.PLAYER_CONTROLLER_BOOL_IS_GROUNDED, IsGroundedByCharController && _slidingDownTheSlope == false);
+            Animator.SetBool(ConstantsAnimator.PLAYER_CONTROLLER_BOOL_IS_GROUNDED, _groundedInfo.IsGroundedByCharController && _groundedInfo.SlidingDownTheSlope == false);
         }
 
         void OnControllerColliderHit(ControllerColliderHit controllerColliderHit)
@@ -793,10 +704,10 @@ namespace Assets.Scripts
 
             if (controllerColliderHit.point.y <= transform.position.y + 0.25f)
             {
-                if (IsGroundedBySphere)
+                if (_groundedInfo.IsGroundedBySphere)
                 {
-                    float gDistanceSquared = VectorHelper.DistanceSquared(IsGroundedSpherePosition, controllerColliderHit.point);
-                    if (gDistanceSquared <= Mathf.Pow(IsGroundedSphereRadius, 2))
+                    float gDistanceSquared = VectorHelper.DistanceSquared(_groundedInfo.IsGroundedSpherePosition, controllerColliderHit.point);
+                    if (gDistanceSquared <= Mathf.Pow(_groundedInfo.IsGroundedSphereRadius, 2))
                     {
                         collisionPoint = controllerColliderHit.point;
                     }
