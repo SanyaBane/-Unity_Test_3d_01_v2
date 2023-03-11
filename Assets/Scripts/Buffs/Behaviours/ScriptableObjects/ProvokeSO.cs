@@ -1,4 +1,4 @@
-﻿using Assets.Scripts.Abilities;
+﻿using Assets.Scripts.Abilities.Interfaces;
 using UnityEngine;
 
 namespace Assets.Scripts.Buffs.Behaviours.ScriptableObjects

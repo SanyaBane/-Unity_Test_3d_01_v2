@@ -1,5 +1,6 @@
 ﻿using System.Linq;
-using Assets.Scripts.Abilities;
+using Assets.Scripts.Abilities.Controller;
+using Assets.Scripts.Abilities.General;
 using Assets.Scripts.Factions;
 using Assets.Scripts.HelpersUnity;
 using Assets.Scripts.Interfaces;

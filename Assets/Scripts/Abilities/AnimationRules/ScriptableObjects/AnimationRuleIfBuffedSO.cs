@@ -1,4 +1,5 @@
 ﻿using System.Collections.Generic;
+using Assets.Scripts.Abilities.General;
 using UnityEngine;
 
 namespace Assets.Scripts.Abilities.AnimationRules.ScriptableObjects

@@ -1,5 +1,9 @@
-﻿using Assets.Scripts.Abilities.Behaviours.ScriptableObjects;
-using Assets.Scripts.Abilities.Behaviours.ScriptableObjects.DamageModifiers;
+﻿using Assets.Scripts.Abilities.Behaviours.DirectDamageBehaviour.DamageModifiers.ScriptableObjects;
+using Assets.Scripts.Abilities.Behaviours.DirectDamageBehaviour.ScriptableObjects;
+using Assets.Scripts.Abilities.Behaviours.General;
+using Assets.Scripts.Abilities.Behaviours.General.ScriptableObjects;
+using Assets.Scripts.Abilities.General;
+using Assets.Scripts.Abilities.Interfaces;
 using Assets.Scripts.Abilities.Parameters;
 using UnityEngine;
 

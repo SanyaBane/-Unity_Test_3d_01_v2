@@ -2,7 +2,7 @@
 using UnityEngine;
 using Assets.Scripts.Creatures;
 using Assets.Scripts.Interfaces;
-using Assets.Scripts.Abilities;
+using Assets.Scripts.Abilities.Controller;
 
 namespace Assets.Scripts.PlayerController
 {

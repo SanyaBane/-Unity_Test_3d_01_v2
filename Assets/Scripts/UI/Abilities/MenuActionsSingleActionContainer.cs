@@ -1,4 +1,4 @@
-﻿using Assets.Scripts.Abilities;
+﻿using Assets.Scripts.Abilities.General;
 using TMPro;
 using UnityEngine;
 

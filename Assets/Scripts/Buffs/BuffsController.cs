@@ -1,7 +1,7 @@
-﻿using Assets.Scripts.Abilities;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using Assets.Scripts.Abilities.General;
 using Assets.Scripts.Abilities.Parameters;
 using Assets.Scripts.Buffs.ScriptableObjects;
 using UnityEngine;

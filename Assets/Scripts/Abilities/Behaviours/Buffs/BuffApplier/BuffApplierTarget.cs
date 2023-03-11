@@ -1,5 +1,6 @@
-﻿using Assets.Scripts.Abilities.Behaviours.ScriptableObjects;
-using Assets.Scripts.Abilities.Behaviours.ScriptableObjects.Buffs.Applier;
+﻿using Assets.Scripts.Abilities.Behaviours.Buffs.Applier.ScriptableObjects;
+using Assets.Scripts.Abilities.Behaviours.General.ScriptableObjects;
+using Assets.Scripts.Abilities.General;
 using Assets.Scripts.Abilities.Parameters;
 
 namespace Assets.Scripts.Abilities.Behaviours.Buffs.Applier

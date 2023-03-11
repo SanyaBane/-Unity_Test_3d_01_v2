@@ -1,9 +1,11 @@
-﻿using Assets.Scripts.Abilities.Behaviours.ScriptableObjects;
-using Assets.Scripts.Abilities.Behaviours.ScriptableObjects.Specific;
+﻿using Assets.Scripts.Abilities.Behaviours.General;
+using Assets.Scripts.Abilities.Behaviours.General.ScriptableObjects;
+using Assets.Scripts.Abilities.Behaviours.Specific.BLM.ScriptableObjects;
+using Assets.Scripts.Abilities.General;
 using Assets.Scripts.Abilities.Parameters;
 using Assets.Scripts.Buffs.ScriptableObjects;
 
-namespace Assets.Scripts.Abilities.Behaviours
+namespace Assets.Scripts.Abilities.Behaviours.Specific.BLM
 {
     public class Transpose : AbilityBehaviour
     {

@@ -1,5 +1,5 @@
 ﻿using Abilities.Cooldown.ScriptableObjects;
-using Assets.Scripts.Abilities;
+using Assets.Scripts.Abilities.General;
 
 namespace Abilities.Cooldown
 {

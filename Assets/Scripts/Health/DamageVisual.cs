@@ -1,6 +1,6 @@
 ﻿using Assets.Scripts.Interfaces;
 using System.Diagnostics;
-using Assets.Scripts.Abilities;
+using Assets.Scripts.Abilities.General;
 
 namespace Assets.Scripts
 {

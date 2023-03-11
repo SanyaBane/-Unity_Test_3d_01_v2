@@ -1,6 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
-using Assets.Scripts.Abilities;
+using Assets.Scripts.Abilities.Specific;
 
 namespace Assets.Scripts.Interfaces
 {

@@ -1,4 +1,4 @@
-﻿namespace Assets.Scripts.Abilities
+﻿namespace Assets.Scripts.Abilities.Interfaces
 {
     public interface IBehaviourWithName
     {

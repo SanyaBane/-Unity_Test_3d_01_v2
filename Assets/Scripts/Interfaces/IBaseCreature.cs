@@ -1,6 +1,6 @@
 ﻿using System;
 using Assets.Scripts.Factions;
-using Assets.Scripts.Abilities;
+using Assets.Scripts.Abilities.Controller;
 using Assets.Scripts.Attachments;
 using Assets.Scripts.Buffs;
 using Assets.Scripts.Creatures;

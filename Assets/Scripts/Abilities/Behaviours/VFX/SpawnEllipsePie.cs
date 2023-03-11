@@ -1,9 +1,12 @@
-﻿using Assets.Scripts.Abilities.Behaviours.ScriptableObjects;
+﻿using Assets.Scripts.Abilities.Behaviours.General;
+using Assets.Scripts.Abilities.Behaviours.General.ScriptableObjects;
+using Assets.Scripts.Abilities.Behaviours.VFX.ScriptableObjects;
+using Assets.Scripts.Abilities.General;
 using Assets.Scripts.Abilities.Parameters;
 using Assets.Scripts.VFX;
 using UnityEngine;
 
-namespace Assets.Scripts.Abilities.Behaviours
+namespace Assets.Scripts.Abilities.Behaviours.VFX
 {
     public class SpawnEllipsePie : AbilityBehaviour
     {

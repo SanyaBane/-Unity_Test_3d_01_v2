@@ -1,8 +1,8 @@
 ﻿using Assets.Scripts.Buffs.Behaviours.ScriptableObjects;
 using System.Collections.Generic;
-using Assets.Scripts.Abilities;
-using Assets.Scripts.Abilities.Behaviours.ScriptableObjects.Buffs.BuffDuration.ScriptableObjects;
-using Assets.Scripts.Abilities.Behaviours.ScriptableObjects.Buffs.BuffRecastType.ScriptableObjects;
+using Assets.Scripts.Abilities.Behaviours.Buffs.Modifiers.Duration.RecastType.ScriptableObjects;
+using Assets.Scripts.Abilities.Behaviours.Buffs.Modifiers.Duration.ScriptableObjects;
+using Assets.Scripts.Abilities.General;
 using Assets.Scripts.Abilities.Parameters;
 using UnityEngine;
 

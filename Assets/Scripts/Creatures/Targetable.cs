@@ -1,7 +1,7 @@
 ﻿using Assets.Scripts.Interfaces;
 using System;
 using System.Collections.Generic;
-using Assets.Scripts.Abilities;
+using Assets.Scripts.Abilities.Specific;
 using UnityEngine;
 #if UNITY_EDITOR
 

@@ -1,4 +1,5 @@
 ﻿using Assets.Scripts.Abilities.AnimationRules.ScriptableObjects;
+using Assets.Scripts.Abilities.General;
 
 namespace Assets.Scripts.Abilities.AnimationRules
 {

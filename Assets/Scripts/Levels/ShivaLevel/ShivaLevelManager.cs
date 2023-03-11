@@ -1,6 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
-using Assets.Scripts.Abilities.ScriptableObjects;
+using Assets.Scripts.Abilities.General.ScriptableObjects;
 using Assets.Scripts.Creatures;
 using Assets.Scripts.NPC;
 using Assets.Scripts.NPC.PartyMember.CombatTactics.ShivaLevel;

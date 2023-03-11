@@ -1,6 +1,6 @@
 ﻿using System;
-using Assets.Scripts.Abilities;
-using Assets.Scripts.Abilities.Behaviours.ScriptableObjects.Buffs.BuffDuration;
+using Assets.Scripts.Abilities.Behaviours.Buffs.Modifiers.Duration;
+using Assets.Scripts.Abilities.General;
 using Assets.Scripts.Extensions;
 using Assets.Scripts.HelpersUnity;
 using Assets.Scripts.Interfaces;

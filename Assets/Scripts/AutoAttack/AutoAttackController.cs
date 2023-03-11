@@ -1,10 +1,11 @@
-﻿using Assets.Scripts.Abilities;
-using Assets.Scripts.Abilities.ScriptableObjects;
-using Assets.Scripts.Creatures;
+﻿using Assets.Scripts.Creatures;
 using Assets.Scripts.Interfaces;
 using Assets.Scripts.TargetHandling;
 using System;
 using System.Collections;
+using Assets.Scripts.Abilities.Controller;
+using Assets.Scripts.Abilities.General;
+using Assets.Scripts.Abilities.General.ScriptableObjects;
 using Assets.Scripts.Abilities.Parameters;
 using Assets.Scripts.Attachments;
 using UnityEngine;

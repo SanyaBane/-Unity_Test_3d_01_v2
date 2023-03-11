@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using Assets.Scripts.Abilities.General;
+using UnityEngine;
 
 namespace Assets.Scripts.Abilities.AnimationRules.ScriptableObjects
 {

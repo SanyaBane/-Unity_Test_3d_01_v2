@@ -1,10 +1,10 @@
-﻿using Assets.Scripts.Abilities;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Diagnostics;
-using Assets.Scripts.Abilities.Behaviours.ScriptableObjects.Buffs.BuffDuration;
-using Assets.Scripts.Abilities.Behaviours.ScriptableObjects.Buffs.BuffRecastType;
-using Assets.Scripts.Abilities.Behaviours.ScriptableObjects.Buffs.BuffRecastType.ScriptableObjects;
+using Assets.Scripts.Abilities.Behaviours.Buffs.Modifiers.Duration;
+using Assets.Scripts.Abilities.Behaviours.Buffs.Modifiers.Duration.RecastType;
+using Assets.Scripts.Abilities.Behaviours.Buffs.Modifiers.Duration.RecastType.ScriptableObjects;
+using Assets.Scripts.Abilities.General;
 using Assets.Scripts.Abilities.Parameters;
 using Assets.Scripts.Buffs.Behaviours;
 using Assets.Scripts.Buffs.Behaviours.ScriptableObjects;

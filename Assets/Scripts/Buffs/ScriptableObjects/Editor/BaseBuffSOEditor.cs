@@ -1,7 +1,7 @@
 ﻿using System;
 using System.IO;
-using Assets.Scripts.Abilities.Behaviours.ScriptableObjects.Buffs.BuffDuration.ScriptableObjects;
-using Assets.Scripts.Abilities.Behaviours.ScriptableObjects.Buffs.BuffRecastType.ScriptableObjects;
+using Assets.Scripts.Abilities.Behaviours.Buffs.Modifiers.Duration.RecastType.ScriptableObjects;
+using Assets.Scripts.Abilities.Behaviours.Buffs.Modifiers.Duration.ScriptableObjects;
 using UnityEditor;
 using UnityEngine;
 

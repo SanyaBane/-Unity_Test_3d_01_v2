@@ -1,4 +1,5 @@
-﻿using Assets.Scripts.Abilities;
+﻿using Assets.Scripts.Abilities.Controller;
+using Assets.Scripts.Abilities.General;
 using Assets.Scripts.Interfaces;
 using TMPro;
 using UnityEngine;

@@ -1,6 +1,7 @@
-﻿using Assets.Scripts.Abilities;
-using System;
+﻿using System;
 using System.Collections;
+using Assets.Scripts.Abilities.Controller;
+using Assets.Scripts.Abilities.General;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;

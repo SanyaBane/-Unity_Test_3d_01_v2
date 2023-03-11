@@ -1,7 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
-using Assets.Scripts.Abilities.Behaviours.ScriptableObjects;
-using Assets.Scripts.Abilities.Behaviours.ScriptableObjects.Buffs.Remover;
+using Assets.Scripts.Abilities.Behaviours.Buffs.Remover.ScriptableObjects;
+using Assets.Scripts.Abilities.Behaviours.General;
+using Assets.Scripts.Abilities.Behaviours.General.ScriptableObjects;
+using Assets.Scripts.Abilities.General;
 using Assets.Scripts.Abilities.Parameters;
 using Assets.Scripts.Interfaces;
 

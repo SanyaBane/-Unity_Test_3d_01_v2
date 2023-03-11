@@ -1,5 +1,5 @@
 ﻿using System.Linq;
-using Assets.Scripts.Abilities;
+using Assets.Scripts.Abilities.General;
 
 namespace Assets.Scripts.NPC.PartyMember.CombatTactics
 {

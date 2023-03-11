@@ -1,4 +1,5 @@
-﻿using Assets.Scripts.Interfaces;
+﻿using Assets.Scripts.Abilities.General;
+using Assets.Scripts.Interfaces;
 using UnityEngine;
 
 namespace Assets.Scripts.Abilities.OnCreateCustomLogic.ScriptableObjects

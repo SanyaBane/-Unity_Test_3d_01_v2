@@ -1,6 +1,6 @@
-﻿using Assets.Scripts.Abilities.ScriptableObjects;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Linq;
+using Assets.Scripts.Abilities.General.ScriptableObjects;
 using UnityEngine;
 
 namespace Assets.Scripts.AutoAttack

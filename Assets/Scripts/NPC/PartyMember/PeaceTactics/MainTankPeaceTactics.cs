@@ -1,5 +1,5 @@
 ﻿using System;
-using Assets.Scripts.Abilities;
+using Assets.Scripts.Abilities.General;
 using Assets.Scripts.NPC.Tactics;
 
 namespace Assets.Scripts.NPC.PartyMember.PeaceTactics
