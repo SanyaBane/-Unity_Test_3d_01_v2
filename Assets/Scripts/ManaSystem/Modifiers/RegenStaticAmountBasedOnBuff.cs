@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using System.Linq;
 using Assets.Scripts.Interfaces;
 using Assets.Scripts.ManaSystem.Modifiers.ScriptableObjects;
-using UnityEngine;
 
 namespace Assets.Scripts.ManaSystem.Modifiers
 {

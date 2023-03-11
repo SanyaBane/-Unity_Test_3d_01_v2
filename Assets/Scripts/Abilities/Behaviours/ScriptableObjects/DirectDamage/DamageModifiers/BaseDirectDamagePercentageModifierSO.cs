@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using Assets.Scripts.Abilities.Parameters;
+using UnityEngine;
 
 namespace Assets.Scripts.Abilities.Behaviours.ScriptableObjects.DamageModifiers
 {

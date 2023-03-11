@@ -1,13 +1,7 @@
-﻿using System;
-using System.Collections;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Assets.Scripts.Abilities.ScriptableObjects;
+﻿using System.Collections;
+using Assets.Scripts.Abilities.Parameters;
 using Assets.Scripts.Creatures;
 using Assets.Scripts.Interfaces;
-using Assets.Scripts.UI;
 using Assets.Scripts.VFX;
 using UnityEngine;
 

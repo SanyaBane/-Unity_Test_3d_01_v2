@@ -1,10 +1,8 @@
 ﻿using Assets.Scripts.Abilities;
-using Assets.Scripts.Abilities.Behaviours.ScriptableObjects.Buffs;
-using Assets.Scripts.Interfaces;
 using System;
 using System.Collections.Generic;
-using System.Collections.ObjectModel;
 using System.Linq;
+using Assets.Scripts.Abilities.Parameters;
 using Assets.Scripts.Buffs.ScriptableObjects;
 using UnityEngine;
 

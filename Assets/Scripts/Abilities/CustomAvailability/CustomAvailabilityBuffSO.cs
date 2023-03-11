@@ -1,6 +1,5 @@
 ﻿using System.Collections.Generic;
-using Assets.Scripts.Abilities;
-using Assets.Scripts.Abilities.Behaviours.ScriptableObjects.Buffs;
+using Assets.Scripts.Abilities.Parameters;
 using Assets.Scripts.Buffs.ScriptableObjects;
 using UnityEngine;
 

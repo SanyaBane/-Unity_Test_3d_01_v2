@@ -1,14 +1,9 @@
 ﻿using System;
-using Assets.Scripts;
 using Assets.Scripts.Interfaces;
-using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
-using Assets.Scripts.Creatures;
 using Assets.Scripts.Factions;
-using TMPro;
 using UnityEngine;
-using UnityEngine.Serialization;
 using UnityEngine.UI;
 
 namespace Assets.Scripts.UI

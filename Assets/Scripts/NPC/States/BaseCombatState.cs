@@ -4,16 +4,11 @@ using Assets.Scripts.AutoAttack;
 using Assets.Scripts.Interfaces;
 using Assets.Scripts.HelpersUnity;
 using Assets.Scripts.StateMachineScripts;
-using Pathfinding;
 using System.Linq;
 using Assets.Scripts.Abilities;
 using Assets.Scripts.AreaOfEffects;
 using Assets.Scripts.Extensions;
-using Assets.Scripts.Levels;
-using Assets.Scripts.NPC.Tactics;
-using JetBrains.Annotations;
 using UnityEngine;
-using UnityEngine.ProBuilder.MeshOperations;
 
 namespace Assets.Scripts.NPC
 {

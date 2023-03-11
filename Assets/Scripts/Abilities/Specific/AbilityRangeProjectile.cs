@@ -1,7 +1,7 @@
 ﻿using Assets.Scripts.Interfaces;
 using System;
+using Assets.Scripts.Abilities.Parameters;
 using Assets.Scripts.HelpersUnity;
-using UnityEditor;
 using UnityEngine;
 
 namespace Assets.Scripts.Abilities

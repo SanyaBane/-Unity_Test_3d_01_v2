@@ -1,5 +1,5 @@
 ﻿using Assets.Scripts.Abilities.Behaviours.ScriptableObjects;
-using Assets.Scripts.Abilities.Behaviours.ScriptableObjects.Buffs;
+using Assets.Scripts.Abilities.Parameters;
 using Assets.Scripts.Buffs.ScriptableObjects;
 using UnityEngine;
 

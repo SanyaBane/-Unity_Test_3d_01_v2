@@ -1,6 +1,4 @@
 ﻿using Assets.Scripts.Interfaces;
-using System.Collections;
-using System.Collections.Generic;
 using Assets.Scripts.HelpersUnity;
 using UnityEngine;
 

@@ -1,7 +1,5 @@
 ﻿using System;
-using Assets.Scripts.Abilities.Behaviours.ScriptableObjects.Buffs;
 using Assets.Scripts.Abilities.Behaviours.ScriptableObjects.Buffs.BuffDuration;
-using Assets.Scripts.Abilities.Behaviours.ScriptableObjects.Buffs.BuffDuration.ScriptableObjects;
 using Assets.Scripts.Buffs;
 using TMPro;
 using UnityEngine;

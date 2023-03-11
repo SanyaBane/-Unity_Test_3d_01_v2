@@ -1,6 +1,4 @@
 ﻿using Assets.Scripts.Abilities.AnimationRules.ScriptableObjects;
-using Assets.Scripts.Interfaces;
-using UnityEngine;
 
 namespace Assets.Scripts.Abilities.AnimationRules
 {

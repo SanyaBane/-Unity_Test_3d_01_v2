@@ -1,14 +1,8 @@
 ﻿using Assets.Scripts.Interfaces;
 using System;
-using System.Collections;
-using System.Collections.Generic;
-using System.Globalization;
 using System.Runtime.InteropServices;
-using Assets.Scripts.Creatures;
 using UnityEngine;
 using UnityEngine.EventSystems;
-using UnityEngine.UI;
-using UnityEngine.XR;
 
 namespace Assets.Scripts
 {

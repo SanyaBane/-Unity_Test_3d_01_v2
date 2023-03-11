@@ -1,11 +1,9 @@
-﻿using System;
-using Assets.Scripts.Buffs.Behaviours.ScriptableObjects;
+﻿using Assets.Scripts.Buffs.Behaviours.ScriptableObjects;
 using System.Collections.Generic;
 using Assets.Scripts.Abilities;
 using Assets.Scripts.Abilities.Behaviours.ScriptableObjects.Buffs.BuffDuration.ScriptableObjects;
 using Assets.Scripts.Abilities.Behaviours.ScriptableObjects.Buffs.BuffRecastType.ScriptableObjects;
-using Assets.Scripts.Buffs;
-using Assets.Scripts.Interfaces;
+using Assets.Scripts.Abilities.Parameters;
 using UnityEngine;
 
 namespace Assets.Scripts.Buffs.ScriptableObjects

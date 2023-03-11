@@ -1,7 +1,6 @@
 ﻿using System.Collections.Generic;
 using Assets.Scripts.Abilities;
 using UnityEngine;
-using UnityEngine.Rendering;
 
 namespace Abilities.Cooldown.ScriptableObjects
 {

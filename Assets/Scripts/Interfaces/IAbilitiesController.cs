@@ -1,9 +1,5 @@
 ﻿using System;
-using System.Collections;
-using System.Collections.Generic;
 using Assets.Scripts.Abilities;
-using Assets.Scripts.Creatures;
-using UnityEngine;
 
 namespace Assets.Scripts.Interfaces
 {

@@ -1,4 +1,4 @@
-﻿using Assets.Scripts.Interfaces;
+﻿using Assets.Scripts.Abilities.Behaviours.DirectDamageBehaviour;
 using UnityEngine;
 
 namespace Assets.Scripts.Abilities.Behaviours.ScriptableObjects

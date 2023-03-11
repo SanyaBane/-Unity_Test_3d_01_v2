@@ -1,6 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using Assets.Scripts.AreaOfEffects;
 using Assets.Scripts.HelpersUnity;
 using Pathfinding;
 using UnityEngine;

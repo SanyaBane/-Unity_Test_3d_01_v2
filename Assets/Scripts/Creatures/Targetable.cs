@@ -4,7 +4,6 @@ using System.Collections.Generic;
 using Assets.Scripts.Abilities;
 using UnityEngine;
 #if UNITY_EDITOR
-using UnityEditor;
 
 #endif
 

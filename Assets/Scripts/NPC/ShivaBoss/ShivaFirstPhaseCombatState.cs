@@ -2,9 +2,7 @@
 using Assets.Scripts.Abilities;
 using Assets.Scripts.AutoAttack;
 using Assets.Scripts.Interfaces;
-using Assets.Scripts.Levels;
 using Assets.Scripts.StateMachineScripts;
-using Pathfinding;
 using UnityEngine;
 
 namespace Assets.Scripts.NPC.ShivaBoss

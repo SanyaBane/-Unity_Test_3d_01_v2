@@ -1,4 +1,5 @@
 ﻿using System.Collections.Generic;
+using Assets.Scripts.Abilities.Parameters;
 using Assets.Scripts.Factions;
 using Assets.Scripts.Abilities.ScriptableObjects;
 using Assets.Scripts.Creatures;

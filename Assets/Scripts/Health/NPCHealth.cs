@@ -1,6 +1,4 @@
-﻿using Assets.Scripts;
-
-namespace Assets.Scripts
+﻿namespace Assets.Scripts
 {
     public class NPCHealth : BaseHealth
     {

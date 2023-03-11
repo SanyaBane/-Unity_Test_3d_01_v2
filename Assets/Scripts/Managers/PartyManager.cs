@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Collections.ObjectModel;
-using System.Collections.Specialized;
-using System.Linq;
-using Assets.Scripts.Creatures;
+﻿using System.Linq;
 using Assets.Scripts.Factions;
 using Assets.Scripts.Interfaces;
 using UnityEngine;

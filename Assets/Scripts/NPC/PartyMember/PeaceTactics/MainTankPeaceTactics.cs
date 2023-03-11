@@ -1,7 +1,5 @@
 ﻿using System;
 using Assets.Scripts.Abilities;
-using Assets.Scripts.Levels;
-using Assets.Scripts.NPC.PartyMember;
 using Assets.Scripts.NPC.Tactics;
 
 namespace Assets.Scripts.NPC.PartyMember.PeaceTactics

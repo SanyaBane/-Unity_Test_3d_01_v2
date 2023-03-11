@@ -1,16 +1,13 @@
 ﻿using System;
 using System.Collections.Generic;
-using Assets.Scripts.Abilities;
 using Assets.Scripts.Abilities.ScriptableObjects;
 using Assets.Scripts.Creatures;
-using Assets.Scripts.HelpersUnity;
 using Assets.Scripts.NPC;
 using Assets.Scripts.NPC.PartyMember.CombatTactics.ShivaLevel;
 using Assets.Scripts.NPC.PartyMember.PeaceTactics;
 using Assets.Scripts.NPC.ShivaBoss;
 using Assets.Scripts.NPC.Tactics;
 using UnityEngine;
-using UnityEngine.Serialization;
 using Random = UnityEngine.Random;
 
 namespace Assets.Scripts.Levels

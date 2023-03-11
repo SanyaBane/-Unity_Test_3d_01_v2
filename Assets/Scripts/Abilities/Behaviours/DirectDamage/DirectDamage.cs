@@ -1,9 +1,9 @@
-﻿using System;
-using Assets.Scripts.Abilities.Behaviours.ScriptableObjects;
+﻿using Assets.Scripts.Abilities.Behaviours.ScriptableObjects;
 using Assets.Scripts.Abilities.Behaviours.ScriptableObjects.DamageModifiers;
+using Assets.Scripts.Abilities.Parameters;
 using UnityEngine;
 
-namespace Assets.Scripts.Abilities.Behaviours
+namespace Assets.Scripts.Abilities.Behaviours.DirectDamageBehaviour
 {
     public class DirectDamage : AbilityBehaviour, IBehaviourWithName, IBehaviourSetupBeforeDelay
     {

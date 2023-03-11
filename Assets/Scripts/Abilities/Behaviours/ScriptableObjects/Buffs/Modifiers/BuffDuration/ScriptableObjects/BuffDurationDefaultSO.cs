@@ -1,8 +1,4 @@
-﻿using Assets.Scripts.Buffs.Behaviours.ScriptableObjects;
-using System.Collections.Generic;
-using Assets.Scripts.Buffs;
-using Assets.Scripts.Interfaces;
-using UnityEngine;
+﻿using UnityEngine;
 
 namespace Assets.Scripts.Abilities.Behaviours.ScriptableObjects.Buffs.BuffDuration.ScriptableObjects
 {

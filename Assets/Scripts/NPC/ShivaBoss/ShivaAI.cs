@@ -1,7 +1,5 @@
 ﻿using System;
-using Assets.Scripts.Abilities;
-using Assets.Scripts.Abilities.Behaviours.ScriptableObjects.Buffs;
-using Assets.Scripts.Buffs;
+using Assets.Scripts.Abilities.Parameters;
 using Assets.Scripts.Buffs.ScriptableObjects;
 using Assets.Scripts.Levels;
 using Assets.Scripts.NPC.Tactics;

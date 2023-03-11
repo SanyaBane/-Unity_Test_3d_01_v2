@@ -1,13 +1,7 @@
-﻿using Assets.Scripts;
-using Assets.Scripts.UI;
+﻿using Assets.Scripts.UI;
 using Assets.Scripts.SerializableData;
-using System.Collections;
-using System.Collections.Generic;
-using System.Linq;
-using Assets.Scripts.Creatures;
 using TMPro;
 using UnityEngine;
-using UnityEngine.UI;
 
 namespace Assets.Scripts
 {

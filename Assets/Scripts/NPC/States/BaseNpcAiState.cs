@@ -1,5 +1,4 @@
 ﻿using Assets.Scripts.StateMachineScripts;
-using UnityEngine;
 
 namespace Assets.Scripts.NPC
 {

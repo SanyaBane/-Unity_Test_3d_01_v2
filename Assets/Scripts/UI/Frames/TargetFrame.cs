@@ -1,11 +1,7 @@
 ﻿using Assets.Scripts.Interfaces;
 using Assets.Scripts.TargetHandling;
-using System.Collections;
-using System.Collections.Generic;
 using Assets.Scripts.Creatures;
-using TMPro;
 using UnityEngine;
-using UnityEngine.UI;
 
 namespace Assets.Scripts.UI
 {

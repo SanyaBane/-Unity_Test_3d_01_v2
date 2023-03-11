@@ -1,6 +1,6 @@
 ﻿using Assets.Scripts.Abilities.Behaviours.ScriptableObjects.Buffs.BuffRecastType.ScriptableObjects;
+using Assets.Scripts.Abilities.Parameters;
 using Assets.Scripts.Buffs;
-using ICSharpCode.NRefactory.Ast;
 
 namespace Assets.Scripts.Abilities.Behaviours.ScriptableObjects.Buffs.BuffRecastType
 {

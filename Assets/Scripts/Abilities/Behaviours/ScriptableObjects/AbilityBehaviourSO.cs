@@ -1,6 +1,4 @@
-﻿using System;
-using Assets.Scripts.Interfaces;
-using UnityEngine;
+﻿using UnityEngine;
 
 namespace Assets.Scripts.Abilities.Behaviours.ScriptableObjects
 {

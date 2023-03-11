@@ -1,13 +1,9 @@
 ﻿using System;
-using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
-using Assets.Scripts;
 using Assets.Scripts.HelpersUnity;
 using Assets.Scripts.NPC;
-using Assets.Scripts.TestScripts;
 using Assets.Scripts.VFX;
-using Pathfinding;
 using UnityEngine;
 
 namespace Assets.Scripts.AreaOfEffects

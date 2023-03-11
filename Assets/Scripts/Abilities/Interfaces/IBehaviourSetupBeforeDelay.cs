@@ -1,4 +1,6 @@
-﻿namespace Assets.Scripts.Abilities
+﻿using Assets.Scripts.Abilities.Parameters;
+
+namespace Assets.Scripts.Abilities
 {
     public interface IBehaviourSetupBeforeDelay
     {

@@ -1,8 +1,4 @@
-﻿using System.Linq;
-using Assets.Scripts.Abilities;
-using Assets.Scripts.NPC.Tactics;
-
-namespace Assets.Scripts.NPC.PartyMember.CombatTactics
+﻿namespace Assets.Scripts.NPC.PartyMember.CombatTactics
 {
     public class DRGCombatTactics : DamageDealerCombatTactics
     {

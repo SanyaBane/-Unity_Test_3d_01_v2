@@ -1,8 +1,8 @@
 ﻿using Assets.Scripts.Abilities.Behaviours.ScriptableObjects;
-using Assets.Scripts.Abilities.Behaviours.ScriptableObjects.Buffs;
-using UnityEngine;
+using Assets.Scripts.Abilities.Behaviours.ScriptableObjects.Buffs.Applier;
+using Assets.Scripts.Abilities.Parameters;
 
-namespace Assets.Scripts.Abilities.Behaviours
+namespace Assets.Scripts.Abilities.Behaviours.Buffs.Applier
 {
     public class BuffApplierSource : BaseBuffApplier
     {

@@ -1,12 +1,5 @@
-﻿using Assets.Scripts.Creatures;
-using Assets.Scripts.Interfaces;
-using Pathfinding;
-using System.Collections;
-using System.Collections.Generic;
-using Assets.Scripts.VFX;
-using TMPro;
+﻿using Assets.Scripts.VFX;
 using UnityEngine;
-using UnityEngine.AI;
 
 public class DebugInfoAboveGameObject : MonoBehaviour
 {

@@ -2,16 +2,12 @@
 using Assets.Scripts.Abilities.ScriptableObjects;
 using Assets.Scripts.Creatures;
 using Assets.Scripts.Interfaces;
-using Assets.Scripts.HelpersUnity;
 using Assets.Scripts.TargetHandling;
 using System;
 using System.Collections;
-using System.Collections.Generic;
-using System.Linq;
+using Assets.Scripts.Abilities.Parameters;
 using Assets.Scripts.Attachments;
 using UnityEngine;
-using UnityEngine.Animations;
-using UnityEngine.Serialization;
 
 namespace Assets.Scripts.AutoAttack
 {

@@ -1,9 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using Assets.Scripts.Factions;
-using Assets.Scripts.Creatures;
+﻿using System.Collections.Generic;
 using Assets.Scripts.Interfaces;
-using Assets.Scripts.HelpersUnity;
 using UnityEngine;
 
 namespace Assets.Scripts.Abilities.ScriptableObjects

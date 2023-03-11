@@ -1,7 +1,4 @@
-﻿using Assets.Scripts.Abilities;
-using Assets.Scripts.HelpersUnity;
-using Assets.Scripts.Interfaces;
-using Assets.Scripts.Levels;
+﻿using Assets.Scripts.Levels;
 using UnityEngine;
 
 namespace Assets.Scripts.NPC.PartyMember.CombatTactics.ShivaLevel

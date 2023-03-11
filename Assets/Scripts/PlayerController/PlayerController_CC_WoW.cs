@@ -4,7 +4,7 @@ using Assets.Scripts.Creatures;
 using Assets.Scripts.Interfaces;
 using Assets.Scripts.Abilities;
 
-namespace Assets.Scripts
+namespace Assets.Scripts.PlayerController
 {
     [RequireComponent(typeof(GroundedInfo))]
     public class PlayerController_CC_WoW : MonoBehaviour, IPlayerController

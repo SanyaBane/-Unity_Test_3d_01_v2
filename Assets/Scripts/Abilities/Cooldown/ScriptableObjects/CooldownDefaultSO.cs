@@ -1,6 +1,5 @@
 ﻿using Assets.Scripts.Abilities;
 using UnityEngine;
-using UnityEngine.Rendering;
 
 namespace Abilities.Cooldown.ScriptableObjects
 {

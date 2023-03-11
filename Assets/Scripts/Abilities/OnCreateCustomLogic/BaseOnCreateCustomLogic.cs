@@ -1,6 +1,5 @@
 ﻿using Assets.Scripts.Abilities.OnCreateCustomLogic.ScriptableObjects;
 using Assets.Scripts.Interfaces;
-using UnityEngine;
 
 namespace Assets.Scripts.Abilities.OnCreateCustomLogic
 {

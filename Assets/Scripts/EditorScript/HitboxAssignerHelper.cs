@@ -1,7 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using Assets.Scripts;
-using UnityEditor;
+﻿using System.Collections.Generic;
 using UnityEngine;
 
 public class HitboxAssignerHelper : MonoBehaviour

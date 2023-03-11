@@ -4,7 +4,6 @@ using Assets.Scripts.HelpersUnity;
 using Assets.Scripts.StateMachineScripts;
 using Pathfinding;
 using UnityEngine;
-using UnityEngine.EventSystems;
 
 namespace Assets.Scripts.NPC
 {

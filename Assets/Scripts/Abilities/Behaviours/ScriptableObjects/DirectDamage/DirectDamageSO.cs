@@ -1,9 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
+﻿using Assets.Scripts.Abilities.Behaviours.DirectDamageBehaviour;
 using Assets.Scripts.Abilities.Behaviours.ScriptableObjects.DamageModifiers;
-using Assets.Scripts.Buffs;
-using Assets.Scripts.Interfaces;
 using UnityEngine;
 
 namespace Assets.Scripts.Abilities.Behaviours.ScriptableObjects

@@ -1,8 +1,7 @@
 ﻿using Assets.Scripts.Abilities.Behaviours.ScriptableObjects;
-using Assets.Scripts.Abilities.Behaviours.ScriptableObjects.DamageModifiers;
-using UnityEngine;
+using Assets.Scripts.Abilities.Parameters;
 
-namespace Assets.Scripts.Abilities.Behaviours
+namespace Assets.Scripts.Abilities.Behaviours.DirectDamageBehaviour
 {
     public class DirectDamageIncreasedThreatValue : DirectDamage
     {

@@ -1,4 +1,5 @@
 ﻿using Assets.Scripts.Abilities.Behaviours.ScriptableObjects;
+using Assets.Scripts.Abilities.Parameters;
 
 namespace Assets.Scripts.Abilities.Behaviours
 {

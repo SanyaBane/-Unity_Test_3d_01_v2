@@ -1,7 +1,4 @@
-﻿using System;
-using System.Linq;
-using Assets.Scripts.Buffs.Behaviours;
-using Assets.Scripts.Interfaces;
+﻿using Assets.Scripts.Interfaces;
 using UnityEngine;
 
 namespace Assets.Scripts.Stats

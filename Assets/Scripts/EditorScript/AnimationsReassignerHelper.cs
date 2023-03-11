@@ -1,6 +1,5 @@
 ﻿using UnityEngine;
 #if UNITY_EDITOR
-using UnityEditor;
 using UnityEditor.Animations;
 
 #endif

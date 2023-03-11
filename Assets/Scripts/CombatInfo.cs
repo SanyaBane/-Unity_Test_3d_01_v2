@@ -1,13 +1,7 @@
 ﻿using Assets.Scripts.Interfaces;
 using System;
-using System.Collections.Generic;
 using System.Diagnostics;
-using System.Linq;
-using System.Text;
-using System.Threading;
-using System.Threading.Tasks;
 using Assets.Scripts.Creatures;
-using UnityEngine;
 
 namespace Assets.Scripts
 {

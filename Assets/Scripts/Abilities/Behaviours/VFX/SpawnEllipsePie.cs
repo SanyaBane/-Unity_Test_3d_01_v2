@@ -1,4 +1,5 @@
 ﻿using Assets.Scripts.Abilities.Behaviours.ScriptableObjects;
+using Assets.Scripts.Abilities.Parameters;
 using Assets.Scripts.VFX;
 using UnityEngine;
 

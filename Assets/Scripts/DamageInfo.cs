@@ -1,8 +1,5 @@
-﻿using System.Linq;
-using Assets.Scripts.Abilities;
-using Assets.Scripts.Abilities.Behaviours.ScriptableObjects;
-using Assets.Scripts.Buffs.Behaviours;
-using Assets.Scripts.Creatures;
+﻿using Assets.Scripts.Abilities;
+using Assets.Scripts.Abilities.Parameters;
 using Assets.Scripts.Interfaces;
 using UnityEngine;
 

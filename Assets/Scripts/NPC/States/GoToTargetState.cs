@@ -1,6 +1,4 @@
-﻿using Assets.Scripts.Interfaces;
-using Assets.Scripts.StateMachineScripts;
-using UnityEngine;
+﻿using UnityEngine;
 
 namespace Assets.Scripts.NPC
 {

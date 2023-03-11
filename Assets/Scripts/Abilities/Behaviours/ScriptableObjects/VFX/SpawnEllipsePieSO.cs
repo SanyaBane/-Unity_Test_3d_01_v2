@@ -1,5 +1,4 @@
-﻿using Assets.Scripts.Interfaces;
-using Assets.Scripts.VFX;
+﻿using Assets.Scripts.VFX;
 using UnityEngine;
 
 namespace Assets.Scripts.Abilities.Behaviours.ScriptableObjects

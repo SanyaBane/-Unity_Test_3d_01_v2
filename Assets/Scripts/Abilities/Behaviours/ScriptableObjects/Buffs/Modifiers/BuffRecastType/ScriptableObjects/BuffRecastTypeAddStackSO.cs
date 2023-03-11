@@ -1,5 +1,4 @@
-﻿using Assets.Scripts.Buffs;
-using UnityEngine;
+﻿using UnityEngine;
 
 namespace Assets.Scripts.Abilities.Behaviours.ScriptableObjects.Buffs.BuffRecastType.ScriptableObjects
 {

@@ -1,5 +1,5 @@
 ﻿using Assets.Scripts.Abilities.Behaviours.ScriptableObjects;
-using UnityEngine;
+using Assets.Scripts.Abilities.Parameters;
 
 namespace Assets.Scripts.Abilities.Behaviours
 {

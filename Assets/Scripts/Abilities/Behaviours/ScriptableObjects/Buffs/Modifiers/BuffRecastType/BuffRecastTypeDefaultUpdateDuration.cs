@@ -1,4 +1,5 @@
 ﻿using Assets.Scripts.Abilities.Behaviours.ScriptableObjects.Buffs.BuffRecastType.ScriptableObjects;
+using Assets.Scripts.Abilities.Parameters;
 using Assets.Scripts.Buffs;
 
 namespace Assets.Scripts.Abilities.Behaviours.ScriptableObjects.Buffs.BuffRecastType

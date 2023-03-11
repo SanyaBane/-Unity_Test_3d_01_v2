@@ -1,8 +1,6 @@
 ﻿using System.Linq;
 using Assets.Scripts.Abilities.Behaviours.ScriptableObjects;
-using Assets.Scripts.Abilities.Behaviours.ScriptableObjects.Buffs;
-using Assets.Scripts.Buffs.ScriptableObjects;
-using UnityEngine;
+using Assets.Scripts.Abilities.Parameters;
 
 namespace Assets.Scripts.Abilities.Behaviours
 {

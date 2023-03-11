@@ -1,12 +1,6 @@
-﻿using System;
-using Assets.Scripts;
-using Assets.Scripts.Interfaces;
-using System.Collections;
-using System.Collections.Generic;
-using Assets.Scripts.Buffs;
+﻿using Assets.Scripts.Interfaces;
 using TMPro;
 using UnityEngine;
-using UnityEngine.UI;
 
 namespace Assets.Scripts.UI
 {

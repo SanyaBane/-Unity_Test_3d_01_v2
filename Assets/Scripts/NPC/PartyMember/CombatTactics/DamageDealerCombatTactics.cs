@@ -1,9 +1,5 @@
-﻿using System;
-using System.Linq;
-using Assets.Scripts.Abilities;
-using Assets.Scripts.Extensions;
+﻿using Assets.Scripts.Extensions;
 using Assets.Scripts.HelpersUnity;
-using Assets.Scripts.Interfaces;
 using Assets.Scripts.NPC.Tactics;
 using UnityEngine;
 

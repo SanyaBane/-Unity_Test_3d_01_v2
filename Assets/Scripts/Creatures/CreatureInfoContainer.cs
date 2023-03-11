@@ -1,5 +1,4 @@
-﻿using System;
-using Assets.Scripts.Attachments;
+﻿using Assets.Scripts.Attachments;
 using UnityEngine;
 
 namespace Assets.Scripts.Creatures

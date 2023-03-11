@@ -1,11 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using Assets.Scripts.Abilities;
-using Assets.Scripts.Abilities.ScriptableObjects;
-using Assets.Scripts.Creatures;
-using Assets.Scripts.HelpersUnity;
-using UnityEngine;
-using Random = UnityEngine.Random;
+﻿using UnityEngine;
 
 namespace Assets.Scripts.Levels
 {

@@ -1,10 +1,7 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using System.Collections.Specialized;
+﻿using System.Collections.Generic;
 using System.Linq;
 using Assets.Scripts.Interfaces;
 using UnityEngine;
-using UnityEngine.UI;
 
 namespace Assets.Scripts.UI
 {

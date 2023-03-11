@@ -1,8 +1,6 @@
 ﻿using System;
 using System.IO;
-using Abilities.Cooldown;
 using Abilities.Cooldown.ScriptableObjects;
-using Assets.Scripts.Abilities.AnimationRules;
 using Assets.Scripts.Abilities.AnimationRules.ScriptableObjects;
 using UnityEditor;
 using UnityEngine;

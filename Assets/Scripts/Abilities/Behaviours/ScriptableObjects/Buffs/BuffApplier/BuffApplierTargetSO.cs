@@ -1,7 +1,7 @@
-﻿using Assets.Scripts.Interfaces;
+﻿using Assets.Scripts.Abilities.Behaviours.Buffs.Applier;
 using UnityEngine;
 
-namespace Assets.Scripts.Abilities.Behaviours.ScriptableObjects.Buffs
+namespace Assets.Scripts.Abilities.Behaviours.ScriptableObjects.Buffs.Applier
 {
     [CreateAssetMenu(menuName = "AbilityBehaviours/BuffApplierTarget")]
     public class BuffApplierTargetSO : BaseBuffApplierSO

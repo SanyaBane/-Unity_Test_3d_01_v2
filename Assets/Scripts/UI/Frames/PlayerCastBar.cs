@@ -1,6 +1,4 @@
 ﻿using Assets.Scripts.Abilities;
-using System.Collections;
-using System.Collections.Generic;
 using Assets.Scripts.Creatures;
 using Assets.Scripts.Interfaces;
 using TMPro;

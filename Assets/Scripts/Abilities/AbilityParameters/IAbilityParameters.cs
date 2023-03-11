@@ -1,6 +1,4 @@
-﻿using Assets.Scripts.Abilities;
-
-namespace Assets.Scripts.Abilities
+﻿namespace Assets.Scripts.Abilities.Parameters
 {
     public interface IAbilityParameters
     {

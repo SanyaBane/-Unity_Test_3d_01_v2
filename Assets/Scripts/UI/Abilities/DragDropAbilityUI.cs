@@ -1,6 +1,4 @@
-﻿using Assets.Scripts.UI;
-using System.Collections;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using Assets.Scripts.SerializableData;
 using UnityEngine;
 using UnityEngine.EventSystems;

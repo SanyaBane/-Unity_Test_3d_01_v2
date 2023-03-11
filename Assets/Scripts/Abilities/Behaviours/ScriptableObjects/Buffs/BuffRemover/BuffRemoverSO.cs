@@ -1,10 +1,8 @@
-﻿using System;
-using Assets.Scripts.Buffs.Behaviours.ScriptableObjects;
-using System.Collections.Generic;
-using Assets.Scripts.Interfaces;
+﻿using System.Collections.Generic;
+using Assets.Scripts.Abilities.Behaviours.Buffs.Remover;
 using UnityEngine;
 
-namespace Assets.Scripts.Abilities.Behaviours.ScriptableObjects.Buffs
+namespace Assets.Scripts.Abilities.Behaviours.ScriptableObjects.Buffs.Remover
 {
     [CreateAssetMenu(menuName = "AbilityBehaviours/BuffRemover")]
     public class BuffRemoverSO : AbilityBehaviourSO

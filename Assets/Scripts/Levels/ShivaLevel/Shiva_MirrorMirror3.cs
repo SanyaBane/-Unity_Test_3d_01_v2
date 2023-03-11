@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Collections;
-using System.Collections.Generic;
 using Assets.Scripts.Abilities;
 using Assets.Scripts.Abilities.ScriptableObjects;
 using Assets.Scripts.Creatures;

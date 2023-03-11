@@ -1,11 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
 using Assets.Scripts.Abilities.Behaviours.ScriptableObjects;
-using Assets.Scripts.Abilities.Behaviours.ScriptableObjects.Buffs;
+using Assets.Scripts.Abilities.Behaviours.ScriptableObjects.Buffs.Remover;
+using Assets.Scripts.Abilities.Parameters;
 using Assets.Scripts.Interfaces;
-using UnityEngine;
 
-namespace Assets.Scripts.Abilities.Behaviours
+namespace Assets.Scripts.Abilities.Behaviours.Buffs.Remover
 {
     public class BuffRemover : AbilityBehaviour
     {

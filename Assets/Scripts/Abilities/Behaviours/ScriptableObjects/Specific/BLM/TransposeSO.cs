@@ -1,7 +1,4 @@
-﻿using System.Linq;
-using Assets.Scripts.Abilities.Behaviours.ScriptableObjects.Buffs;
-using Assets.Scripts.Buffs.ScriptableObjects;
-using Assets.Scripts.Interfaces;
+﻿using Assets.Scripts.Buffs.ScriptableObjects;
 using UnityEngine;
 
 namespace Assets.Scripts.Abilities.Behaviours.ScriptableObjects.Specific

@@ -1,7 +1,4 @@
-﻿using System;
-using System.Collections;
-using System.Linq;
-using Assets.Scripts.Factions;
+﻿using System.Collections;
 using UnityEngine;
 
 namespace Assets.Scripts

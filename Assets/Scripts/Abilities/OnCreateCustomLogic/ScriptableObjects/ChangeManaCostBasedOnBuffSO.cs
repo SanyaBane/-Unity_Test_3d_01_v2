@@ -1,7 +1,6 @@
 ﻿using System;
 using Assets.Scripts.Interfaces;
 using UnityEngine;
-using UnityEngine.Serialization;
 
 namespace Assets.Scripts.Abilities.OnCreateCustomLogic.ScriptableObjects
 {

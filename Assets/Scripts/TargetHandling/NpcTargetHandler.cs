@@ -1,13 +1,4 @@
-﻿using Assets.Scripts.Factions;
-using Assets.Scripts.Creatures;
-using Assets.Scripts.Interfaces;
-using Assets.Scripts.HelpersUnity;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using UnityEngine;
+﻿using Assets.Scripts.Interfaces;
 
 namespace Assets.Scripts.TargetHandling
 {

@@ -1,6 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using Assets.Scripts.Interfaces;
+﻿using Assets.Scripts.Interfaces;
 using UnityEngine;
 
 namespace Assets.Scripts.Creatures
